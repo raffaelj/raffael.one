@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include meta.html %}
+    {% include style.html %}
+    <title>{% if page.title %}{{page.title}} - {% endif %}Raffael Hoopole</title>
+  </head>
+  <body{% if page.class %} class="{{ page.class }}"{% endif %}>
+    <header>
+      <p class="logo"><a href="/">Raffael</a></p>
+      {% include nav.html %}
+    </header>
+    <main id="main">
+      {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
+      {{ content }}
+    </main>
+    <footer>
+      {% include nav2.html %}
+      {% include nav3.html %}
+    </footer>
+  </body>
+</html>

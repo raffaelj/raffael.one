@@ -1,0 +1,47 @@
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-paginate
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+include:
+  # - galerie
+  - _pages
+
+url: http://raffael.one
+# url: http://raffaelj.github.io
+base: "/raffael.one"
+imgpath: /images
+
+sass: # :expanded or :compressed
+  style: :expanded
+
+collections:
+  kursangebote:
+    output: true
+    permalink: /kurse/:path/
+
+defaults:
+#- scope:
+#    path: ""
+#    type: "posts"
+#  values:
+#    layout: "post"
+#    license: "cc-by-nc-sa"
+#    author: "Raffael"
+- scope:
+    path: ""
+  values:
+    layout: "default"
+- scope:
+    path: ""
+    type: "kursangebote"
+  values:
+    layout: "default"

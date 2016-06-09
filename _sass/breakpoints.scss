@@ -1,0 +1,29 @@
+// ********** Mobile breakpoints **********
+// $mobile_small: 500px; // mobile
+// $mobile: 640px; // mobile
+
+// $break1: 760px; // verysmall
+// $break2: 870px; // smaller
+// $break3: 960px; // small
+// $break4: 1280px; // medium
+// $break5: 1600px; // big
+
+$break_height1: 470px;
+$break_height2: 560px;//flat
+$break_height3: 680px;
+$break_height4: 760px;
+
+@mixin breakpoint($point) {
+  @if $point == flat1 { // mittel
+    @media (max-height: $break_height1) {@content;}
+  }
+  @if $point == flat2 { // mittel
+    @media (max-height: $break_height2) {@content;}
+  }
+  @if $point == flat3 { // mittel
+    @media (max-height: $break_height3) {@content;}
+  }
+  @if $point == flat4 { // mittel
+    @media (max-height: $break_height4) {@content;}
+  }
+}

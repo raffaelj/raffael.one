@@ -1,0 +1,16 @@
+angebot:
+  "Tanz, Show & Feuer": /show-tanz-feuer
+  Kurse & Workshops: /kursangebote-workshops-seminare
+  "Grafik- & Webdesign": /design
+  "Über mich & Vita": /ueber-mich
+
+weitere:
+  Blog: /blog
+  # Vita: /vita
+  "Kontakt & Booking": /kontakt
+  "Pressemappe": /pressemappe
+
+sonstige:
+  Impressum: /impressum
+  Datenschutz: /datenschutz
+  # AGB: /agb

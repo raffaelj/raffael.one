@@ -1,0 +1,5 @@
+      <nav class="top-nav">
+        <ul>{% for nav in site.data.nav.angebot %}{% capture name %}{{ nav[0] | downcase }}{% endcapture %}
+          <li class="tab tab-top{% if page.url contains name %} tab-active{% endif %}"><a href="{{ nav[1] }}">{{ nav[0] }}</a></li>{% endfor %}
+        </ul>
+      </nav>
