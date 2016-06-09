@@ -1,0 +1,28 @@
+body.vita {
+  table {
+    border-spacing: 0 .5em;
+    thead {
+      display:none;
+    }
+    // tr {
+      // margin:.5em 0;
+    // }
+    /* Zebra striping */
+    tr:nth-of-type(odd) { 
+      background: #eee; 
+    }
+    td {
+      padding:3px 0px;
+      
+    }
+    td:nth-child(2n-1) {
+      width:10em;
+      text-align:right;
+      border-right:1px solid $darkGrey;
+      padding-right:.5em;
+    }
+    td:nth-child(2n) {
+      padding-left:.5em;
+    }
+  }
+}

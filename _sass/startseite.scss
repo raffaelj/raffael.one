@@ -1,0 +1,185 @@
+
+/*
+@import: 'circle-positioning';
+
+body.start {
+  header {
+    height: 50%; //Höhe des Hintergrundbildes
+    margin:0;
+    padding:0;
+    position:absolute;
+    top:25%;
+    width:100%;
+    // left:50%;
+    // mar
+    background-color:rgba(123,222,234,.1);
+  }
+  .top-nav {
+    height:100%;
+      
+    ul {
+      margin:0;
+      padding:0;
+      height:100%;
+      @include on-circle($item-count:4, $circle-size:)
+      // li {
+        // position: absolute;
+        // top:50%;
+        // left:50%;
+        // margin:0;
+        // padding:0;
+        // background-color:rgba(255,0,0,.1);
+        // a {
+          // position:relative;
+          // margin:0;
+          // padding:0;
+          // background-color:rgba(0,255,0,.1);
+        // }
+        // &:nth-child(1) a{
+          // bottom:80%;
+          // left:50%;
+          // transform: translate()
+        // }
+        // &:nth-child(1) {
+          // top:-10%;
+          // left:50%;
+          // transform: rotate(-18deg);
+        // }
+        // &:nth-child(2) {
+          // top:50%;
+          // left:75%;
+          // transform: rotate(72deg);
+        // }
+      // }
+      // li:first-child a{
+        // top:21%;
+        // right:35%;
+        // transform: rotate(-18deg);
+      // }
+      // li:nth-child(2){
+        // bottom:20%;
+        // right:20%;
+        // transform: rotate(72deg);
+      // }
+      // li:nth-child(4){
+        // bottom:12%;
+        // left:35%;
+        // transform: rotate(162deg);
+      // }
+    }
+  }
+}
+*/
+body.start {
+  main{
+    display:none;
+  }
+  
+  height:500px;
+  width:500px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-250px;
+  margin-left:-250px;
+  background-size:cover;
+  header {
+    height:100%;
+    width:100%;
+    font-size:2em;
+    .logo {
+      // display:none;
+      position:fixed;
+      top:.5em;
+      left:0;
+      font-size:.6em;
+     }
+      .top-nav {
+      height:100%;
+      width:100%;
+      // font-size:2em;
+      font-size:inherit;
+      font-style:italic;
+      // background-color:rgba(0,255,0,.1);
+      ul {
+        // display:block;
+        // height:100%;
+        // width:100%;
+        margin:0;
+        padding:0;
+        // background-color:rgba(0,255,0,.1);
+        li {
+          a {
+            // border-radius:0;
+            border-top-left-radius:50%;
+            border-bottom-right-radius:50%;
+          }
+          // display:block;
+          position:absolute;
+          margin:0;
+          padding:0;
+          width:100%;
+          // background-color:rgba(255,0,0,.1);
+          &:nth-child(1){//Tanz
+            bottom:105%;
+            left:43%;
+            transform: rotate(-18deg);
+          }
+          &:nth-child(2){//Kurse
+            top:86%;
+            left:61%;
+            transform: rotate(72deg);
+          }
+          &:nth-child(3){//Design
+            bottom:86%;
+            right:61%;
+            transform: rotate(-108deg);
+          }
+          &:nth-child(4){//Über
+            top:105%;
+            right:43%;
+            // text-align:right;
+            transform: rotate(162deg);
+          }
+          &:nth-child(5){//Kunst
+            top:67%;
+            right:75%;
+            // text-align:right;
+            transform: rotate(198deg);
+          }
+        }
+      }
+    }
+  }
+  @include breakpoint(flat4){
+    // height:300px;
+    // width:300px;
+    // margin-top:-150px;
+    // margin-left:-150px;
+    header{font-size:1.5em;}
+  }
+  @include breakpoint(flat3){
+    height:400px;
+    width:400px;
+    margin-top:-200px;
+    margin-left:-200px;
+    // header{font-size:1.5em;}
+  }
+  @include breakpoint(flat2){
+    height:300px;
+    width:300px;
+    margin-top:-150px;
+    margin-left:-150px;
+    header{font-size:1.1em;}
+  }
+  @include breakpoint(flat1){
+    height:200px;
+    width:200px;
+    margin-top:-100px;
+    margin-left:-100px;
+    header{font-size:1em;}
+  }
+  footer {
+    background-color:inherit;
+  }
+}
