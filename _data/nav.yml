@@ -1,8 +1,9 @@
 angebot:
   "Tanz, Show & Feuer": /show-tanz-feuer
   Kurse & Workshops: /kursangebote-workshops-seminare
-  "Grafik- & Webdesign": /design
+  "Grafik- & Webdesign": /grafikdesign-webdesign
   "Über mich & Vita": /ueber-mich
+  "noch mehr Kunst": /kunst
 
 weitere:
   Blog: /blog
