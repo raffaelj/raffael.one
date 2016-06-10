@@ -1,5 +1,5 @@
 ---
-title: Website körperdruck.net
+title: Website Körperdruck
 date: 2016-05-06
 category: Webdesign
 image: screenshot_koerperdruck-net_500.png

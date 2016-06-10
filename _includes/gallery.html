@@ -1,0 +1,4 @@
+<div class="gallery">{% if include.gallery %}{% capture path %}{{site.galpath}}/{{include.gallery}}/thumbs{% endcapture %}
+{% if include.title %}<h3>{{include.title}}</h3>{% endif %}{% for file in site.static_files %}{% if file.path contains path %}{% assign filename = file.path | split: "/" | last %}
+<a href="/{{site.galpath}}/{{include.gallery}}/large/{{filename}}" data-lightbox="{{ include.gallery }}"><img alt="Bild" class="thumbs{% if include.thumbs_size == "small" %} small{% endif %}" src="{{file.path}}" /></a>{% endif %}{% endfor %}{% else %}<p>Die Galerie gibt es nicht. Tippfehler...?</p>{% endif %}
+</div>

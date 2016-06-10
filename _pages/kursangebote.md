@@ -1,6 +1,6 @@
 ---
 title: Kursangebote
-permalink: /kursangebote-workshops-seminare
+permalink: /kursangebote-workshops-seminare/
 ---
 
 Ich bin nicht nur Autodidakt, sondern gebe mein Wissen auch gerne weiter. Wenn Sie sich also für Hoopdance oder für Grafik- und Webdesign interessieren oder etwas Neues lernen wollen, bin ich Ihr Ansprechpartner.

@@ -377,6 +377,57 @@ main p img {
   box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
 }
 
+/************ Galerie ************/
+.gallery {
+  width:100%;
+  a {
+    display:inline-block;
+    margin:0;
+    padding:0;
+  }
+}
+a.thumbs {
+  display:block;
+  width: 202px;
+  margin:4px 24px 4px 24px;
+  img {
+    display:block;
+    width:100%;
+    height:auto;
+    border:1px solid $weiss;
+    &:hover {
+      border-color:$green;
+    }
+  }
+  // @include breakpoint(medium) {
+    // width:150px;
+  // }
+  // @include breakpoint(small) {
+    // width:120px;
+    // margin:3px 15px 3px 15px;
+  // }
+  // @include breakpoint(verysmall) {
+    // width:100px;
+    // margin:3px 4px 3px 4px;
+  // }
+  // @include breakpoint(mobile) {
+    // width:40px;
+  // }
+  // @include breakpoint(mobile_small) {
+    // display:inline-block;
+  // }
+}
+.thumbs.small {
+  width: 80px;
+  margin:10px;
+  padding:1px;
+  background:$weiss;
+  border: 9px solid $darkGrey;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+}
+
 /************ Seiten-Layouts laden ************/
 @import 'startseite';
 @import 'vita';

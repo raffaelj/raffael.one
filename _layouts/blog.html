@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{{content}}
+
+{% for post in paginator.posts %}
+    <article class="post_layers">
+
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      
+      {% for cat in post.categories %}
+      <!--<a class="label {{ cat | slugify }}" href="{{site.baseurl}}/{{ cat }}">{{ cat | slugify }}</a>-->
+      <span class="label {{ cat | slugify }}">{{ cat }}</span>
+      {% endfor %}
+      <p class="date">{{ post.date | date: '%d.%m.%y' }}</p>
+      <div class="entry">
+        {{ post.excerpt | markdownify }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">weiterlesen...</a>
+    </article>
+  {% endfor %}
+  
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{site.baseurl}}{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{site.baseurl}}{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>

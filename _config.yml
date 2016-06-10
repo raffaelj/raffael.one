@@ -12,16 +12,22 @@ exclude:
   - CNAME
 
 include:
-  # - galerie
+  - galerie
   - _pages
 
 url: http://raffael.one
 # url: http://raffaelj.github.io
 base: "/raffael.one"
 imgpath: /images
+galpath: galerie
 
 sass: # :expanded or :compressed
   style: :expanded
+
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+permalink: pretty
 
 collections:
   kursangebote:
@@ -32,13 +38,13 @@ collections:
     permalink: /referenzen_grafik_webdesign/:path/
 
 defaults:
-#- scope:
-#    path: ""
-#    type: "posts"
-#  values:
-#    layout: "post"
-#    license: "cc-by-nc-sa"
-#    author: "Raffael"
+- scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "post"
+    # license: "cc-by-nc-sa"
+    # author: "Raffael"
 - scope:
     path: ""
   values:

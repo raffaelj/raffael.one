@@ -1,7 +1,7 @@
 ---
 title: Hoopdance, Poledance & Feuershows
 description: "Improvisation mit Hula Hoop Reifen, Hoopdance- und Poledance-Shows mit Lichteffekten durch LEDs und Feuer - Ich tanze auch auf Ihrer Hochzeit und mache mit artistischen Showeinlagen Familienfeiern, Partys oder Gala-Events zu unvergesslichen Ereignissen."
-permalink: /show-tanz-feuer
+permalink: /show-tanz-feuer/
 ---
 
 {% comment %}

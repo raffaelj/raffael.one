@@ -7,6 +7,7 @@ todo:
 - Foto von mir einfügen
 - Schachtelsätze entschachteln
 - Links in Vita
+- Logos zu Vereins-Liste hinzu
 ---
 
 ### Ich bin... 
@@ -42,7 +43,14 @@ seit 2010         | vermehrt Ausstellungen und künstlerische Aktionen auf Festi
 seit 11/2013      | Honorarkraft in der Medienwerkstatt Leipzig im soziokulturellen Zentrum „Die VILLA“ für Grafik- und Webdesign-Kurse
 seit 2015         | vermehrt Hoopdance- und Poledance-Auftritte
 
+Außerdem bin ich mal mehr und mal weniger aktiv in folgenden Vereinen/Gruppen/Institutionen:
 
+* [Poledance Lola Leipzig e. V.](http://poledance-lola-leipzig.de/) - Let's dance :-)
+* [Front Deutscher Äpfel](http://apfelfront.de/) - Gründungsmitglied
+* [brimboria e. V.](http://brimboria.net/) - Gründungsmitglied
+* [DIE LINKE.](https://www.die-linke.de) - Parteimitglied
+* [linksjugend Sachsen](http://www.linksjugend-sachsen.de/) - mit dem Jugendverband in Leipzig und Sachsen fühle ich mich nach wie vor verbundener als mit der Partei
+* [EuroPeers](https://www.europeers.de/) - schon lange nicht mehr aktiv, aber formal noch dabei
 
 
 

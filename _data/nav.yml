@@ -3,7 +3,7 @@ angebot:
   Kurse & Workshops: /kursangebote-workshops-seminare
   "Grafik- & Webdesign": /grafikdesign-webdesign
   "Über mich & Vita": /ueber-mich
-  "noch mehr Kunst": /kunst
+  # "noch mehr Kunst": /kunst
 
 weitere:
   Blog: /blog

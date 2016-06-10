@@ -1,6 +1,6 @@
 ---
 title: Grafik- & Webdesign
-permalink: /grafikdesign-webdesign
+permalink: /grafikdesign-webdesign/
 ---
 
 **Beschreibung hinzufügen**
