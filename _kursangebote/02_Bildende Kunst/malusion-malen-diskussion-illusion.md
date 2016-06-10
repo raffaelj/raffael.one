@@ -1,5 +1,21 @@
 ---
 title: Malusion
+category: Bildende Kunst
+image: 
+
+Zielgruppe: alle Altersklassen
+
+Inhalte:
+ - spielerisch-künstlerisches Kennenlern- und Diskussionsformat
+
+Dauer: 2h bis Open End
+
+Kosten: 
+
+Voraussetzungen:
+
+Anzahl_TN: 
+
 label:
  - Kunst
  - Gemeinschaftswerke

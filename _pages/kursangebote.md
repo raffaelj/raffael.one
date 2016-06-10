@@ -3,14 +3,6 @@ title: Kursangebote
 permalink: /kursangebote-workshops-seminare
 ---
 
-{% for kurs in site.kursangebote %}
-<div class="collection kursangebote">
-<h2>{{ kurs.title }}</h2>
-{% if kurs.label %}
-{% for label in kurs.label %}
-<span class="label">{{label}}</span>
-{% endfor %}
-{% endif %}
-{{ kurs.content }}
-</div>
-{% endfor %}
+Ich bin nicht nur Autodidakt, sondern gebe mein Wissen auch gerne weiter. Wenn Sie sich also für Hoopdance oder für Grafik- und Webdesign interessieren oder etwas Neues lernen wollen, bin ich Ihr Ansprechpartner.
+
+{% include kursangebote_collection.html %}

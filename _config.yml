@@ -27,6 +27,9 @@ collections:
   kursangebote:
     output: true
     permalink: /kurse/:path/
+  referenzen_grafik_webdesign:
+    output: true
+    permalink: /referenzen_grafik_webdesign/:path/
 
 defaults:
 #- scope:

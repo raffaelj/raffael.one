@@ -1,5 +1,18 @@
 ---
-title: Hoop Dance - Anfängerkurse und Trick-Workshops
+title: Hoopdance - Anfängerkurse und Trick-Workshops
+category: Hoopdance
+image: 
+
+Zielgruppe: alle Altersklassen
+
+Inhalte:
+
+Dauer: ab 1h
+
+Voraussetzungen:
+
+Anzahl_TN: 
+
 label:
  - Hula Hoop
  - Tanz

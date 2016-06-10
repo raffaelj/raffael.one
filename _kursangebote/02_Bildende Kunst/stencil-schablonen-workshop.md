@@ -1,5 +1,18 @@
 ---
 title: Stencil/Schablonen-Workshop
+category: Bildende Kunst
+image: 
+
+Zielgruppe: Jugendliche
+
+Inhalte:
+
+Dauer: ab 1h
+
+Voraussetzungen:
+
+Anzahl_TN: 
+
 label:
  - Kunst
  - Druck

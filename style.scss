@@ -135,6 +135,7 @@ h6 {
 }
 p {
   padding-bottom:.5em;
+  line-height: 2em;
 }
 a {
   color: $magenta2;
@@ -182,7 +183,7 @@ header {
     transition: background-color .8s, color .3s ease-in-out; /* Standard */
     &:hover {
       text-decoration:none;
-      background-color:$weiss_transp;
+      background-color:$weiss_transp2;
       -webkit-transition: background-color .8s, color .3s ease-in-out; /* Firefox */
       -moz-transition: background-color .8s, color .3s ease-in-out; /* WebKit */
       -o-transition: background-color .8s, color .3s ease-in-out; /* Opera */
@@ -199,10 +200,16 @@ main {
   // color:$dunkelblau;
   color:$darkGrey;
   border-top-left-radius:1em;
-  padding-bottom:2em;//Abstandhalter für fixed footer
   -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
   box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  &:after {//Abstandhalter für fixed footer
+    content:"";
+    display:block;
+    height:2em;
+    width:100%;
+    clear:both;//float nach collections zurücksetzen
+  }
   ul,ol {
     list-style-position:inside;
     list-style-type:disc;
@@ -281,14 +288,6 @@ nav {
   }
 }
 
-
-
-
-.collection {
-  margin:10px 0;
-  padding:5px;
-  border-top:1px solid $darkGrey;
-}
 .label {
   border-radius: 2px;
   box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
@@ -300,6 +299,33 @@ nav {
   padding: 4px 5px;
   background-color:$green;
 }
+
+/***** Collections *********/
+.collection {
+  clear:both;
+  margin:10px 0;
+  padding:5px;
+  border-top:1px solid $darkGrey;
+}
+
+.collection.referenzen {
+  img {
+    display:block;
+    // margin: 1em auto;
+    float:left;
+    margin:.5em 1em 1em 0;
+    border-radius:2px;
+    width:500px;
+    max-width:100%;
+    padding:1px;
+    background:$weiss;
+    border: 9px solid $darkGrey;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  }
+}
+
 
 // Inhaltsverzeichnis
 #markdown-toc {

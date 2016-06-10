@@ -1,5 +1,22 @@
 ---
 title: Hoop Dance - Hula-Hoop-Reifen selber bauen
+category: Hoopdance
+image: 
+
+Zielgruppe: Jugendliche und Erwachsene
+
+Inhalte:
+ - Travel Hoop in deiner Wunschgröße bauen
+ - Reifen mit schönen Tapes bekleben
+
+Dauer: 2h
+
+Kosten: 
+
+Voraussetzungen:
+
+Anzahl_TN: bis 10 Personen
+
 label:
  - Hula Hoop
  - Handwerk

@@ -13,7 +13,9 @@ todo:
 
 ...nicht nur in einem Beruf und dabei noch in verschiedenen Rollen tätig. Viel spannender und beschreibender als eine Berufsbezeichnung ist doch, was ich liebe.
 
-Eine meiner Leidenschaften ist Tanzen. Vor Allem Hoop Dance und Pole Dance haben es mir angetan.
+![Raffael mit Reifen]({{site.imgpath}}/DSC05559_sw.jpg)
+
+Eine meiner Leidenschaften ist es, zu tanzen. Vor Allem Hoopdance und Poledance haben es mir angetan.
 
 Da ich gerne Rätsel löse und es mir ein wohliges Gefühl bereitet, wenn ich eine Struktur erfasst und in logische Bausteine zerlegt habe, ist eine logische Konsequenz das Befassen mit Programmiersprachen, gepaart mit einer Hass-Liebe gegenüber Metadaten und Tabellen.
 
@@ -30,10 +32,10 @@ Da es ja vielleicht doch die eine oder den anderen interessiert - hier die Kurzf
   Datum           | getan
 -----------------:|:---------------------------------------
 bis 2008          | Abitur und Ausbildung zum Gestaltungstechnischen Assistenten (Bernd-Blindow-Schule Leipzig) abgebrochen
-seit 2008         | Selbststudium Grafik und Webdesign, <br />Besuch diverser Fortbildungen in europäischer Jugendarbeit, Projektmanagement, Presse- und Öffentlichkeitsarbeit, Politik u. v. m. bei u. a. [JUGEND für Europa](), [linksjugend ['solid]](), [freistil]()
+seit 2008         | Selbststudium Grafik und Webdesign, <br />Besuch diverser Fortbildungen in europäischer Jugendarbeit, Projektmanagement, Presse- und Öffentlichkeitsarbeit, Politik u. v. m. bei u. a. [JUGEND für Europa](https://www.jugendfuereuropa.de/), [linksjugend ['solid]](https://www.linksjugend-solid.de/), [freistil](http://www.freistil-lsa.de/start/index.html)
 2011 – 2014 | Medienkunst-Studium (Hochschule für Grafik und Buchkunst Leipzig) abgebrochen
 seit 06/2008      | Gelegenheitsjobs, Messe- u. Festivaljobs, angestellte Tätigkeiten, Praktika - z. B. [Buchkinder e.V.](http://www.buchkinder.de/), [Starlight-Fotostudio](http://starlight-foto.de/), [Visionauten](http://visionauten.com/) (Presseagentur), kaioo/OpenNetworX (Social Online-Network, mittlerweile [JUST SOCIAL](https://www.just.social/))
-seit 06/2008      | Mit-/Organisation diverser Projekte - z. B. [Front Deutscher Äpfel](), [Später Arbeiten](), [Multidimensionales Wunderland]() sowie ehrenamtliches Engagement
+seit 06/2008      | Mit-/Organisation diverser Projekte - z. B. [Front Deutscher Äpfel](http://apfelfront.de/), [Später Arbeiten](), [Multidimensionales Wunderland]() sowie ehrenamtliches Engagement
 seit 08/2008      | Freiberufler (Kunst, Grafik- und Webdesign, Workshops)
 seit 11/2009      | Gewerbe (Veranstaltungsservice)
 seit 2010         | vermehrt Ausstellungen und künstlerische Aktionen auf Festivals

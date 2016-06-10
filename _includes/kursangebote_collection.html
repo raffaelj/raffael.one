@@ -1,0 +1,14 @@
+{% for kurs in site.kursangebote %}
+<div class="collection kursangebote">
+<h3>{{ kurs.title }}</h3>
+{% if kurs.label %}
+{% for label in kurs.label %}
+<span class="label">{{label}}</span>
+{% endfor %}
+{% endif %}
+{% if kurs.image %}
+<img src="{{kurs.url}}../{{kurs.image}}" alt="Bild" />
+{% endif %}
+{{ kurs.content }}
+</div>
+{% endfor %}
