@@ -39,6 +39,7 @@ In einem idyllischen Tal bei Döbeln war vom 22. - 24.06.12 das schicke, kleine 
 
 <!--more-->
 
+{: .center}
 ![Malusphäre beim reich und schön-Festival 2012]({{site.imgpath}}/P1040480_web.jpg)
 
-Wer genauer hingeschaut hat, konnte neben einer riesigen Palette an Bands sowie noch mehr reichen und schönen Menschen wieder die [Malusphäre]({% post_url 2015-11-10-malusphaere %}) entdecken.
+Wer genauer hingeschaut hat, konnte neben einer riesigen Palette an Bands sowie noch mehr reichen und schönen Menschen wieder die [Malusphäre](/malusphaere/) entdecken.

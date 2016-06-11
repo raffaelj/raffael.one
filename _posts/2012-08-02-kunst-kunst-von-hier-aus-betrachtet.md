@@ -34,6 +34,7 @@ todo:
 - Foto in besserer Qualität hochladen
 ---
 
+{: .center}
 ![To-do-Liste in der Ausstellung "Kunst-Kunst. Von hier aus betrachtet", GfZK Leipzig]({{site.imgpath}}/to-do-liste_web.jpg)
 
 Seit dem 30. März 2012 läuft nun schon die Ausstellung "[Kunst-Kunst. Von hier aus betrachtet!][1]" in der Galerie für Zeitgenössische Kunst Leipzig. Sie beschäftigt sich mit Fragen zum Kunstverständnis, warum, wieso und was Kunst sein kann oder ist und den vielen Fragen dazwischen. In drei sechswöchigen Abschnitten präsentieren sich mehrere Kunsträume und Institutionen neben zahlreichen Werken, die die gesamte Ausstellung über zu sehen sind. StudentInnen des Grundstudiums Medienkunst der Hochschule für Grafik und Buchkunst zeigen ebenfalls in unregelmäßigen Abständen ihre Interpretationen zur Fragestellung „Kann man Kunst erwarten?“. In diesem Rahmen war vom 06. bis 19.07.12 auch eine originale To-do-Liste von mir zu sehen. Sie ist eine Anspielung auf eine mögliche Sicht, wie der Kunstbetrieb funktioniert. Gleichzeitig gibt sie auch einen Einblick in konkrete Projektplanung als auch in die Privatsphäre eines Kunstschaffenden, also einer öffentlichen Person. Zur Vernissage der dritten Ausstellungsphase waren in unserem Medienkunstraum auch noch eine Arbeit von Ulrich Klose und eine [Performance][4] von [Melody Panosian][5] und Tina Macha zu betrachten.

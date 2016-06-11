@@ -15,6 +15,7 @@ tags:
 
 todo:
 - Links in Excerpt
+- Foto hinzu
 ---
 
 In dem gemütlichen Hamburger Stadtteil Wilhelmsburg auf einem ehemaligen Hafengelände durfte ich das liebevoll gestaltete [Dockville][1]-Festival erleben. Über die musikalischen Größen wie Jan Delay, Wir sind Helden, Bratze oder Slime und vielen weiteren möchte ich an dieser Stelle gar nicht schreiben. Das haben [andere][2] [schon][3] [zur Genüge getan][4]. Vielmehr sind es die Installationen, die kleinen versteckten Kunstaktionen und aufwändig gestalteten Bars und Bühnen, die das Dockville mit dem diesjährigen Thema Recreation so sympathisch machen.

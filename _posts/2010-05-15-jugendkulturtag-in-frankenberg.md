@@ -41,7 +41,7 @@ Der 8. landesweite [Jugendkulturtag](http://www.jugendkulturtag-frankenberg.de) 
 
 <!--more-->
 
-{:.left}
+{: .left}
 [![Plakat Jugendkulturtag]({{site.imgpath}}/plakat-jugendkulturtag-frankenberg.jpg)](http://www.jugendkulturtag-frankenberg.de/)
 
 Der Jugendkulturtag findet alle zwei Jahre statt und wird von der <a href="http://www.lkj-sachsen.de">LKJ Sachsen</a> veranstaltet. Vor Ort wird es ein reichhaltiges Angebot an Kunst, Kultur, Sport und vor Allem Spaß geben. Neben einem Graffiti-Workshop, dem Breakdance-Battle, einem Volleyballturnier und Konzerten gibt es noch viele weitere interessante Plätze zu besuchen. Ab 13 Uhr gibt es im Friedenspark ein offenes Angebot an verschiedenen Workshops. Unter anderem wird auch das [Wunderland-Projekt](/archiv/mein-wunderland-eu) mit vertreten sein und Malusionen veranstalten. Die dort entstehenden Werke werden mit in die Ausstellung „Multidimensionales Wunderland“ einfließen und ab dem 4. Juni 2010 auf dem Gelände der Feinkostgenossenschaft in Leipzig veröffentlicht.

@@ -96,7 +96,7 @@ gefördert mit Mitteln der Kulturstiftung des Bundes im
 Programm „Arbeit in Zukunft“.
 
 {:.vertical-align}
-[![100.000-EURO-JOB-Logo]({{site.imgpath}}{{page.imgfolder}}/p.gif)](http://www.100.000-EURO-JOB.de)[![Kulturstiftung des Bundes-Logo]({{site.imgpath}}{{page.imgfolder}}/bundeskulturstiftung.gif)](http://www.kulturstiftung-bund.de/arbeit)
+[![100.000-EURO-JOB-Logo]({{site.imgpath}}{{page.imgfolder}}p.gif)](http://www.100.000-EURO-JOB.de)[![Kulturstiftung des Bundes-Logo]({{site.imgpath}}{{page.imgfolder}}bundeskulturstiftung.gif)](http://www.kulturstiftung-bund.de/arbeit)
 </article>
 
 <article class="post">
@@ -218,8 +218,10 @@ Bei Interesse, die Ausstellung auszuleihen oder mich mitsamt der Ausstellung auf
 - **24.06.10 - 27.06.10** - [Fusion-Festival (Oase)](http://www.fusion-festival.de/de/2010/programm/oase/#uid707)
 
 {: .center}
-![Später Arbeiten auf Plane 1]({{site.imgpath}}{{page.imgfolder}}/spaeter-arbeiten_a.jpg)
-![Später Arbeiten auf Plane 2]({{site.imgpath}}{{page.imgfolder}}/spaeter-arbeiten_b.jpg)
+![Später Arbeiten auf Plane 1]({{site.imgpath}}{{page.imgfolder}}spaeter-arbeiten_a.jpg)
+
+{: .center}
+![Später Arbeiten auf Plane 2]({{site.imgpath}}{{page.imgfolder}}spaeter-arbeiten_b.jpg)
 
 </article>
 
@@ -238,7 +240,7 @@ gefördert mit Mitteln der Kulturstiftung des Bundes im
 Programm „Arbeit in Zukunft“.
 
 {:.vertical-align}
-[![100.000-EURO-JOB-Logo]({{site.imgpath}}{{page.imgfolder}}/p.gif)](http://www.100.000-EURO-JOB.de) [![Bundeskulturstiftung-Logo]({{site.imgpath}}{{page.imgfolder}}/bundeskulturstiftung.gif)](http://www.kulturstiftung-bund.de/arbeit)
+[![100.000-EURO-JOB-Logo]({{site.imgpath}}{{page.imgfolder}}p.gif)](http://www.100.000-EURO-JOB.de) [![Bundeskulturstiftung-Logo]({{site.imgpath}}{{page.imgfolder}}bundeskulturstiftung.gif)](http://www.kulturstiftung-bund.de/arbeit)
 </article>
 
 

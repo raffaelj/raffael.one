@@ -156,9 +156,25 @@ a {
 }
 .left {
   float:left;
+  margin:.2em 1em .2em 0;
 }
 .right {
   float:right;
+  margin:.2em 0 .2em 1em;
+}
+p.vertical-align {
+  text-align:center;
+  vertical-align:middle;
+  a {
+    vertical-align:middle;
+    display:inline-block;
+    margin:0;
+    padding:0;
+  }
+  img {
+    display:inline-block;
+    margin: .2em 1em;
+  }
 }
 
 
@@ -247,6 +263,7 @@ main {
     list-style-position:inside;
     list-style-type:disc;
     padding-left:.5em;
+    margin-bottom:.5em;
   }
 }
 
@@ -404,7 +421,7 @@ nav {
 /******* markdown images in p tags ************/
 main p img {
   // display:block;
-  margin: 1em auto;
+  // margin: 1em auto;
   // text-align:center;
   // background-color:$weiss;
   // padding:10px;

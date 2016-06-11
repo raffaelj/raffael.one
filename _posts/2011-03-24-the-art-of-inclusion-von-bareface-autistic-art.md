@@ -37,6 +37,7 @@ Angela Merkel und Gregor Gysi hängen zusammen rum, gleich daneben sind Sebastia
 
 <!--more-->
 
+{: .center}
 ![Flyer zur Vernissage]({{site.imgpath}}/art-of-inclusion_flyer02.jpg)
 
 Die Künstlerin nutzt Gemeinschaftswerke um Inklusion zu verdeutlichen. Inklusion beschreibt den Zustand der Veränderung wenn verschiedene Kulturen oder Ansichten aufeinander treffen und sich gegenseitig verändern. Etwas Neues wird geschaffen. Die Hoffnung, dass Autismus in unserer Gesellschaft einen sichtbaren Platz einnehmen kann, akzeptiert und geachtet, nicht als Behinderung oder „anders“ abgetan wird, ist ihre Motivation für dieses Projekt. Seit April 2010 arbeitet sie bereits daran.
@@ -49,6 +50,7 @@ Alle Werke werden ab dem 2. April - dem Weltautismustag - bis zum Ende der Ausst
 
 "The Art of Inclusion" ist vom 1. bis 10. April 2011 im [Tapetenwerk][3], Lützner Straße 91, 04177 Leipzig, von Montag bis Freitag von 11 bis 19 Uhr und samstags von 10 bis 19 Uhr zu bestaunen. Ein Bild von mir ist auch mit dabei.
 
+{: .center}
 ![co-gezeichnetes Art of Inclusion-Bild]({{site.imgpath}}/art-of-inclusion_raffaeljesche.jpg)
 
 

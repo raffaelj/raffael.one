@@ -32,6 +32,7 @@ Mitorganisation, Schulkritik-Workshop gehalten
 <!--more-->
 ----
 
+{: .center}
 ![Sommerakademie linksjugend Leipzig]({{site.imgpath}}/SommerAkademie.jpg)
 
 Die linksjugend Leipzig lädt herzlich ein zur [Sommerakademie][1]. Vom 17. - 18.08.12 werden zahlreiche Workshops angeboten und anschließend wird gefeiert. Angeboten werden nicht nur folgende Themen(-vorschläge) für die Workshops und Diskussionen. Es darf auch fleißig vorher [abgestimmt][2] werden, was vielleicht doch rausfliegen soll und ob nicht etwas völlig anderes auf der Seele brennt.

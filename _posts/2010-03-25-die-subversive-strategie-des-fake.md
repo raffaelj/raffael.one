@@ -17,6 +17,8 @@ tags:
 ---
 
 Heute war ich zu Gast im Westwerk, wo die Vorbereitungen für den Brimboria-Kongress in vollem Gange sind. Ein Interview mit den Organisatoren bringt nun Licht ins Dunkle, was es mit der subversiven Strategie des Fake auf sich haben könnte:
+
+{: .center}
 ![BRIMBORIA Kongress – Die subversive Strategie des Fake]({{site.imgpath}}/test2_kongress_brimboria_logo41.jpg)
 
 <!--more-->

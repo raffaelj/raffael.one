@@ -29,6 +29,7 @@ Im August und September 2015 hatte ich die Gelegenheit, die [Spielmobile](http:/
 
 <!--more-->
 
+{: .center}
 ![Skizze für Spielmobil-Fanzine]({{site.imgpath}}/spielmobil_fanzine_skizze.jpg)
 
 Dabei habe ich nicht nur neue Orte und Parks kennengelernt, sondern konnte auch kleine Einblicke in mir ungewohnte Lebensrealitäten erhalten. Das war spannend. Und wenn mich Kinder strahlend anschauen, wenn sie einen Trick geschafft haben, der 10 Minuten zuvor noch unmöglich schien, dann wird das Herz natürlich auch ganz warm. Beim Reifen bauen und bekleben konnte ich dann auch noch einiges in der Rubrik "Perfektionismus überwinden" lernen. Schön war's. Nur beim Abschied wusste ich nicht so recht, wie ich das formulieren soll, dass ich nächste Woche nicht wiederkomme.

@@ -35,6 +35,7 @@ Seit dem 12. Juli hängt nun schon die [Später-Arbeiten](/archiv/spaeter-arbeit
 
 <!--more-->
 
+{: .center}
 ![Später Arbeiten beim Ajuca 2010]({{page.imgpath}}spaeterarbeiten_peterweis.jpg)
 
 Direkt im Anschluss an das kunstvolle [Dockville-Festival][1] in Hamburg ging die Reise weiter nach Rostock. Am 16. August besuchte ich dort das [Peter-Weiss-Haus][2], in welchem seit dem 12. Juli 2010 die Ausstellung „Später Arbeiten“ zu betrachten war. Dank der spontanen Gastfreundschaft einiger MitarbeiterInnen von [SoBi][3] hatte ich die Gelegenheit, noch zwei Tage in Rostock zu verbringen. Am Montag Abend wurde der Abschluss der Ausstellung im Freigarten zuerst mit Kaffee, Kakao und Tee (natürlich Bio und Fairtrade) und zu späterer Stunde mit alkoholhaltigen Getränken besprochen und belacht. Der gemütliche Freigarten mit kleinem Kinderspielplatz, Kinoleinwand, umgeben von Backsteinwänden und einer Bar mit moderaten Preisen lädt ein, dort öfter mal vorbei zu schauen. Täglich gibt es draußen oder im Haus verschiedene Kulturangebote wie Filmvorführungen, Workshops und offene Räume für Kinder und Jugendliche, Konzerte oder Brunch. Leider ist die Wand, welche durch meine Ausstellung geschmückt wurde, jetzt wieder kahl und leer. Das Angebot, diesen Raum wieder mit einer anderen Ausstellung zu schmücken steht nun jedem offen und Anfragen sind ausdrücklich erwünscht.

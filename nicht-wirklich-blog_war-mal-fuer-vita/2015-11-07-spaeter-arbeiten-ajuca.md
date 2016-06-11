@@ -31,6 +31,7 @@ Wanderausstellung beim alternativen Jugendcamp Ajuca
 
 <!--more-->
 
+{: .center}
 ![Später Arbeiten beim Ajuca 2010]({{site.imgpath}}{{page.imgpath}}spaeterarbeiten_ajuca2010.jpg)
 
 mehr Infos:

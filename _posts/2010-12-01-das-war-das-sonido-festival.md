@@ -31,6 +31,9 @@ tags:
   - sonido
   - stencil
   - volamos juntos
+  
+todo:
+ - Foto hinzufügen
 ---
 
 Jetzt gibt es endlich Fotos vom Sonido-Benefizfestival, welches am 20.11.10 in Erfurt mit lateinamerikanischen Workshops und hervorragenden Ska- und Balkanbeats fast 1500 € für das guatemalische Partnerprojekt Los Patojos einbrachte. Mit einem kleinen Stencil-Workshop konnte auch ich zum Gelingen des Festivals beitragen. Bilder und alle weiteren Infos gibt es bei Volamos juntos in der [Nachbetrachtung][1] und in den [Impressionen][2].
