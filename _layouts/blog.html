@@ -5,9 +5,9 @@ layout: default
 {{content}}
 
 {% for post in paginator.posts %}
-    <article class="post_layers">
+    <article class="post">
 
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
       
       {% for cat in post.categories %}
       <!--<a class="label {{ cat | slugify }}" href="{{site.baseurl}}/{{ cat }}">{{ cat | slugify }}</a>-->
@@ -25,14 +25,14 @@ layout: default
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{site.baseurl}}{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      <a href="{{site.baseurl}}{{ paginator.previous_page_path }}" class="previous" title="zurück"><<</a>
     {% else %}
-      <span class="previous">Previous</span>
+      <span class="previous"><</span>
     {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="page_number ">Seite {{ paginator.page }} von {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
-      <a href="{{site.baseurl}}{{ paginator.next_page_path }}" class="next">Next</a>
+      <a href="{{site.baseurl}}{{ paginator.next_page_path }}" class="next" title="vorwärts">>></a>
     {% else %}
-      <span class="next ">Next</span>
+      <span class="next ">></span>
     {% endif %}
   </div>

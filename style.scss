@@ -44,7 +44,6 @@ $gold: {{ c.gold }};
 html,body {
   height:100%;
   width:100%;
-  font-family:$font;
 }
 html,body,
 header, main, footer, nav,
@@ -64,7 +63,7 @@ html {
   background-color: $dunkelblau;
   color: $weiss;
   -webkit-animation-name: color_change_bg; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 20s; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 200s; /* Chrome, Safari, Opera */
   -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
   animation-name: color_change_bg;
   animation-duration: 200s;
@@ -111,9 +110,11 @@ body {
   background-repeat: no-repeat;
   background-position:50% 50%;
   background-size: auto 50%;
+  font-family:$font2;
+  // font-family:Arial;
   font-size:18px;
 }
-
+h1,h2,h3,h4,h5,h6 {font-family:$font;}
 h1 {
   
 }
@@ -261,6 +262,7 @@ footer {
 // ********** Navigation **********
 nav {
   font-family:$font;
+  // font-family:inherit;
   padding:.2em;
   * {
     font-family:inherit;
@@ -324,7 +326,11 @@ nav {
 
 .label {
   border-radius: 2px;
+  
+  -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
+  -moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
   box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
+  
   color: #fff;
   display: inline-block;
   font-size: .8em;
@@ -375,7 +381,12 @@ nav {
   border:1px solid $darkGrey;
   border-bottom-left-radius:10px;
   background-color:$weiss;
+  
+  
+  -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
+  -moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
   box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
+  
   list-style-type:circle;
   list-style-position:outside;
   padding-left:1.5em;
@@ -464,5 +475,6 @@ a.thumbs {
 }
 
 /************ Seiten-Layouts laden ************/
+@import 'paginator';
 @import 'startseite';
 @import 'vita';
