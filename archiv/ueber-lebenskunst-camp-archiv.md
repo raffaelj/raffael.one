@@ -1,12 +1,13 @@
 ---
 title: ÜBER LEBENSKUNST.Camp
 author: Raffael
+date: 2015-11-17
 layout: post
 categories:
 - Archiv
 - Blog
 vita: ja
-permalink:
+permalink: /archiv/ueber-lebenskunst-camp/
 header: uelk-camp.jpg
 
 start_date: 2011-08-17

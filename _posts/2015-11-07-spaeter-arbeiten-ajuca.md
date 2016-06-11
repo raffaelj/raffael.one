@@ -35,5 +35,5 @@ Wanderausstellung beim alternativen Jugendcamp Ajuca
 
 mehr Infos:
 
-* [Später Arbeiten - Archiv]({{site.baseurl}}{% post_url 2015-11-06-spaeter-arbeiten-archiv %})
+* [Später Arbeiten - Archiv](/archiv/spaeter-arbeiten)
 * [Später Arbeiten beim Ajuca und die Macht der Definition]({{site.baseurl}}{% post_url 2010-08-25-spaeter-arbeiten-beim-ajuca-und-die-macht-der-definition %})

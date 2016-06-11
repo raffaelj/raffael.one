@@ -31,7 +31,7 @@ todo:
 - Verlinkungen zu Bildern --> baseurl fehlt
 ---
 
-Seit dem 12. Juli hängt nun schon die [Später-Arbeiten](http://raffaeljesche.de/spaeter-arbeiten)-Ausstellung im [Peter-Weiss-Haus](http://www.peterweisshaus.de/) in Rostock. Vorraussichtlich wird sie dort noch bis zum 12. August im Freisitz zu bewundern sein. Vielen Dank an [SoBi](http://soziale-bildung.org/) für die freundliche Unterstützung und der Ermöglichung dieser Ausstellung.
+Seit dem 12. Juli hängt nun schon die [Später-Arbeiten](/archiv/spaeter-arbeiten)-Ausstellung im [Peter-Weiss-Haus](http://www.peterweisshaus.de/) in Rostock. Vorraussichtlich wird sie dort noch bis zum 12. August im Freisitz zu bewundern sein. Vielen Dank an [SoBi](http://soziale-bildung.org/) für die freundliche Unterstützung und der Ermöglichung dieser Ausstellung.
 
 <!--more-->
 

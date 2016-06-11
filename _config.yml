@@ -14,6 +14,7 @@ exclude:
 include:
   - galerie
   - _pages
+  - archiv
 
 url: http://raffael.one
 # url: http://raffaelj.github.io
@@ -36,6 +37,9 @@ collections:
   referenzen_grafik_webdesign:
     output: true
     permalink: /referenzen_grafik_webdesign/:path/
+  pressemappe:
+    output: true
+    permalink: /pressemappe/:path/
 
 defaults:
 - scope:
@@ -52,5 +56,15 @@ defaults:
 - scope:
     path: ""
     type: "kursangebote"
+  values:
+    layout: "default"
+- scope:
+    path: ""
+    type: "referenzen_grafik_webdesign"
+  values:
+    layout: "default"
+- scope:
+    path: ""
+    type: "pressemappe"
   values:
     layout: "default"

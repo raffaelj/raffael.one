@@ -36,7 +36,7 @@ todo:
 ---
 
 Wanderausstellung auf dem Fusion-Festival, 
-alle Infos zur Ausstellung: [Später Arbeiten - Archiv]({% post_url 2015-11-06-spaeter-arbeiten-archiv %})
+alle Infos zur Ausstellung: [Später Arbeiten - Archiv](/archiv/spaeter-arbeiten)
 
 <!--more-->
 ----

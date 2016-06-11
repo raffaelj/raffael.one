@@ -60,6 +60,6 @@ Nachdem nun alles geschafft, die meisten Leute abgereist und Wien immer noch da 
 
  [1]: http://jugendforum.cc
  [2]: http://www.theaterworks.at/
- [3]: {% post_url 2015-11-10-mein-wunderland-eu-archiv%}
- [4]: {% post_url 2015-11-10-mein-wunderland-eu-archiv%}
+ [3]: /archiv/mein-wunderland-eu
+ [4]: /archiv/mein-wunderland-eu
  [5]: http://www.kusonline.at/

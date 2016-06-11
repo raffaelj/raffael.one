@@ -4,7 +4,7 @@ author: Raffael
 layout: post
 category:
 vita: ja
-permalink: /mein-wunderland-eu/
+permalink: /archiv/mein-wunderland-eu/
 header: wunderland.jpg
 license: cc-by
 

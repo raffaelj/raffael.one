@@ -1,12 +1,13 @@
 ---
 title: Pausenraunen
 author: Raffael
+date: 2015-11-19
 layout: post
 license: cc-by
 category:
 - Archiv
 vita: ja
-permalink: /pausenraunen/
+permalink: /archiv/pausenraunen/
 header: pausenraunen.jpg
 
 start_date: 2013-01-10

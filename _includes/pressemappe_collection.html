@@ -1,0 +1,15 @@
+{% assign sorted = site.pressemappe | sort: 'date' %}
+{% for referenz in sorted reversed %}
+<div class="collection referenzen">
+<h3>{{ referenz.title }}</h3>
+{% if referenz.label %}
+{% for label in referenz.label %}
+<span class="label">{{label}}</span>
+{% endfor %}
+{% endif %}
+{% if referenz.image %}
+<img src="{{referenz.url}}../{{referenz.image}}" alt="Bild" />
+{% endif %}
+{{ referenz.content }}
+</div>
+{% endfor %}

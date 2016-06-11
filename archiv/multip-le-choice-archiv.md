@@ -1,10 +1,11 @@
 ---
 title: 'multip.LE:choice'
 author: Raffael
+date: 2015-11-07
 layout: post
 category:
 vita: ja
-permalink: /multip-le-choice/
+permalink: /archiv/multip-le-choice/
 header: multip-le-choice.jpg
 
 start_date: 2011-05-23
@@ -66,12 +67,12 @@ Club Telgegraph: Dittrichring 18-20, 04109 Leipzig ([Anfahrtskarte]({{site.imgpa
 - [MaleLE-Malusion](#malele-malusion)
 - Projektgalerie
 - Multiple-Choice-Test zu JUGEND in Aktion
-- [(Un)Wohlfühlräume in Leipzig]({% post_url 2015-11-10-mein-wunderland-eu-archiv %})
+- [(Un)Wohlfühlräume in Leipzig](/archiv/mein-wunderland-eu)
 
 ## Einige der Projekte/Organisationen, die durch Workshop-TeilnehmerInnen vertreten sein werden:
 
 - [Front Deutscher Äpfel](http://apfelfront.de)
-- [Wunderland]({% post_url 2015-11-10-mein-wunderland-eu-archiv %})
+- [Wunderland](/archiv/mein-wunderland-eu)
 - [Halle gegen Rechts - Bündnis für Zivilcourage](http://www.halle-gegen-rechts.de/)
 - [EuroPeers](http://europeers.de)
 - [Brimboria Institut](http://brimboria-kongress.net)
@@ -115,7 +116,7 @@ Ein Klick auf das Bild öffnet eine größere Karte.
 <article class="post">
 ## MaleLE-Malusion
 
-Die [Malusion]({% post_url 2015-11-10-mein-wunderland-eu-archiv %}) (= Malen + Diskussion), eine im [Wunderland]({% post_url 2015-11-10-mein-wunderland-eu-archiv %})-Projekt entwickelte interaktive Methode zur kreativen Auseinandersetzung mit politischen Themen, wird mit dem LVZ-Charity-Projekt Male-LE kombiniert. Es entsteht ein Gemeinschaftswerk, welches später wieder in die einzelnen Male-LE-Bilder zerteilt wird. Somit entstehen 8 Werke zum Thema JUGEND in Aktion, die einzeln eingereicht werden. Auf den Rückseiten der Bilder werden Vermerke zu dieser Website hinterlassen, mit der Aufforderung, sie nach dem Verkauf hier wieder virtuell zusammenzusetzen.
+Die [Malusion](/archiv/mein-wunderland-eu) (= Malen + Diskussion), eine im [Wunderland](/archiv/mein-wunderland-eu)-Projekt entwickelte interaktive Methode zur kreativen Auseinandersetzung mit politischen Themen, wird mit dem LVZ-Charity-Projekt Male-LE kombiniert. Es entsteht ein Gemeinschaftswerk, welches später wieder in die einzelnen Male-LE-Bilder zerteilt wird. Somit entstehen 8 Werke zum Thema JUGEND in Aktion, die einzeln eingereicht werden. Auf den Rückseiten der Bilder werden Vermerke zu dieser Website hinterlassen, mit der Aufforderung, sie nach dem Verkauf hier wieder virtuell zusammenzusetzen.
 
 <del title="Link nicht mehr verfügbar">[MaleLE](#)</del> ist ein Charity-Projekt der Leipziger Volkszeitung. Jeder kann ein Bild einreichen. Diese werden später zu einem Einheitspreis nach einem Zufallsprinzip verkauft. Die Einreichungen etablierter KünstlerInnen bieten die Motivation, viele Bilder zu kaufen, auch ohne zu wissen, ob es eine Kinderzeichnung oder eine Wertanlage ist. Die Erlöse werden an gemeinnützige Einrichtungen in Leipzig gespendet.
 
@@ -176,7 +177,7 @@ Dieses Projekt wird dankenswerterweise unterstützt durch:
 
 - [Europa-Haus-Leipzig e. V.](http://www.europa-haus-leipzig.de/)
 - [Club Telegraph](http://www.cafe-telegraph.de/)
-- [Wunderland]({% post_url 2015-11-10-mein-wunderland-eu-archiv %})
+- [Wunderland](/archiv/mein-wunderland-eu)
 - [EuroPeers](http://europeers.de)
 - <del title="Link nicht mehr verfügbar">[MaleLE](#)</del>
 

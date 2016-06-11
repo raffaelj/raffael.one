@@ -9,6 +9,7 @@ $weiss: #fefefe;
 // $weiss_transp: rgba(255,255,255,.8);
 $weiss_transp: rgba(255,255,255,.9);
 $weiss_transp2: rgba(255,255,255,.5);
+$weiss_transp3: rgba(255,255,255,.1);
 
 //
 // Colors
@@ -147,49 +148,80 @@ a {
   }
 }
 
+/********* object and image positioning *********/
+.center {
+  margin:0 auto;
+  text-align:center;
+}
+.left {
+  float:left;
+}
+.right {
+  float:right;
+}
+
+
+/********* header *********/
 header {
   padding-top:1em;
   padding-bottom:1em;
   color:$weiss;
-  p.logo {
+  h1.logo {
     float:left;
-    margin-left:.2em;
+    margin:0;
+    padding:0;
+    margin-left:-4em;
     margin-right:.2em;
     color:$weiss;
     // background-size: fit;
     // overflow:visible;
-  a {
-    padding:.2em;
-    padding-left:3em;
-    // background-image: url(/images/logo10_web_50.png);
-    background-image: url(/images/logo10_r-transp.svg);
-    background-repeat: no-repeat;
-    // background-position:.4em 50%;
-    // background-size: 2.2em;
-    background-position:.5em 50%;
-    background-size: 2.0em;
-    display: inline-block;
-    // display: block;
-    // padding-left:10px;
-    padding-right:10px;
-    color:inherit;
-    text-decoration:none;
-    border-radius:0;
-    // border-top-left-radius:50%;
-    border-bottom-right-radius:50%;
-    -webkit-transition: background-color .8s, color .3s ease-in-out; /* Firefox */
-    -moz-transition: background-color .8s, color .3s ease-in-out; /* WebKit */
-    -o-transition: background-color .8s, color .3s ease-in-out; /* Opera */
-    transition: background-color .8s, color .3s ease-in-out; /* Standard */
-    &:hover {
+    font-size:1.0em;
+    font-weight:normal;
+    a {
+      display:table-cell;
+      vertical-align:middle;
+      width:6em;
+      height:4em;
+      line-height:1.5em;
+      // padding:.2em;
+      padding-top:.25em;
+      padding-bottom:.25em;
+      padding-left:5em;
+      // background-image: url(/images/logo10_web_50.png);
+      background-image: url(/images/logo10_r-transp.svg);
+      background-repeat: no-repeat;
+      // background-position:.4em 50%;
+      // background-size: 2.2em;
+      background-position:.5em 50%;
+      background-size: 4.0em;
+      // display: inline-block;
+      // display: block;
+      // padding-left:10px;
+      // padding-right:10px;
+      color:inherit;
       text-decoration:none;
-      background-color:$weiss_transp2;
+      border-radius:0;
+      // border-top-right-radius:50%;
+      // border-bottom-left-radius:50%;
+      border-top-right-radius:100%;
+      border-bottom-left-radius:2em;
+      border-top-left-radius:1em;
       -webkit-transition: background-color .8s, color .3s ease-in-out; /* Firefox */
       -moz-transition: background-color .8s, color .3s ease-in-out; /* WebKit */
       -o-transition: background-color .8s, color .3s ease-in-out; /* Opera */
       transition: background-color .8s, color .3s ease-in-out; /* Standard */
+      &:hover {
+        text-decoration:none;
+        background-color:$weiss_transp2;
+        -webkit-transition: background-color .8s, color .3s ease-in-out; /* Firefox */
+        -moz-transition: background-color .8s, color .3s ease-in-out; /* WebKit */
+        -o-transition: background-color .8s, color .3s ease-in-out; /* Opera */
+        transition: background-color .8s, color .3s ease-in-out; /* Standard */
+      }
     }
-  }
+    @include breakpoint(medium){
+      margin-left:0em;
+    }
   }
 }
 
@@ -206,7 +238,7 @@ main {
   &:after {//Abstandhalter für fixed footer
     content:"";
     display:block;
-    height:2em;
+    // height:2em;
     width:100%;
     clear:both;//float nach collections zurücksetzen
   }
@@ -218,9 +250,9 @@ main {
 }
 
 footer {
-  position:fixed;
-  bottom:0;
-  left:0;
+  // position:fixed;
+  // bottom:0;
+  // left:0;
   width:100%;
   background-color:$dunkelblau;
   // background-color:inherit;
@@ -241,10 +273,12 @@ nav {
     display: inline-block;
     padding-left:10px;
     padding-right:10px;
+    margin:.1em;
     color:inherit;
     text-decoration:none;
+    background-color:$weiss_transp3;
     // border-radius:5px;
-    border-top-left-radius:50%;
+    border-top-left-radius:100%;
     border-bottom-right-radius:50%;
     -webkit-transition: background-color .8s, color .3s ease-in-out; /* Firefox */
     -moz-transition: background-color .8s, color .3s ease-in-out; /* WebKit */
@@ -358,13 +392,14 @@ nav {
 
 /******* markdown images in p tags ************/
 main p img {
-  display:block;
+  // display:block;
   margin: 1em auto;
+  // text-align:center;
   // background-color:$weiss;
   // padding:10px;
   // border: 1px solid $darkGrey;
   border-radius:2px;
-  width:500px;
+  // width:500px;
   max-width:100%; 
   
   // width: 80px;

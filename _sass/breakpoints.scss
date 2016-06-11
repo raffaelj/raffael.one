@@ -5,7 +5,7 @@
 // $break1: 760px; // verysmall
 // $break2: 870px; // smaller
 // $break3: 960px; // small
-// $break4: 1280px; // medium
+$break_width4: 1150px; // medium
 // $break5: 1600px; // big
 
 $break_height1: 470px;
@@ -14,6 +14,7 @@ $break_height3: 680px;
 $break_height4: 760px;
 
 @mixin breakpoint($point) {
+  // Höhe
   @if $point == flat1 { // mittel
     @media (max-height: $break_height1) {@content;}
   }
@@ -25,5 +26,9 @@ $break_height4: 760px;
   }
   @if $point == flat4 { // mittel
     @media (max-height: $break_height4) {@content;}
+  }
+  // Breite
+  @if $point == medium { // mittel
+    @media (max-width: $break_width4) {@content;}
   }
 }

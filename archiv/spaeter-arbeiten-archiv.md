@@ -1,11 +1,12 @@
 ---
 title: Später Arbeiten
 author: Raffael
+date: 2015-11-06
 layout: post
 category:
 - Archiv
 vita: ja
-permalink: /spaeter-arbeiten/
+permalink: /archiv/spaeter-arbeiten/
 header: spaeter-arbeiten_feinkost.jpg
 license: cc-by
 
@@ -87,7 +88,7 @@ Sie wurden teils an ihren freien Tagen, teils an Arbeitstagen gewaltsam geweckt 
 
 ### Das Buch zum 100.000 EURO JOB
 
-Neue und nützliche Ansichten zur Arbeit - so lautet der Untertitel des Buchs. Herausggeben hat es [Sebastian Sooth](http://sooth.de/) im Jahre 2008, lesenswert ist es noch heute. Auf über 200 Seiten werden die 47 geförderten Projekte im [100.000 EURO JOB](http://www.100.000-euro-job.de/Willkommen.html) vorgestellt und mit praktischen Tipps zum Arbeiten versehen. Auch der [Selbstförderfonds](http://www.sk-kultur.de/medienkunst/blog/#id7) wird kurz vorgestellt und auf der Begleit-CD sind Video-Arbeiten einiger ProjektmacherInnen zu finden. Interessant sind auch die zwischen die einzelnen Projekte eingefügten Texte von oder über zum Beispiel Adrienne Göhler oder Mercedes Bunz. Die Ausschnitte zum Später-Arbeiten-Projekt (Seite 97-98) gibt es [hier]({{site.imgpath}}{{page.imgfolder}}/100-000-euro-job_spaeter-arbeiten_1v2.jpg) und [hier]({{site.imgpath}}{{page.imgfolder}}/100-000-euro-job_spaeter-arbeiten_2v2.jpg) und bestellen kann man das ganze Buch beim [Verbrecher Verlag](http://www.verbrecherverlag.de/buch/250).
+Nützliche und neue Ansichten zur Arbeit - so lautet der Untertitel des Buchs. Herausgegeben hat es [Sebastian Sooth](http://sooth.de/) im Jahre 2008, lesenswert ist es noch heute. Auf über 200 Seiten werden die 47 geförderten Projekte im [100.000 EURO JOB](http://www.100.000-euro-job.de/Willkommen.html) vorgestellt und mit praktischen Tipps zum Arbeiten versehen. Auch der [Selbstförderfonds](http://www.sk-kultur.de/medienkunst/blog/#id7) wird kurz vorgestellt und auf der Begleit-CD sind Video-Arbeiten einiger ProjektmacherInnen zu finden. Interessant sind auch die zwischen die einzelnen Projekte eingefügten Texte von oder über zum Beispiel Adrienne Göhler oder Mercedes Bunz. Die Ausschnitte zum Später-Arbeiten-Projekt (Seite 97-98) gibt es [hier]({{site.imgpath}}{{page.imgfolder}}/100-000-euro-job_spaeter-arbeiten_1v2.jpg) und [hier]({{site.imgpath}}{{page.imgfolder}}/100-000-euro-job_spaeter-arbeiten_2v2.jpg) und bestellen kann man das ganze Buch beim [Verbrecher Verlag](http://www.verbrecherverlag.de/buch/250).
 
 {:.small}
 Ein Projekt im Rahmen des Projekts 100.000 EURO JOB –
