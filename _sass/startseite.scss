@@ -197,47 +197,135 @@ body.start {
           text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
           // background-color:rgba(255,0,0,.1);
           &:nth-child(1){//Tanz
-            bottom:101%;
-            left:45%;
+            bottom:90%;
+            left:50%;
+            
+            -moz-transform: rotate(-18deg);
+            -webkit-transform: rotate(-18deg);
+            -o-transform: rotate(-18deg);
+            -ms-transform: rotate(-18deg);
             transform: rotate(-18deg);
+            
+            -webkit-transform-origin: 0% 100%;
+            -moz-transform-origin: 0% 100%;
+            -ms-transform-origin: 0% 100%;
+            -o-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
           }
           &:nth-child(2){//Kurse
-            top:76%;
-            left:70%;
+            bottom:50%;
+            left:90%;
+            
+            -moz-transform: rotate(72deg);
+            -webkit-transform: rotate(72deg);
+            -o-transform: rotate(72deg);
+            -ms-transform: rotate(72deg);
             transform: rotate(72deg);
+            
+            -webkit-transform-origin: 0% 100%;
+            -moz-transform-origin: 0% 100%;
+            -ms-transform-origin: 0% 100%;
+            -o-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
           }
           &:nth-child(3){//Design
-            bottom:76%;
-            right:69%;
+            bottom:50%;
+            left:10%;
+            
+            -moz-transform: rotate(-108deg);
+            -webkit-transform: rotate(-108deg);
+            -o-transform: rotate(-108deg);
+            -ms-transform: rotate(-108deg);
             transform: rotate(-108deg);
+            
+            -webkit-transform-origin: 0% 100%;
+            -moz-transform-origin: 0% 100%;
+            -ms-transform-origin: 0% 100%;
+            -o-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
           }
           &:nth-child(4){//Über
-            top:100%;
-            right:45%;
+            bottom:10%;
+            left:50%;
+            
+            -moz-transform: rotate(162deg);
+            -webkit-transform: rotate(162deg);
+            -o-transform: rotate(162deg);
+            -ms-transform: rotate(162deg);
             transform: rotate(162deg);
+            
+            -webkit-transform-origin: 0% 100%;
+            -moz-transform-origin: 0% 100%;
+            -ms-transform-origin: 0% 100%;
+            -o-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
           }
           &:nth-child(5){//mehr Kunst
-            top:76%;
-            right:80%;
+            bottom:20%;
+            left:20%;
+            
+            -moz-transform: rotate(198deg);
+            -webkit-transform: rotate(198deg);
+            -o-transform: rotate(198deg);
+            -ms-transform: rotate(198deg);
             transform: rotate(198deg);
+            
+            -webkit-transform-origin: 0% 100%;
+            -moz-transform-origin: 0% 100%;
+            -ms-transform-origin: 0% 100%;
+            -o-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
             font-size:.7em;
           }
           &:nth-child(6){//Blog
-            bottom:83%;
-            right:76%;
+            bottom:80%;
+            left:20%;
+            
+            -moz-transform: rotate(-72deg);
+            -webkit-transform: rotate(-72deg);
+            -o-transform: rotate(-72deg);
+            -ms-transform: rotate(-72deg);
             transform: rotate(-72deg);
+            
+            -webkit-transform-origin: 0% 100%;
+            -moz-transform-origin: 0% 100%;
+            -ms-transform-origin: 0% 100%;
+            -o-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
             font-size:.7em;
           }
           &:nth-child(7){//Kontakt
-            bottom:77%;
+            bottom:80%;
             left:80%;
+            
+            -moz-transform: rotate(18deg);
+            -webkit-transform: rotate(18deg);
+            -o-transform: rotate(18deg);
+            -ms-transform: rotate(18deg);
             transform: rotate(18deg);
+            
+            -webkit-transform-origin: 0% 100%;
+            -moz-transform-origin: 0% 100%;
+            -ms-transform-origin: 0% 100%;
+            -o-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
             font-size:.7em;
           }
           &:nth-child(8){//Pressemappe
-            top:93%;
-            left:62%;
+            bottom:20%;
+            left:80%;
+            
+            -moz-transform: rotate(108deg);
+            -webkit-transform: rotate(108deg);
+            -o-transform: rotate(108deg);
+            -ms-transform: rotate(108deg);
             transform: rotate(108deg);
+            
+            -webkit-transform-origin: 0% 100%;
+            -moz-transform-origin: 0% 100%;
+            -ms-transform-origin: 0% 100%;
+            -o-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
             font-size:.7em;
           }
         }
