@@ -110,6 +110,7 @@ body {
   background-repeat: no-repeat;
   background-position:50% 50%;
   background-size: auto 50%;
+  // background-attachment:fixed;
   font-family:$font2;
   // font-family:Arial;
   font-size:18px;
@@ -383,6 +384,25 @@ nav {
   }
 }
 
+
+// Meta information
+section.meta {
+  float:right;
+  width:300px;
+  max-width:33%;
+  padding:10px;
+  margin:0 0 10px 10px;
+  border: 1px solid $darkGrey;
+  border-bottom-left-radius:10px;
+  background-color:$weiss;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
+  img {
+    width:100%;
+  }
+  h2 {
+    text-align:center;
+  }
+}
 
 // Inhaltsverzeichnis
 #markdown-toc {
