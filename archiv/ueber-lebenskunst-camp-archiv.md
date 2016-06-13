@@ -28,7 +28,7 @@ role:
 
 description: "Mitorganisation eines Begleitcamps mit ca. 30 Jugendlichen zum [ÜBER LEBENSKUNST-Festival](http://www.ueber-lebenskunst.org/) mit abschließender Performance"
 
-imgpath: /ueber-lebenskunst-camp/
+imgfolder: /ueber-lebenskunst-camp/
 
 todo:
 - Bildergalerien
@@ -38,7 +38,7 @@ Für das Festival [ÜBER LEBENSKUNST](http://www.ueber-lebenskunst.org/), vom 17
 
 Das Kernteam bestand aus Max Upravitelev, Jenny Mahla, Henry Rudolph, Ute Larsen, Alf Thum, Anja Danilina und mir.
 
-![]({{site.imgpath}}{{page.imgpath}}uelk-camp_startbild_web.jpg)
+![]({{site.imgfolder}}{{page.imgfolder}}uelk-camp_startbild_web.jpg)
 
 Das Habitat, welches wir bewohnen durften, wurde im Vorfeld des Festivals von den ArchitektInnen Marius Busch, Max Graap und Gesa Schatte in liebevoller Grobarbeit zusammengebaut. Der Aufbau ist in folgendem Video dokumentiert:
 
@@ -82,7 +82,7 @@ Um ihre Perspektive den gebührenden Raum im Festival zu geben, wurden 35 junge 
 
 ## Festival ÜBER LEBENSKUNST.Camp
 
-![]({{site.imgpath}}{{page.imgpath}}banner_allgemein_01.jpg)
+![]({{site.imgfolder}}{{page.imgfolder}}banner_allgemein_01.jpg)
 
 Wir suchen für das Camp 35 junge Erwachsene im Alter von 18 bis 25, die mit uns 5 Tage lang in einem extra für uns angelegten Camp direkt am Haus der Kulturen der Welt wohnen und die Veranstaltungen besuchen um diese kritisch zu hinterfragen.
 
@@ -112,7 +112,7 @@ camp [at] ueber-lebenskunst.org
 
 ## Die Nachschau der Vorbereitung
 
-![]({{site.imgpath}}{{page.imgpath}}banner_uelk_vbs.jpg)
+![]({{site.imgfolder}}{{page.imgfolder}}banner_uelk_vbs.jpg)
 
 {:.caption}
 Festival ÜBER LEBENSKUNST  – Vorbereitungsseminar des Camps
@@ -123,21 +123,21 @@ Neben der Organisation des Zusammenlebens von fünfzehn sich bis dato völlig un
 
 **Impressionen vom Vorbereitungstreffen**
 
-![]({{site.imgpath}}{{page.imgpath}}uelk-vbs_01.jpg)
-![]({{site.imgpath}}{{page.imgpath}}uelk-vbs_02.jpg)
+![]({{site.imgfolder}}{{page.imgfolder}}uelk-vbs_01.jpg)
+![]({{site.imgfolder}}{{page.imgfolder}}uelk-vbs_02.jpg)
 
 {:.caption}
 Wir bekommen einen Einblick die vielen Facetten des Festivals...
 
 
-![]({{site.imgpath}}{{page.imgpath}}uelk-vbs_03.jpg)
-![]({{site.imgpath}}{{page.imgpath}}uelk-vbs_04.jpg)
+![]({{site.imgfolder}}{{page.imgfolder}}uelk-vbs_03.jpg)
+![]({{site.imgfolder}}{{page.imgfolder}}uelk-vbs_04.jpg)
 
 {:.caption}
 ... und diskutieren anschließend darüber, wie es weitergeht.
 
-![]({{site.imgpath}}{{page.imgpath}}habitat-modell_01.jpg)
-![]({{site.imgpath}}{{page.imgpath}}habitat-modell_02.jpg)
+![]({{site.imgfolder}}{{page.imgfolder}}habitat-modell_01.jpg)
+![]({{site.imgfolder}}{{page.imgfolder}}habitat-modell_02.jpg)
 
 {:.caption}
 Ungefähr so wird das Camp dann aussehen (Der Entwurf vom Habitat ist leider nicht ganz aktuell).
@@ -151,7 +151,7 @@ Ungefähr so wird das Camp dann aussehen (Der Entwurf vom Habitat ist leider nic
 
 ## LEERSTELLEN.FÜLLER #1
 
-![]({{site.imgpath}}{{page.imgpath}}banner_camp-meldung_01.jpg)
+![]({{site.imgfolder}}{{page.imgfolder}}banner_camp-meldung_01.jpg)
 
 Das ÜBER LEBENSKUNST.Camp (ÜLK.C) schickt sich an dem Festival auf den Haifischzahn zu fühlen. Der erste Tag des Festivals hat begonnen an dem die Campteilnehmer_Innen wie freie Radikale in die seit 12.oo Uhr laufenden Veranstaltungen einfallen. Kleine Denkzellen formieren sich um die Debatten, Podien, Gespräche zu verfolgen, Stimmungslagen abzutasten und sich ein erstes Bild vom Wirken des Makroorganismus Überlebenskunst Festival zu machen.
 
@@ -168,7 +168,7 @@ Die Campbewohner_Innen fungieren als Denkzellen, fluktuierend zwischen Zentralem
 
 ## Das Über-Lebenskunst Camp
 
-![]({{site.imgpath}}{{page.imgpath}}banner_04.jpg)
+![]({{site.imgfolder}}{{page.imgfolder}}banner_04.jpg)
 
 Überleben werden die TeilnehmerInnen des Camps garantiert. Aber es geht auch vielmehr darum über das Leben auf dieser Erde und neue Wege zur Nachhaltigkeit zu diskutieren. Einen Wohnraum im Hinterhof des Hauses der Kulturen der Welt zu schaffen, steht genau im Kontext des Überlebenskunstfestivals. Drei ArchitekturestudentInnen der TU Berlin haben ein Haus aus Gerüstbaustangen und Spanplatten konstruiert, in dem 35 junge Menschen für fünf Tage eingezogen sind.
 
@@ -190,7 +190,7 @@ In den bisherigen Gruppendiskussionen war  das Verhältnis von Konsum und Nachha
 
 ## LEERSTELLEN.FÜLLER #2
 
-![]({{site.imgpath}}{{page.imgpath}}banner_05.jpg)
+![]({{site.imgfolder}}{{page.imgfolder}}banner_05.jpg)
 
 Das Habitat wird in dieser zweiten Nacht zur Metapher. Die Bewohner_Innen der drei Etagen, in ihrer Struktur eine beeindruckende Analogie zur Struktur der Gesellschaft, erleben ein feuchtfröhliches Unwetter mit proto-apokalyptischen Ausmaßen.
 
