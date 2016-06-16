@@ -22,6 +22,9 @@ base: "/raffael.one"
 imgpath: /images
 galpath: galerie
 
+# externes Dateien-Lager
+edata: http://data.raffael.one
+
 sass: # :expanded or :compressed
   style: :expanded
 
