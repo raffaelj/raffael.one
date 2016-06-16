@@ -9,6 +9,7 @@ header: wunderland.jpg
 license: cc-by
 
 imgfolder: /wunderland/
+edatafolder: /wunderland-archiv/
 
 start_date: 2009-03-01
 end_date: 2010-10-31
@@ -28,13 +29,16 @@ role:
 - Öffentlichkeitsarbeit
 
 todo:
-- Bildergalerien
-- kurzer Text Rückblick auf das Projekt
-- evtl. related posts
-- Speicherort für Mp3 Ausländerkriminalität
-- Speicherort für Mp3s Flucht aus dem Iran
-- Projekt-Header-Grafiken
-- Blog migrieren
+- "[ ] Bildergalerien"
+- "[ ] kurzer Text Rückblick auf das Projekt"
+- "[ ] evtl. related posts"
+- "[x] Speicherort für Mp3 Ausländerkriminalität"
+- "[x] Speicherort für Mp3s Flucht aus dem Iran"
+- "[ ] Projekt-Header-Grafiken"
+- "[ ] eGalerie"
+- "[x] Flucht aus dem Iran in eGalerie"
+- "[ ] Scans in Pressespiegel"
+- "[ ] fehlende Links in Pressespiegel"
 ---
 
 Dies ist eine Archivseite des Projekts 'Wunderland'. Die Original-Internetseite ist offline, da es zu aufwändig ist, diese zu pflegen.
@@ -135,12 +139,12 @@ Das Konzept mit Materialanforderungen, kleinen Tipps etc. steht jetzt **[hier al
 #### Malusion beim 2. deutschsprachigen Jugendforum in Wien
 
 {: .center}
-![Malusion beim Jugendforum in Wien]({{site.imgpath}}{{page.imgfolder}}projektphotos/jugendforum_malusion.jpg)
+![Malusion beim Jugendforum in Wien]({{site.imgpath}}{{page.imgfolder}}jugendforum_malusion.jpg)
 
 Vom 03. bis 05. November 2010 veranstalten die Nationalagenturen des Programms JUGEND in Aktion aus Belgien, Deutschland, Österreich, Schweiz, Liechtenstein und Luxemburg das [2. deutschsprachige Jugendforum](http://2007-2013.jugendinaktion.at/start.asp?ID=582&b=111) in Wien. Neben einem schicken Abendprogramm und Workshops zu den Schwerpunkkten Bildung, Teilhabe und Inklusion werden am 04. November auch zahlreiche Workshops durch die Teilnehmenden angeboten. Hier wird unser Malusionskonzept vorgestellt und vielleicht ist es ja sogar in einem gerade mal zwei Stunden langen Workshop-Block möglich, ein neues komplettes Werk entstehen zu lassen. Wir dürfen gespannt sein...
 
 ... und es entstand ein schickes Werk.
-[Workshop-Dokumentation Jugendforum](http://2007-2013.jugendinaktion.at/start.asp?ID=719&b=129) und der Artikel dazu in [meinem Blog]({{ post_url 2010-11-08-europaisch-gewurzt-malusion-beim-2-deutschsprachigen-jugendforum-in-wien }}).
+[Workshop-Dokumentation Jugendforum](http://2007-2013.jugendinaktion.at/start.asp?ID=719&b=129) und der Artikel dazu in [meinem Blog]({% post_url 2010-11-08-europaisch-gewurzt-malusion-beim-2-deutschsprachigen-jugendforum-in-wien %}).
 
   </div>
   <div class="subsubarticle">
@@ -251,7 +255,7 @@ Zum Abschluss nochmal ein riesengroßes Dankeschön an alle TeilnehmerInnen für
 
 **Vortrag - Der Mensch als Erwartungswert: Probleme der Statistik am Beispiel "Ausländerkriminalität"**
 
-[Vortrag als Mp3-Datei]() (ca. 45min) --> **Datei einfügen**
+[Vortrag "Ausländerkriminalität" - Live-Mitschnitt (ca. 45min)]({{site.edata}}/wunderland-archiv/audio/100329_vortrag_tille_auslaenderkriminalitaet.mp3)
 
 Ob Wahlkampf oder nicht, immer wieder wird das Problem "Ausländerkriminalität" aus dem Hut gezaubert. Wobei die pauschale Verurteilung, dass "Ausländer/innen" bzw. Menschen mit Migrationshintergrund nicht nur "anders", sondern per se auch kriminell sind, nicht selten das Hauptmotiv solcher Debatten ist.
 
@@ -411,10 +415,363 @@ Unser kreativer Nachwuchs ist am 25.04.2010 in der Feinkost beim Graffiti-Worksh
 ## eGalerie
 
 
+
+### Flucht aus dem Iran - Audiocollage von Konni
+
+Im Interview wird anschaulich dargestellt, wie die befragte Person aus aus dem Iran über Umwege nach Deutschland kam, welche Gefühle und Probleme sie hatte und wie das Leben ohne anerkannte Staatsbürgerschaft verlaufen kann. Das Interview hielt Konni.
+
+{: .player}
+[Europavorstellungen und Europarealität]({{site.edata}}/wunderland-archiv/audio/01_-_Europavorstellungen_Europarealitaet.mp3)  
+[Situation im Herkunftsland]({{site.edata}}/wunderland-archiv/audio/02_-_Situation_im_Herkunftsland.mp3)  
+[Ausgangspunkt Migration]({{site.edata}}/wunderland-archiv/audio/03_-_Ausgangspunkt_Migration.mp3)  
+[Odyssebeginn - Transporter und Kellerversteck]({{site.edata}}/wunderland-archiv/audio/04_-_Odyssebeginn-Transporter_und_Kellerversteck.mp3)  
+[Im Öltanker und Kleinbus nach Budapest]({{site.edata}}/wunderland-archiv/audio/5_-_Im_Oeltanker_und_Kleinbus_nach_Budapest.mp3)  
+[Polizeiverhör und geduldete Flucht in Slovakei]({{site.edata}}/wunderland-archiv/audio/06_-_Polizeiverhoer_und_geduldete_Flucht_in_Slovakei.mp3)  
+[Prag Hauptbahnhof]({{site.edata}}/wunderland-archiv/audio/07_-_Prag_Hauptbahnhof.mp3)  
+[Migration - Weg zum Zoll]({{site.edata}}/wunderland-archiv/audio/08_-_Migration_-_Weg_zum_Zoll.mp3)  
+[Ankunft und Aufenthalt in Leipzig]({{site.edata}}/wunderland-archiv/audio/09_-_Ankunft_und_Aufenthalt_in_Leipzig.mp3)  
+[Alltagsrassismus]({{site.edata}}/wunderland-archiv/audio/10_-_Alltagsrassismus.mp3)  
+[Identität]({{site.edata}}/wunderland-archiv/audio/11_-_Identitaet.mp3)  
+[Utopie]({{site.edata}}/wunderland-archiv/audio/12_-_Utopie.mp3)
+
+{% comment %}
+ <audio controls title="Europavorstellungen und Europarealitaet">
+  <source src="{{site.edata}}/wunderland-archiv/audio/01_-_Europavorstellungen_Europarealität.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+
+
+{::options parse_block_html="false" /}
+{% include jplayer.html %}
+{::options parse_block_html="true" /}
+{% endcomment %}
+
 </article>
 
 <article class="post">
 ## Blog
+
+ <div class="subarticle">
+### Weiter geht's
+{: .date}
+18.11.2009
+
+Die erste [Party und der erste Workshop](#wunderland-party--workshop) liegen nun schon eine Weile hinter uns. Neben einigen fortlaufenden Projekten, wie der [Malusion](http://mein-wunderland.eu/malusion), [Wunderland²](#wunderlandhoch2) und der [Systemüberprüfung](#systemueberpruefung) finden in den nächsten Monaten noch viele weitere Aktionen statt. Geplant sind Vorträge, ein Graffiti-Workshop und vor Allem die Ausstellung zum Abschluss des Projekts.
+
+ </div>
+ <div class="subarticle">
+### Mitmacher/Mitmacherin gesucht
+{: .date}
+03.12.2009
+
+Wo wir Euch brauchen:  
+- in der Veranstaltungsorganisation  
+- in der Öffentlichkeitsarbeit  
+- in der Projektplanung
+
+Was für Euch rausspringt:  
+- soziales Engagement und das Treffen neuer Leute  
+- Erfahrungen in Veranstaltungsmanagement etc.  
+- ein Zertifikat für Eure Beteiligung am Projekt "Wunderland"
+
+Zeigt uns, was ihr könnt. Bringt Euch ein!  
+Oder kommt gleich zu unseren wöchentlichen Treffen: jeden Donnerstag bei Raffael um 19 Uhr
+
+ </div>
+ <div class="subarticle">
+### Künstler und Künstlerinnen gesucht
+{: .date}
+08.12.2009
+
+Du hast eine Idee oder ein fertiges Werk, welches perfekt in unser Wunderland-Projekt passt? Melde dich einfach bei uns und wir werden gemeinsam überlegen, wie wir dir als Künstler eine Plattform zum Ausstellen geben können.
+
+ </div>
+ <div class="subarticle">
+### Zuckerieren
+{: .date}
+11.02.2010
+
+Hurra! Die [Zucker-Foto-Lovestory](#zuckerieren) ist endlich komplett fertig bearbeitet und auch du kannst dich an den interessanten Fotografien erfreuen. Im Januar haben wir uns intensiv mit der Konzeption eines Fotografie-/Theaterworkshops unter dem Motto "Zuckerieren" auseinandergesetzt und diesen vom 22.-24.01.2010 erfolgreich umgesetzt. Heraus kam eine eindrucksvolle Foto-Lovestory, welche u. A. Themen wie Medienkritik, Sexismus und absurde Utopievorstellungen behandelt. Die Bilder findest du [hier](#zuckerieren).
+
+ </div>
+ <div class="subarticle">
+### Eher geht ein Kamel durch ein Nadelöhr…
+{: .date}
+11.02.2010
+
+**…, als dass Deutschland zuversichtlich in die Zukunft blickt.**
+
+Die [Sehnsuchtskarawane]() ist zwar kein Projekt von uns, allerdings möchte ich trotzdem darauf aufmerksam machen. Dort wird allen Jugendlichen die Möglichkeit gegeben, Deutschland mitzugestalten.
+
+{: .center}
+![Flyer Sehnsuchtskarawane]({{site.imgpath}}{{page.imgfolder}}flyer_sehnsuchtskarawane_13februar_a.jpg)
+
+Sehnst auch du dich nach einer besseren Arbeit, besseren Bildungsmöglichkeiten, Abschaffung der Internetzensur oder nach etwas ganz Anderem?
+
+Die Sehnsuchtskarawane gibt deiner Sehnsucht eine Stimme! Wenn du zwischen 14 und 25 Jahren bist, melde dich auf www.sehnsuchtskarawane.de an und schicke deine Sehnsucht als Stern in den Himmel. Die Sehnsuchtskarawane soll ein Sprachrohr für alle jungen Menschen sein, die sich Gedanken um ihre Zukunft machen und sich durch dieses Projekt Gehör verschaffen wollen.
+
+In den weiteren Projektphasen zieht eine Karawane durch ganz Deutschland um die gesammelten Sehnsüchte nach außen zu tragen und das Unmögliche wahr zu machen:
+
+**Ein Kamel geht durch ein Nadelöhr.**
+
+Weitere Infos findest du auf <del>[www.sehnsuchtskarawane.de]( "Link existiert nicht mehr")</del>. Die Broschüre zum Projekt gibt’s <del>[hier]( "Link existiert nicht mehr")</del> und deine Sehnsucht in den Himmel schicken kannst du <del>[hier]( "Link existiert nicht mehr")</del> und Flyer gibt’s am <del>[Samstag in Dresden]( "Link existiert nicht mehr")</del>.
+
+ </div>
+ <div class="subarticle">
+### Teilnahme am Wettbewerb zum Deutschen Jugendfotopreis
+{: .date}
+16.02.2010
+
+Unser Zuckerieren-Projekt brachte eine so schicke [Foto-Lovestory](#zuckerieren) hervor, dass wir damit am Wettbewerb um den [Deutschen Jugendfotopreis](http://www.jugendfotopreis.de/) 2010 teilnehmen werden. Wie es der Zufall so wollte, ist das diesjährige Sonderthema "Wunderland" - und wer, wenn nicht wir kennt sich damit am Besten aus? Eingereicht wird das Werk in der Rubrik "Next Level".
+
+_**„Next Level“ – Forum für Imaging und digitale Fotokunst**  
+„Next Level 2010“ ist die Erweiterung des Sonderthemas „Wunderland“ um digitale Traumwelten und Simulationen: Bilder, die ohne den PC nicht möglich wären. Ob mit einem echten Foto als Ausgangspunkt oder als reine fotorealistische Bild-Erfindung. Bilder, die einen „digitalen Mehrwert“ haben und ihren künstlichen Charakter nicht verbergen. Einzelfotos, flash-animierte Sequenzen, virtuelle Panoramen, Experimente in den Grenzbereichen der Fotografie und Medienkunst. - Quelle: Jugendfotopreis-Ausschreibung_
+
+Wenn du auch an dem Wettbewerb teilnehmen möchstest, kannst du dich beim Jugendfotopreis anmelden.
+
+Drückt uns die Daumen, dass wir es schaffen und unsere Arbeit im September auf der [photokina](http://www.photokina.de/) in Köln ausgestellt wird.
+
+ </div>
+ <div class="subarticle">
+### Wunderland²
+{: .date}
+24.02.2010
+
+**Was ist ein Wunderland?  
+Wo liegt dein Wunderland?**
+
+Jeder hat seine ganz persönlichen Vorstellungen von einer idealen Welt. Zeige uns, was von deinem Wunderland auf eine 20 mal 20 cm² Fläche passt! Die Wahl der künstlerischen Technik ist völlig frei: Bleistift, Öl, Acryl, Fotodruck, Collagen oder auch etwas ganz Verrücktes.
+
+Aber die Welt verändern und sie unserer Utopie annähern, können wir nur gemeinsam. Deshalb wird dein Beitrag als Mosaikstein in das Bild aller [Wunderland²](#wunderlandhoch2)-Werke eingefügt. Im Rahmen der Wunderland-Ausstellung im Sommer 2010 kannst du das Gesamtwerk bewundern und viele der anderen KünstlerInnen kennen lernen.
+
+Die technischen Details in Stichworten:
+
+*   Sprich uns an unter <del>contact[at]mein-wunderland[punkt]eu</del> und du erhältst von uns eine Leinwand.
+*   Du kannst auch eine bereits bemalte Leinwand abgeben.
+*   Vereinbare mit uns einen Abgabetermin.
+*   Vielleicht hast du Lust, an weiteren Wunderland-Projekten teilzunehmen.
+*   **Einsendeschluss ist der 10. Mai 2010**
+
+ </div>
+ <div class="subarticle">
+### Werde Fan auf Facebook, studiVZ und Twitter
+{: .date}
+08.03.2010
+
+Jetzt endlich ist es soweit. In deinem Lieblingsnetzwerk kannst du uns nun zeigen, dass du ein echter Fan bist und allen deinen Freunden klarmachen, dass du dir dein Wunderland am Liebsten selber baust. Unter dem Motto "Wunderland the System!" erobern wir gemeinsam das Web 2.0.
+
+*   facebook: <del>[Wunderland the System!]( "Link existiert nicht mehr")</del>
+*   studiVZ: <del>[Wunderland the System!]( "Link existiert nicht mehr")</del>
+*   schuelerVZ: <del>[Wunderland the System!]( "Link existiert nicht mehr")</del>
+*   Twitter: <del>[@meinwunderland](http://twitter.com/meinwunderland)</del>
+*   kaioo: <del>[Gruppe: "Wunderland the System!"]( "Link existiert nicht mehr")</del>
+
+ </div>
+ <div class="subarticle">
+### Der Mensch als Erwartungswert
+{: .date}
+10.03.2010
+
+**Vortrag - Der Mensch als Erwartungswert: Probleme der Statistik am Beispiel "Ausländerkriminalität"**
+
+Ob Wahlkampf oder nicht, immer wieder wird das Problem "Ausländerkriminalität" aus dem Hut gezaubert. Wobei die pauschale Verurteilung, dass "Ausländer/innen" bzw. Menschen mit Migrationshintergrund nicht nur "anders", sondern per se auch kriminell sind, nicht selten das Hauptmotiv solcher Debatten ist.
+
+Zur Begründung werden auch immer wieder die Kriminalstatistiken der Polizei herangezogen. Auch das Empfinden vieler Einzelner korrespondiert durch persönliche Erfahrungen und die Berichterstattung bestimmter Medien mit dem Mythos der "Ausländerkriminalität".
+
+Was es jedoch mit diesen Statistiken auf sich hat und inwiefern überhaupt von einem Spezialproblemfeld "Ausländerkriminalität" gesprochen werden kann, wird von dem Referenten Tilman Loos erörtert werden.
+
+Mit anschließender Diskussionsrunde.
+
+Eingeladen sind alle Interessierten für den **29. März, 19.30 Uhr**  
+im [soziokulturellen Zentrum, **"Die Villa"**](http://www.villa-leipzig.de/)  
+**freier Eintritt**
+
+ </div>
+ <div class="subarticle">
+### BRIMBORIA-Kongress
+{: .date}
+04.04.2010
+
+Veranstaltungshinweis:
+
+Vom **16. bis 18. April** 2010 findet im **Westwerk** der **BRIMBORIA-Kongress** statt. Dabei geht es um das Spielen mit Fakes, beziehungsweise die subversive Strategie des Fake. Geboten wird ein reichhaltiges Angebot an ReferentInnen, Podiumsdiskussionen, Workshops zur Urkundenfälschung und allem, was das Fakerherz begehrt.  
+Ein Interview mit den Machern von BRIMBORIA findet sich [hier]({% post_url 2010-03-25-die-subversive-strategie-des-fake %}), <del>zur [Anmeldung geht's hier]( "Link existiert nicht mehr") lang</del> und allgemein zu [BRIMBORIA führt dieser Link](http://brimboria.net/projekte/von-uns/brimboria-kongress-2010/).
+
+ </div>
+ <div class="subarticle">
+### Wundersprüh - Graffiti-Workshop
+{: .date}
+05.04.2010
+
+Am 25. April sind alle Jugendlichen zwischen 13 und 18 Jahren herzlich in die Feinkost eingeladen. Wir wollen dabei nicht nur Techniken vermitteln, sondern mit euch auch eigene Werke mit eigenen Wunderland-Vorstellungen auf großen Holztafeln gestalten, welche später in die Fenster auf der Rückwand eingesetzt werden. Somit bleiben eure Bilder in luftiger Höhe als Dauerausstellung, die so schnell keiner übermalen kann, als Teil des Wunderlandes "Feinkost" erhalten. Am 4. Juni wird die Ausstellung mit unserer Abschlussveranstaltung "Multidimensionales Wunderland", ebenfalls in der Feinkost, feierlich präsentiert.
+
+Alle Informationen zum [Workshop findest du hier](#wundersprueh) <del>und zur [Anmeldung geht es hier]( "Link existiert nicht mehr") lang</del>.
+
+ </div>
+ <div class="subarticle">
+### Wundersprüh jetzt mit MOLOTOW
+{: .date}
+09.04.2010
+
+[![MOLOTOW]({{site.imgpath}}{{page.imgfolder}}logos/MOLOTOW_Logo_5cm_w.png)](http://www.molotow.com/)
+
+Dank dem freundlichen Sponsoring-Angebot von MOLOTOW können wir jetzt auch die guten MOLOTOW Premium für den Wundersprüh-Workshop anbieten. Die Angst, den Workshop mit schlechtem Autolack starten zu müssen war also völlig unbegründet. Das wird ein Spaß.
+
+ </div>
+ <div class="subarticle">
+### Ausländerkriminalität als Stream für zu Hause
+{: .date}
+16.04.2010
+
+Für alle, die den Vortrag von Tilman Loos (DIE LINKE) zum [Mythos Ausländerkriminalität](#auslaenderkriminalitaet) im März nicht besuchen konnten, gibt es diesen nun auch als Stream zum zu Hause anhören.
+
+[zum Vortrag](#auslnderkriminalitt)
+
+ </div>
+ <div class="subarticle">
+### Vernissage - Multidimensionales Wunderland
+{: .date}
+20.04.2010
+
+![Ausstellung geplant - Künstler und Künstlerinnen gesucht]({{site.imgpath}}{{page.imgfolder}}100415_Plakat_Kuenstler_gesucht_w.jpg)
+
+Das Ende des Projekts rückt näher und nun ist es an uns und an euch, ein reales Wunderland zu schaffen. Dies geschieht vom 4. Juni bis zum 2. Juli in den Räumen der Feinkost in Leipzig.
+
+Hierfür suchen wir dich als Kunstschaffenden um mit einem Werk zum eigenen Wunderland Teil einer gemeinsamen Utopie zu werden. Das Multidimensionale Wunderland soll dabei ein temporärer Ort sein, an dem ganz individuelle Vorstellungen von einer guten, besseren oder gar perfekten Gesellschaft beziehungsweise Welt aufeinander treffen.
+
+Auch zur Vernissage am 4. Juni 2010 möchten wir dich hiermit herzlich einladen.
+
+ </div>
+ <div class="subarticle">
+### Letzte Chance, sich für den Wundersprüh-Workshop anzumelden
+{: .date}
+22.04.2010
+
+Die Organisation ist auf Hochtouren. Die Dosen sind endlich da, am Freitag werden die Holztafeln grundiert. Drei super Referenten haben fest zugesagt und die letzten Plätze sind noch frei. <del>[Hier kannst du dich jetzt noch anmelden: **Wundersprüh**]( "Link existiert nicht mehr")</del> und alle Infos zum Workshop gibt es auf der [**Projektseite**](#wundersprueh).
+
+ </div>
+ <div class="subarticle">
+### Malusion zum Jugendkulturtag
+{: .date}
+12.05.2010
+
+Am **29. Mai 2010** findet wieder der [Jugendkulturtag](http://www.jugendkulturtag-frankenberg.de/) in **Frankenberg** statt, welcher alle zwei Jahre von der [LKJ Sachsen](http://www.lkj-sachsen.de) veranstaltet wird und ein reichhaltiges Programm an kulturellen Angeboten bietet.
+
+Dieses Jahr ist auch das Wunderland mit dabei. Raffael Jesche wird dort ab 13 Uhr im Friedenspark Malusionen durchführen. Die Werke, welche dort entstehen werden, fließen mit in die Wunderland-Ausstellung ein, welche ab dem 4. Juni 2010 auf dem Gelände der Feinkostgenossenschaft in Leipzig stattfinden wird.
+
+Zum Jugendkulturtag sind natürlich nicht nur Wunderland-Begeisterte eingeladen. Der Tag ist offen für alle und jeden und für jeden Geschmack ist etwas dabei. Ob Graffiti-Workshop, Breakdance-Battle, Volleyballturnier oder Konzerte - der Jugendkulturtag soll einfach Spaß machen.
+
+[Das komplette Programm des Jugendkulturtages](http://www.jugendkulturtag-frankenberg.de/jugendkulturtag/programm/)  
+[Was ist eine Malusion?](#malusion)  
+[Wo ist Frankenberg?](http://maps.google.de/maps?f=q&source=s_q&hl=de&geocode=&q=frankenberg&sll=51.151786,10.415039&sspn=11.943601,39.506836&ie=UTF8&hq=&hnear=Frankenberg%2FSa.&ll=51.065565,13.255005&spn=1.494714,4.938354&z=8)
+
+ </div>
+ <div class="subarticle">
+### Abgabeschluss der Werke und Beginn der Aufbauarbeiten am 24.05.10
+{: .date}
+22.05.2010
+
+Nachdem es nun viele Anfragen von Künstlerinnen und Künstlern gab, sich am Wunderland-Projekt zu beteiligen, ist die letzte Deadline zur Abgabe der Werke jetzt am **Montag, dem 24.05.10 von 10 bis 16 Uhr** in der Feinkost in Leipzig. Die Zeit wird außerdem genutzt um mit den ersten Aufbauarbeiten unseres Wunderlandes zu beginnen.  
+Wenn du uns bei den Vorbereitungen unterstützen möchtest, melde dich einfach über das <del>Kontaktformular oder per Telefon</del>.
+
+ </div>
+ <div class="subarticle">
+### Vernissage am Freitag, 4. Juni 18 Uhr in der Feinkost Leipzig
+{: .date}
+31.05.2010
+
+Am **4. Juni 2010 um 18 Uhr** findet die heißersehnte Vernissage zur Ausstellung “[Multidimensionales Wunderland](#multidimensionales-wunderland)” im Eishaus auf dem Gelände der Feinkostgenossenschaft in Leipzig statt. Damit wird die vierwöchige Abschlussausstellung des Projekts Wunderland eingeleitet und alle Werke, Projektergebnisse und auch Einreichungen zahlreicher weiterer Künstlerinnen und Künstler zu einem großen Gesamtkunstwerk arrangiert – dem multidimensionalen Wunderland. Es werden ca. 100 Werke von etwa ebenso vielen Kunstschaffenden präsentiert. Die genaue Anzahl der KünstlerInnen lässt sich nicht mehr ermitteln, da die wöchentlichen Malusionen und auch die Malusionen beim 8. landesweiten Jugendkulturtag in Frankenberg mehrere farbexplodierende Gemeinschaftswerke hervorgebracht haben. Alle Arbeiten stammen von kreativen Menschen zwischen 4 und 37 Jahren aus dem Raum Leipzig*.
+
+Die Vernissage startet um 18 Uhr mit einem Sektempfang und einem Redebeitrag. Anschließend findet eine Führung zur Westseite des Feinkosthofs statt, wo die Werke des Wundersprüh-Workshops in die Fenster eingesetzt sind. Nach einem kleinen Kulturprogramm klingt der Abend mit gemütlicher Atmosphäre, Kicker, Tischtennis und Musik in angenehmer Lautstärke aus. Viele der KünstlerInnen sowie die MacherInnen des Wunderland-Projekts werden vor Ort sein und können zu ihren Intensionen befragt werden.
+
+Neben zahlreichen Eindrücken wird es während der Ausstellungszeit auch weitere kreative Aktionen geben. Jeden Donnerstag werden Malusionen veranstaltet, wozu alle eingeladen sind. Anfang Juni werden auch die großen Tore auf dem Innenhof der Feinkost mit einem Wunderland-Graffiti besprüht werden und unregelmäßig werden weitere kleine Projekte stattfinden.
+
+**Die Öffnungszeiten sind:**
+
+Dienstag 16 – 21 Uhr  
+Donnerstag 16 – 24 Uhr (mit Malusion)  
+Freitag 16 – 21 Uhr  
+Sonntag 12-18 Uhr
+
+**Der Eintritt ist frei!**
+
+Wunderland ist ein Projekt der Jugendinitiative jeureka und wird durch das EU-Programm JUGEND in Aktion gefördert. Ziel ist es, sich kreativ mit politischen Themen auseinander zu setzen, Träume und Wünsche zu äußern sowie zu leben und junge Kreativität zu fördern. Nur dank der Hilfe unzähliger weiterer Unterstützerinnen und Unterstützer konnte das Projekt gestemmt werden. Vielen Dank auch an dieser Stelle an alle.
+
+*Raum Leipzig heißt in diesem Fall zwischen Schweiz, Jena, Frankenberg und Berlin.
+
+ </div>
+ <div class="subarticle">
+### Freiluftgalerie an der Westfassade der Feinkost
+{: .date}
+23.09.2010
+
+{: .center}
+![Freiluftgalerie an der Feinkost]({{site.imgpath}}{{page.imgfolder}}freiluftgalerie_w.jpg)
+
+Die Werke des Graffiti-Workshops [Wundersprüh](#wundersprueh) vom April 2010 sind nun in die Fenster der Feinkost-Westfassade eingesetzt. Dort bilden sie eine Freiluftgalerie, welche die eigentliche Ausstellung um Längen überdauert. Seit dem 12. August 2010 ist das Gerüst an der Rückwand des Feinkosthofs endlich abgebaut und die Galerie-Wand ist seitdem zu bestaunen. Da die Feinkost noch weitere Fenster besitzt, sind für den nächsten Sommer weitere Graffiti-Workshops geplant.  
+Alle Werke sind im Projektbereich [Wundersprüh](#wundersprueh) im Großformat zu sehen.
+
+ </div>
+ <div class="subarticle">
+### Alle Werke in der eGalerie
+{: .date}
+23.09.2010
+
+Sämtliche Werke sind jetzt auch im Internet. Die Dokumentation zum Wunderland-Projekt nähert sich dem Ende und (fast) alle Beiträge sind jetzt in der [eGalerie](#egalerie) zu bestaunen. Auch in den einzelnen Projektbereichen sind neue Fotos aufgetaucht. Es lohnt sich also, nocheinmal auf der ganzen Seite zu stöbern, das Wunderland Revue passieren zu lassen oder sich einfach an der Vielfalt der Werke und Beiträge zu ergötzen.
+
+ </div>
+ <div class="subarticle">
+### Malusion beim 2. deutschsprachigen Jugendforum in Wien
+{: .date}
+03.11.2010
+
+![Malusion beim Jugendforum in Wien]({{site.imgpath}}{{page.imgfolder}}jugendforum_malusion.jpg)  
+Vom 03. bis 05. November 2010 veranstalten die Nationalagenturen des Programms JUGEND in Aktion aus Belgien, Deutschland, Österreich, Schweiz, Liechtenstein und Luxemburg das [2. deutschsprachige Jugendforum](http://2007-2013.jugendinaktion.at/start.asp?ID=582&b=111) in Wien. Neben einem schicken Abendprogramm und Workshops zu den Schwerpunkkten Bildung, Teilhabe und Inklusion werden am 04. November auch zahlreiche Workshops durch die Teilnehmenden angeboten. Hier wird unser [Malusion](#malusion)skonzept vorgestellt und vielleicht ist es ja sogar in einem gerade mal zwei Stunden langen Workshop-Block möglich, ein neues komplettes Werk entstehen zu lassen. Wir dürfen gespannt sein...
+
+ </div>
+ <div class="subarticle">
+### erfolgreiche Malusion beim Jugendforum
+{: .date}
+04.11.2010
+
+{: .center}
+![Malusionsbild]({{site.imgpath}}{{page.imgfolder}}malusion_jugendforum_w.jpg)
+
+Zwei äußerst interessante Tage beim Jugendforum in Wien sind vorbei. Nach vielen Inputs, Impro-Theater, vielen Workshops und unheimlich vielen Menschen, die spanndende Projekte in ganz Europa machen, wurde heute auch fleißig malusioniert. Auch wenn das Bild zum Thema "europäisch gewürzt" noch weiße Flächen enthält, so sind wir heute in gerade mal zwei Stunden ganz schön weit gekommen. Freitag Nachmittag ist alles leider schon wieder vorbei. Bis dahin wird das Werk aber bestimmt noch fertiggestellt.
+
+ </div>
+ <div class="subarticle">
+### Remember Guru - Hip Hop Jam
+{: .date}
+29.03.2011
+
+Veranstaltungshinweis:
+
+Am 23. April 2011 gibt es wieder einen [Graffiti-Workshop]( "Link existiert nicht mehr"). Diesmal ist er im Conne Island und wird in ähnlicher Besetzung wie beim [Wundersprüh](#wundersprueh)-Workshop durchgeführt. Parallel finden außerdem Breakdance-, Rap- und Dj-Workshops statt. Unter dem Motto „Remember Guru – All 4 Hip Hop“, in Erinnerung an den 2010 verstorbenen Künstler Keith Edward Elam (Guru) der legendären Crew Gang Starr startet einen ganzen Tag lang eine interkulturelle Hip Hop Jam, mit Größen wie Simple One, Dj Friction oder Stylerkings. Außerdem können sich Hip Hop-Fans jeden Alters mit Graffiti-Battle, Skateboarding, Tischtennis, Kicker oder Basketball vergnügen.
+
+Die Workshops laufen von 12 bis 18 Uhr und kosten nur 4 €.
+
+Alle Infos auf: [all4hiphop.de](http://www.all4hiphop.de/2015/geschichte_a4hh/).
+
+ </div>
+ <div class="subarticle">
+### multip.LE:choice mit MaleLE-Malusion und Leipziger (Un)Wohlfühlräumen
+{: .date}
+18.05.2011
+
+![multip.LE:choice-Logo]({{site.imgpath}}/multip-le-choice/multiple-choice_logo_web.png)
+
+Am 23. Mai 2011 wird die Malusion mit dem LVZ-Charitiy-Projekt MaleLE kombiniert. Im abendlichen Kulturprogramm von [multip.LE:choice](/archiv/multip-le-choice/) finden außerdem unsere (Un)Wohlfühlräume von Leipzig inmitten einer großen Projektgalerie mal wieder einen geeigneten Platz. Der Eintritt ist frei.
+
+**Was ist [multip.LE:choice](/archiv/multip-le-choice/)?**  
+Tagsüber treffen Menschen, die schon einmal Projekte umgesetzt haben, bzw. sich engagieren aufeinander, tauschen Erfahrungen aus und erweitern ihre Kenntnisse im Projektmanagement. Anschließend wird eine Projektgalerie erstellt, welche abends ausgestellt wird. Im Abendprogramm können ProjektmacherInnen mit Gästen aus Politik und Kultur auf Augenhöhe miteinander ins Gespräch kommen, netzwerkeln oder sich einfach am Buffet und guter Musik erfreuen.
+
+**Was ist eine MaleLE-Malusion?**  
+Die [Malusion](#malusion) (= Malen + Diskussion), eine im Wunderland-Projekt entwickelte interaktive Methode zur kreativen Auseinandersetzung mit politischen Themen, wird mit dem LVZ-Charity-Projekt Male-LE kombiniert. Es entsteht ein Gemeinschaftswerk, welches später wieder in die einzelnen Male-LE-Bilder zerteilt wird. Somit entstehen ca. 16 Werke zum Thema "JUGEND in Aktion", die einzeln eingereicht werden. Auf den Rückseiten der Bilder werden Vermerke zur [multip.LE:choice-Website](/archiv/multip-le-choice/) hinterlassen, mit der Aufforderung, sie nach dem Verkauf [dort](/archiv/multip-le-choice/#malele-malusion) wieder virtuell zusammenzusetzen.
+
+[MaleLE]( "Link existiert nicht mehr") ist ein Charity-Projekt der Leipziger Volkszeitung. Jeder kann ein Bild einreichen. Diese werden später zu einem Einheitspreis nach einem Zufallsprinzip verkauft. Die Einreichungen etablierter KünstlerInnen bieten die Motivation, viele Bilder zu kaufen, auch ohne zu wissen, ob es eine Kinderzeichnung oder eine Wertanlage ist. Die Erlöse werden an gemeinnützige Einrichtungen in Leipzig gespendet.
+
+[multip.LE:choice](/archiv/multip-le-choice/) ist ein Projekt im Rahmen der europäischen Jugendwoche 2011 und wird dankenswerterweise unterstützt von JUGEND in Aktion.
 
 
 </article>
@@ -424,14 +781,13 @@ Unser kreativer Nachwuchs ist am 25.04.2010 in der Feinkost beim Graffiti-Worksh
 
 ### Förderer
 
-* [![Jugend für Europa - Deutsche Agentur Jugend in Aktion]({{site.imgpath}}{{page.imgfolder}}/logos/jfe-logo.png)](http://www.jugendfuereuropa.de/)
-* [![GD Bildung und Kultur - Programm "Jugend in Aktion"]({{site.imgpath}}{{page.imgfolder}}/logos/gd-logo.png)](http://www.jugend-in-aktion.de/)
+[![Jugend für Europa - Deutsche Agentur Jugend in Aktion]({{site.imgpath}}{{page.imgfolder}}logos/jfe-logo.png)](http://www.jugendfuereuropa.de/) [![GD Bildung und Kultur - Programm "Jugend in Aktion"]({{site.imgpath}}{{page.imgfolder}}logos/gd-logo.png)](http://www.jugend-in-aktion.de/)
 
 Dieses Projekt wurde mit Unterstützung der Europäischen Union durch das Programm JUGEND IN AKTION finanziert. Der Inhalt dieses Projektes gibt nicht notwendigerweise den Standpunkt der Europäischen Union oder der Nationalagentur JUGEND für Europa wieder und sie übernehmen dafür keine Haftung.
 
 ### Sponsoren & Spender
 
-* [![MOLOTOW]({{site.imgpath}}{{page.imgfolder}}/logos/MOLOTOW_Logo_5cm_w.png)](http://www.molotow.com/)
+* [![MOLOTOW]({{site.imgpath}}{{page.imgfolder}}logos/MOLOTOW_Logo_5cm_w.png)](http://www.molotow.com/)
 * OBI Probstheida
 
 ### Partner/Unterstützer:
