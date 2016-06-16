@@ -150,6 +150,21 @@ a {
   }
 }
 
+a[href$=".pdf"]{
+  background-image:url({{site.imgpath}}/icons/pdf.png);
+  background-repeat:no-repeat;
+  background-position:00% 50%;
+  padding-left:1em;
+}
+a[href$=".zip"]{
+  background-image:url({{site.imgpath}}/icons/zip.png);
+  background-repeat:no-repeat;
+  background-position:00% 50%;
+  padding-left:1em;
+}
+
+
+
 /********* object and image positioning *********/
 .center {
   margin:0 auto;
