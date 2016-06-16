@@ -1,7 +1,7 @@
 ---
 title: Stencil/Schablonen-Workshop
 category: Bildende Kunst
-image: 
+image: sonido_stencil_web.jpg
 
 Zielgruppe: Jugendliche
 

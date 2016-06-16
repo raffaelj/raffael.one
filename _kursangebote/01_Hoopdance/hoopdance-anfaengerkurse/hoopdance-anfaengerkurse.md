@@ -1,7 +1,7 @@
 ---
 title: Hoopdance - Anfängerkurse und Trick-Workshops
 category: Hoopdance
-image: 
+image: raffael-hoop_sw.jpg
 
 Zielgruppe: alle Altersklassen
 

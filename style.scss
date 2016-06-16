@@ -379,9 +379,6 @@ nav {
   margin:10px 0;
   padding:5px;
   border-top:1px solid $darkGrey;
-}
-
-.collection.referenzen {
   img {
     display:block;
     // margin: 1em auto;
@@ -397,6 +394,9 @@ nav {
     -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
     box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
   }
+}
+
+.collection.referenzen {
 }
 
 
@@ -426,9 +426,10 @@ section.meta {
   float:right;
   width:300px;
   max-width:33%;
-  padding-top:10px;
-  padding-right:10px;
-  padding-bottom:10px;
+  padding:10px;
+  // padding-top:10px;
+  // padding-right:10px;
+  // padding-bottom:10px;
   margin:0px 0 10px 10px;
   border:1px solid $darkGrey;
   border-bottom-left-radius:10px;

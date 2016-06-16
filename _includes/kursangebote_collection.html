@@ -7,7 +7,9 @@
 {% endfor %}
 {% endif %}
 {% if kurs.image %}
-<img src="{{kurs.url}}../{{kurs.image}}" alt="Bild" />
+  {% for image in kurs.image %}
+<img src="{{kurs.url}}../{{image}}" alt="Bild" />
+  {% endfor %}
 {% endif %}
 {{ kurs.content }}
 </div>

@@ -8,7 +8,9 @@
 {% endfor %}
 {% endif %}
 {% if referenz.image %}
-<img src="{{referenz.url}}../{{referenz.image}}" alt="Bild" />
+  {% for image in referenz.image %}
+<img src="{{referenz.url}}../{{image}}" alt="Bild" />
+  {% endfor %}
 {% endif %}
 {{ referenz.content }}
 </div>

@@ -1,7 +1,7 @@
 ---
 title: Malusion
 category: Bildende Kunst
-image: 
+image: jugendforum_malusion_01_w.jpg
 
 Zielgruppe: alle Altersklassen
 

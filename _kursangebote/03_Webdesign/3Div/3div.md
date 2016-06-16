@@ -1,7 +1,7 @@
 ---
 title: 3Div - Internetseiten in 3D - spielerisch HTML und CSS lernen
 category: Webdesign
-image: 
+image: 3div-tn-entwurf.jpg
 
 Zielgruppe: Jugendliche
 

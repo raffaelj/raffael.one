@@ -1,7 +1,9 @@
 ---
 title: Hoop Dance - LED-Reifenbau-Workshop
 category: Hoopdance
-image: 
+image:
+- led-reifen-bauen_01.jpg
+- led-reifen-bauen_02.jpg
 
 Zielgruppe: Jugendliche und Erwachsene
 

@@ -1,7 +1,7 @@
 ---
 title: Hoop Dance - Hula-Hoop-Reifen selber bauen
 category: Hoopdance
-image: 
+image: hula-hoop-reifen.jpg
 
 Zielgruppe: Jugendliche und Erwachsene
 
