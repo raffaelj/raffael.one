@@ -1,4 +1,4 @@
-<div class="gallery">{% if include.gallery %}{% capture path %}{{site.galpath}}/{{include.gallery}}/thumbs{% endcapture %}
-{% if include.title %}<h3>{{include.title}}</h3>{% endif %}{% for file in site.static_files %}{% if file.path contains path %}{% assign filename = file.path | split: "/" | last %}
-<a href="/{{site.galpath}}/{{include.gallery}}/large/{{filename}}" data-lightbox="{{ include.gallery }}"><img alt="Bild" class="thumbs{% if include.thumbs_size == "small" %} small{% endif %}" src="{{file.path}}" /></a>{% endif %}{% endfor %}{% else %}<p>Die Galerie gibt es nicht. Tippfehler...?</p>{% endif %}
+{% assign subinc = include.gallery | split:"/" %}{% assign g = site.data.gallery %}{% for item in subinc %}{% assign g = g.[item] %}{% endfor %}<div class="gallery">
+{% if {{g}} %}<h3>{{g.title}}</h3>
+{% for item in g.images %}<a class="thumbs" href="{{site.edata}}{{site.galpath}}{{g.album_folder}}/large/{{item.image}}" data-lightbox="{{ g.title }}" data-title="{{item.title}}"><img alt="{% if item.title %}{{item.title}}{% else %}Bild{% endif %}" src="{{site.edata}}{{site.galpath}}{{g.album_folder}}/thumbs/{{item.image}}" title="{{item.title}}" /></a>{% endfor %}{% else %}<p>Die Galerie gibt es nicht. Tippfehler...?</p>{% endif %}
 </div>
