@@ -5,6 +5,7 @@ date: 2015-11-07
 layout: post
 category:
 vita: ja
+archiv: true
 permalink: /archiv/multip-le-choice/
 header: multip-le-choice.jpg
 
@@ -27,25 +28,24 @@ role:
 tags:
 
 imgfolder: /multip-le-choice/
+
+description: "Projektmanagementseminar mit anschließender Projektgalerie, Party und PolitikerInnengespräch für jugendliche ProjektmacherInnen aus dem Raum Halle-Leipzig im Rahmen der europäischen Jugendwoche 2011"
 ---
-
-Projektmanagementseminar mit anschließender Projektgalerie, Party und PolitikerInnengespräch für jugendliche ProjektmacherInnen aus dem Raum Halle-Leipzig im Rahmen der europäischen Jugendwoche 2011
-
-<!--more-->
-----
 
 Dies ist eine Archivseite des Projekts 'multip.LE:choice'. Die Original-Internetseite ist offline, da es zu aufwändig ist, diese zu pflegen.
 
-multip.LE:choice ist ein Projekt von [Raffael Jesche](http://raffaeljesche.de) im Rahmen der [europäischen Jugendwoche 2011](http://www.youthweek.eu/)
+multip.LE:choice war ein Projekt von [Raffael Jesche](http://raffaeljesche.de) im Rahmen der [europäischen Jugendwoche 2011](http://www.youthweek.eu/)
 
 {:.small}
 Dieses Projekt wurde mit Unterstützung der Europäischen Union durch das Programm JUGEND IN AKTION finanziert. Der Inhalt dieses Projektes gibt nicht notwendigerweise den Standpunkt der Europäischen Union oder der Nationalagentur JUGEND für Europa wieder und sie übernehmen dafür keine Haftung.
 
+{: .center}
+![MaleLE-Malusion noch verschleiert]({{site.imgpath}}{{page.imgfolder}}header.jpg)
+
 * Inhaltsverzeichnis
 {:toc}
 
-{::options parse_block_html="true" /}
-<article class="post">
+
 # multip.LE:choice
 
 20 Jugendliche, 20 Projekte - 23. Mai 2011, 20 Uhr im Club Telegraph
@@ -79,12 +79,12 @@ Club Telgegraph: Dittrichring 18-20, 04109 Leipzig ([Anfahrtskarte]({{site.imgpa
 - Le 2012
 - [Interbrigadas](http://interbrigadas.org/)
 
-</article>
 
 
 
 
-<article class="post">
+
+
 ## Seminarprogramm
 
 - 12 Uhr: Teammanagement (Referent: Dominik Patté)
@@ -106,14 +106,14 @@ Der [Club Telegraph](http://www.cafe-telegraph.de/) befindet sich wenige Meter e
 Anfahrt:
 
 {:.center}
-[![]({{site.imgpath}}{{page.imgfolder}}anfahrtskarte_web.jpg)]({{site.imgpath}}{{page.imgfolder}}anfahrtskarte.jpg)
+[![Anfahrtskarte]({{site.imgpath}}{{page.imgfolder}}anfahrtskarte_web.jpg)]({{site.imgpath}}{{page.imgfolder}}anfahrtskarte.jpg)
 
 {:.caption}
 Ein Klick auf das Bild öffnet eine größere Karte.
 
-</article>
 
-<article class="post">
+
+
 ## MaleLE-Malusion
 
 Die [Malusion](/archiv/mein-wunderland-eu) (= Malen + Diskussion), eine im [Wunderland](/archiv/mein-wunderland-eu)-Projekt entwickelte interaktive Methode zur kreativen Auseinandersetzung mit politischen Themen, wird mit dem LVZ-Charity-Projekt Male-LE kombiniert. Es entsteht ein Gemeinschaftswerk, welches später wieder in die einzelnen Male-LE-Bilder zerteilt wird. Somit entstehen 8 Werke zum Thema JUGEND in Aktion, die einzeln eingereicht werden. Auf den Rückseiten der Bilder werden Vermerke zu dieser Website hinterlassen, mit der Aufforderung, sie nach dem Verkauf hier wieder virtuell zusammenzusetzen.
@@ -124,41 +124,42 @@ Am 4. September ab 11 Uhr startet das große <del title="Link nicht mehr verfüg
 
 Das Werk ist vollbracht:
 
+{: .center}
 ![MaleLE-Malusion noch verschleiert]({{site.imgpath}}{{page.imgfolder}}mLEc_malele-malusion_web.jpg)
 
 Ein paar Impressionen aus dem Bild:
 
+{: .center}
 ![MaleLE-Malusion Ausschnitt 01]({{site.imgpath}}{{page.imgfolder}}mLEc_malele-malusion_01_web.jpg)
 ![MaleLE-Malusion Ausschnitt 02]({{site.imgpath}}{{page.imgfolder}}mLEc_malele-malusion_02_web.jpg)
 ![MaleLE-Malusion Ausschnitt 03]({{site.imgpath}}{{page.imgfolder}}mLEc_malele-malusion_03_web.jpg)
 ![MaleLE-Malusion Ausschnitt 04]({{site.imgpath}}{{page.imgfolder}}mLEc_malele-malusion_04_web.jpg)
 
-</article>
-<article class="post">
+
+
 ## Presse
 
 ### Pressemitteilungen
 
 18.05.11 - "Jugendengagement in Halle und Leipzig - Workshops, Kulturprogramm und Dialog mit Entscheidungsträgern" als <del title="nicht mehr verfügbar">[PDF](#) oder als [Doc](#)</del>
 
-### Logos zum Download
+### Logos
 
-<del title="nicht mehr verfügbar">[Logo-Zip-Paket mit eps,png,svg (236kb): ](#)</del>
+{: .center .no-border}
 ![multip.LE:choice-Logo]({{site.imgpath}}{{page.imgfolder}}multiple-choice_logo_web.png)
 
-### Flyer zum Download
+### Flyer
 
-Als jpg, 72dpi oder als <del title="nicht mehr verfügbar">[PDF](#)</del>, 150dpi (808kb):
-
-![multip.LE:choice-Flyer vorn]({{site.imgpath}}{{page.imgfolder}}multip.LE-choice_flyer_vorn_web.png) 
+{: .center}
+![multip.LE:choice-Flyer vorn]({{site.imgpath}}{{page.imgfolder}}multip.LE-choice_flyer_vorn_web.png)
 ![multip.LE:choice-Flyer hinten]({{site.imgpath}}{{page.imgfolder}}multip.LE-choice_flyer_hinten_web.png)
 
 ### Pressespiegel
 
 folgt...
 
-</article>
-<article class="post">
+
+
 ## Partner und Förderer
 
 multip.LE:choice ist ein Projekt im Rahmen der [europäischen Jugendwoche 2011](http://www.youthweek.eu/).
@@ -181,8 +182,8 @@ Dieses Projekt wird dankenswerterweise unterstützt durch:
 - [EuroPeers](http://europeers.de)
 - <del title="Link nicht mehr verfügbar">[MaleLE](#)</del>
 
-</article>
-<article class="post">
+
+
 ## Dokumentation
 
 Für die europäische Jugendwoche 2011 unter dem Motto „JUGEND in Aktion wirkt!“ wollten wir keine Info-Veranstaltung machen, sondern lieber eine Nummer größer einsteigen. Die Idee von multip.LE:choice reifte heran und formte sich langsam zu einer reifen Frucht. Die ersten Schwierigkeiten traten allerdings schon während der Phase der Antragsstellung auf. Der gewünschte Raum auf dem Gelände der Feinkost-Genossenschaft konnte unseren gewachsenen Ansprüchen nicht mehr Stand halten und wir mussten auf Raumsuche gehen. Glücklicherweise fanden wir mit dem Europa-Haus-Leipzig e. V. und dem Club Telegraph zwei gute Kooperationspartner. Nachdem die Orte der Veranstaltung feststanden, konnten wir mit der Werbung beginnen. Die Website ging online und die Flyer in den Druck. Beim Einladen der Gäste aus Politik und Kultur mussten wir feststellen, dass am Tag unseres Projekts sowohl Bundestags-, als auch EU-Abgeordnete Sitzungstage und somit alle keine Zeit hatten. Dank der Zusage von Gisela Kallenbach fiel uns dann wieder ein großer Stein vom Herzen. Nachdem sich alles ein wenig verzögerte fanden sich in letzter Sekunde genügend Teilnehmende zusammen, die den lange geplanten Projekttag zu einem vollen Erfolg machten.
@@ -191,12 +192,14 @@ Für die europäische Jugendwoche 2011 unter dem Motto „JUGEND in Aktion wirkt
 
 Die Workshops thematisierten die Bereiche Teammanagement, Fundraising, Öffentlichkeitsarbeit, rechtlicher Rahmen und Vernetzung in Bezug auf Jugendinitiativen. Die Bearbeitung fand unter anderem in Kleingruppenarbeit unter der Anleitung von jugendlichen ReferentInnen statt. Anschließend wurde mit den Teilnehmenden eine Projektgalerie für die Abendveranstaltung erschaffen. Dabei wurden die Projekte (z.B. Brimboria, Wunderland, Interbrigadas, EuroPeers, Halle gegen Rechts, Front Deutscher Äpfel, Plattform e.V., Remember Guru) der Teilnehmenden mit Bezug auf JUGEND in Aktion diskutiert und verknüpft.
 
+{: .center}
 ![Workshop Vernetzung]({{site.imgpath}}{{page.imgfolder}}mLEc_ws_vernetzung.jpg)
 ![Erstellen der Projektgalerie]({{site.imgpath}}{{page.imgfolder}}mLEc_galerie.jpg)
 ![Erstellen der Projektgalerie]({{site.imgpath}}{{page.imgfolder}}mLEc_galerie_interbrigadas.jpg)
 
 Die zuvor erstellte Galerie wurde dann im Club Telegraph in Anwesenheit regionaler PolitikerInnen (Kallenbach, Knorr, Blunk, Carl Jesche) vorgestellt. Der folgende freie Austausch über die präsentierten Projekte wurde übergeleitet in „Tischrunden“ mit den geladenen PolitikerInnen. Dadurch wurde eine Vernetzung der jungen Aktiven mit VertreterInnen aus der Politik gefördert. Eine Inspiration zur Diskussion lieferten u. a. auf den Tischen verteilte multip.LE:choice-Fragebögen zu Jugendengagement und JUGEND in Aktion. Der weitere Abend wurde in lockerer Atmosphäre mittels eines vielseitigen, musikalischen Programms gestaltet. Sayes (Gregor Zocher, Workshopteilnehmer) eröffnete diesen mit interaktivem Live-Rap, an welchem sich das gesamte Publikum beteiligte. Anschließend trat Henrique Inglesias (Henry Rudolph, Mitorganisator) mit Gitarre und Gesang auf die Bühne. Hinterher wurden Tische und Stühle beiseite geräumt um den gelungenen Tag zu den Djs Curt Babeck und Robert Hecht gebührend zu feiern.
 
+{: .center}
 ![Sicht von der MaleLE-Malusion auf die Bühne]({{site.imgpath}}{{page.imgfolder}}mLEc_malusion_henrique.jpg)
 
 Parallel verewigten sich die Gäste mittels der MaleLE-Malusion. Mit dieser Methode wurde ein weiterer Umschlagplatz für Ideen, Konzepte und Vernetzung kreiert.
@@ -209,6 +212,7 @@ Die aus verschiedenen Bereichen kommenden Teilnehmenden konnten sich vernetzen u
 
 Die 19 Teilnehmenden, davon 10 Frauen und 9 Männer zw. 22 u. 29 J., waren größtenteils Studierende verschiedener Fachbereiche. Alle engagieren sich in sozialen, kulturellen oder politischen Zusammenhängen. Der Erfahrungsschatz reichte vom gelegentlichen Engagement in Vereinen bis hin zu internationalen Austauschprogrammen.
 
+{: .center}
 ![Jenny Mahla und Gisela Kallenbach]({{site.imgpath}}{{page.imgfolder}}mLEc_mahla_kallenbach.JPG)
 
 Neben Interessierten, Laufpublikum und weiteren engagierten Jugendlichen gelang es uns, Gisela Kallenbach (Bündnis 90/Die Grünen, sächsischer Landtag, ehemals Europaparlaments-Abgeordnete), Carl Jesche (Landesvorstand Neues Forum Sachsen, Mitglied Migrantenbeirat Leipzig) und einige Mitglieder der Partei Die LINKE (u. A. Rico Knorr, Jugendkoordinator linksjugend Sachsen und Fabian Blunck, Jugendpolitischer Sprecher Die Linke.Sachsen) als Publikum und für Diskussionen zu gewinnen. Über den Abend verteilt besuchten ca. 150 Personen multip.LE:choice.
@@ -225,22 +229,26 @@ Club Telegraph, Dittrichring 18-20, 04109 Leipzig
 
 Und nochmals Danke an alle WorkshopleiterInnen, Gäste, TeilnehmerInnen, MitorganisatorInnen, KooperationspartnerInnen, helfenden Hände, Förderer, Freunde und alle, die irgendwie mit dem Projekt zu tun hatten. Ohne euch hätten wir drei (Jenny, Henry und Raffael) den Tag so nicht gestalten können.
 
+{: .center}
 ![Blick ins Publikum]({{site.imgpath}}{{page.imgfolder}}mLEc_publikum.jpg)
 ![Sayes und Henrique Inglesias]({{site.imgpath}}{{page.imgfolder}}mLEc_musiker.jpg)
 ![Blick auf Malusion und Galerie]({{site.imgpath}}{{page.imgfolder}}mLEc_malusion_galerie.jpg)
 
-</article>
+
 
 
 {% assign posts = site.posts | where: 'project', 'multip.LE:choice' %}
 {% if posts.size != 0 %}
-<article class="post">
+
 ## weitere Artikel zum Thema
  {% for post in posts %}
-  <article class="post">
+  
  {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
  {{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">weiterlesen...</a>
-  </article>
+  
  {% endfor %}
-</article>
+
 {%endif%}
+
+{: .center}
+![MaleLE-Malusion noch verschleiert]({{site.imgpath}}{{page.imgfolder}}footer_logos.jpg)

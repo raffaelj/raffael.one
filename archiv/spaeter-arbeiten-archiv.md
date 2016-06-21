@@ -6,6 +6,7 @@ layout: post
 category:
 - Archiv
 vita: ja
+archiv: true
 permalink: /archiv/spaeter-arbeiten/
 header: spaeter-arbeiten_feinkost.jpg
 license: cc-by
@@ -77,8 +78,7 @@ Dies ist eine Archivseite des Projekts 'Später Arbeiten'. Die Original-Internet
 * Inhaltsverzeichnis
 {:toc}
 
-{::options parse_block_html="true" /}
-<article class="post">
+
 ## Startseite
 
 ### Guten Morgen! Und? Ausgeschlafen?
@@ -95,11 +95,11 @@ Ein Projekt im Rahmen des Projekts 100.000 EURO JOB –
 gefördert mit Mitteln der Kulturstiftung des Bundes im
 Programm „Arbeit in Zukunft“.
 
-{:.vertical-align}
+{: .vertical-align .no-border}
 [![100.000-EURO-JOB-Logo]({{site.imgpath}}{{page.imgfolder}}p.gif)](http://www.100.000-EURO-JOB.de)[![Kulturstiftung des Bundes-Logo]({{site.imgpath}}{{page.imgfolder}}bundeskulturstiftung.gif)](http://www.kulturstiftung-bund.de/arbeit)
-</article>
 
-<article class="post">
+
+
 ## Galerie
 
 Die Bilder zeigen Zufrühmorgens-, Frühmorgens- und Spätmorgensgesichter.
@@ -108,6 +108,7 @@ Meine Modelle* wurden teils an ihren freien Tagen, teils an Arbeitstagen "gewalt
 
 *Namen teilweise geändert
 
+{::options parse_block_html="true" /}
 <div class="spaeter_gallery">
 {% for model in page.models %}
 <a href="{{site.imgpath}}{{page.imgfolder}}{{page.imgfilename}}{{forloop.index}}_01.jpg"><img src="{{site.imgpath}}{{page.imgfolder}}{{page.imgfilename}}{{forloop.index}}_01_thumb.jpg" alt="verschlafenes Gesicht von {{model[0]}}" /></a>
@@ -119,10 +120,10 @@ Meine Modelle* wurden teils an ihren freien Tagen, teils an Arbeitstagen "gewalt
 {{ model[1].description }}
 {% endfor %}
 </div>
+{::options parse_block_html="false" /}
 
-</article>
 
-<article class="post">
+
 ## Dokumentation
 
 Angefangen hat alles damit, dass ich für das 100.000-EURO-JOB-Projektbüro die Infopost verpackt habe um mir ein paar Euro dazu zu verdienen. Im Laufe der Zeit ließ ich mich dazu überreden, eine Projektidee einzureichen und nach einem abendlichen Gespräch mit meinem Vater entstand die Idee, später zu arbeiten um sich entsprechend des eigenen Biorhythmus zu verhalten. Das Konzept war schnell geschrieben und nun ging der Wettlauf los, ob das Projekt gefördert werden sollte. Doch glücklicherweise landete es unter den 47 Projekten, denen jeweils ein bestimmter Teil der Fördersumme von 100.000 € zugesprochen wurde. „Später arbeiten“ war geboren.
@@ -137,9 +138,9 @@ Spaß gemacht hat es trotzdem, morgens in verstörte Gesichter zu blicken, unter
 
 {% include gallery.html gallery="spaeter-arbeiten" %}
 
-</article>
 
-<article class="post">
+
+
 ## Biorhythmus
 
 ### Morgenstund’
@@ -163,9 +164,9 @@ Im Dienstleistungsbereich sind gleitende Arbeitszeiten schon länger möglich: J
 Möge dieses Projekt ein Ansporn sein, dass die Entscheider ganz wirtschaftlich denken und ihren Angestellten Arbeitszeiten ermöglichen, zu denen diese auch ihr Bestes geben können. So kommt für das Unternehmen mehr heraus.
 
 Auch die möglichen verkehrspolitischen Konsequenzen flexiblerer Arbeitszeiten verdienen eine Untersuchung: Es fahren weniger unausgeschlafen und frustriert zur gleichen Zeit – vielleicht heißt das sogar, dass die Unfallzahlen auf dem Arbeitsweg sinken können. Nachdem schon lange erwiesen ist, dass die Lerchenmenschen bessere Schulnoten erzielen, würde mich auch ein solcher Effekt nicht verwundern. Man muss nur den Mut haben, neue Wege zu gehen, früher oder später!
-</article>
 
-<article class="post">
+
+
 ## Danksagung
 
 Nach langem Hin und Her ist die Ausstellung nun endlich zu Stande gekommen.
@@ -179,9 +180,9 @@ Und natürlich an das [100.000-EURO-JOB](http://100.000-euro-job.de)-Team, ohne 
 Danke auch an den [Freundeskreis Buchkinder e.V.](http://buchkinder.de/) für das Verleihen der Bilderrahmen.
 
 Und besonderer Dank geht an die [Feinkostgenossenschaft](http://www.feinkostgenossenschaft.de/), die mir vom 27.01.07 bis zum 19.02.07 die Möglichkeit gab, meine Fotos auszustellen.
-</article>
 
-<article class="post">
+
+
 ## Fazit
 
 ### Am Anfang...
@@ -199,9 +200,9 @@ Und besonderer Dank geht an die [Feinkostgenossenschaft](http://www.feinkostgeno
 ...konnten zahlreiche Besucher im InfoCafe der Feinkost Leipzig sehen, was ich viele Morgen live erlebt habe
 ...weiß ich, dass jeder Mensch seinen individuellen Biorhythmus hat, der zwar schon um 5, aber auch erst um 11 beginnen kann
 ...ist mir 100prozentig klar, dass mein Rhythmus nicht vor 7 beginnt, sondern eher später
-</article>
 
-<article class="post">
+
+
 ## Wanderausstellung
 
 Seit Juni 2010 ist eine Neuauflage der Später-Arbeiten-Ausstellung erschienen. Sie ist nun auf wetterfeste Bauplanen gedruckt und passt exakt auf zwei Bauzäune.
@@ -223,9 +224,9 @@ Bei Interesse, die Ausstellung auszuleihen oder mich mitsamt der Ausstellung auf
 {: .center}
 ![Später Arbeiten auf Plane 2]({{site.imgpath}}{{page.imgfolder}}spaeter-arbeiten_b.jpg)
 
-</article>
 
-<article class="post">
+
+
 ## Credits und Bildnachweise
 
 [Raffael Jesche](http://raffaeljesche.de) in Kooperation mit [Hello Studios](http://hellostudios.de/)
@@ -239,21 +240,21 @@ Ein Projekt im Rahmen des Projekts 100.000 EURO JOB –
 gefördert mit Mitteln der Kulturstiftung des Bundes im
 Programm „Arbeit in Zukunft“.
 
-{:.vertical-align}
+{: .vertical-align .no-border}
 [![100.000-EURO-JOB-Logo]({{site.imgpath}}{{page.imgfolder}}p.gif)](http://www.100.000-EURO-JOB.de) [![Bundeskulturstiftung-Logo]({{site.imgpath}}{{page.imgfolder}}bundeskulturstiftung.gif)](http://www.kulturstiftung-bund.de/arbeit)
-</article>
+
 
 
 
 {% assign posts = site.posts | where: 'project', 'Später Arbeiten' %}
 {% if posts.size != 0 %}
-<article class="post">
+
 ## weitere Artikel zum Thema
  {% for post in posts %}
-  <article class="post">
+  
  {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
  {{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">weiterlesen...</a>
-  </article>
+  
  {% endfor %}
-</article>
+
 {%endif%}

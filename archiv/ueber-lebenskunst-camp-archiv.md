@@ -7,6 +7,7 @@ categories:
 - Archiv
 - Blog
 vita: ja
+archiv: true
 permalink: /archiv/ueber-lebenskunst-camp/
 header: uelk-camp.jpg
 
@@ -34,11 +35,12 @@ todo:
 - Bildergalerien
 ---
 
-Für das Festival [ÜBER LEBENSKUNST](http://www.ueber-lebenskunst.org/), vom 17. - 21. August im Haus der Kulturen der Welt in Berlin, organisierte ich mit einigen weiteren jungen Menschen aus Halle und Leipzig ein Begleitcamp für rund 30 junge Erwachsene. Wir wohnten in einem Habitat aus Baugerüsten auf engstem Raum direkt neben dem HKW, schwärmten morgens aus um alle Veranstaltungen zu besuchen und diese abends in der Gruppe auszuwerten. Am letzten Tag zeigten wir die Ergebnisse in Form einer großen Abschlussperformance.
+Für das Festival [ÜBER LEBENSKUNST](http://www.ueber-lebenskunst.org/), vom 17. - 21. August im Haus der Kulturen der Welt in Berlin, organisierte ich mit einigen weiteren jungen Menschen aus Halle und Leipzig ein Begleitcamp für rund 30 junge Erwachsene. Wir wohnten in einem Habitat aus Baugerüsten auf engstem Raum direkt neben dem [Haus der Kulturen der Welt](https://www.hkw.de), schwärmten morgens aus um alle Veranstaltungen zu besuchen und diese abends in der Gruppe auszuwerten. Am letzten Tag zeigten wir die Ergebnisse in Form einer großen Abschlussperformance.
 
 Das Kernteam bestand aus Max Upravitelev, Jenny Mahla, Henry Rudolph, Ute Larsen, Alf Thum, Anja Danilina und mir.
 
-![]({{site.imgfolder}}{{page.imgfolder}}uelk-camp_startbild_web.jpg)
+{: .center}
+![Bild]({{site.imgpath}}{{page.imgfolder}}uelk-camp_startbild_web.jpg)
 
 Das Habitat, welches wir bewohnen durften, wurde im Vorfeld des Festivals von den ArchitektInnen Marius Busch, Max Graap und Gesa Schatte in liebevoller Grobarbeit zusammengebaut. Der Aufbau ist in folgendem Video dokumentiert:
 
@@ -53,7 +55,7 @@ Da es zu unvorhergesehen Problemen mit der Kameratechnik kam, gibt es nur ein Vi
 Wem der nachfolgende Blog nicht ausreicht, der kann bei [Katharina](http://www.katharina-weise.info) noch weiterlesen. Sie 
  hat auch ein paar Tage miterlebt und ein paar Zeilen [dazu geschrieben](http://www.katharina-weise.info/wp/tag/uber-lebenskunst/).
 
-## Archiv des Camp-Blogs
+**Archiv des Camp-Blogs**
 
 Leider haben es die Inhalte unseres Camp-Blogs nicht in das [ÜBER LEBENSKUNST.ARCHIV](http://www.ueber-lebenskunst.org/) geschafft. Dank der [Internet Archive WaybackMachine](http://web.archive.org/web/20120101162545/http://www.ueber-lebenskunst.org/camp) und meiner gut sortierten Datensammlung war ich aber in der Lage, den verloren gegangenen Blog des ÜBER LEBENSKUNST.Camp zu retten und sogar alle fehlenden Bilder wiederzufinden und einzupflegen.
 
@@ -61,10 +63,8 @@ Leider haben es die Inhalte unseres Camp-Blogs nicht in das [ÜBER LEBENSKUNST.A
 * Inhaltsverzeichnis
 {:toc}
 
-{::options parse_block_html="true" /}
 
 
-<article class="post">
 
 
 ## ÜBER LEBENSKUNST.Camp
@@ -73,16 +73,19 @@ Wie wirkt der Diskurs über die prognostizierten Auswirkungen des Klimawandels a
 
 Um ihre Perspektive den gebührenden Raum im Festival zu geben, wurden 35 junge Erwachsene dazu eingeladen das Festivalprogramm kritisch zu begleiten und ihre Ideen und Anregungen einzubringen. Das Campteam hat sich zur Aufgabe gesetzt die Aktionen, künstlerischen Positionen und theoretischen Diskurse zu verfolgen und auf ihre Stichhaltigkeit zu überprüfen. Im Garten des Hauses der Kulturen der Welt wird dazu ein Camp aufgeschlagen, in dem die Campteilnehmer_innen vier Tage lang experimentell Kunst anwenden und Wohnen mit Arbeiten verbinden werden. Als Ergebnis des Camps entsteht eine performative Deklaration, die am Sonntag (21. August) präsentiert werden und schlaglichtartig eine prägnant zugespitzte Momentaufnahme der aktuellen Debatte darstellen wird.
 
-</article>
 
 
-<article class="post">
+## Blog
+
+
+
+### Festival ÜBER LEBENSKUNST.Camp
+
 {:.date}
 03.08.2011, 12:52, von *Orga-Team*
 
-## Festival ÜBER LEBENSKUNST.Camp
-
-![]({{site.imgfolder}}{{page.imgfolder}}banner_allgemein_01.jpg)
+{: .center}
+![Bild]({{site.imgpath}}{{page.imgfolder}}banner_allgemein_01.jpg)
 
 Wir suchen für das Camp 35 junge Erwachsene im Alter von 18 bis 25, die mit uns 5 Tage lang in einem extra für uns angelegten Camp direkt am Haus der Kulturen der Welt wohnen und die Veranstaltungen besuchen um diese kritisch zu hinterfragen.
 
@@ -103,18 +106,20 @@ Für Unterkunft in speziell eingerichteten und gestalteten Räumlichkeiten und V
 Neben dem Arbeiten wird es natürlich ein breit gefächertes Programm der Abend- und Nachtgestaltung geben.
 Rückmeldungen und Fragen schickt ihr bitte gern so bald wie möglich, aber spätestens bis 1.August an:
 camp [at] ueber-lebenskunst.org
-</article>
 
 
-<article class="post">
+
+
+
+### Die Nachschau der Vorbereitung
+
 {:.date}
 03.08.2011, 13:11, von *Orga-Team*
 
-## Die Nachschau der Vorbereitung
+{: .center}
+![Bild]({{site.imgpath}}{{page.imgfolder}}banner_uelk_vbs.jpg)
 
-![]({{site.imgfolder}}{{page.imgfolder}}banner_uelk_vbs.jpg)
-
-{:.caption}
+{: .caption .center}
 Festival ÜBER LEBENSKUNST  – Vorbereitungsseminar des Camps
 
 Fünfzehn junge Menschen, ein Tag, ein Vorbereitungstreffen – um der Vorstellungskraft der zukünftigen Campioniere auf die Sprünge zu helfen, trafen sich die Macher_innen am 09. Juli 2011 im Haus der Kulturen der Welt (HKW).
@@ -123,35 +128,40 @@ Neben der Organisation des Zusammenlebens von fünfzehn sich bis dato völlig un
 
 **Impressionen vom Vorbereitungstreffen**
 
-![]({{site.imgfolder}}{{page.imgfolder}}uelk-vbs_01.jpg)
-![]({{site.imgfolder}}{{page.imgfolder}}uelk-vbs_02.jpg)
+{: .center}
+![Bild]({{site.imgpath}}{{page.imgfolder}}uelk-vbs_01.jpg)
+![Bild]({{site.imgpath}}{{page.imgfolder}}uelk-vbs_02.jpg)
 
-{:.caption}
-Wir bekommen einen Einblick die vielen Facetten des Festivals...
+{: .caption .center}
+Wir bekommen einen Einblick in die vielen Facetten des Festivals...
 
 
-![]({{site.imgfolder}}{{page.imgfolder}}uelk-vbs_03.jpg)
-![]({{site.imgfolder}}{{page.imgfolder}}uelk-vbs_04.jpg)
+{: .center}
+![Bild]({{site.imgpath}}{{page.imgfolder}}uelk-vbs_03.jpg)
+![Bild]({{site.imgpath}}{{page.imgfolder}}uelk-vbs_04.jpg)
 
-{:.caption}
+{: .caption .center}
 ... und diskutieren anschließend darüber, wie es weitergeht.
 
-![]({{site.imgfolder}}{{page.imgfolder}}habitat-modell_01.jpg)
-![]({{site.imgfolder}}{{page.imgfolder}}habitat-modell_02.jpg)
+{: .center}
+![Bild]({{site.imgpath}}{{page.imgfolder}}habitat-modell_01.jpg)
+![Bild]({{site.imgpath}}{{page.imgfolder}}habitat-modell_02.jpg)
 
-{:.caption}
+{: .caption .center}
 Ungefähr so wird das Camp dann aussehen (Der Entwurf vom Habitat ist leider nicht ganz aktuell).
 
-</article>
 
 
-<article class="post">
+
+
+
+### LEERSTELLEN.FÜLLER #1
+
 {:.date}
 18.08.2011, 15:42
 
-## LEERSTELLEN.FÜLLER #1
-
-![]({{site.imgfolder}}{{page.imgfolder}}banner_camp-meldung_01.jpg)
+{: .center}
+![Bild]({{site.imgpath}}{{page.imgfolder}}banner_camp-meldung_01.jpg)
 
 Das ÜBER LEBENSKUNST.Camp (ÜLK.C) schickt sich an dem Festival auf den Haifischzahn zu fühlen. Der erste Tag des Festivals hat begonnen an dem die Campteilnehmer_Innen wie freie Radikale in die seit 12.oo Uhr laufenden Veranstaltungen einfallen. Kleine Denkzellen formieren sich um die Debatten, Podien, Gespräche zu verfolgen, Stimmungslagen abzutasten und sich ein erstes Bild vom Wirken des Makroorganismus Überlebenskunst Festival zu machen.
 
@@ -159,16 +169,18 @@ Das Haus der Kulturen der Welt beherbergt dieses morphende Wesen, das sich das M
 
 Die Campbewohner_Innen fungieren als Denkzellen, fluktuierend zwischen Zentralem Nervensystem, Verdauungstrakt und Großhirnrinde. Produkte dieses Tuns folgen in Kürze. *Tom*
 
-</article>
 
 
-<article class="post">
+
+
+
+### Das Über-Lebenskunst Camp
+
 {:.date}
 19.08.2011, 14:48, von *Tanja*
 
-## Das Über-Lebenskunst Camp
-
-![]({{site.imgfolder}}{{page.imgfolder}}banner_04.jpg)
+{: .center}
+![Bild]({{site.imgpath}}{{page.imgfolder}}banner_04.jpg)
 
 Überleben werden die TeilnehmerInnen des Camps garantiert. Aber es geht auch vielmehr darum über das Leben auf dieser Erde und neue Wege zur Nachhaltigkeit zu diskutieren. Einen Wohnraum im Hinterhof des Hauses der Kulturen der Welt zu schaffen, steht genau im Kontext des Überlebenskunstfestivals. Drei ArchitekturestudentInnen der TU Berlin haben ein Haus aus Gerüstbaustangen und Spanplatten konstruiert, in dem 35 junge Menschen für fünf Tage eingezogen sind.
 
@@ -181,16 +193,18 @@ Während sich die Gruppe Lebenspraxis mit individuellen und kollektiven Praktike
 In den bisherigen Gruppendiskussionen war  das Verhältnis von Konsum und Nachhaltigkeit ganz zentral. Mit Fragen, wie: „Brauchen wir Verzicht?“ oder „Was wird zuerst sterben, der Kapitalismus oder unsere Erde?“ , werden sich die TeilnehmerInnen auch in den nächsten Tagen des Festivals auseinandersetzen.
 
 
-</article>
 
 
-<article class="post">
+
+
+
+### LEERSTELLEN.FÜLLER #2
+
 {:.date}
 19.08.2011, 14:54, von *Tom*
 
-## LEERSTELLEN.FÜLLER #2
-
-![]({{site.imgfolder}}{{page.imgfolder}}banner_05.jpg)
+{: .center}
+![Bild]({{site.imgpath}}{{page.imgfolder}}banner_05.jpg)
 
 Das Habitat wird in dieser zweiten Nacht zur Metapher. Die Bewohner_Innen der drei Etagen, in ihrer Struktur eine beeindruckende Analogie zur Struktur der Gesellschaft, erleben ein feuchtfröhliches Unwetter mit proto-apokalyptischen Ausmaßen.
 
@@ -199,14 +213,15 @@ Der uns umgebende Tiergarten erzeugt eine ganz eigene Klimazone. Die beste Vorbe
 In der Konsequenz wurde die Campstruktur von einer Welle erfasst. Die Bewohner_Innen der ersten und zweiten Etage (ca. 25 von 32) mussten aus ihren nassgewordenen Zellen in das benachbarte Haus der Kulturen der Welt entfluchten. Während die unteren Decks geflutet wurden, begibt sich die Oberklasse in die trockenen Kabinen. Und wartet auf die Taube.
 
 
-</article>
 
 
-<article class="post">
+
+
+
+### Klub der Perspektiven – Donnerstag, 18.8.2011
+
 {:.date}
 21.08.2011, 11:44, von *Anika*
-
-## Klub der Perspektiven – Donnerstag, 18.8.2011
 
 Täglich wird in den kommenden Tagen ab 17.30 Uhr im Café Global der „Klub der Perspektiven„ stattfinden. In diesem Format präsentieren die Überlebenkunst.Camp-Teilnehmer_innen die Ergebnisse ihrer Arbeitsgruppen der Öffentlichkeit, um diese gemeinsam zu diskutieren. Um die Themenstränge des Festivals, wie Wohlstand und Glücksversprechen, gesellschaftliches Handeln, Potenziale des postfossilen Zeitalters und die Frage nach dem Wirken von Staatlichkeit zu fassen, wurden Perspektivgruppen gebildet.
 
@@ -222,14 +237,15 @@ Die Gruppe „globale Disparitäten“ knüpfte daran an und betonte das Gefäll
 Unter diesen Perspektiven und vielen Fragestellung im Kopf werden die Camp-Teilnehmer_innen auch die nächsten Tage die Veranstaltungen des Überlebenskunstfestivals kritisch durchleuchten.
 
 
-</article>
 
 
-<article class="post">
+
+
+
+### Klub der Perspektiven – Freitag, 19. August 2011
+
 {:.date}
 21.08.2011, 11:49, von *Anika*
-
-## Klub der Perspektiven – Freitag, 19. August 2011
 
 Die „freien Radikalen“ betonten, dass aus einer philosophisch-künstlerischen Perspektive es vor allem ein zentrales Anliegen sein sollte, das Bewusstsein dafür zu sensibilisieren, dass es eine Krise zu lösen gibt, um das Fortbestehen der Menschheit zu sichern. Dazu sollte gemeinsam nach Lösungen gesucht werden. Dieser Suchprozess sollte sowohl auf der individuellen sowie auf der gemeinschaftlichen Ebene stattfinden. Eine Systemtransformation zur Postwachstums-Gesellschaft kann nur durch eine Gleichzeitigkeit von Lebenspraxis und einem internationalen Erstarken von sozialen Bewegungen erreicht werden. Die Gruppe warf die Frage nach den Beziehungsgefügen zwischen Mensch, Geld, Konsum und Umwelt auf und welches Menschenbild dem zugrunde liegt.
 
@@ -247,14 +263,15 @@ Die Gruppe zur „politischen Ökonomie“ postulierte, dass im Zusammenhang mit
 Das Scheitern der Klimaverhandlungen verdeutlicht die Unfähigkeit der Staaten adäquat zu handeln. Dennoch kann der Staat als Regulator auftreten, wenn eine Kooperation innerhalb der internationalen Staatengemeinschaft gefördert werden würde. Eine entsprechende Utopie ist die Idee einer demokratischen Weltregierung.
 
 
-</article>
 
 
-<article class="post">
+
+
+
+### Das Überlebenskunstcamp in Aktion
+
 {:.date}
 21.08.2011, 11:51, von *Tanja*
-
-## Das Überlebenskunstcamp in Aktion
 
 Mittlerweile haben die CampbewohnerInnen vier Tage im Hinterhof des Hauses der Kulturen der Welt überlebt. Diskutiert wurde bisher schon viel. Nun griffen die TeilnehmerInnen mit eigenen Performances in das Festivalgeschehen ein.
 
@@ -266,4 +283,8 @@ Der darauffolgende Klub der Perspektiven wertete die Aktionen aus. Außerdem fas
 
 Mit dem Publikum diskutierten die BewohnerInnen des Camps anschließend über die Formen der energiesparsameren Mobilität. Zusätzlich wurde die entstandene Öko-Szene thematisiert und Maßnahmen besprochen, mit denen Druck zum Handeln auf politischen Institutionen ausgeübt werden können.
 
-</article>
+
+
+## Fotos vom Camp
+
+{% include gallery.html gallery="ueber-lebenskunst-camp" %}
