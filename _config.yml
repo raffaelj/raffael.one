@@ -12,7 +12,7 @@ exclude:
   - CNAME
 
 include:
-  - galerie
+#  - galerie
   - _pages
   - archiv
 
@@ -20,7 +20,7 @@ url: http://raffael.one
 # url: http://raffaelj.github.io
 base: "/raffael.one"
 imgpath: /images
-galpath: galerie
+galpath: /gallery
 
 # externes Dateien-Lager
 edata: http://data.raffael.one
@@ -34,6 +34,9 @@ paginate_path: "/blog/page:num/"
 permalink: pretty
 
 collections:
+  gallery:
+    output: true
+    permalink: /gallery/:path/
   kursangebote:
     output: true
     permalink: /kurse/:path/
