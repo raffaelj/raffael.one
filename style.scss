@@ -27,6 +27,7 @@ $orange: {{ c.orange }};
 $darkGrey: {{ c.darkGrey }};
 $bronze: {{ c.bronze }};
 $gold: {{ c.gold }};
+$grey: #888;
 
 // Colors transparent
 // $transparency: .3;
@@ -117,7 +118,8 @@ body {
 }
 h1,h2,h3,h4,h5,h6 {font-family:$font;}
 h1 {
-  
+  margin:.5em 0 .3em 0;
+  font-size:1.8em;
 }
 h2 {
   margin:.5em 0 .3em 0;
@@ -139,6 +141,17 @@ h6 {
 p {
   padding-bottom:.5em;
   line-height: 2em;
+}
+
+p.small, .date, .caption,
+span.small{
+  font-size:.8em;
+  line-height:1em;
+  color:$grey;
+  margin:2px 0;
+}
+.date {
+  font-style: italic;
 }
 a {
   color: $magenta2;
@@ -163,6 +176,15 @@ a[href$=".zip"]{
   padding-left:1em;
 }
 
+blockquote {
+  border-left: 4px solid $grey;
+  margin-left:.5em;
+  padding-left:.5em;
+  
+  p {
+    font-style:italic;
+  }
+}
 
 
 /********* object and image positioning *********/
@@ -289,12 +311,16 @@ main {
     width:100%;
     clear:both;//float nach collections zurücksetzen
   }
+  > h2 {
+    margin-top:.2em;
+  }
   ul,ol {
     list-style-position:inside;
     list-style-type:disc;
     padding-left:.5em;
     margin-bottom:.5em;
   }
+  li p {display:inline;} // kramdown-Bug - rendert das manchmal falsch, wodurch die Listen zerschossen werden und p innerhalb von li auftaucht
 }
 
 footer {
@@ -419,8 +445,10 @@ section.meta {
   float:right;
   width:300px;
   max-width:33%;
-  padding:10px;
   margin:0 0 10px 10px;
+  padding:10px;
+  font-size:.9em;
+  line-height:1.6em;
   border: 1px solid $darkGrey;
   border-bottom-left-radius:10px;
   background-color:$weiss;
@@ -429,7 +457,17 @@ section.meta {
     width:100%;
   }
   h2 {
+    margin-top:0;
     text-align:center;
+    border-bottom: 1px dashed $grey;
+    margin-bottom:.3em;
+    padding-bottom:.2em;
+    font-size:1.3em;
+    font-weight:normal;
+  }
+  p {
+    line-height:inherit;
+    padding-bottom:0;
   }
 }
 
@@ -456,11 +494,35 @@ section.meta {
   
   list-style-type:circle;
   list-style-position:outside;
-  padding-left:1.5em;
-  font-size:.8em;
+  font-size:.9em;
+  li {
+    margin-left:1em;
+  }
+  ul {
+    padding-left:0;
+    list-style-type:square;
+    li {margin-left:0;}
+    ul {
+      // padding-left:.5em;
+      padding-left:1em;
+      list-style-type:circle;
+      li {
+        // margin-left:1em;
+      }
+    }
+  }
+  a {
+    color:$darkGrey;
+  }
   &:before {
     content: "Inhaltsverzeichnis";
-    padding:0 2px 2px 0px;
+    display:block;
+    // padding:0 2px 2px 0px;
+    font-size:1.3em;
+    text-align:center;
+    border-bottom: 1px dashed $grey;
+    margin-bottom:.3em;
+    padding-bottom:.2em;
   }
   
   // @include breakpoint(verysmall) {
@@ -489,6 +551,13 @@ main p img {
   -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
   box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
 }
+main p.no-border img {
+  background-color:inherit;
+  border:none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
 
 /************ Galerie ************/
 .gallery {
@@ -500,9 +569,14 @@ main p img {
   }
 }
 a.thumbs {
-  display:block;
-  width: 202px;
-  margin:4px 24px 4px 24px;
+  // display:inline-block;
+  // width: 202px;
+  margin:.5em;
+  background:$weiss;
+  border: 9px solid $darkGrey;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
   img {
     display:block;
     width:100%;
