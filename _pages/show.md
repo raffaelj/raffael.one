@@ -1,21 +1,7 @@
 ---
 title: Hoopdance, Poledance & Feuershows
-description: "Improvisation mit Hula Hoop Reifen, Hoopdance- und Poledance-Shows mit Lichteffekten durch LEDs und Feuer - Ich tanze auch auf Ihrer Hochzeit und mache mit artistischen Showeinlagen Familienfeiern, Partys oder Gala-Events zu unvergesslichen Ereignissen."
 permalink: /show-tanz-feuer/
----
 
-{% comment %}
-Hoopdance, Poledance, Performance, Feuershows
-
-Installation, Deko/Bühnenbild, Licht
-
-
-
-layout: post
-title: Tanz
-permalink: /dancing/
-class: dancing
-imgfolder: /dancing/
 categories: 
 - Tanz
 tags: 
@@ -28,20 +14,19 @@ tags:
 - Hoop Pole
 - hoopole
 - LED Hoop
-description: 
-published: true
+
+description: "Improvisation mit Hula Hoop Reifen, Hoopdance- und Poledance-Shows mit Lichteffekten durch LEDs und Feuer - Ich tanze auch auf Ihrer Hochzeit und mache mit artistischen Showeinlagen Familienfeiern, Partys oder Gala-Events zu unvergesslichen Ereignissen."
 
 todo:
-- Einleitung schreiben
-- Booking-Info präsent platzieren
-- CSS - Farbgebung mehr antrazit+bronze statt grau
-- Text zu Pole Dance
-- Text zu Was liebe ich am Tanzen?
-- Text zu Hoop Dance
-- Text zu Feuershows
-- Foto zu Feuershows
-- Inhalte ggf. in Unterseiten auslagern und schick verlinken
-{% endcomment %}
+- "[x] Einleitung schreiben"
+- "[ ] Booking-Info präsent platzieren"
+- "[ ] Text zu Pole Dance"
+- "[ ] Text zu Was liebe ich am Tanzen?"
+- "[ ] Text zu Hoop Dance"
+- "[ ] Text zu Feuershows"
+- "[ ] Foto zu Feuershows"
+- "[ ] Inhalte ggf. in Unterseiten auslagern und schick verlinken"
+---
 
 * Inhaltsverzeichnis
 {:toc}
@@ -64,6 +49,7 @@ Bei Bedarf an weiterer Ausgestaltung Ihrer Veranstaltung kann ich mittlerweile a
 
 **schönes Video**
 
+{: .center}
 ![Raffael mit Reifen]({{site.imgpath}}/DSC05547_500px.jpg)
 
 
@@ -79,8 +65,10 @@ Poledance Lola Leipzig e. V.
 
 **schönes Video**
 
+{: .center}
 ![Hoop-Pole Halloween 2015 Sixtina]({{site.imgpath}}/raffael_hoop-pole_halloween2015_sixtina_probe.jpg)
 
+{: .center}
 ![Hoop-Pole Halloween 2015 Sixtina]({{site.imgpath}}/raffael_hoop-pole_halloween2015_sixtina_c-chico.jpg "c: Chico")
 
 
@@ -99,6 +87,7 @@ Poledance Lola Leipzig e. V.
 
 Lange war mir nicht bewusst, dass ich das Tanzen liebe. Natürlich habe ich auf Partys, Festivals und Konzerten getanzt. Es beschränkte sich aber viele Jahre auf das Ausleben eines abendlichen Bewegungsdrangs mit leicht angehobenem Alkoholpegel - zumindest in der Öffentlichkeit. Zu Hause habe ich heimlich getanzt während ich alle möglichen Tanzfilme rauf und runter geguckt habe. Zugegeben, die Handlung ist in den meisten Tanzfilmen überschauber, aber sie sind inspirierend und es läuft permanent tanzbare Musik im Hintergrund, die einlädt, ein paar neue Moves auszuprobieren.
 
+{: .center}
 ![Raffael mit Reifen]({{site.imgpath}}/DSC05559_sw.jpg)
 
 Glücklicherweise habe ich 2010 eine besondere Frau kennengelernt. Sie zeigte mir die ersten Tricks mit dem Reifen und schenkte mir irgendwann ein abgenutztes Exemplar, das bei ihr liegengeblieben war. Die nächsten Jahre nahm ich den Reifen immer mal auf Festivals mit und gewann mit der Zeit immer mehr Freude daran. Anfang 2014 stand dann der Entschluss fest und seitdem trainiere ich regelmäßig in der [Etage Leipzig](http://www.sir-frankman.de/etage/) mit [Line](http://www.la-line-hoop.de/) zusammen. Mittlerweile vergeht kaum ein Tag, an dem ich nicht wenigstens ein paar Minuten durch die Wohnung oder den Garten springe um Tricks zu üben oder auch um einfach mal abzuschalten.
@@ -116,4 +105,5 @@ Glücklicherweise habe ich 2010 eine besondere Frau kennengelernt. Sie zeigte mi
 
 ...
 
+{: .center}
 ![Raffael mit Reifen]({{site.imgpath}}/DSC05543.jpg)
