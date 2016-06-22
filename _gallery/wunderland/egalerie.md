@@ -1,0 +1,302 @@
+---
+layout: gallery
+title: "eGalerie"
+permalink: /gallery/wunderland/egalerie/
+date: 2016-06-22
+album_folder: /wunderland/egalerie
+images:
+- image: 01_malusion_parasit_g.jpg
+  title: Parasit (Malusion)
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: "Was ist parasitäres Verhalten? Können Menschen Parasiten sein? Werden sie als solche angesehen? Und warum? Wer sind die wirklichen Parasiten in unserer Gesellschaft? Oder ist doch alles eher eine Symbiose? Parasitismus (Schmarotzertum) im engeren Sinne bezeichnet den Nahrungserwerb aus einem anderen Organismus. Dieser auch als Wirt bezeichnete Organismus wird geschädigt, aber entweder gar nicht oder erst zu einem späteren Zeitpunkt getötet. Quelle: http://de.wikipedia.org/wiki/Parasit"
+- image: 02_malusion_parasit_uv.jpg
+  title: Parasit (UV) (Malusion)
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 03_malusion_wachsen_ausgestellt.jpg
+  title: Wachsen (Malusion)
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: "Wohin geht es? Warum eine Erweiterung? Ist Wachstum schädlich? Größenwahn. Gemeinsamkeiten. Stärke. Pflanzen, Tiere, Natur - alles wächst. Alles geht ineinander über."
+- image: 04_malusion_wachsen_ausgestellt_uv.jpg
+  title: Wachsen (UV) (Malusion)
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 05_zuckerieren_seite1_03.jpg
+  title: Zuckerieren Seite 1v5
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 06_zuckerieren_seite2_04.jpg
+  title: Zuckerieren Seite 2v5
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 07_zuckerieren_seite3_04.jpg
+  title: Zuckerieren Seite 3v5
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 08_zuckerieren_seite4_05.jpg
+  title: Zuckerieren Seite 4v5
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 09_zuckerieren_seite5_05.jpg
+  title: Zuckerieren Seite 5v5
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 10_malusion_engel.jpg
+  title: Engel (Malusion)
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 11_malusion_psychothermonuklear.jpg
+  title:  Psychothermonuklear (Malusion)
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 12_malusion_psychothermonuklear_uv.jpg
+  title: Psychothermonuklear (UV) (Malusion)
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 13_malusion_tiere.jpg
+  title: Tiere (Malusion)
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 14_malusion_feierlichkeit_g.jpg
+  title: Feierlichkeit (Malusion)
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 15_malusion_friedenspark_g.jpg
+  title: Friedenspark (Malusion)
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 16_malusion_traum_g.jpg
+  title: Traum (Malusion)
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 17_dsc03071.jpg
+  title: Tapeten der Tagging-Party im September 2009
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 18_davina-plaetzer_ohne-titel.jpg
+  title: Davina Plätzer - ohne Titel
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 19_alexander-range_mehrere-werke.jpg
+  title: Alexander Range - ohne Titel
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 20_anna-bugoslavska_6-unmoegliche-dinge.jpg
+  title: Anna Bugoslavska - 6 unmögliche Dinge
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 21_denise-reinhad_mein-wunderland.jpg
+  title: Denise Reinhad - ohne Titel
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 22_raffael-jesche_psycho.jpg
+  title: Raffael Jesche - Psycho
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 23_erik-bauer_inder-im-zoo.jpg
+  title: Erik Bauer - Inder im Zoo
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 24_jenny-mahla_an-die-liebe.jpg
+  title: Jenny Mahla - An die Liebe
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 25_franziska-walter_ohne-titel.jpg
+  title: Franziska Walter - ohne Titel
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 26_jan-lorenz_ohne-titel.jpg
+  title: Jan Lorenz - ohne Titel
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 27_jenny-mahla_paulis-aaron.jpg
+  title: Jenny Mahla - An die Liebe
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 28_lisa-marie-pfefferkorn_ohne-titel.jpg
+  title: Lisa Marie Pfefferkorn - ohne Titel
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 29_mahlwerk_fusion-wunderland.jpg
+  title: Mahlwerk - Utopien Restpostenmarkt
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 30_raffael-jesche_paradies-und-paradox.jpg
+  title: Raffael Jesche - paraDies und paraDox
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 31_martin-haufe_karoline-schneider_new-faithful.jpg
+  title: Martin Haufe, Karoline Schneider - New Faithful
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 32_max-schuetze_arbeitsmarkt_ohne-titel.jpg
+  title: Max Schütze - Arbeitsmarkt (oben) und ohne Titel (unten)
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 33_michael-sturm_ohne-titel.jpg
+  title: Michael Sturm - ohne Titel
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 34_raffael-jesche_smaragd.jpg
+  title: Raffael Jesche - Smaragd
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 35_paula-tobia-koenig_ohne-titel.jpg
+  title: Paula Tobia König - ohne Titel
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 36_sebastian-splesnialy_ohne-titel.jpg
+  title: Sebastian Splesnialy - ohne Titel
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 37_sophie-stephan_liegende.jpg
+  title: Sophie Stephan - Liegende
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: 
+- image: 38_raffael-jesche_ponyhof.jpg
+  title: Raffael Jesche - Ponyhof
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: "Wenn das Leben schon kein Ponyhof ist, so sollte zumindest jeder einen zu Hause haben. Als Gehege dient ein ehemaliges Aquariumgelände. Die Freunde vom Pony sind natürlich auch da. Die Goa-Insel und der Schneckenhausturm auf dem Diamantenhügel sind die absoluten Highlights auf dem Hof. Damit auch keine bösen Dinge geschehen, passen die pinken Soldaten auf alles auf. Sie sind natürlich auch voll glücklich und lassen niemanden rein."
+- image: 39_wunderland2_ausgestellt.jpg
+  title: Wunderland²
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: "Insgesamt 45 Werke wurden für das Projekt eingereicht. Alle Bilder sind im Wunderland²-Projektbereich auch im Großformat zu bestaunen (mein-wunderland.eu/wunderlandhoch2)."
+- image: 40_freiluftgalerie.jpg
+  title: Wundersprüh
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: "Die Werke des Graffiti-Workshops Wundersprüh vom April 2010 sind in die Fenster der Feinkost-Westfassade eingesetzt. Dort bilden sie eine Freiluftgalerie, welche die eigentliche Ausstellung um Längen überdauert. Seit dem 12. August 2010 ist das Gerüst an der Rückwand des Feinkosthofs endlich abgebaut und die Galerie-Wand ist seitdem zu bestaunen. Alle Werke vom Workshop sind im Wundersprüh-Projektbereich zu finden (mein-wunderland.eu/wundersprueh)."
+- image: 41_u25.jpg
+  title: (Un)Wohlfühlräume in Leipzig u25
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: "Die Klebepunkte wurden von den Besuchern der Ausstellung auf die Leipzigkarten geklebt. Dabei wurd in zwei Gruppen unterteilt: unter/über 25 Jahre alt. Die roten Punkte sind die Unwohlfühlräume und die gelben Punkte die Wohlfühlräume."
+- image: 42_ue25.jpg
+  title: (Un)Wohlfühlräume in Leipzig ü25
+  date: 
+  photographer: 
+  category: 
+  project: 
+  caption: "Die Klebepunkte wurden von den Besuchern der Ausstellung auf die Leipzigkarten geklebt. Dabei wurd in zwei Gruppen unterteilt: unter/über 25 Jahre alt. Die roten Punkte sind die Unwohlfühlräume und die gelben Punkte die Wohlfühlräume."
+---

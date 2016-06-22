@@ -10,7 +10,7 @@ work in progress...
 - [ ] raffaeljesche.de
 - [ ] raffaeljesche.de/spaeter-arbeiten
   - [x] Inhalte
-  - [x] Bildergalerien
+  - [.] Bildergalerien
   - [ ] Screenshots - Original-Seite
 - [ ] raffaeljesche.de/malusphaere
   - [x] Inhalte
@@ -23,9 +23,9 @@ work in progress...
   - [x] Inhalte
   - [x] Bildergalerien
   - [ ] Screenshots - Original-Seite
-- [ ] mein-wunderland.eu
+- [x] mein-wunderland.eu
   - [x] Inhalte
-  - [ ] Bildergalerien
+  - [x] Bildergalerien
   - [ ] Screenshots - Original-Seite
 - [ ] verstyler.de
   - [ ] Inhalte
