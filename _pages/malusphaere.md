@@ -31,21 +31,21 @@ todo:
 Es glitzert, es ist bunt und es leuchtet. Man darf es sogar anmalen, umbauen und noch mehr Glitzer drauf schütten. Willkommen in der Malusphäre. Tauche ein in psychedelische Erlebniswelten, schaffe deine eigene Atmosphäre und mische sie wieder mit anderen. In einem interaktiven, mobilen Ausstellungs- und Arbeitsraum entstehen tagsüber neue Raumkonzepte und nachts detailverliebte Bilder. Die Malusphäre lädt ein, sich den Raum anzueignen und ihn gemeinsam mit weiteren Interessierten zu einem sich ständig veränderten Gesamtkunstwerk zu formen. Material und Technik sind frei wählbar und jedes neue Element ist wichtig, wird eingearbeitet und mit benachbarten Elementen kombiniert.
 
 {: .center}
-![]({{site.imgpath}}{{page.imgfolder}}web_banner.jpg)
+![Bild]({{site.imgpath}}{{page.imgfolder}}web_banner.jpg)
 
 ## Malusphäre =
 
 Die Malusphäre setzt sich aus Malusion und Atmosphäre zusammen und ist eine Weiterentwicklung der Malusion in die Dreidimensionalität, wobei der Aspekt der Illusion stärker hervorgehoben wurde. Nachts erstrahlt sie in allen Farben, Malusionsbilder blinken monitorartig an den Wänden und in der Mitte malen, bauen, sitzen und lachen Menschen beim Malusionieren. Tagsüber wird weiter am Raumkonzept gefeilt, sodass auch die nächste Nacht zu einem neuen Erlebnis wird.
 
 {: .center}
-![]({{site.imgpath}}{{page.imgfolder}}malusphaere2.jpg)
+![Bild]({{site.imgpath}}{{page.imgfolder}}malusphaere2.jpg)
 
 ## Malusion =
 
 Der Begriff Malusion setzt sich aus Malen und Diskussion (mit einem Hauch von Illusion) zusammen. Ein großes Blatt Papier, viele Stifte und ein Thema liegen auf dem Tisch und eine Gruppe versammelt sich darum um über das Thema zu diskutieren. Dabei wird alles - Assoziationen, Inhalte, Ergebnisse oder Wortfetzen – bildlich festgehalten. Es ist völlig egal, ob von Kinderhand, KunststudentInnen oder auch allen gemeinsam gezeichnet wird. Wichtig ist am Ende der Mix aus Eindrücken, Farben und Charakteren, denn nur so entsteht ein Gesamtkunstwerk. (Entwickelt wurde die Malusion im Projekt "Multidimensionales Wunderland".)
 
 {: .vertical-align}
-![]({{site.imgpath}}{{page.imgfolder}}malusion_uv_01_thumb_01.jpg) ![]({{site.imgpath}}{{page.imgfolder}}malusion_uv_01_thumb_02.jpg)
+![Bild]({{site.imgpath}}{{page.imgfolder}}malusion_uv_01_thumb_01.jpg) ![Bild]({{site.imgpath}}{{page.imgfolder}}malusion_uv_01_thumb_02.jpg)
 
 ## Buchung/Infos
 
@@ -58,7 +58,7 @@ Voraussetzungen: Stromanschluss, Verbrauch i. d. R. unter 400W
 Honorare, Material- und Transportkosten werden individuell vereinbart. Kontaktieren Sie mich einfach und wir finden eine Lösung.
 
 {: .center}
-![]({{site.imgpath}}{{page.imgfolder}}malusphaere2.jpg)
+![Bild]({{site.imgpath}}{{page.imgfolder}}malusphaere2.jpg)
 
 ## Ausstellungsorte
 
@@ -74,7 +74,7 @@ Auch wenn einige bei Malusphäre zuerst an die lateinische übersetzung malus = 
 Atmosphäre ist sowohl als Hülle als auch als Raum füllende Stimmung zu begreifen. In angenehmer Atmosphäre dient die Malusphäre als Freiraum, der durch seine Optik zur Aneignung und Beteiligung auffordert um von einer unansehnlichen Baustelle zu einem Raum der Erkenntnis heranreifen zu können.
 
 {: .center}
-![]({{site.imgpath}}{{page.imgfolder}}malusphaere4.jpg)
+![Bild]({{site.imgpath}}{{page.imgfolder}}malusphaere4.jpg)
 
 ## Danke an...
 
@@ -83,10 +83,10 @@ Atmosphäre ist sowohl als Hülle als auch als Raum füllende Stimmung zu begrei
 
 ## Galerie
 
-{% include gallery.html gallery="malusphaere/malusion" title="Malusionsbilder" %}
+{% include gallery.html gallery="malusphaere/malusion" %}
 
-{% include gallery.html gallery="malusphaere/pfingstcamp2012" title="Pfingstcamp linksjugend Sachsen 2012" %}
+{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2012" %}
 
-{% include gallery.html gallery="malusphaere/pfingstcamp2013" title="Pfingstcamp linksjugend Sachsen 2013" %}
+{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2013" %}
 
-{% include gallery.html gallery="malusphaere/reich-und-schoen2012" title="Reich und Schön-Festival 2012" %}
+{% include gallery.html gallery="malusphaere/reich-und-schoen2012" %}
