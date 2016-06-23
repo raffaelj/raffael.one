@@ -1,6 +1,7 @@
 ---
 layout: gallery
-title: "Ausländerkriminalität"
+title: "Vortrag Ausländerkriminalität"
+gallery: wunderland/auslaenderkriminalitaet
 permalink: /gallery/wunderland/auslaenderkriminalitaet/
 date: 2016-06-22
 album_folder: /wunderland/auslaenderkriminalitaet

@@ -1,6 +1,7 @@
 ---
 layout: gallery
-title: "pausenraum"
+title: "Pausenraum"
+gallery: pausenraunen/pausenraum
 permalink: /gallery/pausenraunen/pausenraum/
 date: 2016-06-20
 album_folder: /pausenraunen/pausenraum

@@ -1,6 +1,7 @@
 ---
 layout: gallery
-title: "malusion"
+title: "Malusion"
+gallery: wunderland/malusion
 permalink: /gallery/wunderland/malusion/
 date: 2016-06-21
 album_folder: /wunderland/malusion

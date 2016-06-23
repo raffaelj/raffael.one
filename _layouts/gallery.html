@@ -4,10 +4,4 @@ layout: default
 
 {{ content }}
 
-<div class="gallery">
-{% for item in page.images %}
-  <a class="thumbs" href="{{site.galpath}}{{page.album_folder}}/large/{{item.image}}" data-lightbox="{{ page.title }}">
-    <img alt="Bild" src="{{site.galpath}}{{page.album_folder}}/thumbs/{{item.image}}" />
-  </a>
-{% endfor %}
-</div>
+{% include gallery.html gallery=page.gallery %}
