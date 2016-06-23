@@ -109,7 +109,7 @@ Meine Modelle* wurden teils an ihren freien Tagen, teils an Arbeitstagen "gewalt
 *Namen teilweise geändert
 
 {::options parse_block_html="true" /}
-<div class="spaeter_gallery">
+<div class="spaeter_gallery center">
 {% for model in page.models %}
 <a href="{{site.imgpath}}{{page.imgfolder}}{{page.imgfilename}}{{forloop.index}}_01.jpg"><img src="{{site.imgpath}}{{page.imgfolder}}{{page.imgfilename}}{{forloop.index}}_01_thumb.jpg" alt="verschlafenes Gesicht von {{model[0]}}" /></a>
 <a href="{{site.imgpath}}{{page.imgfolder}}{{page.imgfilename}}{{forloop.index}}_02.jpg"><img src="{{site.imgpath}}{{page.imgfolder}}{{page.imgfilename}}{{forloop.index}}_02_thumb.jpg" alt="verschlafenes Gesicht von {{model[0]}}" /></a>
