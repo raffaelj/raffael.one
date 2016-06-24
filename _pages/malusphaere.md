@@ -18,11 +18,12 @@ role:
 - Workshop-Leiter
 
 todo:
-- Bildergalerien
-- Bilder schicker anordnen
-- präsenter Hinweis, dass Malusphäre gebucht werden kann
-- Buchungsinfos aktualisieren
-- related posts
+- "[x] Bildergalerien"
+- "[ ] aktuelle Fotos einfügen"
+- "[ ] Bilder schicker anordnen"
+- "[ ] präsenter Hinweis, dass Malusphäre gebucht werden kann"
+- "[ ] Buchungsinfos aktualisieren"
+- "[ ] related posts"
 ---
 
 * Inhaltsverzeichnis
@@ -35,10 +36,10 @@ Es glitzert, es ist bunt und es leuchtet. Man darf es sogar anmalen, umbauen und
 
 ## Malusphäre =
 
-Die Malusphäre setzt sich aus Malusion und Atmosphäre zusammen und ist eine Weiterentwicklung der Malusion in die Dreidimensionalität, wobei der Aspekt der Illusion stärker hervorgehoben wurde. Nachts erstrahlt sie in allen Farben, Malusionsbilder blinken monitorartig an den Wänden und in der Mitte malen, bauen, sitzen und lachen Menschen beim Malusionieren. Tagsüber wird weiter am Raumkonzept gefeilt, sodass auch die nächste Nacht zu einem neuen Erlebnis wird.
-
-{: .center}
+{: .right}
 ![Bild]({{site.imgpath}}{{page.imgfolder}}malusphaere2.jpg)
+
+Die Malusphäre setzt sich aus Malusion und Atmosphäre zusammen und ist eine Weiterentwicklung der Malusion in die Dreidimensionalität, wobei der Aspekt der Illusion stärker hervorgehoben wurde. Nachts erstrahlt sie in allen Farben, Malusionsbilder blinken monitorartig an den Wänden und in der Mitte malen, bauen, sitzen und lachen Menschen beim Malusionieren. Tagsüber wird weiter am Raumkonzept gefeilt, sodass auch die nächste Nacht zu einem neuen Erlebnis wird.
 
 ## Malusion =
 
@@ -57,9 +58,6 @@ Voraussetzungen: Stromanschluss, Verbrauch i. d. R. unter 400W
 
 Honorare, Material- und Transportkosten werden individuell vereinbart. Kontaktieren Sie mich einfach und wir finden eine Lösung.
 
-{: .center}
-![Bild]({{site.imgpath}}{{page.imgfolder}}malusphaere2.jpg)
-
 ## Ausstellungsorte
 
 - [Pfingstcamp d. Linksjugend Sachsen](http://www.linksjugend-sachsen.de/events/pfingstcamp/pfingstcamp-2012.html), Doksy (CZ), 2012
@@ -67,26 +65,32 @@ Honorare, Material- und Transportkosten werden individuell vereinbart. Kontaktie
 - [Pfingstcamp d. Linksjugend Sachsen](http://www.linksjugend-sachsen.de/events/pfingstcamp/pfingstcamp-2013.html), Doksy (CZ), 2013
 - [Pfingstcamp d. Linksjugend Sachsen](http://www.linksjugend-sachsen.de/events/pfingstcamp/pfingstcamp-2014.html), Doksy (CZ), 2014
 - [Pfingstcamp d. Linksjugend Sachsen](http://www.linksjugend-sachsen.de/events/pfingstcamp/pfingstcamp-2015.html), Doksy (CZ), 2015
+- [Pfingstcamp d. Linksjugend Sachsen](http://www.linksjugend-sachsen.de/events/pfingstcamp/pfingstcamp-2016.html), Doksy (CZ), 2016
 
 ## Begriffsdeutungen
+
+{: .left}
+![Bild]({{site.imgpath}}{{page.imgfolder}}malusphaere4.jpg)
 
 Auch wenn einige bei Malusphäre zuerst an die lateinische übersetzung malus = schlecht denken, so hat "malus" auch noch mehr als eine weitere Bedeutung, nämlich die Gattung der Apfelbäume oder auch Obstbaum. Ohne sprachwissenschaftliche Belege dafür zu haben, so lässt sich der Begriff doch leicht mit dem Baum der Erkenntnis assoziieren - die verbotene Frucht am Apfelbaum, die schlechtes verheißt und sich dann doch nur als Erkenntnis entpuppt. Erkenntnis wiederum lässt sich durch Beobachtung, durch Bildung, durch Erfahrungsaustausch mit anderen Menschen gewinnen.
 Atmosphäre ist sowohl als Hülle als auch als Raum füllende Stimmung zu begreifen. In angenehmer Atmosphäre dient die Malusphäre als Freiraum, der durch seine Optik zur Aneignung und Beteiligung auffordert um von einer unansehnlichen Baustelle zu einem Raum der Erkenntnis heranreifen zu können.
 
-{: .center}
-![Bild]({{site.imgpath}}{{page.imgfolder}}malusphaere4.jpg)
-
 ## Danke an...
 
 - Werk 2 – für die Ausleihe des Messebausystems
+- linksjugend Sachsen - für die jährliche, riesige Unterstützung mit der Logistik, Material und Aufbau
 - ...hier könnte Ihr Name stehen – große und kleine Spenden in jeder Form sind willkommen.
 
 ## Galerie
 
+{% comment %}
 {% include gallery.html gallery="malusphaere/malusion" %}
+{% endcomment %}
 
-{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2012" %}
+{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2012" title="true" %}
+{% include gallery.html gallery="malusphaere/reich-und-schoen-festival-2012" title="true" %}
+{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2013" title="true" %}
+{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2014" title="true" %}
+{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2015" title="true" %}
+{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2016" title="true" %}
 
-{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2013" %}
-
-{% include gallery.html gallery="malusphaere/reich-und-schoen2012" %}
