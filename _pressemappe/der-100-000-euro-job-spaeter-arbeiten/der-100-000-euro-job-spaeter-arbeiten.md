@@ -16,5 +16,5 @@ Nützliche und neue Ansichten zur Arbeit (Hrsg.: [Sebastian Sooth][1], 2008, [Ve
   [3]: http://www.100.000-euro-job.de/Willkommen.html
   [4]: http://www.sk-kultur.de/medienkunst/blog/#id7
   [5]: /archiv/spaeter-arbeiten/
-  [6]: {{site.imgpath}}{{page.imgfolder}}/100-000-euro-job_spaeter-arbeiten_1v2.jpg
-  [7]: {{site.imgpath}}{{page.imgfolder}}/100-000-euro-job_spaeter-arbeiten_2v2.jpg
+  [6]: {{site.edata}}/spaeter-arbeiten-archiv/images/100-000-euro-job_spaeter-arbeiten_1v2.jpg
+  [7]: {{site.edata}}/spaeter-arbeiten-archiv/images/100-000-euro-job_spaeter-arbeiten_2v2.jpg
