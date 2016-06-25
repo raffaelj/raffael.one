@@ -1,8 +1,6 @@
 ---
 title: To Do - new website
 layout: post
-todo:
- - collections in to do mit aufnehmen
 ---
 * Inhaltsverzeichnis
 {:toc}
@@ -10,6 +8,9 @@ todo:
 ## Technisches
 
 - [ ] related post als include
+- [ ] related galleries als include
+- [ ] Youtube-Links in embed konvertieren
+- [ ] Vimeo-Links in embed konvertieren
 - Bild-Positionierung noch nicht ideal, da kramdown <img> in <p> verpackt
 - Galerie auslagern
   - evtl. als eigene jekyll-Instanz und dann als submodule laden
@@ -19,7 +20,7 @@ todo:
 ## Style
 
 - [x] neues Logo
-- Custom CSS für inhaltlich getrennte Bereiche
+- evtl. Custom CSS für inhaltlich getrennte Bereiche
   - [ ] Tanz
   - [ ] Coding + Design
   - [ ] Kunst
@@ -42,22 +43,66 @@ todo:
 - [ ] Meine Einstellung zu Open Source und Creative Commons
 - [ ] Wahrheit, Wahrheiten und Blickwinkel
 
+{% comment %}
 ## To-Do-Punkte, die in einzelnen Artikeln (posts) aufgelistet sind
-    
-<ul>
+
 {% for post in site.posts %}
   {% for todo in post.todo %}
-  <li><a href="{{site.baseurl}}{{post.url}}">{{post.title | truncate: 15, "..." }}</a> > {{ todo }}</li>
+* [{{ post.title | truncate: 15, "..."  }}]({{ post.url }}) - {{todo}}
   {% endfor %}
 {% endfor %}
-</ul>
+{% endcomment %}
 
 ## To-Do-Punkte, die in einzelnen Seiten (pages) aufgelistet sind
-    
-<ul>
+
 {% for post in site.pages %}
   {% for todo in post.todo %}
-  <li><a href="{{site.baseurl}}{{post.url}}">{{post.title | truncate: 15, "..." }}</a> > {{ todo }}</li>
+* [{{ post.title | truncate: 15, "..."  }}]({{ post.url }}) - {{todo}}
   {% endfor %}
 {% endfor %}
-</ul>
+
+
+## To-Do-Punkte, die in Collections aufgelistet sind
+
+{% comment %}
+{% for c in site.collections %}
+  {{ c | jsonify }}
+  {% assign post = c[1] %}
+  {{ post | jsonify }}
+  {% for todo in post %}
+* [{{ post.title | truncate: 15, "..."  }}]({{ post.url }}) - {{todo}}
+  {% endfor %}
+{% endfor %}
+{% endcomment %}
+
+{% for collection in site.collections %}
+### {{ collection.label}}
+
+{% comment %}
+{{collection | jsonify }}
+{% endcomment %}
+
+ {% for doc in collection.docs %}
+  {% if doc.title %}
+   {% for todo in doc.todo %}
+* [{{ doc.title | truncate: 15, "..."  }}]({{ doc.url }}) - {{todo}}
+   {% endfor %}
+  {% else %}
+  {% if sub.title %}
+   {% for sub in doc.docs %}
+   {% for todo in sub.todo %}
+* [{{ sub.title | truncate: 15, "..."  }}]({{ sub.url }}) - {{todo}}
+   {% endfor %}
+   {% endfor %}
+  {% else %}
+   {% for subsub in sub.docs %}
+   {% for todo in subsub.todo %}
+* [{{ subsub.title | truncate: 15, "..."  }}]({{ subsub.url }}) - {{todo}}
+   {% endfor %}
+   {% endfor %}
+  {% endif %}
+  {% endif %}
+ {% endfor %}
+
+
+{% endfor %}
