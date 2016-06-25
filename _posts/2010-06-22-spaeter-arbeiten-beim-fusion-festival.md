@@ -29,33 +29,24 @@ tags:
 - Bedingungsloses Grundeinkommen
 - Biorhythmus
 
-imgpath: /images/spaeter-arbeiten/
-
-todo:
-- Verlinkungen zu Bildern --> baseurl fehlt
 ---
 
-Wanderausstellung auf dem Fusion-Festival, 
-alle Infos zur Ausstellung: [Später Arbeiten - Archiv](/archiv/spaeter-arbeiten)
-
-<!--more-->
-----
 
 Welch eine Ehre: Das Projekt 'Später Arbeiten', welches im Jahre 2006/07 in Leipzig stattfand und eine kleine feine Fotoausstellung hervorbrachte, wird dieses Jahr auf dem [Fusion-Festival][1] in der Oase ausgestellt. Am Donnerstag, dem 24.06.10 findet von 14-16 Uhr die Vernissage meiner sowie [drei weiterer Ausstellungen][2] statt. Täglich von 13-14 Uhr werden alle KünstlerInnen zur Ausstellungsbegleitung vor Ort sein.
 
--------
+<!--more-->
 
 Auch das Fusion-Festival haben ich und auch die beiden bedruckten PVC-Planen sehr gut überstanden. Es war mal wieder eine Freude für Augen und Ohren, Herz und Seele.
 
 {: .center}
-![Später Arbeiten beim Fusion-Festival (Oase)]({{page.imgpath}}P1010902_spaeterarbeiten_fusion.jpg)
+![Später Arbeiten beim Fusion-Festival (Oase)]({{site.edata}}/spaeter-arbeiten-archiv/images/P1010902_spaeterarbeiten_fusion.jpg)
 
 Neben den gigantischen, leuchtenden, künstlerischen Kulissen war auch das Lineup hervorragend. Die Stimmung und die Menschen vor Ort waren äußerst angenehm und nächstes Jahr bin ich auf jeden Fall wieder mit dabei. In der Oase, welche auch Freiluft-Ausstellungsraum war, wurde für politische Bildung, Ruhe, und sanitäre Anlagen gesorgt und überhaupt lässt sich das gesamte Festival einfach nicht in Worte fassen. Es war umwerfend. Worüber ich mich ja sehr gefreut habe, ist ein <del title="Link existiert nicht mehr">Foto von Carl S. Katz</del>, welches es in die Ausstellung "[Sexistische Kackscheiße](http://sexiststuff.blogsport.eu/stuff/)", ebenfalls in der Oase ausgestellt, geschafft hat.
 
 --------------
 
 {: .center}
-![Logo Später Arbeiten]({{page.imgpath}}SPAETERARBEITEN.jpg)
+![Logo Später Arbeiten]({{site.edata}}/spaeter-arbeiten-archiv/images/SPAETERARBEITEN.jpg)
 
 Guten Morgen! Und? Ausgeschlafen?
 
@@ -66,7 +57,7 @@ Menschen, die gezwungen werden, sich fernab ihres natürlichen Biorhythmus‘ zu
 Die Bilder zeigen Zufrühmorgens-, Frühmorgens- und Spätmorgensgesichter. Die Menschen wurden teils an ihren freien Tagen, teils an Arbeitstagen gewaltsam geweckt und gegen 5 Uhr, gegen 7 Uhr und gegen 11 Uhr fotografiert.
 
 {: .center}
-![Später Arbeiten]({{page.imgpath}}spaeter-arbeiten_a.jpg)
+![Später Arbeiten]({{site.edata}}/spaeter-arbeiten-archiv/images/spaeter-arbeiten_a.jpg)
 
 Dass manche Menschen früh morgens nicht aus dem Bett kommen, mag dem einen oder der anderen schon aufgefallen sein. Auch, dass es sich dabei nicht nur um Trägheit oder gar Faulheit handelt, sollte zumindest dem Teil der Bevölkerung bewusst sein, der genau darunter leidet: Sie werden gezwungen, sich fernab ihres natürlichen Biorhythmus‘ zu bewegen.
 
@@ -75,7 +66,7 @@ Schon in der Schule fällt es auf, dass die Frühaufsteher (Lerchenmenschen) bes
 Raffael Jesche
 
 {: .center}
-![Später Arbeiten]({{page.imgpath}}spaeter-arbeiten_b.jpg)
+![Später Arbeiten]({{site.edata}}/spaeter-arbeiten-archiv/images/spaeter-arbeiten_b.jpg)
 
 Später Arbeiten ist ein Projekt von Raffael Jesche in Kooperation mit [Hello Studios][3] sowie Anton Barske und Manuel Pietzsch. Es fand 2006/07 im Rahmen des Projekts [100.000 EURO JOB][4] in Leipzig statt.
 
@@ -92,8 +83,8 @@ Gefördert durch:
 
 [DIE LINKE LAG Bedingungsloses Grundeinkommen Sachsen](http://portal.dielinke-in-sachsen.de/partei.asp?mid=30&uid=135&iid=318)
 
-{: .center}
-[![Logo 100.000-EURO-JOB]({{page.imgpath}}p.gif)][4] [![Logo Bundeskulturstiftung - Arbeit in Zukunft]({{page.imgpath}}bundeskulturstiftung.gif)][7]
+{: .center .no-border .vertical-align}
+[![Logo 100.000-EURO-JOB]({{site.edata}}/spaeter-arbeiten-archiv/images/p.gif)][4] [![Logo Bundeskulturstiftung - Arbeit in Zukunft]({{site.edata}}/spaeter-arbeiten-archiv/images/bundeskulturstiftung.gif)][7]
 
 
 Ein Projekt im Rahmen des Projekts 100.000 EURO JOB – gefördert mit Mitteln der Kulturstiftung des Bundes im Programm „Arbeit in Zukunft“.

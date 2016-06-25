@@ -27,15 +27,12 @@ tags:
   - Politik
 ---
 
-Mitorganisation, Schulkritik-Workshop gehalten
-
-<!--more-->
-----
-
 {: .center}
 ![Sommerakademie linksjugend Leipzig]({{site.imgpath}}/SommerAkademie.jpg)
 
 Die linksjugend Leipzig lädt herzlich ein zur [Sommerakademie][1]. Vom 17. - 18.08.12 werden zahlreiche Workshops angeboten und anschließend wird gefeiert. Angeboten werden nicht nur folgende Themen(-vorschläge) für die Workshops und Diskussionen. Es darf auch fleißig vorher [abgestimmt][2] werden, was vielleicht doch rausfliegen soll und ob nicht etwas völlig anderes auf der Seele brennt.
+
+<!--more-->
 
 ### Themen
 
@@ -78,12 +75,12 @@ Bekanntlich eine unserer Kernkompetenzen. Ansonsten muss hier nicht viel gesagt 
 
 ### Organisatorisches
 
-Kosten: Keine  
-Zeit: Fr. 17.08. - Sa. 18.08  
-Ort: Interkulturelles Konversationscafé  
-Emilienstraße 17 (hinter dem LVZ Gebäude, Südvorstadt)  
-Anmeldung (wäre praktisch, muss aber nicht)  
-Mail an: sommerakademie [at] safe-mail [punkt] net
+* Kosten: Keine
+* Zeit: Fr. 17.08. - Sa. 18.08
+* Ort: Interkulturelles Konversationscafé
+* Emilienstraße 17 (hinter dem LVZ Gebäude, Südvorstadt)
+* Anmeldung (wäre praktisch, muss aber nicht)
+* Mail an: sommerakademie [at] safe-mail [punkt] net
 
 Links zur [Website][1], zur [Facebook-Seite][3] und zur [Abstimmung][2].
 

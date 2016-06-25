@@ -7,7 +7,6 @@ categories:
 - Blog
 
 tags:
-- Ab 18
 - Ausstellung
 - Kunst
 - Politik
@@ -20,13 +19,11 @@ tags:
 - Kulturkosmos
 - Lärz
 - Satire
-- selbstorganisiert
+- Zensur
 - Sexist
 - Später Arbeiten
 - Streit
 - TäterInnen-SchützerInnen
-
-imgpath: /images/spaeter-arbeiten/
 ---
 
 Das Gelände [kannte]({% post_url 2010-06-22-spaeter-arbeiten-beim-fusion-festival %}) die "Später Arbeiten"-Ausstellung ja bereits. Das alternative Jgendcamp [Ajuca](http://www.ajuca.de/) findet seit sieben Jahren auf dem ehemaligen Flughafengelände des Kulturkosmos in Lärz statt.
@@ -36,7 +33,7 @@ Das Gelände [kannte]({% post_url 2010-06-22-spaeter-arbeiten-beim-fusion-festiv
 Dort ist auch alljährlich das Fusion-Festival zu finden, auf welchem die Ausstellung im Juni bereits [zu sehen war][2]. Vom 18. bis 21. August bekamen die Fotos also wieder einen schicken Platz. Das Camp ist selbstorganisiert, also ein Mitmach-Camp und kostet gerade mal 5 € pro Tag - nicht Eintritt, sondern für Getränke und Essen. Drei Mahlzeiten täglich werden von verschiedenen [VoKü][3]s zubereitet und die CampteilnehmerInnen sind angehalten, beim Gemüse schneiden zu helfen. Da verschiedene Menschen verschiedene Essgewohnheiten haben, kocht das Küchenteam generell vegan. Auch sonst gilt es in allen Bereichen: Wo Hilfe benötigt wird, finden sich Leute, die gerne mithelfen und das Camp so zu einem schönen Erlebnis für alle Beteiligten machen. Für verschiedene Aufgabenbereiche, wie zum Beispiel die täglich erscheinende Campzeitung werden Arbeitsgruppen gebildet und die großen Entscheidungen werden jeden Morgen beim großen Plenum gemeinsam nach dem [Konsens][4]-Prinzip besprochen und entschieden. Nazis, SexistInnen und aggressive Leute sind natürlich nicht willkommen.
 
 {: .center}
-![Später Arbeiten beim Ajuca 2010]({{page.imgpath}}spaeterarbeiten_ajuca2010.jpg)
+![Später Arbeiten beim Ajuca 2010]({{site.edata}}/spaeter-arbeiten-archiv/images/spaeterarbeiten_ajuca2010.jpg)
 
 Tagsüber finden verschiedene Workshops und Diskussionen zur politischen Bildung für die Jugendlichen statt. Beispiele wären "Was ist Kapitalismus?", Streetartworkshop, Projektfinanzierung oder auch Argumentationshilfen bei der Unterstellung, man sei eine extremistische oder gar terroristische Gruppe. Abends klang der Tag dann tanzenderweise zu verschiedenen Konzerten und Djs und äußerst preisgünstigen Getränken aus. Insgesamt also ein tolles Camp und ich bin froh, dass es so etwas gibt.
 

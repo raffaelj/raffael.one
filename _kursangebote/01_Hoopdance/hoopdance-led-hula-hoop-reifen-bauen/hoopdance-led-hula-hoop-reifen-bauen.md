@@ -25,6 +25,9 @@ label:
  - LEDs
  - Hula Hoop
  - Handwerk
+ 
+todo:
+- Text ausführlicher schreiben
 ---
 
 

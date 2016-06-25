@@ -24,13 +24,13 @@ role:
 description: 'Stencil/Schablonen-Workshop beim Sonido-Festival in Erfurt'
 
 tags:
-  - erfurt
-  - guatemala
-  - los patojos
-  - schablonen
-  - sonido
-  - stencil
-  - volamos juntos
+  - Erfurt
+  - Guatemala
+  - Los Patojos
+  - Schablonen
+  - Sonido
+  - Stencil
+  - Volamos Juntos
   
 todo:
  - Foto hinzufügen

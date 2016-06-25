@@ -10,6 +10,9 @@ image:
 imgfolder:
 
 label:
+
+todo:
+- Foto einfügen
 ---
 
 sehr ausführlicher Artikel im Kreuzer zum [Wunderland-Projekt](/archiv/mein-wunderland-eu)
