@@ -24,13 +24,10 @@ role:
 - Workshop-Leiter
 
 tags:
-  - linksjugend Sachsen
-  - Malusion
-  - Malusphäre
-  - Pfingstcamp
-
-todo:
- - Galerie einfügen
+- linksjugend Sachsen
+- Malusion
+- Malusphäre
+- Pfingstcamp
 ---
 
 Das alljährliche [Pfingstcamp](http://www.linksjugend-sachsen.de/events/pfingstcamp/pfingstcamp-2012.html) der linksjugend Sachsen ging vom 25. - 28.05.12 am neuen Standort Doksy in die zweite Runde. 
@@ -44,6 +41,8 @@ Mehr als 400 workshop- und feierwütige Menschen aus (fast) der ganzen Welt freu
 
 An dieser Stelle möchte ich dem [Werk 2](http://www.werk-2.de/) auch noch einmal großen Dank für das geniale Messebausystem aussprechen: Dankeschön.
 
-Fotos gibt es **Galerie fehlt noch** und Impressionen vom Pfingstcamp sind in diesem Video eingefangen:
+Impressionen vom Pfingstcamp sind in diesem Video eingefangen:
 
 [Youtube-Video](https://www.youtube.com/watch?v=xlnaAUgoFx4)
+
+{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2012" %}
