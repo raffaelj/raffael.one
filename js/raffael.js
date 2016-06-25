@@ -101,6 +101,11 @@ jQuery(postContainer+' a[href$="mp3"]').each(function(){
    }
 });
 
+// Bilder-Links in Lightbox-Links umwandeln
+$('a[href$="jpg"]').not('a[data-lightbox]').each(function() {
+	// $(this).Lightbox();
+  $(this).attr("data-lightbox","autolightbox");
+});
 
 // definierte Funktionen aufrufen
 window.onload = convertMailAddress;
