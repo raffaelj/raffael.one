@@ -26,7 +26,10 @@ role:
 - Fotograf
 - Aussteller
 tags:
+
 imgfolder: /pausenraunen/
+edatafolder: /pausenraunen-archiv/
+
 description: Versuch der Umnutzung eines Raums der Hochschule für Grafik und Buchkunst Leipzig zu einem 3. Ort, einem Raum des Austauschs und des Verweilens
 
 todo:
@@ -36,7 +39,7 @@ todo:
 Das Projekt Pausenraunen war ein Versuch der Umnutzung eines Raums der Hochschule für Grafik und Buchkunst Leipzig zu einem 3. Ort, einem Raum des Austauschs und des Verweilens. Nun bedarf es dafür keiner eigenständigen Webpräsenz mehr. Was, warum und wie lässt sich im folgenden Archiv nachlesen.
 
 {: .center}
-![Header-Bild: Kugelschreiber auf Grundriss]({{site.imgpath}}{{page.imgfolder}}header.jpg)
+![Header-Bild: Kugelschreiber auf Grundriss]({{site.edata}}{{page.edatafolder}}images/header.jpg)
 
 ## Projekt Pausenraum - Pausenraunen
 Umnutzung eines Raumes der Hochschule für Grafik und Buchkunst Leipzig
@@ -61,19 +64,19 @@ Angenommen, plötzlich steht irgendwo ein Sofa, so möchte man sich setzen und v
 
 ### Lage des Pausenraums
 
-[![Lageplan]({{site.imgpath}}{{page.imgfolder}}HGB-EG_lage_pausenraum_web.jpg)]({{site.imgpath}}{{page.imgfolder}}HGB-EG_lage_pausenraum.jpg)
+[![Lageplan]({{site.edata}}{{page.edatafolder}}images/HGB-EG_lage_pausenraum_web.jpg)]({{site.edata}}{{page.edatafolder}}images/HGB-EG_lage_pausenraum.jpg)
 
 Wenn man zum Haupteingang der Hochschule für Grafik und Buchkunst Leipzig (HGB) eintritt und ein paar Stufen herauf schreitet, steht man in einem hell erleuchteten Lichthof. Geht man durch diesen hindurch bis ganz nach hinten und biegt nach rechts ab, so steht man vor der Tür, die zum Pausenraum führt. Dort angekommen, kann man nun entweder noch eine kleine Treppe hinauf zum Hedis, einem kleinen studentisch verwalteten Raum mit Sofas und Bar gehen oder man geht ein paar Stufen hinab und ist am Ziel.
 
 ### Grundriss des Pausenraums
 
-[![Grundriss]({{site.imgpath}}{{page.imgfolder}}pausenraum_grundriss_web.jpg)]({{site.imgpath}}{{page.imgfolder}}pausenraum_grundriss.jpg)
+[![Grundriss]({{site.edata}}{{page.edatafolder}}images/pausenraum_grundriss_web.jpg)]({{site.edata}}{{page.edatafolder}}images/pausenraum_grundriss_web2.jpg)
 
 Ein Raum, der bisher eher als Lager- oder Durchgangsraum begriffen wurde, ist neu einzurichten. Ob der Kaffeeautomat, der Kickertisch und die Tischtennisplatte an Ort und Stelle bleiben können, bleibt abzuwarten.
 
 ### erste Skizzen
 
-[![Skizze Inneneinrichtung]({{site.imgpath}}{{page.imgfolder}}121213_pausenraum_inneneinrichtung_web.jpg)]({{site.imgpath}}{{page.imgfolder}}121213_pausenraum_inneneinrichtung_web2.jpg)
+[![Skizze Inneneinrichtung]({{site.edata}}{{page.edatafolder}}images/121213_pausenraum_inneneinrichtung_web.jpg)]({{site.edata}}{{page.edatafolder}}images/121213_pausenraum_inneneinrichtung_web2.jpg)
 
 Dies ist nur eine Idee, in welche Richtung sich der Raum entwickeln kann. Geplant ist, dass ein Austausch auf allen erdenklichen Ebenen stattfinden kann.
 
@@ -81,7 +84,7 @@ Dies ist nur eine Idee, in welche Richtung sich der Raum entwickeln kann. Geplan
 ### Fotos
 
 {: .center}
-![Foto]({{site.imgpath}}{{page.imgfolder}}P1050002_web.jpg) ![Foto]({{site.imgpath}}{{page.imgfolder}}P1050132_web.jpg) ![Foto]({{site.imgpath}}{{page.imgfolder}}P1050267_web.jpg) ![Foto]({{site.imgpath}}{{page.imgfolder}}P1050282_web.jpg) ![Foto]({{site.imgpath}}{{page.imgfolder}}P1050284_web.jpg) ![Foto]({{site.imgpath}}{{page.imgfolder}}P1050296_web.jpg)
+![Foto]({{site.edata}}{{page.edatafolder}}images/P1050002_web.jpg) ![Foto]({{site.edata}}{{page.edatafolder}}images/P1050132_web.jpg) ![Foto]({{site.edata}}{{page.edatafolder}}images/P1050267_web.jpg) ![Foto]({{site.edata}}{{page.edatafolder}}images/P1050282_web.jpg) ![Foto]({{site.edata}}{{page.edatafolder}}images/P1050284_web.jpg) ![Foto]({{site.edata}}{{page.edatafolder}}images/P1050296_web.jpg)
 
 
 
@@ -152,7 +155,7 @@ Wenn ein Punkt schon genannt wurde, drücken Sie am Besten auf den Daumen anstat
 ### Aus der Traum vom Pausenraum
 29.04.13
 
-![Bild zum Artikel]({{site.imgpath}}{{page.imgfolder}}130429164001Projekt_Pausenraum_ist_beendet.jpg)
+![Bild zum Artikel]({{site.edata}}{{page.edatafolder}}images/130429164001Projekt_Pausenraum_ist_beendet.jpg)
 
 Das Projekt Pausenraum ist beendet. Es gab zwar sehr viel Zustimmung, jedoch kaum Unterstützung und alleine arbeiten macht wenig Spaß. Zudem gibt es ja auch noch andere Hobbys als die HGB umzugestalten.  
 
@@ -172,7 +175,7 @@ Wenigstens führte der Versuch zu dem wohligen Gefühl, nicht in vier Jahren sag
 ### Der Rundgang geht um
 12.02.13
 
-![Bild zum Artikel]({{site.imgpath}}{{page.imgfolder}}130212025201Der_Rundgang_naht.jpg)
+![Bild zum Artikel]({{site.edata}}{{page.edatafolder}}images/130212025201Der_Rundgang_naht.jpg)
 
 Am 14.02.13 ist es soweit und der Rundgang der Hochschule für Grafik und Buchkunst Leipzig geht in eine neue Runde. Im ganzen Haus wird schon fleißig gewerkelt und auch der Pausenraum nimmt langsam Form an. Er ist zwar noch weit von einem fertigen Aufenthaltsraum entfernt, aber er wächst halt so schnell, wie eine Person nebenbei arbeiten kann. Wärmeres Deckenlicht, ein schwer entflammbarer Sitzsack und ein frisch eingefärbter Tisch bieten dem interessierten Publikum schon bald Gelegenheit, live und in Farbe mit zu raunen.
   
@@ -181,7 +184,7 @@ Am 14.02.13 ist es soweit und der Rundgang der Hochschule für Grafik und Buchku
 ### Neue Pinnwand und neues Treffen
 26.01.13
 
-![Bild zum Artikel]({{site.imgpath}}{{page.imgfolder}}130126153001Wie_geht_s_weiter.jpg)
+![Bild zum Artikel]({{site.edata}}{{page.edatafolder}}images/130126153001Wie_geht_s_weiter.jpg)
 
 Nun ersetzt eine Pinnwand aus Kork die doch sehr provisorisch angebrachten Styroporplatten und die ersten Licht- und Metallmöbelideen reifen. Man darf gespannt sein.  
 
@@ -207,16 +210,16 @@ Schnelle Kommunikation muss nun also durch Raunen von Mund zu Mund und kostenint
 ### Miss You
 25.01.13
 
-![Bild zum Artikel]({{site.imgpath}}{{page.imgfolder}}130125083001Perlenbaum_vermisst.jpg)
+![Bild zum Artikel]({{site.edata}}{{page.edatafolder}}images/130125083001Perlenbaum_vermisst.jpg)
 
-Am Tag der offenen Tür wurden zur Konzeptpräsentation "Pausenraunen" Perlenbäume zur Raumdekoration aufgestellt. Einer davon ist seit einiger Zeit verschollen, was sehr schade ist. Aber auch aus kleinen Rückschlägen muss man das Beste machen und die [Fahndung nach dem Baum]({{site.imgpath}}{{page.imgfolder}}miss-you-perlenbaum_web.jpg) mit mittelgroßer Plakatieraktion in der HGB wurde einfach zur Werbekampagne ernannt.
+Am Tag der offenen Tür wurden zur Konzeptpräsentation "Pausenraunen" Perlenbäume zur Raumdekoration aufgestellt. Einer davon ist seit einiger Zeit verschollen, was sehr schade ist. Aber auch aus kleinen Rückschlägen muss man das Beste machen und die [Fahndung nach dem Baum]({{site.edata}}{{page.edatafolder}}images/miss-you-perlenbaum_web.jpg) mit mittelgroßer Plakatieraktion in der HGB wurde einfach zur Werbekampagne ernannt.
   
 
   
 ### Von Stehlampen und Kickerbällen
 24.01.13
 
-![Bild zum Artikel]({{site.imgpath}}{{page.imgfolder}}130124142301Neue_Stehlampe.jpg)
+![Bild zum Artikel]({{site.edata}}{{page.edatafolder}}images/130124142301Neue_Stehlampe.jpg)
 
 Es gibt zwar noch kein grünes Licht, dafür aber gelbes und das aus einer Stehlampe. Damit ist der erste Schritt zu einem angenehmeren Licht getan. Die ersten Bilder hängen auch schon an den Wänden, was den Raum zumindest ein bisschen wohnlicher macht. Der Kickerball ist schon wieder verschwunden, eine Ausleihe von Kickerbällen an der Pforte scheint aber leider nicht möglich zu sein. Hoffentlich ergibt sich in die Richtung doch noch eine alternative Variante.
   
@@ -225,7 +228,7 @@ Es gibt zwar noch kein grünes Licht, dafür aber gelbes und das aus einer Stehl
 ### 3 neue Kissen
 22.01.13
 
-![Bild zum Artikel]({{site.imgpath}}{{page.imgfolder}}130122191501Kissen_geschenkt.jpg)
+![Bild zum Artikel]({{site.edata}}{{page.edatafolder}}images/130122191501Kissen_geschenkt.jpg)
 
 Da liegen doch plötzlich 3 neue Kissen im Raum. Das macht das Sitzen und Anlehnen gleich viel angenehmer. Vielen Dank an die Unbekannte. Wenn noch jemand Dinge hat, die er oder sie loswerden will, dann immer her damit. Was nicht für den Raum verwendet wird, kommt einfach in die Umsonstkiste.
   
@@ -241,7 +244,7 @@ Nachdem die Pinnwand im Pausenraum bereits von einigen Personen gefunden und bep
 ### Wer flüstert denn da?
 10.01.13
 
-![Bild zum Artikel]({{site.imgpath}}{{page.imgfolder}}130110204523Tag_der_offenen_Tuer.jpg)
+![Bild zum Artikel]({{site.edata}}{{page.edatafolder}}images/130110204523Tag_der_offenen_Tuer.jpg)
 
 Die ersten Formalia sind geschafft und das Projekt Pausenraum - Pausenraunen geht in die erste Runde. Zum Tag der offenen Tür, dem 10.01.13, wurde das Konzept zur Umnutzung des kaum genutzten "Pausenraums" der Hochschule für Grafik und Buchkunst Leipzig öffentlich gemacht. Neben kleinen Umräumarbeiten wurde eine Pinnwand mit Konzept und der Möglichkeit zum Anpinnen von Anregungen und Kritik angebracht.
   

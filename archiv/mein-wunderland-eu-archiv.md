@@ -51,7 +51,7 @@ Ein riesengroßes Dankeschön geht auch noch einmal an alle Helfer\*innen und Te
 Rückblickend war dieses Projekt ein Meilenstein in meinem Leben und die vielen Erfahrungen möchte ich trotz all der Anstrengungen nicht missen.
 
 {: .center}
-![Wunderland-Header-Grafik]({{site.imgpath}}{{page.imgfolder}}wunderland-header.jpg)
+![Wunderland-Header-Grafik]({{site.edata}}{{page.edatafolder}}images/wunderland-header.jpg)
 
 * Inhaltsverzeichnis
 {:toc}
@@ -143,7 +143,7 @@ Das Konzept mit Materialanforderungen, kleinen Tipps etc. steht jetzt **[hier al
 #### Malusion beim 2. deutschsprachigen Jugendforum in Wien
 
 {: .center}
-![Malusion beim Jugendforum in Wien]({{site.imgpath}}{{page.imgfolder}}jugendforum_malusion.jpg)
+![Malusion beim Jugendforum in Wien]({{site.edata}}{{page.edatafolder}}images/jugendforum_malusion.jpg)
 
 Vom 03. bis 05. November 2010 veranstalten die Nationalagenturen des Programms JUGEND in Aktion aus Belgien, Deutschland, Österreich, Schweiz, Liechtenstein und Luxemburg das [2. deutschsprachige Jugendforum](http://2007-2013.jugendinaktion.at/start.asp?ID=582&b=111) in Wien. Neben einem schicken Abendprogramm und Workshops zu den Schwerpunkkten Bildung, Teilhabe und Inklusion werden am 04. November auch zahlreiche Workshops durch die Teilnehmenden angeboten. Hier wird unser Malusionskonzept vorgestellt und vielleicht ist es ja sogar in einem gerade mal zwei Stunden langen Workshop-Block möglich, ein neues komplettes Werk entstehen zu lassen. Wir dürfen gespannt sein...
 
@@ -155,7 +155,7 @@ Vom 03. bis 05. November 2010 veranstalten die Nationalagenturen des Programms J
 #### Kreuzer-Artikel (Ausschnitt, Juni 2010, S. 64)
 
 {: .center}
-![Kreuzer-Artikel-Ausschnitt]({{site.imgpath}}{{page.imgfolder}}100601_kreuzer_wunderland_ausschnitt-malusion_web.jpg)
+![Kreuzer-Artikel-Ausschnitt]({{site.edata}}{{page.edatafolder}}images/100601_kreuzer_wunderland_ausschnitt-malusion_web.jpg)
 
  
 
@@ -205,7 +205,7 @@ Die Aufteilung wurde nach Alter, Geschlecht, Ort, Veranstaltungstyp sowie nach d
 
 
 {: .center}
-![Diagramm - Wo befindest du dich]({{site.imgpath}}{{page.imgfolder}}systemueberpfuefung-ergebnisse01.png) ![Diagramm - Warum bist du dort]({{site.imgpath}}{{page.imgfolder}}systemueberpfuefung-ergebnisse02.png)
+![Diagramm - Wo befindest du dich]({{site.edata}}{{page.edatafolder}}images/systemueberpfuefung-ergebnisse01.png) ![Diagramm - Warum bist du dort]({{site.edata}}{{page.edatafolder}}images/systemueberpfuefung-ergebnisse02.png)
 
 komplette Ergebnisse der Systemüberprüfung als [PDF]({{site.edata}}{{page.edatafolder}}documents/ergebnisse_systemueberpruefung.pdf "Zur Auswertung")
 
@@ -392,38 +392,32 @@ Natürlich sind Sie, bist du und seid ihr alle auch herzlich zur Vernissage am 4
 
 **04.04.10 - judeninsachsen.de - ausführlicher Bericht über den Vortrag "Mythos Ausländerkriminalität"**
 
-> 
-[...] Loos wies am Anfang seines Vortrags auf zwei Deutungsmuster von „Ausländerkriminalität“: Der Begriff „Ausländerkriminalität“ stammt zum einem aus der Kriminologie, also aus der wissenschaftlichen Kriminalforschung, und bezieht sich auf Straftaten nicht-deutscher Staatsangehöriger im Sinne des Grundgesetzes. Im Unterschied zu dieser wissenschaftlichen Definition ist der Begriff im medial-politischen Diskurs ein politischer Kampfbegriff, der zum Zweck der Mobilisierung von Ressentiments gegen EinwandererInnen eingesetzt wird. [...]
+> [...] Loos wies am Anfang seines Vortrags auf zwei Deutungsmuster von „Ausländerkriminalität“: Der Begriff „Ausländerkriminalität“ stammt zum einem aus der Kriminologie, also aus der wissenschaftlichen Kriminalforschung, und bezieht sich auf Straftaten nicht-deutscher Staatsangehöriger im Sinne des Grundgesetzes. Im Unterschied zu dieser wissenschaftlichen Definition ist der Begriff im medial-politischen Diskurs ein politischer Kampfbegriff, der zum Zweck der Mobilisierung von Ressentiments gegen EinwandererInnen eingesetzt wird. [...]
 <del>[Weiterlesen]( "Link existiert nicht mehr")</del>
 
 **04.04.10 - Kreatives Leipzig - Einladung zum Wundersprüh-Workshop**
 
-> 
-Unser kreativer Nachwuchs ist am 25.04.2010 in der Feinkost beim Graffiti-Workshop gefragt. Jugendliche zwischen 13 und 18 können sich von erfahrenen Sprayern in die Technik einweisen lassen und zum Schluss ihr eigenes Graffiti kreieren [...]
+> Unser kreativer Nachwuchs ist am 25.04.2010 in der Feinkost beim Graffiti-Workshop gefragt. Jugendliche zwischen 13 und 18 können sich von erfahrenen Sprayern in die Technik einweisen lassen und zum Schluss ihr eigenes Graffiti kreieren [...]
 [Weiterlesen](http://www.kreatives-leipzig.de/leipzig/workshop-wunderspruh-25-04-2010-feinkost-leipzig.html)
 
 **22.04.10 - Leipziger Internetzeitung l-iz.de - Einladung zum Wundersprüh-Workshop**
 
-> 
-[...] Die Feinkost in der Leipziger Südvorstadt ist noch nicht ganz wieder in Dornröschenschlaf verfallen. Am Sonntag, 25. April, veranstaltet "Wundersprüh" dort für alle 13- bis 18-Jährigen einen Graffiti-Workshop. Die Bilder sollen sogar ein öffentlich sichtbares Plätzchen bekommen. [...]
+> [...] Die Feinkost in der Leipziger Südvorstadt ist noch nicht ganz wieder in Dornröschenschlaf verfallen. Am Sonntag, 25. April, veranstaltet "Wundersprüh" dort für alle 13- bis 18-Jährigen einen Graffiti-Workshop. Die Bilder sollen sogar ein öffentlich sichtbares Plätzchen bekommen. [...]
 <del>[Weiterlesen]( "Link existiert nicht mehr")</del>
 
 **24.04.10 - LVZ - Wundersprüh-Workshop in der Feinkost**
 
-> 
-[...] findet [...] der Graffiti-Workshop "Wundersprüh" statt. Mit den Arbeiten soll eine Freiluftgalerie an der riesigen Westwand des Fabrik-Areals bestückt werden. [...] (LVZ vom 24./25.04.10, S. 17)
+> [...] findet [...] der Graffiti-Workshop "Wundersprüh" statt. Mit den Arbeiten soll eine Freiluftgalerie an der riesigen Westwand des Fabrik-Areals bestückt werden. [...] (LVZ vom 24./25.04.10, S. 17)
 [Weiterlesen]() --> **Scan einfügen**
 
 **18.05.10 - machwasdraus.de - Bericht zum Wundersprüh-Workshop**
 
-> 
-[...] Am 25. April 2010 veranstaltete die Jugendinitiative jeureka den Graffiti-Workshop "Wundersprüh" auf dem Gelände der Feinkostgenossenschaft in Leipzig. [...]
+> [...] Am 25. April 2010 veranstaltete die Jugendinitiative jeureka den Graffiti-Workshop "Wundersprüh" auf dem Gelände der Feinkostgenossenschaft in Leipzig. [...]
 <del>[Weiterlesen]( "Link existiert nicht mehr")</del>
 
 **01.06.10 - Kreuzer - Vorstellung Wunderland-Projekt**
 
-> 
-[...] >>Wunderland<< ist Teil des von der EU für ein Jahr geförderten Jugendprojekts >>jeureka<<. Raffael Jesche hat es initiiert und damit ein soziokulturelles Projekt auf die Beine gestellt, das in Leipzig seinesgleichen sucht. [...] (Kreuzer Juni 2010, S. 64)
+> [...] >>Wunderland<< ist Teil des von der EU für ein Jahr geförderten Jugendprojekts >>jeureka<<. Raffael Jesche hat es initiiert und damit ein soziokulturelles Projekt auf die Beine gestellt, das in Leipzig seinesgleichen sucht. [...] (Kreuzer Juni 2010, S. 64)
 [Weiterlesen]() --> **Scan einfügen**
 
 
@@ -514,7 +508,7 @@ Hurra! Die [Zucker-Foto-Lovestory](#zuckerieren) ist endlich komplett fertig bea
 Die [Sehnsuchtskarawane]() ist zwar kein Projekt von uns, allerdings möchte ich trotzdem darauf aufmerksam machen. Dort wird allen Jugendlichen die Möglichkeit gegeben, Deutschland mitzugestalten.
 
 {: .center}
-![Flyer Sehnsuchtskarawane]({{site.imgpath}}{{page.imgfolder}}flyer_sehnsuchtskarawane_13februar_a.jpg)
+![Flyer Sehnsuchtskarawane]({{site.edata}}{{page.edatafolder}}images/flyer_sehnsuchtskarawane_13februar_a.jpg)
 
 Sehnst auch du dich nach einer besseren Arbeit, besseren Bildungsmöglichkeiten, Abschaffung der Internetzensur oder nach etwas ganz Anderem?
 
@@ -631,7 +625,7 @@ Alle Informationen zum [Workshop findest du hier](#wundersprueh) <del>und zur [A
 09.04.2010
 
 {: .center .no-border}
-[![MOLOTOW]({{site.imgpath}}{{page.imgfolder}}logos/MOLOTOW_Logo_5cm_w.png)](http://www.molotow.com/)
+[![MOLOTOW]({{site.edata}}{{page.edatafolder}}images/logos/MOLOTOW_Logo_5cm_w.png)](http://www.molotow.com/)
 
 Dank dem freundlichen Sponsoring-Angebot von MOLOTOW können wir jetzt auch die guten MOLOTOW Premium für den Wundersprüh-Workshop anbieten. Die Angst, den Workshop mit schlechtem Autolack starten zu müssen war also völlig unbegründet. Das wird ein Spaß.
 
@@ -654,7 +648,7 @@ Für alle, die den Vortrag von Tilman Loos (DIE LINKE) zum [Mythos Ausländerkri
 20.04.2010
 
 {: .center}
-![Ausstellung geplant - Künstler und Künstlerinnen gesucht]({{site.imgpath}}{{page.imgfolder}}100415_Plakat_Kuenstler_gesucht_w.jpg)
+![Ausstellung geplant - Künstler und Künstlerinnen gesucht]({{site.edata}}{{page.edatafolder}}images/100415_Plakat_Kuenstler_gesucht_w.jpg)
 
 Das Ende des Projekts rückt näher und nun ist es an uns und an euch, ein reales Wunderland zu schaffen. Dies geschieht vom 4. Juni bis zum 2. Juli in den Räumen der Feinkost in Leipzig.
 
@@ -732,7 +726,7 @@ Wunderland ist ein Projekt der Jugendinitiative jeureka und wird durch das EU-Pr
 23.09.2010
 
 {: .center}
-![Freiluftgalerie an der Feinkost]({{site.imgpath}}{{page.imgfolder}}freiluftgalerie_w.jpg)
+![Freiluftgalerie an der Feinkost]({{site.edata}}{{page.edatafolder}}images/freiluftgalerie_w.jpg)
 
 Die Werke des Graffiti-Workshops [Wundersprüh](#wundersprueh) vom April 2010 sind nun in die Fenster der Feinkost-Westfassade eingesetzt. Dort bilden sie eine Freiluftgalerie, welche die eigentliche Ausstellung um Längen überdauert. Seit dem 12. August 2010 ist das Gerüst an der Rückwand des Feinkosthofs endlich abgebaut und die Galerie-Wand ist seitdem zu bestaunen. Da die Feinkost noch weitere Fenster besitzt, sind für den nächsten Sommer weitere Graffiti-Workshops geplant.  
 Alle Werke sind im Projektbereich [Wundersprüh](#wundersprueh) im Großformat zu sehen.
@@ -754,7 +748,7 @@ Sämtliche Werke sind jetzt auch im Internet. Die Dokumentation zum Wunderland-P
 03.11.2010
 
 {: .center}
-![Malusion beim Jugendforum in Wien]({{site.imgpath}}{{page.imgfolder}}jugendforum_malusion.jpg)  
+![Malusion beim Jugendforum in Wien]({{site.edata}}{{page.edatafolder}}images/jugendforum_malusion.jpg)  
 Vom 03. bis 05. November 2010 veranstalten die Nationalagenturen des Programms JUGEND in Aktion aus Belgien, Deutschland, Österreich, Schweiz, Liechtenstein und Luxemburg das [2. deutschsprachige Jugendforum](http://2007-2013.jugendinaktion.at/start.asp?ID=582&b=111) in Wien. Neben einem schicken Abendprogramm und Workshops zu den Schwerpunkkten Bildung, Teilhabe und Inklusion werden am 04. November auch zahlreiche Workshops durch die Teilnehmenden angeboten. Hier wird unser [Malusion](#malusion)skonzept vorgestellt und vielleicht ist es ja sogar in einem gerade mal zwei Stunden langen Workshop-Block möglich, ein neues komplettes Werk entstehen zu lassen. Wir dürfen gespannt sein...
 
 
@@ -765,7 +759,7 @@ Vom 03. bis 05. November 2010 veranstalten die Nationalagenturen des Programms J
 04.11.2010
 
 {: .center}
-![Malusionsbild]({{site.imgpath}}{{page.imgfolder}}malusion_jugendforum_w.jpg)
+![Malusionsbild]({{site.edata}}{{page.edatafolder}}images/malusion_jugendforum_w.jpg)
 
 Zwei äußerst interessante Tage beim Jugendforum in Wien sind vorbei. Nach vielen Inputs, Impro-Theater, vielen Workshops und unheimlich vielen Menschen, die spanndende Projekte in ganz Europa machen, wurde heute auch fleißig malusioniert. Auch wenn das Bild zum Thema "europäisch gewürzt" noch weiße Flächen enthält, so sind wir heute in gerade mal zwei Stunden ganz schön weit gekommen. Freitag Nachmittag ist alles leider schon wieder vorbei. Bis dahin wird das Werk aber bestimmt noch fertiggestellt.
 
@@ -792,7 +786,7 @@ Alle Infos auf: [all4hiphop.de](http://www.all4hiphop.de/2015/geschichte_a4hh/).
 18.05.2011
 
 {: .center .no-border}
-![multip.LE:choice-Logo]({{site.imgpath}}/multip-le-choice/multiple-choice_logo_web.png)
+![multip.LE:choice-Logo]({{site.edata}}/multip-le-choice-archiv/images/multiple-choice_logo_web.png)
 
 Am 23. Mai 2011 wird die Malusion mit dem LVZ-Charitiy-Projekt MaleLE kombiniert. Im abendlichen Kulturprogramm von [multip.LE:choice](/archiv/multip-le-choice/) finden außerdem unsere (Un)Wohlfühlräume von Leipzig inmitten einer großen Projektgalerie mal wieder einen geeigneten Platz. Der Eintritt ist frei.
 
@@ -815,13 +809,13 @@ Die [Malusion](#malusion) (= Malen + Diskussion), eine im Wunderland-Projekt ent
 ### Förderer
 
 {: .no-border}
-[![Jugend für Europa - Deutsche Agentur Jugend in Aktion]({{site.imgpath}}{{page.imgfolder}}logos/jfe-logo.png)](http://www.jugendfuereuropa.de/) [![GD Bildung und Kultur - Programm "Jugend in Aktion"]({{site.imgpath}}{{page.imgfolder}}logos/gd-logo.png)](http://www.jugend-in-aktion.de/)
+[![Jugend für Europa - Deutsche Agentur Jugend in Aktion]({{site.edata}}{{page.edatafolder}}images/logos/jfe-logo.png)](http://www.jugendfuereuropa.de/) [![GD Bildung und Kultur - Programm "Jugend in Aktion"]({{site.edata}}{{page.edatafolder}}images/logos/gd-logo.png)](http://www.jugend-in-aktion.de/)
 
 Dieses Projekt wurde mit Unterstützung der Europäischen Union durch das Programm JUGEND IN AKTION finanziert. Der Inhalt dieses Projektes gibt nicht notwendigerweise den Standpunkt der Europäischen Union oder der Nationalagentur JUGEND für Europa wieder und sie übernehmen dafür keine Haftung.
 
 ### Sponsoren & Spender
 
-* [![MOLOTOW]({{site.imgpath}}{{page.imgfolder}}logos/MOLOTOW_Logo_5cm_w.png)](http://www.molotow.com/)
+* [![MOLOTOW]({{site.edata}}{{page.edatafolder}}images/logos/MOLOTOW_Logo_5cm_w.png)](http://www.molotow.com/)
 * OBI Probstheida
 
 ### Partner/Unterstützer:

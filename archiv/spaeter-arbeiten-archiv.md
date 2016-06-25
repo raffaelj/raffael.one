@@ -28,6 +28,8 @@ role:
 tags:
 
 imgfolder: /spaeter-arbeiten/
+edatafolder: /spaeter-arbeiten-archiv/
+
 imgfilename: gesicht0 #gesicht01_01.jpg .. gesicht01_03.jpg .. gesicht09_03.jpg
 models:
  Tristan:
@@ -65,7 +67,7 @@ todo:
 ---
 
 {:.left}
-![Foto: Mann schlägt Wecker aus]({{site.imgpath}}{{page.imgfolder}}pic_startseite.jpg "Foto: © Jostein Hauge / fotolia.de")
+![Foto: Mann schlägt Wecker aus]({{site.edata}}{{page.edatafolder}}images/pic_startseite.jpg "Foto: © Jostein Hauge / fotolia.de")
 
 Zufrühmorgens-, Frühmorgens und Spätmorgensgesichter,
 im Rahmen des "[100.000 EURO JOB](http://www.100.000-euro-job.de/Willkommen.html)" im Programm "[Arbeit in Zukunft der Kulturstiftung des Bundes](http://www.kulturstiftung-bund.de/arbeit),
@@ -88,7 +90,7 @@ Sie wurden teils an ihren freien Tagen, teils an Arbeitstagen gewaltsam geweckt 
 
 ### Das Buch zum 100.000 EURO JOB
 
-Nützliche und neue Ansichten zur Arbeit - so lautet der Untertitel des Buchs. Herausgegeben hat es [Sebastian Sooth](http://sooth.de/) im Jahre 2008, lesenswert ist es noch heute. Auf über 200 Seiten werden die 47 geförderten Projekte im [100.000 EURO JOB](http://www.100.000-euro-job.de/Willkommen.html) vorgestellt und mit praktischen Tipps zum Arbeiten versehen. Auch der [Selbstförderfonds](http://www.sk-kultur.de/medienkunst/blog/#id7) wird kurz vorgestellt und auf der Begleit-CD sind Video-Arbeiten einiger ProjektmacherInnen zu finden. Interessant sind auch die zwischen die einzelnen Projekte eingefügten Texte von oder über zum Beispiel Adrienne Göhler oder Mercedes Bunz. Die Ausschnitte zum Später-Arbeiten-Projekt (Seite 97-98) gibt es [hier]({{site.imgpath}}{{page.imgfolder}}/100-000-euro-job_spaeter-arbeiten_1v2.jpg) und [hier]({{site.imgpath}}{{page.imgfolder}}/100-000-euro-job_spaeter-arbeiten_2v2.jpg) und bestellen kann man das ganze Buch beim [Verbrecher Verlag](http://www.verbrecherverlag.de/buch/250).
+Nützliche und neue Ansichten zur Arbeit - so lautet der Untertitel des Buchs. Herausgegeben hat es [Sebastian Sooth](http://sooth.de/) im Jahre 2008, lesenswert ist es noch heute. Auf über 200 Seiten werden die 47 geförderten Projekte im [100.000 EURO JOB](http://www.100.000-euro-job.de/Willkommen.html) vorgestellt und mit praktischen Tipps zum Arbeiten versehen. Auch der [Selbstförderfonds](http://www.sk-kultur.de/medienkunst/blog/#id7) wird kurz vorgestellt und auf der Begleit-CD sind Video-Arbeiten einiger ProjektmacherInnen zu finden. Interessant sind auch die zwischen die einzelnen Projekte eingefügten Texte von oder über zum Beispiel Adrienne Göhler oder Mercedes Bunz. Die Ausschnitte zum Später-Arbeiten-Projekt (Seite 97-98) gibt es [hier]({{site.edata}}{{page.edatafolder}}images//100-000-euro-job_spaeter-arbeiten_1v2.jpg) und [hier]({{site.edata}}{{page.edatafolder}}images//100-000-euro-job_spaeter-arbeiten_2v2.jpg) und bestellen kann man das ganze Buch beim [Verbrecher Verlag](http://www.verbrecherverlag.de/buch/250).
 
 {:.small}
 Ein Projekt im Rahmen des Projekts 100.000 EURO JOB –
@@ -96,7 +98,7 @@ gefördert mit Mitteln der Kulturstiftung des Bundes im
 Programm „Arbeit in Zukunft“.
 
 {: .vertical-align .no-border}
-[![100.000-EURO-JOB-Logo]({{site.imgpath}}{{page.imgfolder}}p.gif)](http://www.100.000-EURO-JOB.de)[![Kulturstiftung des Bundes-Logo]({{site.imgpath}}{{page.imgfolder}}bundeskulturstiftung.gif)](http://www.kulturstiftung-bund.de/arbeit)
+[![100.000-EURO-JOB-Logo]({{site.edata}}{{page.edatafolder}}images/p.gif)](http://www.100.000-EURO-JOB.de)[![Kulturstiftung des Bundes-Logo]({{site.edata}}{{page.edatafolder}}images/bundeskulturstiftung.gif)](http://www.kulturstiftung-bund.de/arbeit)
 
 
 
@@ -111,9 +113,9 @@ Meine Modelle* wurden teils an ihren freien Tagen, teils an Arbeitstagen "gewalt
 {::options parse_block_html="true" /}
 <div class="spaeter_gallery center">
 {% for model in page.models %}
-<a href="{{site.imgpath}}{{page.imgfolder}}{{page.imgfilename}}{{forloop.index}}_01.jpg"><img src="{{site.imgpath}}{{page.imgfolder}}{{page.imgfilename}}{{forloop.index}}_01_thumb.jpg" alt="verschlafenes Gesicht von {{model[0]}}" /></a>
-<a href="{{site.imgpath}}{{page.imgfolder}}{{page.imgfilename}}{{forloop.index}}_02.jpg"><img src="{{site.imgpath}}{{page.imgfolder}}{{page.imgfilename}}{{forloop.index}}_02_thumb.jpg" alt="verschlafenes Gesicht von {{model[0]}}" /></a>
-<a href="{{site.imgpath}}{{page.imgfolder}}{{page.imgfilename}}{{forloop.index}}_03.jpg"><img src="{{site.imgpath}}{{page.imgfolder}}{{page.imgfilename}}{{forloop.index}}_03_thumb.jpg" alt="verschlafenes Gesicht von {{model[0]}}" /></a>
+<a href="{{site.edata}}{{page.edatafolder}}images/{{page.imgfilename}}{{forloop.index}}_01.jpg" title="{{ model[0] }} - {{ model[1].is }} - {{ model[1].description }}"><img src="{{site.edata}}{{page.edatafolder}}images/{{page.imgfilename}}{{forloop.index}}_01_thumb.jpg" alt="verschlafenes Gesicht von {{model[0]}}" /></a>
+<a href="{{site.edata}}{{page.edatafolder}}images/{{page.imgfilename}}{{forloop.index}}_02.jpg" title="{{ model[0] }} - {{ model[1].is }} - {{ model[1].description }}"><img src="{{site.edata}}{{page.edatafolder}}images/{{page.imgfilename}}{{forloop.index}}_02_thumb.jpg" alt="verschlafenes Gesicht von {{model[0]}}" /></a>
+<a href="{{site.edata}}{{page.edatafolder}}images/{{page.imgfilename}}{{forloop.index}}_03.jpg" title="{{ model[0] }} - {{ model[1].is }} - {{ model[1].description }}"><img src="{{site.edata}}{{page.edatafolder}}images/{{page.imgfilename}}{{forloop.index}}_03_thumb.jpg" alt="verschlafenes Gesicht von {{model[0]}}" /></a>
 
 {:.caption}
 {{ model[0] }} - {{ model[1].is }}  
@@ -219,10 +221,10 @@ Bei Interesse, die Ausstellung auszuleihen oder mich mitsamt der Ausstellung auf
 - **24.06.10 - 27.06.10** - [Fusion-Festival (Oase)](http://www.fusion-festival.de/de/2010/programm/oase/#uid707)
 
 {: .center}
-![Später Arbeiten auf Plane 1]({{site.imgpath}}{{page.imgfolder}}spaeter-arbeiten_a.jpg)
+![Später Arbeiten auf Plane 1]({{site.edata}}{{page.edatafolder}}images/spaeter-arbeiten_a.jpg)
 
 {: .center}
-![Später Arbeiten auf Plane 2]({{site.imgpath}}{{page.imgfolder}}spaeter-arbeiten_b.jpg)
+![Später Arbeiten auf Plane 2]({{site.edata}}{{page.edatafolder}}images/spaeter-arbeiten_b.jpg)
 
 
 
@@ -241,7 +243,7 @@ gefördert mit Mitteln der Kulturstiftung des Bundes im
 Programm „Arbeit in Zukunft“.
 
 {: .vertical-align .no-border}
-[![100.000-EURO-JOB-Logo]({{site.imgpath}}{{page.imgfolder}}p.gif)](http://www.100.000-EURO-JOB.de) [![Bundeskulturstiftung-Logo]({{site.imgpath}}{{page.imgfolder}}bundeskulturstiftung.gif)](http://www.kulturstiftung-bund.de/arbeit)
+[![100.000-EURO-JOB-Logo]({{site.edata}}{{page.edatafolder}}images/p.gif)](http://www.100.000-EURO-JOB.de) [![Bundeskulturstiftung-Logo]({{site.edata}}{{page.edatafolder}}images/bundeskulturstiftung.gif)](http://www.kulturstiftung-bund.de/arbeit)
 
 
 
