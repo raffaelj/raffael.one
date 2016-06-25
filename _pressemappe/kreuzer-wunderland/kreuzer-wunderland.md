@@ -5,7 +5,7 @@ author: Claudia Lindner
 media: Kreuzer
 
 category: 
-image: 100601_kreuzer_wunderland_ausschnitt-malusion_web.jpg
+image: 
 
 imgfolder:
 
@@ -13,3 +13,5 @@ label:
 ---
 
 sehr ausführlicher Artikel im Kreuzer zum [Wunderland-Projekt](/archiv/mein-wunderland-eu)
+
+> [...] >>Wunderland<< ist Teil des von der EU für ein Jahr geförderten Jugendprojekts >>jeureka<<. Raffael Jesche hat es initiiert und damit ein soziokulturelles Projekt auf die Beine gestellt, das in Leipzig seinesgleichen sucht. [...]
