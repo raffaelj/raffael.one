@@ -12,6 +12,7 @@ $weiss_transp2: rgba(255,255,255,.5);
 $weiss_transp3: rgba(255,255,255,.1);
 
 $black_transp: rgba(0,0,0,.1);
+$black_transp2: rgba(0,0,0,.2);
 
 //
 // Colors
@@ -287,17 +288,18 @@ header {
       border-top-right-radius:100%;
       border-bottom-left-radius:2em;
       border-top-left-radius:1em;
-      -webkit-transition: background-color .8s, color .3s ease-in-out; /* Firefox */
-      -moz-transition: background-color .8s, color .3s ease-in-out; /* WebKit */
-      -o-transition: background-color .8s, color .3s ease-in-out; /* Opera */
-      transition: background-color .8s, color .3s ease-in-out; /* Standard */
+      -webkit-transition: background-color .8s, color .5s ease-in-out; /* Firefox */
+      -moz-transition: background-color .8s, color .5s ease-in-out; /* WebKit */
+      -o-transition: background-color .8s, color .5s ease-in-out; /* Opera */
+      transition: background-color .8s, color .5s ease-in-out; /* Standard */
       &:hover {
         text-decoration:none;
         background-color:$weiss_transp2;
-        -webkit-transition: background-color .8s, color .3s ease-in-out; /* Firefox */
-        -moz-transition: background-color .8s, color .3s ease-in-out; /* WebKit */
-        -o-transition: background-color .8s, color .3s ease-in-out; /* Opera */
-        transition: background-color .8s, color .3s ease-in-out; /* Standard */
+        color:$darkGrey;
+        -webkit-transition: background-color .8s, color .5s ease-in-out; /* Firefox */
+        -moz-transition: background-color .8s, color .5s ease-in-out; /* WebKit */
+        -o-transition: background-color .8s, color .5s ease-in-out; /* Opera */
+        transition: background-color .8s, color .5s ease-in-out; /* Standard */
       }
     }
     @include breakpoint(medium){
@@ -364,23 +366,31 @@ nav {
     margin:.1em;
     color:inherit;
     text-decoration:none;
-    background-color:$weiss_transp3;
+    // background-color:$weiss_transp3;
+    background-color:$black_transp2;
     // border-radius:5px;
     border-top-left-radius:100%;
     border-bottom-right-radius:50%;
-    -webkit-transition: background-color .8s, color .3s ease-in-out; /* Firefox */
-    -moz-transition: background-color .8s, color .3s ease-in-out; /* WebKit */
-    -o-transition: background-color .8s, color .3s ease-in-out; /* Opera */
-    transition: background-color .8s, color .3s ease-in-out; /* Standard */
+    -webkit-transition: background-color .8s, color .5s ease-in-out; /* Firefox */
+    -moz-transition: background-color .8s, color .5s ease-in-out; /* WebKit */
+    -o-transition: background-color .8s, color .5s ease-in-out; /* Opera */
+    transition: background-color .8s, color .5s ease-in-out; /* Standard */
     &:hover {
       text-decoration:none;
       background-color:$weiss_transp2;
-      -webkit-transition: background-color .8s, color .3s ease-in-out; /* Firefox */
-      -moz-transition: background-color .8s, color .3s ease-in-out; /* WebKit */
-      -o-transition: background-color .8s, color .3s ease-in-out; /* Opera */
-      transition: background-color .8s, color .3s ease-in-out; /* Standard */
+      color:$darkGrey;
+      -webkit-transition: background-color .8s, color .5s ease-in-out; /* Firefox */
+      -moz-transition: background-color .8s, color .5s ease-in-out; /* WebKit */
+      -o-transition: background-color .8s, color .5s ease-in-out; /* Opera */
+      transition: background-color .8s, color .5s ease-in-out; /* Standard */
     }
   }
+    li:nth-child(2n) a {
+      border-top-left-radius:0%;
+      border-bottom-right-radius:0%;
+      border-top-right-radius:100%;
+      border-bottom-left-radius:50%;
+    }
 }
 .top-nav, .bottom-nav {
   li {
