@@ -144,6 +144,15 @@ h6 {
 p {
   padding-bottom:.5em;
   line-height: 2em;
+  -ms-word-break: break-all;
+  word-break: normal;
+
+  // Non standard for webkit
+  word-break: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 
 p.small, .date, .caption,
@@ -314,8 +323,9 @@ main {
     width:100%;
     clear:both;//float nach collections zurücksetzen
   }
-  > h2 {
+  h2:first-child {
     margin-top:.2em;
+    text-align:center;
   }
   ul,ol {
     list-style-position:inside;
@@ -533,6 +543,103 @@ section.meta {
   // }
 }
 
+/********** Blog **********/
+
+
+body.blog {
+  main {
+    text-align:center;
+    
+    article.post_excerpt {
+      position:relative;
+      display:inline-block;
+      width:28%;
+      height:400px;
+      padding:1%;
+      margin:1%;
+      overflow:hidden;
+      text-align:left;
+      -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+      -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+      box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+      border: 1px solid $grey;
+      border-top-right-radius: .5em;
+      
+      @include breakpoint(smaller){width:45%;}
+      @include breakpoint(verysmall){width:96%;}
+      
+      &:nth-child(2n) {
+        background-color:$weiss_transp3;
+      }
+      
+      &:nth-child(2n+1) {
+        background-color:$weiss_transp2;
+      }
+      
+      a.read-more {
+        position: absolute;
+        bottom: 0px;
+        display: block;
+        left: 0px;
+        width: 100%;
+        line-height: 2em;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: rgb(255, 255, 255);
+        &:hover {
+          color:$weiss;
+          background-color:$green;
+        }
+      }
+      
+      h3 {
+        line-height:1.6em;
+        margin-top:0;
+        text-align:left;
+        clear:both;
+        -ms-word-break: break-all;
+        word-break: normal;
+
+        // Non standard for webkit
+        word-break: break-word;
+
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto;
+        
+        a {
+          color:inherit;
+          &:hover {
+            background-color:$green;
+            // text-decoration: underline dotted $green;
+          }
+        }
+      }
+      p:not(.center) {
+        line-height:1.4em;
+        text-align:justify;
+        -ms-word-break: break-all;
+        word-break: normal;
+
+        // Non standard for webkit
+        word-break: break-word;
+
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto;
+      }
+      p.labels {
+        text-align:right;
+      }
+      p.date {
+        float:left;
+      }
+    }
+  }
+}
+
+
+
 /******* markdown images in p tags ************/
 main p img {
   // display:block;
@@ -543,7 +650,7 @@ main p img {
   // border: 1px solid $darkGrey;
   border-radius:2px;
   // width:500px;
-  max-width:100%; 
+  max-width:90%; 
   
   // width: 80px;
   // margin:10px;
@@ -565,6 +672,7 @@ main p.no-border img {
 /************ Galerie ************/
 .gallery {
   width:100%;
+  text-align:center;
   a {
     display:inline-block;
     margin:0;
