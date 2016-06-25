@@ -31,10 +31,6 @@ description: "Mitorganisation eines Begleitcamps mit ca. 30 Jugendlichen zum [Ü
 
 imgfolder: /ueber-lebenskunst-camp/
 edatafolder: /ueber-lebenskunst-camp-archiv/
-
-
-todo:
-- Bildergalerien
 ---
 
 Für das Festival [ÜBER LEBENSKUNST](http://www.ueber-lebenskunst.org/), vom 17. - 21. August im Haus der Kulturen der Welt in Berlin, organisierte ich mit einigen weiteren jungen Menschen aus Halle und Leipzig ein Begleitcamp für rund 30 junge Erwachsene. Wir wohnten in einem Habitat aus Baugerüsten auf engstem Raum direkt neben dem [Haus der Kulturen der Welt](https://www.hkw.de), schwärmten morgens aus um alle Veranstaltungen zu besuchen und diese abends in der Gruppe auszuwerten. Am letzten Tag zeigten wir die Ergebnisse in Form einer großen Abschlussperformance.

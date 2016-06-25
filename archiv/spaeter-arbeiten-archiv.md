@@ -62,8 +62,6 @@ models:
 
 excerpt: "Archivseite: Zufrühmorgens-, Frühmorgens und Spätmorgensgesichter, im Rahmen des [100.000 EURO JOB](http://www.100.000-euro-job.de/Willkommen.html) im Programm [Arbeit in Zukunft der Kulturstiftung des Bundes](http://www.kulturstiftung-bund.de/arbeit), in Kooperation mit [Hello Studios](http://www.hellostudios.de), [Feinkost Leipzig](http://www.feinkostgenossenschaft.de/)"
 
-todo:
-- Bildergalerie in Dokumentation
 ---
 
 {:.left}
