@@ -36,7 +36,7 @@ funktioniert, wenn in md alles aus yml steht
 {% endcomment %}
 
 
-
+<div class="center">
 {% for item in site.data.gallery %}
  {% if item[1].title == null %}
   {% for subitem in item.[1] %}
@@ -50,3 +50,4 @@ funktioniert, wenn in md alles aus yml steht
   {% assign g = item[1] %}{% include album_preview.html gallery=g %}
  {% endif %}
 {% endfor %}
+</div>
