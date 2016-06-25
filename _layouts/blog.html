@@ -5,15 +5,16 @@ layout: default
 {{content}}
 
 {% for post in paginator.posts %}
-    <article class="post">
+    <article class="post_excerpt">
 
+      <p class="date">{{ post.date | date: '%d.%m.%y' }}</p>
+      <p class="labels">
+        {% for cat in post.categories %}
+        <span class="label {{ cat | slugify }}">{{ cat }}</span>
+        {% endfor %}
+      </p>
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
       
-      {% for cat in post.categories %}
-      <!--<a class="label {{ cat | slugify }}" href="{{site.baseurl}}/{{ cat }}">{{ cat | slugify }}</a>-->
-      <span class="label {{ cat | slugify }}">{{ cat }}</span>
-      {% endfor %}
-      <p class="date">{{ post.date | date: '%d.%m.%y' }}</p>
       <div class="entry">
         {{ post.excerpt | markdownify }}
       </div>
@@ -25,14 +26,14 @@ layout: default
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{site.baseurl}}{{ paginator.previous_page_path }}" class="previous" title="zurück"><<</a>
+      <a href="{{site.baseurl}}{{ paginator.previous_page_path }}" class="previous" title="zurück">vorherige Seite</a>
     {% else %}
-      <span class="previous"><</span>
+      <span class="previous"></span>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{site.baseurl}}{{ paginator.next_page_path }}" class="next" title="vorwärts">nächste Seite</a>
+    {% else %}
+      <span class="next "></span>
     {% endif %}
     <span class="page_number ">Seite {{ paginator.page }} von {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{site.baseurl}}{{ paginator.next_page_path }}" class="next" title="vorwärts">>></a>
-    {% else %}
-      <span class="next ">></span>
-    {% endif %}
   </div>
