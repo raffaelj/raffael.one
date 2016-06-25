@@ -2,9 +2,9 @@
 // $mobile_small: 500px; // mobile
 // $mobile: 640px; // mobile
 
-// $break1: 760px; // verysmall
-// $break2: 870px; // smaller
-// $break3: 960px; // small
+$break_width1: 500px; // verysmall
+$break_width2: 700px; // smaller
+$break_width3: 1000px; // small
 $break_width4: 1150px; // medium
 // $break5: 1600px; // big
 
@@ -30,5 +30,14 @@ $break_height4: 760px;
   // Breite
   @if $point == medium { // mittel
     @media (max-width: $break_width4) {@content;}
+  }
+  @if $point == small { // mittel
+    @media (max-width: $break_width3) {@content;}
+  }
+  @if $point == smaller { // mittel
+    @media (max-width: $break_width2) {@content;}
+  }
+  @if $point == verysmall { // mittel
+    @media (max-width: $break_width1) {@content;}
   }
 }
