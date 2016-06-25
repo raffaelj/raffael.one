@@ -28,7 +28,7 @@ edata: http://data.raffael.one
 sass: # :expanded or :compressed
   style: :expanded
 
-paginate: 8
+paginate: 9
 paginate_path: "/blog/page:num/"
 
 permalink: pretty
