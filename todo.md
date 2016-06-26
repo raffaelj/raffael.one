@@ -9,8 +9,10 @@ layout: post
 
 - [ ] related post als include
 - [ ] related galleries als include
-- [ ] Youtube-Links in embed konvertieren
-- [ ] Vimeo-Links in embed konvertieren
+- [ ] Video-Links in embed konvertieren
+  - [x] Youtube-Links in p.embed (kramdown `{: .embed}`) --> JS
+  - [x] Vimeo-Links in p.embed (kramdown `{: .embed}`) --> JS
+  - [ ] Opt-In --> inkl. Vorschau schwierig
 - Bild-Positionierung noch nicht ideal, da kramdown <img> in <p> verpackt
 - Galerie auslagern
   - evtl. als eigene jekyll-Instanz und dann als submodule laden

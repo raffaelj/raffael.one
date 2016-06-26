@@ -833,6 +833,26 @@ a.thumbs {
   }
 }
 
+/******* embedded videos **********/
+.embed {
+  text-align:center;
+  a {
+    display:inline-block;
+  }
+}
+iframe.embedded {
+  display:block;
+  max-width:90%;
+  margin:0 auto;
+  padding:1px;
+  background:$weiss;
+  border: 9px solid $darkGrey;
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+}
+
+
 /************ Seiten-Layouts laden ************/
 @import 'startseite';
 @import 'vita';

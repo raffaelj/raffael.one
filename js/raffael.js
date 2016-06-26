@@ -43,31 +43,6 @@ document.getElementsByClassNameForOldies = function(cl) {
 };
 
 
-// Google Maps Bild in iframe umwandeln
-// var maps = d.querySelector(".img_maps");
-
-// if (maps) {
-  // $(maps).click(function(){
-    // this.innerHTML = "";
-    // var iframe = d.createElement("iframe");
-    // iframe.className = "iframe_maps";
-    // iframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2492.4035285221476!2d12.359521315838819!3d51.340489979607995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a6f789455aa88b%3A0xd64a5464a75a010f!2sMendelssohnstra%C3%9Fe+10%2C+04109+Leipzig!5e0!3m2!1sde!2sde!4v1461786147440";
-    // iframe.width = "600";
-    // iframe.height = "450";
-    // iframe.frameborder = "0";
-    // this.appendChild(iframe);
-  // });
-// }
-
-// mp3-Links in jplayer-audio konvertieren
-// var mediafiles = $('a[href*=".mp3"]');
-// console.log(mediafiles);
-// $(mediafiles).each(function(i){
-    // $(this).addClass("right");
-  // }
-// );
-
-
 // source: http://curlybracket.net/2013/04/22/replace-links-to-mp3-or-ogg-files-by-html5-on-the-fly/
 // convert audio links to audio players; adjust these two vars to your needs
 //var dewplayerURL = "/wp-content/themes/curlybracket/flash/dewplayer-mini.swf";
@@ -101,11 +76,66 @@ jQuery(postContainer+' a[href$="mp3"]').each(function(){
    }
 });
 
+
+
+
 // Bilder-Links in Lightbox-Links umwandeln
 $('a[href$="jpg"]').not('a[data-lightbox]').each(function() {
 	// $(this).Lightbox();
   $(this).attr("data-lightbox","autolightbox");
 });
+
+
+
+
+
+
+/*********** Youtube-Video-Links in iframe umwandeln ***********/
+
+function popVideoId(url) {
+  var videoUrl = url;
+  var videoId;
+  var video = ["id","player"];
+  var regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+  var regExp2 = /https?:\/\/(?:www\.)?vimeo.com\/(?:channels\/(?:\w+\/)?|groups\/([^\/]*)\/videos\/|album\/(\d+)\/video\/|)(\d+)(?:$|\/|\?)/;
+
+  var match = videoUrl.match(regExp);
+  if (match && match[2].length == 11) {
+    video["id"] = match[2];
+    video["player"] = "youtube";
+  } else {
+    
+    var match = videoUrl.match(regExp2);
+    if (match) {
+      video["id"] = match[3];
+      video["player"] = "vimeo";
+    }
+    else {
+      video["id"] = 'no video found';
+      video["player"] = "none";
+    }
+  }
+  return video;
+}
+
+var embed = $(".embed a");
+$(embed).each(function(){
+  var url = $(this).attr("href");
+  var video = popVideoId(url);
+  
+  // Youtube
+  if (video["player"] == "youtube"){
+    $(this).before('<iframe class="embedded" width="640" height="360" src="https://www.youtube-nocookie.com/embed/' + video["id"] + '?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>');
+  }
+  // Vimeo
+  if (video["player"] == "vimeo"){
+    $(this).before('<iframe class="embedded" src="https://player.vimeo.com/video/' + video["id"] + '?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+  }
+  else {}
+
+});
+
+
 
 // definierte Funktionen aufrufen
 window.onload = convertMailAddress;
