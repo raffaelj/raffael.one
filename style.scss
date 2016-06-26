@@ -833,8 +833,10 @@ a.thumbs {
   }
 }
 
-
 /************ Seiten-Layouts laden ************/
-@import 'paginator';
 @import 'startseite';
 @import 'vita';
+
+/************ sonstige Layouts laden ************/
+@import 'paginator';
+@import 'highlights';
