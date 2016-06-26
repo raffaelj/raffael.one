@@ -15,7 +15,7 @@ layout: post
 - Galerie auslagern
   - evtl. als eigene jekyll-Instanz und dann als submodule laden
   - evtl. MediaGoblin oder andere Bildverwaltungssoftware
-  - evtl. Script für XnView --> Stapelverarbeitung Thumbs + mittel + groß + filelist.yml
+  - [x] [Script für NConvert](https://github.com/raffaelj/image-processing-jekyll-batch-nconvert) --> Stapelverarbeitung thumbs + medium + large + filelist.yml + album.md
 
 ## Style
 
