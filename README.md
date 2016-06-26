@@ -1,20 +1,61 @@
-# raffael.one
+# www.raffael.one
 Neubau meiner veralteten Internetpräsenz mit jekyll und gh-pages
 Nach zwei liegengebliebenen Seitenumbauten, die auf jekyll Now basierten, starte ich nochmal von vorne
 
 work in progress...
 
+* Inhaltsverzeichnis
+{:toc}
+
+## Zielstellung
+
+### Konfiguration
+
+- Entwicklung lokal und auf Github
+- Backend:
+  - prose.io
+  - Texteditor + Upload/Commit
+- entweder automatischer Push zu Uberspace oder alles auf Github
+- solange Github+prose als Backend in Frage kommt, keine jekyll-Plugins
+
+### Strukturanforderungen
+
+- [ ] evtl. Blog(s) in verschiedenen Kategorien (Code, Kunst, Gedanken...)
+  - [ ] mit eigenen Feeds
+- [x] Custom Post Types --> collections
+  - [ ] Vita-Einträge
+  - [x] Blog-Einträge --> _posts
+  - [ ] Bilder/Mediadaten-Einträge
+  - [x] Bildergalerien --> collection + _data + lokale Bildkonvertierung + Upload auf externen Server
+  - [x] Pressespiegel --> collection
+  - [x] Kursangebote --> collection
+  - [x] Referenzen Design --> collection
+  - [x] Website-Archive --> pages im Ordner archiv
+- [x] Custom Taxonomies --> yaml-Frontmatter --> I :heart: metadata
+  
+### eventuelle Features
+
+- [ ] multilingual en + de
+- [ ] Print-CSS
+- [ ] PDF-Export
+- [ ] eine Art Lerntagebuch/Reflexion --> Was habe ich in dem jeweiligen Projekt, der Situation gelernt? --> in yaml-Frontmatter
+
+### Grundsätzliches
+
+- die Seite muss ohne Javascript funktionieren --> nur zum Aufhübschen
+- HTML5 + CSS3 (mit Fallbacks oder zumindest ansehnlichem Layout in alten Browsern)
+- responsive Webdesign
 
 ### Migration folgender Seiten:
 
 - [ ] raffaeljesche.de
 - [ ] raffaeljesche.de/spaeter-arbeiten
   - [x] Inhalte
-  - [.] Bildergalerien
+  - [x] Bildergalerien
   - [ ] Screenshots - Original-Seite
 - [ ] raffaeljesche.de/malusphaere
   - [x] Inhalte
-  - [ ] Bildergalerien
+  - [x] Bildergalerien
   - [ ] Screenshots - Original-Seite
 - [ ] raffaeljesche.de/perlenbaum
   - [ ] Bildergalerie
@@ -28,7 +69,7 @@ work in progress...
   - [x] Bildergalerien
   - [ ] Screenshots - Original-Seite
 - [ ] verstyler.de
-  - [ ] Inhalte
+  - [.] Inhalte
   - [ ] Bildergalerien
   - [ ] Screenshots - Original-Seite
 - [x] multiple.verstyler.de
@@ -40,8 +81,57 @@ und als Extra:
 
 - [x] ueber-lebenskunst.org/camp --> seit Jahren offline :-(
   - [x] Inhalte
-  - [ ] Bildergalerie --> war nie auf dem Camp-Blog
+  - [x] Bildergalerie --> war nie auf dem Camp-Blog
 
+
+### kein Tracking externer Seiten durch Nachladen von Bildern und Scripten
+
+- Video/Media-Einbettung
+  - [ ] Youtube
+  - [ ] Vimeo
+  - [ ] ...
+- Donate-Buttons
+  - [.] flattr
+  - [ ] Paypal ?
+  - [ ] ...
+- [.] Creative Commons-Hinweise
+- Social Sharing
+  - [ ] Facebook
+  - [ ] Twitter
+  - [ ] g+
+  - [ ] ...
+
+### aufräumen
+
+- [ ] Crosspostings/Dopplungen zusammenführen
+- [ ] tote Links entfernen
+- [ ] fehlende Beschreibungen zu Vita-Einträgen hinzufügen
+- [ ] Copyright-Hinweise/Urheberschaft zu allen/den meisten Bildern/Inhalten
+
+### Visualisierung von Abhängigkeiten meiner Tätigkeiten
+
+- [ ] evtl. d3.js + Metadaten
+- [ ] Icons, Labels, Farben für Metadaten
+- [x] Sortierung/Gruppierung in sinnvolle Überschriften (Navigation)
+
+### Sonstiges
+
+- so Open Source und Creative Commons wie möglich
+- einfach erweiterbar
+- Dokumentation meiner Arbeit an der neuen Seite
+  - z. B. Social Sharing ohne Javascript und ohne Tracking
+- [x] Hosting bei coolen Anbietern, wie Uberspace oder Github
+- nebenbei ein paar neue Sprachen und Syntaxen lernen
+  - liquid
+  - scss
+  - yaml
+  - markdown
+  - batch
+  - bash
+- nebenbei mit Codes experimentieren
+  - inline SVG
+  - d3.js
+  - ...
 
 ## Fallstricke (sollten dokumentiert werden)
 
@@ -57,7 +147,7 @@ und als Extra:
   - `{% capture var_name %}{{ site.url }}{{ site.baseurl }}{{ page.inFrontMatterDefinedSubfolder }}/{{ filename }}{% endcapture %}`
 - nur pages in Root-Verzeichnis sind automatisch über domain.de/pagename aufrufbar
   - pages in eigenem Ordner, da übersichtlicher --> in page.md muss permalink aktiv sein
-- kramdown `{:toc}` funktioniert nur für Überschriften, die sich direkt im Dokument befinden --> Überschriften von dynamisch angelegten Posts zum Thema lassen sich so leider nicht dynamisch in ein Inhaltsverzaichnis pressen
+- kramdown `{:toc}` funktioniert nur für Überschriften, die sich direkt im Dokument befinden --> Überschriften von dynamisch angelegten Posts zum Thema lassen sich so leider nicht dynamisch in ein Inhaltsverzeichnis pressen
 - von Wordpress gewohnte category und tag pages lassen sich nicht automatisch erstellen (zumindest nicht ohne Plugin) und müssen bei Bedarf als eigenständige Seiten angelegt werden
 - site.pages != site.posts --> verschiedene globale Variablen zur Verfügung für diese beiden Seitentypen
 - 4 Leerzeichen vor Text bedeuten, dass der Inhalt mit `<pre><code>...</code></pre>` dargestellt wird
