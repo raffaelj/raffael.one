@@ -1,142 +1,14 @@
-/*body.start {
-  main{
-    display:none;
-  }
-  
-  height:500px;
-  width:500px;
-  position:absolute;
-  top:50%;
-  left:50%;
-  margin-top:-250px;
-  margin-left:-250px;
-  background-size:cover;
-  header {
-    height:100%;
-    width:100%;
-    font-size:2em;
-    .logo {
-      // display:none;
-      position:fixed;
-      top:.5em;
-      left:0;
-      font-size:.6em;
-     }
-      .top-nav {
-      height:100%;
-      width:100%;
-      // font-size:2em;
-      font-size:inherit;
-      font-style:italic;
-      // background-color:rgba(0,255,0,.1);
-      ul {
-        // display:block;
-        // height:100%;
-        // width:100%;
-        margin:0;
-        padding:0;
-        // background-color:rgba(0,255,0,.1);
-        li {
-          a {
-            // border-radius:0;
-            border-top-left-radius:50%;
-            border-bottom-right-radius:50%;
-          }
-          // display:block;
-          position:absolute;
-          margin:0;
-          padding:0;
-          width:100%;
-          // overflow:hidden;
-          text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
-          // background-color:rgba(255,0,0,.1);
-          &:nth-child(1){//Tanz
-            bottom:105%;
-            left:43%;
-            transform: rotate(-18deg);
-          }
-          &:nth-child(2){//Kurse
-            top:86%;
-            left:61%;
-            transform: rotate(72deg);
-          }
-          &:nth-child(3){//Design
-            bottom:86%;
-            right:61%;
-            transform: rotate(-108deg);
-          }
-          &:nth-child(4){//Über
-            top:105%;
-            right:43%;
-            transform: rotate(162deg);
-          }
-          &:nth-child(5){//mehr Kunst
-            top:66%;
-            right:77%;
-            transform: rotate(198deg);
-            font-size:.7em;
-          }
-          &:nth-child(6){//Blog
-            bottom:122%;
-            right:22%;
-            transform: rotate(-72deg);
-            font-size:.7em;
-          }
-          &:nth-child(7){//Kontakt
-            bottom:66%;
-            left:77%;
-            transform: rotate(18deg);
-            font-size:.7em;
-          }
-          &:nth-child(8){//Pressemappe
-            top:122%;
-            left:22%;
-            transform: rotate(108deg);
-            font-size:.7em;
-          }
-        }
-      }
-    }
-  }
-  @include breakpoint(flat4){
-    // height:300px;
-    // width:300px;
-    // margin-top:-150px;
-    // margin-left:-150px;
-    header{font-size:1.5em;}
-  }
-  @include breakpoint(flat3){
-    height:400px;
-    width:400px;
-    margin-top:-200px;
-    margin-left:-200px;
-    // header{font-size:1.5em;}
-  }
-  @include breakpoint(flat2){
-    height:300px;
-    width:300px;
-    margin-top:-150px;
-    margin-left:-150px;
-    header{font-size:1.1em;}
-  }
-  @include breakpoint(flat1){
-    height:200px;
-    width:200px;
-    margin-top:-100px;
-    margin-left:-100px;
-    header{font-size:1em;}
-  }
-  footer {
-    position:fixed;
-    bottom:0;
-    left:0;
-    background-color:inherit;
-  }
-}*/
 body.start {
   background-attachment:scroll;
   main{
     display:none;
+  }
+  nav li a {
+    // color:$weiss;
+    background-color:$weiss_transp3;
+    &:hover {
+      background-color:$weiss_transp2;
+    }
   }
   
   height:500px;
@@ -182,10 +54,10 @@ body.start {
             margin:0;
             padding:.2em;
             color:$weiss;
-            background-color:$weiss_transp3;
-            &:hover {
-              background-color:$weiss_transp2;
-            }
+            // background-color:$weiss_transp3;
+            // &:hover {
+              // background-color:$weiss_transp2;
+            // }
           }
           // display:block;
           position:absolute;
