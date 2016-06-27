@@ -30,14 +30,8 @@ role:
 - Öffentlichkeitsarbeit
 
 todo:
-- "[ ] Bildergalerien"
-- "[ ] kurzer Text Rückblick auf das Projekt"
 - "[ ] evtl. related posts"
-- "[x] Speicherort für Mp3 Ausländerkriminalität"
-- "[x] Speicherort für Mp3s Flucht aus dem Iran"
-- "[ ] Projekt-Header-Grafiken"
-- "[ ] eGalerie"
-- "[x] Flucht aus dem Iran in eGalerie"
+- "[ ] evtl. Projekt-Header-Grafiken"
 - "[ ] Scans in Pressespiegel"
 - "[ ] fehlende Links in Pressespiegel"
 ---

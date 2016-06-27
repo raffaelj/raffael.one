@@ -32,8 +32,6 @@ edatafolder: /pausenraunen-archiv/
 
 description: Versuch der Umnutzung eines Raums der Hochschule für Grafik und Buchkunst Leipzig zu einem 3. Ort, einem Raum des Austauschs und des Verweilens
 
-todo:
-- Bildergalerien
 ---
 
 Das Projekt Pausenraunen war ein Versuch der Umnutzung eines Raums der Hochschule für Grafik und Buchkunst Leipzig zu einem 3. Ort, einem Raum des Austauschs und des Verweilens. Nun bedarf es dafür keiner eigenständigen Webpräsenz mehr. Was, warum und wie lässt sich im folgenden Archiv nachlesen.
