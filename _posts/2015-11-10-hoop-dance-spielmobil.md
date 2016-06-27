@@ -8,8 +8,8 @@ vita: ja
 header: 
 license: cc-by
 
-start_date: 2015-08-15
-end_date: 2015-09-23
+date_from: 2015-08-15
+date_to: 2015-09-23
 room: Parks und Plätze
 location: Leipzig
 

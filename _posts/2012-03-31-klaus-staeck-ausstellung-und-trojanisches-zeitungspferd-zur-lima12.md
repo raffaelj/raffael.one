@@ -9,8 +9,8 @@ header: troj_zeitungspferd_315x53.jpg
 
 license: cc-by
 
-start_date: 2012-03-21
-end_date: 2012-03-25
+date_from: 2012-03-21
+date_to: 2012-03-25
 room: Linke Medienakademie, TU und UdK
 location: Berlin
 

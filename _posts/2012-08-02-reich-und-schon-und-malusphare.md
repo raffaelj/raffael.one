@@ -7,8 +7,8 @@ vita: ja
 project: Malusphäre
 header: rus_2012.jpg
 
-start_date: 2012-06-22
-end_date: 2012-06-24
+date_from: 2012-06-22
+date_to: 2012-06-24
 room: Reich & Schön-Festival
 location: Auterwitz
 

@@ -8,8 +8,8 @@ project: 'Später Arbeiten'
 header: spaeter-arbeiten_rostock.jpg
 license: cc-by
 
-start_date: 2010-07-12
-end_date: 2010-08-16
+date_from: 2010-07-12
+date_to: 2010-08-16
 room: Peter-Weiss-Haus
 location: Rostock
 

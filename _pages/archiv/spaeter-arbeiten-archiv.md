@@ -11,8 +11,8 @@ permalink: /archiv/spaeter-arbeiten/
 header: spaeter-arbeiten_feinkost.jpg
 license: cc-by
 
-start_date: 2006-07-01
-end_date: 2007-02-17
+date_from: 2006-07-01
+date_to: 2007-02-17
 room: Info-Café, Feinkost
 location: Leipzig
 

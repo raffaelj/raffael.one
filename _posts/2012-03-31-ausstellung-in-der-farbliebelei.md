@@ -6,8 +6,8 @@ categories:
 vita: ja
 header: farbliebelei_2012.jpg
 
-start_date: 2012-01-06
-end_date: 2012-02-07
+date_from: 2012-01-06
+date_to: 2012-02-07
 room: Farbliebelei
 location: Leipzig
 

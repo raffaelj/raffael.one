@@ -8,8 +8,8 @@ header: kunst-kunst_gfzk.jpg
 
 license: cc-by
 
-start_date: 2012-07-06
-end_date: 2012-07-19
+date_from: 2012-07-06
+date_to: 2012-07-19
 room: Galerie für Zeitgenössische Kunst
 location: Leipzig
 

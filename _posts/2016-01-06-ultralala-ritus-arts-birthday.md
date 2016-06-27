@@ -7,8 +7,8 @@ tags:
 header: ultralala_ritus1.jpg
 license: cc-by
 
-start_date: 2014-01-17
-end_date:
+date_from: 2014-01-17
+date_to:
 room: Halle 14, Spinnerei
 location: Leipzig
 

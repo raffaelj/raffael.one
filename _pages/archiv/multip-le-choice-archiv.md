@@ -9,8 +9,8 @@ archiv: true
 permalink: /archiv/multip-le-choice/
 header: multip-le-choice.jpg
 
-start_date: 2011-05-23
-end_date:
+date_from: 2011-05-23
+date_to:
 room: Europa-Haus Leipzig, Club Telegraph
 location: Leipzig
 

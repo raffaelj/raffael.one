@@ -8,8 +8,8 @@ header: sonido_stencil.jpg
 
 license: cc-by
 
-start_date: 2010-11-20
-end_date: 
+date_from: 2010-11-20
+date_to: 
 room: Sonido-Festival
 location: Erfurt
 

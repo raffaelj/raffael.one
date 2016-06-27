@@ -10,8 +10,8 @@ header: aoi_vernissage_2011.jpg
 license: cc-by
 
 
-start_date: 2011-04-01
-end_date: 2011-04-10
+date_from: 2011-04-01
+date_to: 2011-04-10
 room: Tapetenwerk
 location: Leipzig
 

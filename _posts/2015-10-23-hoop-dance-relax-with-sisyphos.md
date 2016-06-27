@@ -8,8 +8,8 @@ tags:
 header: hoop-dance_relax-with-sisyphos.jpg
 license: cc-by
 
-start_date: 2015-04-08
-end_date:
+date_from: 2015-04-08
+date_to:
 room: Hochschule für Grafik und Buchkunst, Galerie
 location: Leipzig
 

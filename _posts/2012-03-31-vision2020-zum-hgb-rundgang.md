@@ -6,8 +6,8 @@ categories:
 vita: ja
 header: vision2020_315x53.jpg
 
-start_date: 2012-02-09
-end_date: 2012-02-12
+date_from: 2012-02-09
+date_to: 2012-02-12
 room: Rundgang, Hochschule für Grafik und Buchkunst
 location: Leipzig
 

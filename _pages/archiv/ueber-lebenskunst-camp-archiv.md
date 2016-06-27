@@ -11,8 +11,8 @@ archiv: true
 permalink: /archiv/ueber-lebenskunst-camp/
 header: uelk-camp.jpg
 
-start_date: 2011-08-17
-end_date: 2011-08-21
+date_from: 2011-08-17
+date_to: 2011-08-21
 room: Festival ÜBER LEBENSKUNST, Haus der Kulturen der Welt
 location: Berlin
 

@@ -8,8 +8,8 @@ project: 'Später Arbeiten'
 header: spaeter-arbeiten_fusion.jpg
 license: cc-by
 
-start_date: 2010-06-24
-end_date: 2010-06-27
+date_from: 2010-06-24
+date_to: 2010-06-27
 room: Fusion-Festival (Oase)
 location: Lärz
 

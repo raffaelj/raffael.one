@@ -6,8 +6,8 @@ categories:
 vita: ja
 header: malusion_jugendforum.jpg
 
-start_date: 2010-11-04
-end_date: 
+date_from: 2010-11-04
+date_to: 
 room: 2. deutschsprachiges Jugendforum "Europäisch gewürzt"
 location: Wien (A)
 

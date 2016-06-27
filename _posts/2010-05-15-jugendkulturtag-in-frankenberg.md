@@ -9,8 +9,8 @@ header: europaeisch-gewuerzt.jpg
 license: cc-by
   
 
-start_date: 2010-05-29
-end_date: 
+date_from: 2010-05-29
+date_to: 
 room: 8. Jugendkulturtag d. LKJ Sachsen
 location: Frankenberg
 

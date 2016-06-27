@@ -11,8 +11,8 @@ archiv: true
 permalink: /archiv/pausenraunen/
 header: pausenraunen.jpg
 
-start_date: 2013-01-10
-end_date: 2013-02-17
+date_from: 2013-01-10
+date_to: 2013-02-17
 room: Hochschule für Grafik und Buchkunst
 location: Leipzig
 

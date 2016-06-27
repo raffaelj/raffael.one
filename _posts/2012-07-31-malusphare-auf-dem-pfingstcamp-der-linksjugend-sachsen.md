@@ -7,8 +7,8 @@ vita: ja
 project: Malusphäre
 header: malusphaere_pfingstcamp_2012.jpg
 
-start_date: 2012-05-25
-end_date: 2012-05-28
+date_from: 2012-05-25
+date_to: 2012-05-28
 room: Pfingstcamp (linksjugend Sachsen)
 location: Doksy (CZ)
 

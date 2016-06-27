@@ -6,8 +6,8 @@ categories:
 vita: ja
 header: schulkritik.jpg
 
-start_date: 2014-08-29
-end_date: 2014-08-31
+date_from: 2014-08-29
+date_to: 2014-08-31
 room: Interkulturelles Konversationscafé
 location: Leipzig
 

@@ -7,8 +7,8 @@ vita: ja
 header: ibug_2012.jpg
 license: cc-by
 
-start_date: 2012-08-31
-end_date: 2012-09-02
+date_from: 2012-08-31
+date_to: 2012-09-02
 room: Alter Schlachthof
 location: Glauchau
 

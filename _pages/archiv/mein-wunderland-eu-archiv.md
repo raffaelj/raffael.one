@@ -12,8 +12,8 @@ license: cc-by
 imgfolder: /wunderland/
 edatafolder: /wunderland-archiv/
 
-start_date: 2009-03-01
-end_date: 2010-10-31
+date_from: 2009-03-01
+date_to: 2010-10-31
 room: 
 location: Leipzig
 
