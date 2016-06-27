@@ -55,6 +55,9 @@ Bei Bedarf an weiterer Ausgestaltung Ihrer Veranstaltung kann ich mittlerweile a
 
 ## Pole Dance
 
+{: .embed}
+[Polesque-Auftritt, Sixtina Leipzig, 16.04.2016](https://www.youtube.com/watch?v=5eolBcP-L8M)
+
 Poledance Lola Leipzig e. V.
 
 **Text noch anpassen**
@@ -63,10 +66,10 @@ Poledance Lola Leipzig e. V.
 
 **aktuelles Foto**
 
-**schönes Video**
-
+{% comment %}
 {: .center}
 ![Hoop-Pole Halloween 2015 Sixtina]({{site.imgpath}}/raffael_hoop-pole_halloween2015_sixtina_probe.jpg)
+{% endcomment %}
 
 {: .center}
 ![Hoop-Pole Halloween 2015 Sixtina]({{site.imgpath}}/raffael_hoop-pole_halloween2015_sixtina_c-chico.jpg "c: Chico")
