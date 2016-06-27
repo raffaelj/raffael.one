@@ -83,14 +83,5 @@ Atmosphäre ist sowohl als Hülle als auch als Raum füllende Stimmung zu begrei
 
 ## Galerie
 
-{% comment %}
-{% include gallery.html gallery="malusphaere/malusion" %}
-{% endcomment %}
-
-{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2012" title="true" %}
-{% include gallery.html gallery="malusphaere/reich-und-schoen-festival-2012" title="true" %}
-{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2013" title="true" %}
-{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2014" title="true" %}
-{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2015" title="true" %}
-{% include gallery.html gallery="malusphaere/pfingstcamp-ljs-2016" title="true" %}
+{% include galleries.html gallery="malusphaere" title="true" %}
 
