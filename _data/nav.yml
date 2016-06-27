@@ -3,10 +3,11 @@ angebot:
   "Kurse & Workshops": /kursangebote-workshops-seminare/
   "Grafik, Web, Design": /grafikdesign-webdesign/
   "Über mich & Vita": /ueber-mich/
-  "mehr Kunst": /kunst/
-  "Neuigkeiten": /blog/
+  # "mehr Kunst": /kunst/
+  "Galerie": /galerie/
+  "Blog": /blog/
   "Kontakt": /kontakt/
-  "Pressemappe": /pressemappe/
+  "Presse": /pressemappe/
 
 weitere:
   # Blog: /blog
@@ -15,8 +16,7 @@ weitere:
   # "Pressemappe": /pressemappe
 
 sonstige:
-  Galerien: /galerie/
-  Archive: /archiv/
+  Archiv: /archiv/
   Impressum: /impressum/
   Datenschutz: /datenschutz/
   # AGB: /agb
