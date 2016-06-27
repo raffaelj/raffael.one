@@ -31,7 +31,8 @@ sass: # :expanded or :compressed
 paginate: 9
 paginate_path: "/blog/page:num/"
 
-permalink: pretty
+# Permalink-Struktur für Blog-Posts
+permalink: /blog/:year/:month/:day/:title
 
 collections:
   gallery:
