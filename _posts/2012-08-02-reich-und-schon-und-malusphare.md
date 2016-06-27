@@ -37,9 +37,9 @@ tags:
 
 In einem idyllischen Tal bei Döbeln war vom 22. - 24.06.12 das schicke, kleine do-it-yourself-[Reich und Schön Festival](http://reichundschoen-festival.de/) zu finden. 
 
-<!--more-->
-
 {: .center}
 ![Malusphäre beim reich und schön-Festival 2012]({{site.imgpath}}/P1040480_web.jpg)
 
 Wer genauer hingeschaut hat, konnte neben einer riesigen Palette an Bands sowie noch mehr reichen und schönen Menschen wieder die [Malusphäre](/malusphaere/) entdecken.
+
+{% include gallery.html gallery="reich-und-schoen-festival-2012" %}
