@@ -1,0 +1,21 @@
+{% assign sorted = site.emptyArray %}
+
+{% for item in site.data.gallery %}
+ {% if item[1].title == null %}
+  {% for subitem in item.[1] %}
+   {% if subitem[1].title == null %}
+    <p>zu viele Verschachtelungen - das muss ich noch korrigieren</p>
+   {% else %}
+    {% assign sorted = sorted | push: subitem[1] %}
+   {% endif %}
+  {% endfor %}
+ {% else %}
+  {% assign sorted = sorted | push: item[1] %}
+ {% endif %}
+{% endfor %}
+{% assign sorted = sorted | sort: 'date' | reverse %}
+<div class="center">
+  {% for g in sorted %}
+    {% include album_preview.html gallery=g %}
+  {% endfor %}
+</div>
