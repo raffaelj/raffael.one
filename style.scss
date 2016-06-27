@@ -433,8 +433,9 @@ nav {
   font-weight: bold;
   line-height: 1;
   padding: 4px 5px;
-  background-color:$green;
+  background-color:$grey;
 }
+{% for role in site.data.roles.roles %}.label.{{role[0] | slugify }} {% raw %} { {% endraw %}background-color:{{role[1].colour}};{% raw %} } {% endraw %}{% endfor %}
 
 /***** Collections *********/
 .collection {
@@ -472,9 +473,9 @@ section.meta {
   padding:10px;
   font-size:.9em;
   line-height:1.6em;
-  border: 1px solid $darkGrey;
+  // border: 1px solid $grey;
   border-bottom-left-radius:10px;
-  background-color:$weiss;
+  background-color:$weiss_transp2;
   box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
   img {
     width:100%;
@@ -506,9 +507,9 @@ section.meta {
   // padding-right:10px;
   // padding-bottom:10px;
   margin:0px 0 10px 10px;
-  border:1px solid $darkGrey;
+  // border:1px solid $grey;
   border-bottom-left-radius:10px;
-  background-color:$weiss;
+  background-color:$weiss_transp2;
   
   
   -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
@@ -572,7 +573,7 @@ body.blog {
       -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
       -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
       box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-      border: 1px solid $grey;
+      // border: 1px solid $grey;
       border-top-right-radius: .5em;
       
       @include breakpoint(smaller){width:45%;}
@@ -588,14 +589,19 @@ body.blog {
       
       a.read-more {
         position: absolute;
-        bottom: 0px;
+        bottom: 4px;
         display: block;
-        left: 0px;
-        width: 100%;
-        line-height: 2em;
+        right: 4px;
+        // width: 50%;
+        line-height: 1.5em;
+        font-size:.9em;
         text-align: center;
-        background-color: rgba(0, 0, 0, 0.8);
-        color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 1);
+        color: $magenta2;
+        padding: 0 .4em;
+        -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
         &:hover {
           color:$weiss;
           background-color:$green;
