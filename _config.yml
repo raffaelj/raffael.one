@@ -22,6 +22,9 @@ base: "/raffael.one"
 imgpath: /images
 galpath: /gallery
 
+# empty arrays
+emptyArray: []
+
 # externes Dateien-Lager
 edata: http://data.raffael.one
 
