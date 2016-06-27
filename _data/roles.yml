@@ -1,0 +1,78 @@
+# Welche Rolle habe ich gespielt?
+
+# Tänzer:
+  # colour: *gold
+  # url: /dancing/
+# Workshop-Leiter:
+  # colour: *purple
+  # url: /kurse/
+# Hauptorganisator:
+  # colour: *green
+  # url: /eventdesign/
+# Mitorganisator:
+  # colour: *green2
+  # url: /eventdesign/
+# Aussteller:
+  # colour: *bronze
+  # url: /kunst/
+# Darsteller:
+  # colour: *orange
+  # url: /kunst/performance/
+# Grafikdesigner:
+  # colour: *darkGrey
+  # url: /design/
+# Fotograf:
+  # colour: *blue
+  # url: /galerie/
+# Öffentlichkeitsarbeit:
+  # colour: *blue
+  # url: /eventdesign/
+# Buchhalter:
+  # colour: *blue
+  # url: /eventdesign/
+  
+
+colours:
+ green: &green '#A4BA1E'
+ green2: &green2 '#C5C924'
+ magenta: &magenta '#E61E5C'
+ magenta2: &magenta2 '#B71D88'
+ blue: &blue '#1D90B7'
+ purple: &purple '#403C96'
+ orange: &orange '#ffc435'
+ darkGrey: &darkGrey '#222'
+ bronze: &bronze '#965A38'
+ gold: &gold '#D9A441'
+
+# Welche Rolle habe ich gespielt?
+roles:
+ Tänzer:
+  colour: *gold
+  url: /dancing/
+ Workshop-Leiter:
+  colour: *purple
+  url: /kurse/
+ Hauptorganisator:
+  colour: *green
+  url: /eventdesign/
+ Mitorganisator:
+  colour: *green2
+  url: /eventdesign/
+ Aussteller:
+  colour: *bronze
+  url: /kunst/
+ Darsteller:
+  colour: *orange
+  url: /kunst/performance/
+ Grafikdesigner:
+  colour: *darkGrey
+  url: /design/
+ Fotograf:
+  colour: *blue
+  url: /galerie/
+ Öffentlichkeitsarbeit:
+  colour: *blue
+  url: /eventdesign/
+ Buchhalter:
+  colour: *blue
+  url: /eventdesign/
