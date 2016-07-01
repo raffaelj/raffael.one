@@ -21,9 +21,6 @@ description:
 
 role:
 - Darsteller
-
-todo:
-- Foto einfügen
 ---
 
 Zum 1.000.051 Geburstag der Kunst, der im Januar 2014 zelebriert wurde, gab es für die Besucher der [Halle 14](http://www.halle14.org/veranstaltungen/veranstaltungsarchiv/artsbirthday2014.html) in Leipzig eine rituelle Darbietung.
