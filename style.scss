@@ -165,6 +165,11 @@ span.small{
 .date {
   font-style: italic;
 }
+.post-date {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
 a {
   color: $magenta2;
   text-decoration:none;
@@ -300,6 +305,7 @@ header {
 }
 
 main {
+  position:relative;
   background-color: $weiss_transp;
   // padding:.5em 1em;
   padding: 1em;
@@ -452,36 +458,7 @@ nav {
 }
 
 
-// Meta information
-section.meta {
-  float:right;
-  width:300px;
-  max-width:33%;
-  margin:0 0 10px 10px;
-  padding:10px;
-  font-size:.9em;
-  line-height:1.6em;
-  // border: 1px solid $grey;
-  border-bottom-left-radius:10px;
-  background-color:$weiss_transp2;
-  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
-  img {
-    width:100%;
-  }
-  h2 {
-    margin-top:0;
-    text-align:center;
-    border-bottom: 1px dashed $grey;
-    margin-bottom:.3em;
-    padding-bottom:.2em;
-    font-size:1.3em;
-    font-weight:normal;
-  }
-  p {
-    line-height:inherit;
-    padding-bottom:0;
-  }
-}
+
 
 // Inhaltsverzeichnis
 #markdown-toc {
@@ -864,4 +841,5 @@ iframe.embedded {
 
 /************ sonstige Layouts laden ************/
 @import 'paginator';
+@import 'randnotizen';
 @import 'highlights';
