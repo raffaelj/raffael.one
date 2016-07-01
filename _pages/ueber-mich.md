@@ -33,8 +33,8 @@ Da es ja vielleicht doch die eine oder den anderen interessiert - hier die Kurzf
   Datum           | getan
 -----------------:|:---------------------------------------
 bis 2008          | Abitur und Ausbildung zum Gestaltungstechnischen Assistenten (Bernd-Blindow-Schule Leipzig) abgebrochen
-seit 2008         | Selbststudium Grafik und Webdesign, <br />Besuch diverser Fortbildungen in europäischer Jugendarbeit, Projektmanagement, Presse- und Öffentlichkeitsarbeit, Politik u. v. m. bei u. a. [JUGEND für Europa](https://www.jugendfuereuropa.de/), [linksjugend ['solid]](https://www.linksjugend-solid.de/), [freistil](http://www.freistil-lsa.de/start/index.html)
-2011 – 2014 | Medienkunst-Studium ([Hochschule für Grafik und Buchkunst Leipzig](http://www.hgb-leipzig.de/) abgebrochen
+seit 2008         | Selbststudium Grafik und Webdesign <br />Besuch diverser Fortbildungen in europäischer Jugendarbeit, Projektmanagement, Presse- und Öffentlichkeitsarbeit, Politik u. v. m. bei u. a. [JUGEND für Europa](https://www.jugendfuereuropa.de/), [linksjugend ['solid]](https://www.linksjugend-solid.de/), [freistil](http://www.freistil-lsa.de/start/index.html)
+2011 – 2014 | Medienkunst-Studium ([Hochschule für Grafik und Buchkunst Leipzig](http://www.hgb-leipzig.de/)) abgebrochen
 seit 06/2008      | Gelegenheitsjobs, Messe- u. Festivaljobs, angestellte Tätigkeiten, Praktika - z. B. [Buchkinder e.V.](http://www.buchkinder.de/), [Starlight-Fotostudio](http://starlight-foto.de/), [Visionauten](http://visionauten.com/) (Presseagentur), kaioo/OpenNetworX (Social Online-Network, mittlerweile [JUST SOCIAL](https://www.just.social/))
 seit 06/2008      | Mit-/Organisation diverser Projekte - z. B. [Front Deutscher Äpfel](http://apfelfront.de/), [Später Arbeiten](/archiv/spaeter-arbeiten/), [Multidimensionales Wunderland](/archiv/mein-wunderland-eu/) sowie ehrenamtliches Engagement
 seit 08/2008      | Freiberufler (Kunst, Grafik- und Webdesign, Workshops)
@@ -51,8 +51,3 @@ Außerdem bin ich mal mehr und mal weniger aktiv in folgenden Vereinen/Gruppen/I
 * [DIE LINKE.](https://www.die-linke.de) - Parteimitglied
 * [linksjugend Sachsen](http://www.linksjugend-sachsen.de/) - mit dem Jugendverband in Leipzig und Sachsen fühle ich mich nach wie vor verbundener als mit der Partei
 * [EuroPeers](https://www.europeers.de/) - schon lange nicht mehr aktiv, aber formal noch dabei
-
-
-
-
-
