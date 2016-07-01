@@ -43,6 +43,9 @@ Gerne trete ich mit und ohne Feuer oder LEDs auch auf Ihrer Hochzeit, Familienfe
 {: .embed}
 [Polesque-Auftritt, Sixtina Leipzig, 16.04.2016](https://www.youtube.com/watch?v=5eolBcP-L8M)
 
+{: .embed}
+[LOOP: Lightpainting-Video-Projekt](https://vimeo.com/156188863) ([IBUg 2015]({% post_url 2015-12-05-ibug2015_code-wand %})) 
+
 Bei Bedarf an weiterer Ausgestaltung Ihrer Veranstaltung kann ich mittlerweile auf ein stetig wachsendes Netzwerk an Künstler\*innen und Veranstalter\*innen zurückgreifen. Einen kleinen Fundus an Veranstaltungstechnik und Dekoration besitze ich ebenfalls. [Kontaktieren](/kontakt) Sie mich einfach für ein individuelles Angebot.
 
 {% comment %}
