@@ -125,16 +125,37 @@ $(embed).each(function(){
   
   // Youtube
   if (video["player"] == "youtube"){
-    $(this).before('<iframe class="embedded" width="640" height="360" src="https://www.youtube-nocookie.com/embed/' + video["id"] + '?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>');
+    $(this).before('<iframe class="embedded" width="500" height="281" src="https://www.youtube-nocookie.com/embed/' + video["id"] + '?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>');
   }
   // Vimeo
   if (video["player"] == "vimeo"){
-    $(this).before('<iframe class="embedded" src="https://player.vimeo.com/video/' + video["id"] + '?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+    $(this).before('<iframe class="embedded" src="https://player.vimeo.com/video/' + video["id"] + '?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
   }
   else {}
 
 });
 
+
+/****** Gimmick - Startseite ********/
+var gimmick = false;
+function toggleStartPage(){
+  if (gimmick == false){gimmick = true;}
+  else {gimmick = false;}
+  $("main").toggleClass("invisible");
+  $("header").toggleClass("invisible");
+  $("footer").toggleClass("invisible");
+  $("body").toggleClass("rotating");
+}
+
+$("#gimmick-button").click(toggleStartPage);
+
+$(document).ready(function(){
+  $(document).keydown(function(event){
+    if (event.which == 27 && gimmick == true){
+      toggleStartPage();
+    }
+  });
+});
 
 
 // definierte Funktionen aufrufen
