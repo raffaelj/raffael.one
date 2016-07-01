@@ -4,7 +4,7 @@ author: Raffael
 layout: post
 project: 'Später Arbeiten'
 categories:
-- Blog
+- Festivalbericht
 
 tags:
 - Ausstellung

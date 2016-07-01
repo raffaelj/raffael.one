@@ -3,7 +3,7 @@ title: The Art of Inclusion – von Bareface Autistic Art
 author: Raffael
 layout: post
 categories:
-- Blog
+- Künstlerportrait
 
 vita: ja
 header: aoi_vernissage_2011.jpg

@@ -4,7 +4,7 @@ author: Raffael
 layout: post
 license: cc-by
 categories:
-- Blog
+- Interview
 tags:
 - Street Art
 - brimboria
