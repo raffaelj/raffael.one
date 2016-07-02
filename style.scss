@@ -623,14 +623,27 @@ body.blog {
 
 /******* markdown images in p tags ************/
 main p img {
-  border-radius:2px;
-  max-width:90%; 
-  padding:1px;
-  background-color:$weiss;
-  border: 9px solid $darkGrey;
-  -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // border-radius:4px;
+  // max-width:90%; 
+  // padding:1px;
+  // padding:9px;
+  // background-color:$weiss;
+  // background-color:$weiss_transp2;
+  // border: 9px solid $darkGrey;
+  // border: 1px solid $grey;
+  // -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  
+  // -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.3);
+  
+  border-radius: 4px;
+  max-width: 90%;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 main p.no-border img {
   background-color:inherit;
@@ -654,33 +667,43 @@ a.thumbs {
   // display:inline-block;
   // width: 202px;
   margin:.5em;
-  background:$weiss;
-  border: 9px solid $darkGrey;
-  -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // background:$weiss;
+  // border: 9px solid $darkGrey;
+  // -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  
+  border-radius: 4px;
+  max-width: 90%;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  
   img {
     display:block;
     // width:100%;
     width:150px;
     // height:auto;
     height:150px;
-    border:1px solid $weiss;
-    &:hover {
-      border-color:$green;
-    }
+    // border:1px solid $weiss;
+    // &:hover {
+      // border-color:$green;
+    // }
+  }
+  &:hover {
+    background-color:$green;
   }
 }
-.thumbs.small {
-  width: 80px;
-  margin:10px;
-  padding:1px;
-  background:$weiss;
-  border: 9px solid $darkGrey;
-  -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-}
+// .thumbs.small {
+  // width: 80px;
+  // margin:10px;
+  // padding:1px;
+  // background:$weiss;
+  // border: 9px solid $darkGrey;
+  // -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+// }
 
 
 p.gallery_album_preview {
@@ -706,6 +729,7 @@ p.gallery_album_preview {
     margin:0;
     color:$darkGrey;
     img {
+      display:inline-block;
       // margin:.5em 0 0 0;
       margin:10px 0 0 0;
       height:150px;
@@ -805,12 +829,17 @@ iframe.embedded {
   width:500px;
   max-width:90%;
   margin:0 auto;
-  padding:1px;
-  background:$weiss;
-  border: 9px solid $darkGrey;
-  -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // padding:1px;
+  // background:$weiss;
+  // border: 9px solid $darkGrey;
+  // -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  border-radius: 4px;
+  max-width: 90%;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 /******* Gimmick-Button *******/
