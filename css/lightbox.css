@@ -185,6 +185,16 @@ body.lb-disable-scrolling {
   /* font-weight: normal; */
   line-height: 1em;
 }
+.lb-data .lb-photographer a {
+  color: #ccc;
+  text-decoration:underline dotted;
+  background-color:transparent;
+}
+.lb-data .lb-photographer a:hover {
+  color: #000;
+  text-decoration:none;
+  background-color:#ccc;
+}
 
 .lb-data .lb-number {
   display: block;

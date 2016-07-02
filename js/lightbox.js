@@ -160,7 +160,8 @@
         
         //eigene Änderung
         ,
-        photographer: $link.attr('data-photographer')
+        photographer: $link.attr('data-photographer'),
+        photographer_url: $link.attr('data-photographerurl')
         
       });
     }
@@ -395,13 +396,22 @@
           }
         });
     }
-    //console.log(this.album[1].title);
-    //console.log(this.album[1].photographer);
-    // eigene Änderung (data-photographer)
+    
+    // eigene Änderung (data-photographer) + photographer_url
     if (typeof this.album[this.currentImageIndex].photographer !== 'undefined' &&
       this.album[this.currentImageIndex].photographer !== '') {
+        var that = this;
       this.$lightbox.find('.lb-photographer')
-        .html("Foto: " + this.album[this.currentImageIndex].photographer)
+        .html(function(){
+          var output = "";
+          if(that.album[that.currentImageIndex].photographer_url) {
+            console.log(that.album[that.currentImageIndex].photographer_url);
+            output = '<a href="' + that.album[that.currentImageIndex].photographer_url + '">' + that.album[that.currentImageIndex].photographer + '</a>';
+            console.log(output);
+          }else{output = that.album[that.currentImageIndex].photographer;}
+          
+          return "Foto: " + output;
+          })
         .fadeIn('fast')
         .find('a').on('click', function(event) {
           if ($(this).attr('target') !== undefined) {
