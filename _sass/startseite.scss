@@ -7,7 +7,10 @@ body.start {
     // color:$weiss;
     background-color:$weiss_transp3;
     &:hover {
-      background-color:$weiss_transp2;
+      // background-color:$weiss_transp2;
+      background-color:$black_transp2;
+      color:$weiss;
+      // border-radius:2px;
     }
   }
   
@@ -51,13 +54,22 @@ body.start {
             // border-radius:0;
             // border-top-left-radius:50%;
             // border-bottom-right-radius:50%;
+            border-top-left-radius:100%;
+            border-bottom-right-radius:50%;
             margin:0;
             padding:.2em;
             color:$weiss;
+            // text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
             // background-color:$weiss_transp3;
-            // &:hover {
-              // background-color:$weiss_transp2;
-            // }
+            &:hover {
+              background-color:$weiss_transp2;
+              // background-color:$black_transp2;
+              border-radius:2px;
+              color:$darkGrey;
+              // text-shadow: 1px 1px 1px $weiss_transp;
+              text-shadow: none;
+            }
           }
           // display:block;
           position:absolute;
@@ -67,8 +79,8 @@ body.start {
           // width:500px;
           // display:inline;
           white-space: nowrap;
+          font-weight:bold;
           // overflow:hidden;
-          text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
           // background-color:rgba(255,0,0,.1);
           &:nth-child(1){//Tanz
             bottom:90%;

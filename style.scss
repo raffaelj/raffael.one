@@ -71,7 +71,7 @@ html {
   -webkit-animation-duration: 200s; /* Chrome, Safari, Opera */
   -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
   animation-name: color_change_bg;
-  animation-duration: 200s;
+  animation-duration: 300s;
   animation-iteration-count: infinite;
 }
 /* Chrome, Safari, Opera */
@@ -347,6 +347,7 @@ footer {
 // ********** Navigation **********
 nav {
   font-family:$font;
+  height:100%;
   // font-family:inherit;
   padding:.2em;
   * {
@@ -354,6 +355,7 @@ nav {
   }
   ul, ol {
     padding:0;
+    height:100%;
     // font-size:2.2em;
   }
   a {
@@ -364,36 +366,46 @@ nav {
     color:inherit;
     text-decoration:none;
     background-color:$black_transp2;
-    border-top-left-radius:100%;
-    border-bottom-right-radius:50%;
-    -webkit-transition: background-color .8s, color .5s ease-in-out; /* Firefox */
-    -moz-transition: background-color .8s, color .5s ease-in-out; /* WebKit */
-    -o-transition: background-color .8s, color .5s ease-in-out; /* Opera */
-    transition: background-color .8s, color .5s ease-in-out; /* Standard */
+    // border-top-left-radius:100%;
+    // border-bottom-right-radius:50%;
+    -webkit-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* Firefox */
+    -moz-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* WebKit */
+    -o-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* Opera */
+    transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* Standard */
     &:hover {
       text-decoration:none;
       background-color:$weiss_transp2;
       color:$darkGrey;
-      -webkit-transition: background-color .8s, color .5s ease-in-out; /* Firefox */
-      -moz-transition: background-color .8s, color .5s ease-in-out; /* WebKit */
-      -o-transition: background-color .8s, color .5s ease-in-out; /* Opera */
-      transition: background-color .8s, color .5s ease-in-out; /* Standard */
+      -webkit-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* Firefox */
+      -moz-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* WebKit */
+      -o-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* Opera */
+      transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* Standard */
     }
   }
-    li:nth-child(2n) a {
-      border-top-left-radius:0%;
-      border-bottom-right-radius:0%;
-      border-top-right-radius:100%;
-      border-bottom-left-radius:50%;
-    }
+  li:nth-child(2n) a {
+    // border-top-left-radius:0%;
+    // border-bottom-right-radius:0%;
+    // border-top-right-radius:100%;
+    // border-bottom-left-radius:50%;
+  }
 }
 .top-nav, .bottom-nav {
   li {
     display: inline-block;
+    // vertical-align:middle;
+    // &:before {
+      // content:"";
+      // height:100%;
+      // display:inline-block;
+      // vertical-align:middle;
+    // }
   }
 }
 .top-nav {
   padding-left:10px;
+  ul {
+    text-align:center;
+  }
   a {
     font-size:inherit;
   }
@@ -413,6 +425,17 @@ nav {
   a {
     font-size:inherit;
   }
+}
+.tab-active {
+  a {
+      text-decoration:none;
+      background-color:$weiss_transp2;
+      color:$darkGrey;
+      // -webkit-transition: background-color .8s, color .5s ease-in-out; /* Firefox */
+      // -moz-transition: background-color .8s, color .5s ease-in-out; /* WebKit */
+      // -o-transition: background-color .8s, color .5s ease-in-out; /* Opera */
+      // transition: background-color .8s, color .5s ease-in-out; /* Standard */
+    }
 }
 
 .label {
