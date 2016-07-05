@@ -1,22 +1,24 @@
 angebot:
-  "Tanz, Show & Feuer": /show-tanz-feuer/
+  "Tanz, Show &&nbsp;Feuer": /show-tanz-feuer/
   "Kurse & Workshops": /kursangebote-workshops-seminare/
   "Grafik, Web, Design": /grafikdesign-webdesign/
-  "Über mich & Vita": /ueber-mich/
+  "Über mich &&nbsp;Vita": /ueber-mich/
   # "mehr Kunst": /kunst/
-  "Galerie": /galerie/
-  "Blog": /blog/
-  "Kontakt": /kontakt/
-  "Presse": /pressemappe/
 
 weitere:
-  # Blog: /blog
-  # Vita: /vita
-  # "Kontakt & Booking": /kontakt
-  # "Pressemappe": /pressemappe
+  "Galerie": /galerie/
+  "Blog": /blog/
+  "Presse": /pressemappe/
+  "Kontakt": /kontakt/
 
 sonstige:
   Archiv: /archiv/
   Impressum: /impressum/
   Datenschutz: /datenschutz/
   # AGB: /agb
+
+social:
+  Facebook: 
+  Youtube: 
+  Vimeo: 
+  Github: 
