@@ -1,0 +1,31 @@
+/* Chrome, Safari, Opera */
+@-webkit-keyframes color_change_bg {
+    0% {background-color:$dunkelblau;}
+   10% {background-color:$green;}
+   20% {background-color:$blue;}
+   30% {background-color:$green2;}
+   40% {background-color:$magenta;}
+   50% {background-color:$magenta2;}
+   60% {background-color:$purple;}
+   70% {background-color:$orange;}
+   80% {background-color:$bronze;}
+   90% {background-color:$gold;}
+   98% {background-color:$darkGrey;}
+  100% {background-color:$dunkelblau;}
+}
+
+/* Standard syntax */
+@keyframes color_change_bg {
+    0% {background-color:$dunkelblau;}
+   10% {background-color:$green;}
+   20% {background-color:$blue;}
+   30% {background-color:$green2;}
+   40% {background-color:$magenta;}
+   50% {background-color:$magenta2;}
+   60% {background-color:$purple;}
+   70% {background-color:$orange;}
+   80% {background-color:$bronze;}
+   90% {background-color:$gold;}
+   98% {background-color:$darkGrey;}
+  100% {background-color:$dunkelblau;}
+}
