@@ -2,6 +2,7 @@
 ---
 
 @import "breakpoints";
+@import "mixins";
 
 // ********** Farben **********
 // $dunkelblau: #212B44;
@@ -67,44 +68,9 @@ main,footer,header,nav,section,article { /* for IE */
 html {
   background-color: $dunkelblau;
   color: $weiss;
-  -webkit-animation-name: color_change_bg; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 200s; /* Chrome, Safari, Opera */
-  -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
-  animation-name: color_change_bg;
-  animation-duration: 300s;
-  animation-iteration-count: infinite;
-}
-/* Chrome, Safari, Opera */
-@-webkit-keyframes color_change_bg {
-    0% {background-color:$dunkelblau;}
-   10% {background-color:$green;}
-   20% {background-color:$blue;}
-   30% {background-color:$green2;}
-   40% {background-color:$magenta;}
-   50% {background-color:$magenta2;}
-   60% {background-color:$purple;}
-   70% {background-color:$orange;}
-   80% {background-color:$bronze;}
-   90% {background-color:$gold;}
-   98% {background-color:$darkGrey;}
-  100% {background-color:$dunkelblau;}
+  @include color-change;
 }
 
-/* Standard syntax */
-@keyframes color_change_bg {
-    0% {background-color:$dunkelblau;}
-   10% {background-color:$green;}
-   20% {background-color:$blue;}
-   30% {background-color:$green2;}
-   40% {background-color:$magenta;}
-   50% {background-color:$magenta2;}
-   60% {background-color:$purple;}
-   70% {background-color:$orange;}
-   80% {background-color:$bronze;}
-   90% {background-color:$gold;}
-   98% {background-color:$darkGrey;}
-  100% {background-color:$dunkelblau;}
-}
 
 body {
   width:1000px;
@@ -253,18 +219,32 @@ p.vertical-align {
 
 /********* header *********/
 header {
+  position:fixed;
+  z-index:10;
   padding-top:1em;
-  padding-bottom:1em;
+  // padding-bottom:1em;
+  width:1000px;
+  max-width:100%;
   color:$weiss;
-  h1.logo {
+  @include color-change;
+  .logo {
     float:left;
     margin:0;
     padding:0;
     margin-left:-4em;
     margin-right:.2em;
     color:$weiss;
+    font-family:$font;
     font-size:1.0em;
     font-weight:normal;
+    
+    // -ms-word-break: break-all;
+    // word-break: normal;
+    // word-break: break-word;  // Non standard for webkit
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+    
     a {
       display:table-cell;
       vertical-align:middle;
@@ -280,22 +260,22 @@ header {
       background-size: 4.0em;
       color:inherit;
       text-decoration:none;
-      border-radius:0;
-      border-top-right-radius:100%;
-      border-bottom-left-radius:2em;
-      border-top-left-radius:1em;
-      -webkit-transition: background-color .8s, color .5s ease-in-out; /* Firefox */
-      -moz-transition: background-color .8s, color .5s ease-in-out; /* WebKit */
-      -o-transition: background-color .8s, color .5s ease-in-out; /* Opera */
-      transition: background-color .8s, color .5s ease-in-out; /* Standard */
+      // border-radius:0;
+      // border-top-right-radius:100%;
+      // border-bottom-left-radius:2em;
+      // border-top-left-radius:1em;
+      -webkit-transition: background-color .8s, color .5s ease-in-out; // Firefox
+      -moz-transition: background-color .8s, color .5s ease-in-out; // WebKit
+      -o-transition: background-color .8s, color .5s ease-in-out; // Opera
+      transition: background-color .8s, color .5s ease-in-out; // Standard
       &:hover {
         text-decoration:none;
         background-color:$weiss_transp2;
         color:$darkGrey;
-        -webkit-transition: background-color .8s, color .5s ease-in-out; /* Firefox */
-        -moz-transition: background-color .8s, color .5s ease-in-out; /* WebKit */
-        -o-transition: background-color .8s, color .5s ease-in-out; /* Opera */
-        transition: background-color .8s, color .5s ease-in-out; /* Standard */
+        -webkit-transition: background-color .8s, color .5s ease-in-out; // Firefox
+        -moz-transition: background-color .8s, color .5s ease-in-out; // WebKit
+        -o-transition: background-color .8s, color .5s ease-in-out; // Opera
+        transition: background-color .8s, color .5s ease-in-out; // Standard
       }
     }
     @include breakpoint(medium){
@@ -306,23 +286,26 @@ header {
 
 main {
   position:relative;
+  top:6em;
   background-color: $weiss_transp;
   // padding:.5em 1em;
   padding: 1em;
+  margin:0 auto;
   // color:$dunkelblau;
   color:$darkGrey;
   border-top-left-radius:1em;
-  -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
   &:after {//Abstandhalter für fixed footer
     content:"";
     display:block;
-    // height:2em;
+    height:2em;
     width:100%;
     clear:both;//float nach collections zurücksetzen
   }
-  h2:first-child {
+  h1:first-child {
     margin-top:.2em;
     text-align:center;
   }
@@ -333,19 +316,99 @@ main {
     margin-bottom:.5em;
   }
   li p {display:inline;} // kramdown-Bug - rendert das manchmal falsch, wodurch die Listen zerschossen werden und p innerhalb von li auftaucht
+  @include breakpoint(small){
+    width:90%;
+  }
 }
 
 footer {
-  // position:fixed;
-  // bottom:0;
-  // left:0;
+  position:fixed;
+  bottom:0;
+  left:0;
   width:100%;
+  height:2em;
   background-color:$dunkelblau;
   // background-color:inherit;
+  @include color-change;
 }
 
 // ********** Navigation **********
+
 nav {
+  font-family:$font;
+  padding:.2em;
+  * {
+    font-family:inherit;
+  }
+  ul, ol {
+    padding:0;
+    margin:0;
+  }
+  a {
+    display: inline-block;
+    padding-left:10px;
+    padding-right:10px;
+    margin:.1em;
+    color:inherit;
+    text-decoration:none;
+    background-color:$black_transp2;
+    // border-top-left-radius:100%;
+    // border-bottom-right-radius:50%;
+    -webkit-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Firefox
+    -moz-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // WebKit
+    -o-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Opera
+    transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Standard
+    &:hover {
+      text-decoration:none;
+      background-color:$weiss_transp2;
+      color:$darkGrey;
+      -webkit-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Firefox
+      -moz-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // WebKit
+      -o-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Opera
+      transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Standard
+    }
+  }
+}
+
+.top-nav {
+  display:table;
+  // vertical-align:middle;
+  height:4em;
+  text-align:center;
+  
+  li {
+    display:table-cell;
+    vertical-align:middle;
+  }
+  
+  a {
+    font-size:inherit;
+  }
+}
+
+.bottom-nav {
+  position:fixed;
+  bottom:0;
+  right:0;
+  z-index:10;
+  li {
+    display: inline-block;
+  }
+}
+
+.left-nav {
+  position:fixed;
+  bottom:0;
+  left:0;
+  z-index:10;
+  li {
+    display: inline-block;
+  }
+}
+
+
+
+/* nav {
   font-family:$font;
   height:100%;
   // font-family:inherit;
@@ -368,18 +431,18 @@ nav {
     background-color:$black_transp2;
     // border-top-left-radius:100%;
     // border-bottom-right-radius:50%;
-    -webkit-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* Firefox */
-    -moz-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* WebKit */
-    -o-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* Opera */
-    transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* Standard */
+    -webkit-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Firefox
+    -moz-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // WebKit
+    -o-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Opera
+    transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Standard
     &:hover {
       text-decoration:none;
       background-color:$weiss_transp2;
       color:$darkGrey;
-      -webkit-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* Firefox */
-      -moz-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* WebKit */
-      -o-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* Opera */
-      transition: background-color .8s, color .5s, border-radius .5s ease-in-out; /* Standard */
+      -webkit-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Firefox
+      -moz-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // WebKit
+      -o-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Opera
+      transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Standard
     }
   }
   li:nth-child(2n) a {
@@ -404,7 +467,14 @@ nav {
 .top-nav {
   padding-left:10px;
   ul {
+    display:table;
+    // vertical-align:middle;
+    height:4em;
     text-align:center;
+    li {
+      display:table-cell;
+      vertical-align:middle;
+    }
   }
   a {
     font-size:inherit;
@@ -425,26 +495,22 @@ nav {
   a {
     font-size:inherit;
   }
-}
+} */
 .tab-active {
   a {
       text-decoration:none;
       background-color:$weiss_transp2;
       color:$darkGrey;
-      // -webkit-transition: background-color .8s, color .5s ease-in-out; /* Firefox */
-      // -moz-transition: background-color .8s, color .5s ease-in-out; /* WebKit */
-      // -o-transition: background-color .8s, color .5s ease-in-out; /* Opera */
-      // transition: background-color .8s, color .5s ease-in-out; /* Standard */
+      // -webkit-transition: background-color .8s, color .5s ease-in-out; // Firefox
+      // -moz-transition: background-color .8s, color .5s ease-in-out; // WebKit
+      // -o-transition: background-color .8s, color .5s ease-in-out; // Opera
+      // transition: background-color .8s, color .5s ease-in-out; // Standard
     }
 }
 
 .label {
   border-radius: 2px;
-  
-  -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
-  -moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
-  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
-  
+  @include box-shadow(0 -1px 0 rgba(0, 0, 0, 0.12) inset);
   color: #fff;
   display: inline-block;
   font-size: .8em;
@@ -471,9 +537,7 @@ nav {
     padding:1px;
     background:$weiss;
     border: 9px solid $darkGrey;
-    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+    @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
   }
 }
 
@@ -499,10 +563,7 @@ nav {
   border-bottom-left-radius:10px;
   background-color:$weiss_transp2;
   
-  
-  -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
-  -moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
-  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
+  @include box-shadow(0 -1px 0 rgba(0, 0, 0, 0.12) inset);
   
   list-style-type:circle;
   list-style-position:outside;
@@ -558,9 +619,8 @@ body.blog {
       margin:1%;
       overflow:hidden;
       text-align:left;
-      -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-      -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-      box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+      
+      @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
       // border: 1px solid $grey;
       border-top-right-radius: .5em;
       
@@ -587,9 +647,7 @@ body.blog {
         background-color: rgba(255, 255, 255, 1);
         color: $magenta2;
         padding: 0 .4em;
-        -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
-        -moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
-        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+        @include box-shadow(0px 0px 3px 1px rgba(0, 0, 0, 0.5));
         &:hover {
           color:$weiss;
           background-color:$green;
@@ -654,13 +712,8 @@ main p img {
   // background-color:$weiss_transp2;
   // border: 9px solid $darkGrey;
   // border: 1px solid $grey;
-  // -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  // -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  // box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  
-  // -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  // -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  // box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.3);
+  // @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
+  // @include box-shadow(0px 1px 3px 0px rgba(0,0,0,0.3));
   
   border-radius: 4px;
   max-width: 90%;
@@ -671,9 +724,7 @@ main p img {
 main p.no-border img {
   background-color:inherit;
   border:none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+  @include box-shadow(none);
 }
 
 /************ Galerie ************/
@@ -692,9 +743,7 @@ a.thumbs {
   margin:.5em;
   // background:$weiss;
   // border: 9px solid $darkGrey;
-  // -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  // -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  // box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
   
   border-radius: 4px;
   max-width: 90%;
@@ -723,9 +772,7 @@ a.thumbs {
   // padding:1px;
   // background:$weiss;
   // border: 9px solid $darkGrey;
-  // -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  // -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  // box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  // @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
 // }
 
 
@@ -739,9 +786,7 @@ p.gallery_album_preview {
   // border: 1px solid $darkGrey;
   padding: 10px;
   overflow: hidden;
-  -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
-  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+  @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
   border: 1px solid $grey;
   border-top-right-radius: .5em;
   a {
@@ -795,9 +840,7 @@ p.gallery_album_preview {
       text-align:left;
       color:$grey;
       background-color:$weiss;
-      -webkit-box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.5);
-      -moz-box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.5);
-      box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.5);
+      @include box-shadow(2px 2px 4px 1px rgba(0,0,0,0.5));
       &:before {
         content:"";
         display: block;
@@ -892,6 +935,7 @@ iframe.embedded {
 @import 'vita';
 
 /************ sonstige Layouts laden ************/
+@import 'animations';
 @import 'paginator';
 @import 'randnotizen';
 @import 'highlights';
