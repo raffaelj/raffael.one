@@ -7,16 +7,19 @@
   </head>
   <body{% if page.class %} class="{{ page.class }}"{% endif %}>
     <header>
-      <h1 class="logo"><a href="/"><span class="artistname1">raffael</span> <span class="artistname2">{% if page.artistname %}{{page.artistname}}{% else %}{% include names.inc %}{% endif %}</span></a></h1>
+    <p class="logo"><a href="/" title="zurück zur Startseite"><span class="artistname1">raffael</span> <span class="artistname2">{% if page.artistname %}{{page.artistname}}{% else %}{% comment %}{% include names.inc %}{% endcomment %}jesche{% endif %}</span></a></p>
+    {% comment %}
       {% include nav.html %}
+      {% include nav2.html %}
+      {% include nav3.html %}
+    {% endcomment %}
+      {% include navigation.html %}
     </header>
     <main id="main">
-      {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
+      {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
       {{ content }}
     </main>
     <footer>
-      {% include nav2.html %}
-      {% include nav3.html %}
     </footer>
     {% if page.class contains "start" %}{% include gimmick-button.html %}{% endif %}
     {% include js.inc %}
