@@ -1,0 +1,13 @@
+      <nav>
+        <ul class="top-nav">{% for nav in site.data.nav.angebot %}{% capture name %}{{ nav[1] | downcase }}{% endcapture %}
+          <li class="tab tab-top{% if page.url contains name %} tab-active{% endif %}"><a href="{{ nav[1] }}">{{ nav[0] }}</a></li>{% endfor %}
+        </ul>
+        
+        <ul class="left-nav">{% for nav in site.data.nav.weitere %}{% capture name %}{{ nav[0] | downcase }}{% endcapture %}
+          <li class="tab tab-left{% if page.url contains name %} tab-active{% endif %}"><a href="{{ nav[1] }}">{{ nav[0] }}</a></li>{% endfor %}
+        </ul>
+        
+        <ul class="bottom-nav">{% for nav in site.data.nav.sonstige %}{% capture name %}{{ nav[0] | downcase }}{% endcapture %}
+          <li class="tab tab-bottom{% if page.url contains name %} tab-active{% endif %}"><a href="{{ nav[1] }}">{{ nav[0] }}</a></li>{% endfor %}
+        </ul>
+      </nav>
