@@ -148,14 +148,38 @@ function toggleStartPage(){
 }
 
 $("#gimmick-button").click(toggleStartPage);
-
 $(document).ready(function(){
   $(document).keydown(function(event){
     if (event.which == 27 && gimmick == true){
       toggleStartPage();
     }
   });
+  // $(document).click(function(event){
+    // if (gimmick == true){
+      // toggleStartPage();
+      // console.log(event);
+    // }
+  // });
 });
+ 
+/* 
+$(document).ready(function(){
+  if (gimmick == true){
+    $(document).keydown(function(event){
+      console.log("Taste gedrückt");
+      if (event.which == 27){
+        toggleStartPage();
+      }
+    });
+    
+    // $(document).click(function(){
+      // console.log("geklickt");
+        // toggleStartPage();
+      
+    // });
+  }
+});
+ */
 
 
 // definierte Funktionen aufrufen
