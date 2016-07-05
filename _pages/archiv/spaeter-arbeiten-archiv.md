@@ -30,7 +30,9 @@ tags:
 imgfolder: /spaeter-arbeiten/
 edatafolder: /spaeter-arbeiten-archiv/
 
-imgfilename: gesicht0 #gesicht01_01.jpg .. gesicht01_03.jpg .. gesicht09_03.jpg
+# gesicht01_01.jpg .. gesicht01_03.jpg .. gesicht09_03.jpg
+imgfilename: gesicht0
+
 models:
  Tristan:
   is: Fotograf
