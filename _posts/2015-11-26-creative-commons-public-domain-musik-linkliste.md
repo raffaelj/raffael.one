@@ -3,11 +3,13 @@ title: Musik-Downloads - gemafrei, gemeinfrei, Creative Commons - Linksammlung
 author: Raffael
 categories:
 - Linksammlung
+tags:
+- Creative Commons
+- public domain
+- gemeinfrei
+- gemafrei
+- Musik
 license: cc-by
-
-todo:
-- CSS für definition lists
-- weiter sammeln
 ---
 Da häufig der Bedarf nach kostenloser, frei verfügbarer und GEMA-freier Musik besteht, ist hier eine kleine Linkliste mit Quellen und Kurzbeschreibungen. Diese Liste ist unvollständig, wird mit der Zeit weiter wachsen und ich kann nicht garantieren, dass sich Inhalte der verlinkten Seiten zukünftig ändern oder sich Fehler eingeschlichen haben. Das heißt, lest die Lizenzbedingungen auf den verlinkten Seiten selbst noch einmal nach um auf Nummer sicher zu gehen.
 
@@ -33,8 +35,7 @@ Da häufig der Bedarf nach kostenloser, frei verfügbarer und GEMA-freier Musik 
 : Noten von gemeinfreien Kinderliedern
 
 [MusOpen](https://musopen.org/)
-: public domain
-: klassische Musik zum Download
+: public domain, klassische Musik zum Download
 
 [Creative Commons - Legal Music For Videos](http://creativecommons.org/legalmusicforvideos)
 : eine Linksammlung zu Musik, die unter Creative Commons-Lizenzen veröffentlicht wurde
@@ -50,4 +51,8 @@ Da häufig der Bedarf nach kostenloser, frei verfügbarer und GEMA-freier Musik 
 
 [Springstoff - Free Beats](https://www.springstoff.de/produktkategorie/musik/musik-download/)
 : Das Label Springstoff hat eine kleine Rubrik mit fast frei verwendbaren Beats, für die man den Kaufpreis von 0 € bis x € selbst bestimmen kann. Fast frei meint:
-> Ihr seid frei sie zu verwenden (auch kommerziell) solang auf ihnen keine homophoben, sexistischen, rassistischen oder sonstig diskriminierende Inhalte stattfinden.
+  
+  > Ihr seid frei sie zu verwenden (auch kommerziell) solang auf ihnen keine homophoben, sexistischen, rassistischen oder sonstig diskriminierende Inhalte stattfinden.
+
+[musicfox - kostenlose Musik](http://www.musicfox.com/info/kostenlose-gemafreie-musik.php)
+: kleine, gemafreie und kostenlose Auswahl an Musikstücken in verschiedenen Musikrichtungen, gut als Hintergrundmusik für Videos geeignet
