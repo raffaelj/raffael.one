@@ -181,6 +181,11 @@ $(document).ready(function(){
 });
  */
 
+/********** under construction-Hinweis *******/
+if (document.location.hostname != "localhost") {
+  $("header").before('<p style="position:fixed;top:1px;width:1000px;left:50%;margin-left:-500px;font-size:12px;line-height:14px;text-align:center;z-index: 1000;">Hinweis: Diese Seite ist gerade in Entwicklung, Inhalte und Aussehen können sich bis zur Fertigstellung noch jederzeit ändern.</p>');
+}
+
 
 // definierte Funktionen aufrufen
 window.onload = convertMailAddress;
