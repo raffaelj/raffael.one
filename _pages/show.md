@@ -16,16 +16,6 @@ tags:
 - LED Hoop
 
 description: "Improvisation mit Hula Hoop Reifen, Hoopdance- und Poledance-Shows mit Lichteffekten durch LEDs und Feuer - Ich tanze auch auf Ihrer Hochzeit und mache mit artistischen Showeinlagen Familienfeiern, Partys oder Gala-Events zu unvergesslichen Ereignissen."
-
-todo:
-- "[x] Einleitung schreiben"
-- "[ ] Booking-Info präsent platzieren"
-- "[ ] Text zu Pole Dance"
-- "[ ] Text zu Was liebe ich am Tanzen?"
-- "[ ] Text zu Hoop Dance"
-- "[ ] Text zu Feuershows"
-- "[ ] Foto zu Feuershows"
-- "[ ] Inhalte ggf. in Unterseiten auslagern und schick verlinken"
 ---
 
 {% comment %}
@@ -44,28 +34,11 @@ Gerne trete ich mit und ohne Feuer oder LEDs auch auf Ihrer Hochzeit, Familienfe
 [Polesque-Auftritt, Sixtina Leipzig, 16.04.2016](https://www.youtube.com/watch?v=5eolBcP-L8M)
 
 {: .embed}
+[Polesque-Compilation - Poledance Lola Leipzig e. V., Sixtina Leipzig, 16.04.2016](https://www.youtube.com/watch?v=zWIUzm_2gw8)
+
+{: .embed}
 [LOOP: Lightpainting-Video-Projekt](https://vimeo.com/156188863) ([IBUg 2015]({% post_url 2015-12-05-ibug2015_code-wand %})) 
 
 Bei Bedarf an weiterer Ausgestaltung Ihrer Veranstaltung kann ich mittlerweile auf ein stetig wachsendes Netzwerk an Künstler\*innen und Veranstalter\*innen zurückgreifen. Einen kleinen Fundus an Veranstaltungstechnik und Dekoration besitze ich ebenfalls. [Kontaktieren](/kontakt) Sie mich einfach für ein individuelles Angebot.
-
-{% comment %}
-{: .center}
-![Raffael mit Reifen]({{site.imgpath}}/DSC05547_500px.jpg)
-
-
-
-{: .center}
-![Hoop-Pole Halloween 2015 Sixtina]({{site.imgpath}}/raffael_hoop-pole_halloween2015_sixtina_probe.jpg)
-
-{: .center}
-![Hoop-Pole Halloween 2015 Sixtina]({{site.imgpath}}/raffael_hoop-pole_halloween2015_sixtina_c-chico.jpg "c: Chico")
-
-
-
-
-{: .center}
-![Raffael mit Reifen]({{site.imgpath}}/DSC05543.jpg)
-{% endcomment %}
-
 
 {% include gallery.html gallery="show" title="true" %}
