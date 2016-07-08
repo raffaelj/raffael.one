@@ -2,13 +2,15 @@
 ---
 
 @import "breakpoints";
+@import "reset";
 @import "mixins";
 
 // ********** Farben **********
 // $dunkelblau: #212B44;
 $weiss: #fefefe;
+$weiss2: #f9f9f9;
 // $weiss_transp: rgba(255,255,255,.8);
-$weiss_transp: rgba(255,255,255,.9);
+$weiss_transp: rgba(255,255,255,.95);
 $weiss_transp2: rgba(255,255,255,.5);
 $weiss_transp3: rgba(255,255,255,.1);
 
@@ -51,18 +53,18 @@ html,body {
   height:100%;
   width:100%;
 }
-html,body,
-header, main, footer, nav,
-p,ul,ol,li,
-h1,h2,h3,h4,h5,h6
-{
-  margin:0;
-  padding:0;
-}
+// html,body,
+// header, main, footer, nav,
+// p,ul,ol,li,
+// h1,h2,h3,h4,h5,h6
+// {
+  // margin:0;
+  // padding:0;
+// }
 
-main,footer,header,nav,section,article { /* for IE */
-  display:block;
-}
+// main,footer,header,nav,section,article { /* for IE */
+  // display:block;
+// }
 
 
 html {
@@ -107,7 +109,7 @@ h5 {
 h6 {
   
 }
-p {
+p,dt,dd {
   padding-bottom:.5em;
   line-height: 2em;
   -ms-word-break: break-all;
@@ -159,14 +161,59 @@ a[href$=".zip"]{
   padding-left:1em;
 }
 
-blockquote {
-  border-left: 4px solid $grey;
+blockquote,q {
+  border-left: 10px solid $lighterGrey;
+  background-color:$weiss2;
   margin-left:.5em;
   padding-left:.5em;
+  quotes: "\201C""\201D""\2018""\2019";
   
-  p {
+  &:before, &:after {
+    color: $grey;
+    font-size: 1.5em;
+    line-height: 0.1em;
+    vertical-align: -0.1em;
     font-style:italic;
   }
+  &:before {
+    content: open-quote;
+  }
+  &:after {
+      content: close-quote;
+  }
+  p {
+    font-style:italic;
+    display:inline;
+  }
+}
+
+dl {
+  dt {
+    padding:0;
+    margin:0;
+    line-height:1.5em;
+    // font-weight:bold;
+    // padding:.2em 0;
+    float:left;
+    clear:both;
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: circle;
+    &:after {
+      content: ":\00a0"
+    }
+  }
+  dd {
+    padding:0;
+    margin:0;
+    line-height:1.5em;
+    margin-bottom:.5em;
+    // margin-top:1em;
+    // margin-bottom:1em;
+    // + dd {margin-bottom:0;}
+    margin-left:1em;
+  }
+  p {line-height:inherit;padding:0;}
 }
 
 .invisible {
@@ -223,7 +270,9 @@ header {
   z-index:10;
   padding-top:1em;
   // padding-bottom:1em;
-  width:1000px;
+  // width:1000px;
+  width:1004px;//um box-shadow von main zu überdecken
+  margin-left:-2px;//um box-shadow von main zu überdecken
   max-width:100%;
   color:$weiss;
   @include color-change;
@@ -288,6 +337,7 @@ main {
   position:relative;
   top:6em;
   background-color: $weiss_transp;
+  // background-color: $weiss;
   // padding:.5em 1em;
   padding: 1em;
   margin:0 auto;
@@ -336,7 +386,7 @@ footer {
 
 nav {
   font-family:$font;
-  padding:.2em;
+  padding:.2em 0;
   * {
     font-family:inherit;
   }
