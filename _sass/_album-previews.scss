@@ -1,0 +1,107 @@
+p.gallery_album_preview {
+  display: inline-block;
+  width: 190px;
+  text-align: center;
+  // margin: 0.5em .5em 1em;
+  margin: 10px 10px 20px;
+  height: 260px;
+  // border: 1px solid $darkGrey;
+  padding: 10px;
+  overflow: hidden;
+  @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
+  border: 1px solid $grey;
+  border-top-right-radius: .5em;
+  a {
+    display:block;
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    color:$darkGrey;
+    img {
+      display:inline-block;
+      // margin:.5em 0 0 0;
+      margin:10px 0 0 0;
+      height:150px;
+      width:150px;
+    }
+    span.title {
+      // display:block;
+      // width:100%;
+      display:table-cell;
+      width:195px;
+      height:4em;
+      vertical-align:middle;
+      background-color:$black_transp;
+      border-radius:2px;
+    }
+    &:hover {
+      background-color:$lighterGrey;
+      span.title {
+        background-color:$darkGrey;
+        color:$weiss;
+      }
+      span.description {
+        background-color:$darkGrey;
+        color:$weiss;
+      }
+    }
+  }
+    span.description {
+      display:none;
+      // display:inline;
+      position:absolute;
+      // z-index:10;
+      margin-top:-73px;
+      margin-left:110px;
+      min-width:160px;// wird abgeschnitten, wenn Fenster zu klein
+      max-width:300px;
+      padding: 10px;
+      border-radius: 3px;
+      line-height:1.2em;
+      font-size:.8em;
+      text-align:left;
+      color:$grey;
+      background-color:$weiss;
+      @include box-shadow(2px 2px 4px 1px rgba(0,0,0,0.5));
+      &:before {
+        content:"";
+        display: block;
+        position: absolute;
+        top: 16px;
+        left: -20px;
+        bottom: auto;
+        width: 0;
+        border-style: solid;
+        border-width: 10px 20px 10px 0;
+        border-color: transparent $weiss;
+      }
+    }
+    &:hover {
+      span.description {
+        display:inline;
+      }
+    }
+  /* + div.gallery_album_preview_description {
+    background-color: $weiss;
+    position: absolute;
+    
+    width: 190px;
+    padding: 10px;
+    margin-left: -227px;
+    margin-top: 280px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    // display:none;
+    display: inline-block;
+    p {
+      padding:0;
+      line-height:1.2em;
+      font-size:.9em;
+      text-align:left;
+    }
+  }
+  &:hover + .gallery_album_preview_description {
+    display: inline-block;
+  } */
+}
