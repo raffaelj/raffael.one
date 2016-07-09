@@ -21,9 +21,6 @@ tags:
 
 role:
 - Aussteller
-
-todo:
-- Fotos fehlen noch
 ---
 
 Diesmal in Glauchau ging die [IBUg](http://www.ibug-art.de/) (Industriebrachenumgestaltung) in ihre siebte Auflage. Da in Meerane die Brachen ausgegangen sind, war der Umzug naheliegend. Über 70 Künstlerinnen und Künstler aus acht Ländern - z. B. Ta55o, Koala, Loomit, Flamat, GAB, Threehouse und viele, viele mehr – bauten, malten, streichten seit dem 24.08. fleißig den alten Schlachthof an und freuten sich auf tausende fröhliche Besucherinnen und Besucher.
