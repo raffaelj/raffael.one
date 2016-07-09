@@ -1,6 +1,5 @@
 ---
 title: To Do - new website
-layout: post
 ---
 * Inhaltsverzeichnis
 {:toc}
@@ -9,7 +8,7 @@ layout: post
 
 - [ ] related post als include
 - [ ] related galleries als include
-- [ ] Video-Links in embed konvertieren
+- [x] Video-Links in embed konvertieren
   - [x] Youtube-Links in p.embed (kramdown `{: .embed}`) --> JS
   - [x] Vimeo-Links in p.embed (kramdown `{: .embed}`) --> JS
   - [ ] Opt-In --> inkl. Vorschau schwierig
@@ -18,6 +17,7 @@ layout: post
   - evtl. als eigene jekyll-Instanz und dann als submodule laden
   - evtl. MediaGoblin oder andere Bildverwaltungssoftware
   - [x] [Script für NConvert](https://github.com/raffaelj/image-processing-jekyll-batch-nconvert) --> Stapelverarbeitung thumbs + medium + large + filelist.yml + album.md
+- [ ] Dropdown für 
 
 ## Style
 
