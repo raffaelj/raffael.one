@@ -1,5 +1,6 @@
 ---
 title: To Do - new website
+sitemap: false
 ---
 * Inhaltsverzeichnis
 {:toc}
