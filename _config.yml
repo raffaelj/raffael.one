@@ -20,7 +20,7 @@ url: http://raffael.one
 # url: http://raffaelj.github.io
 base: "/raffael.one"
 imgpath: /images
-galpath: /gallery
+galpath: /galerie
 
 # empty arrays
 emptyArray: []
@@ -48,7 +48,7 @@ collections:
     output: true
     permalink: /referenzen_grafik_webdesign/:path/
   pressemappe:
-    output: true
+    output: false
     permalink: /pressemappe/:path/
 
 defaults:
