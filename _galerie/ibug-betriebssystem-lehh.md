@@ -2,7 +2,7 @@
 layout: gallery
 title: "IBUg Betriebssystem LeHH"
 gallery: ibug-betriebssystem-lehh
-permalink: /gallery/ibug-betriebssystem-lehh/
+permalink: /galerie/ibug-betriebssystem-lehh/
 date: 2012-05-05
 ---
 
