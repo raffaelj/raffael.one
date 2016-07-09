@@ -6,7 +6,7 @@
  </a>
  <span class="description">
 {% if g.date_from %}{{ g.date_from | date: '%d.%m.%y' }} - {{ g.date_to | date: '%d.%m.%y' }}{% else %}{{ g.date | date: '%d.%m.%y' }}{% endif %}
-{% if g.geolocation %}, {{ g.geolocation }}{% endif %}
+{% if g.geolocation %}<br />{{ g.geolocation }}{% endif %}
 {% if g.project %}<br />{{ g.project }}{% endif %}
 <br />{{ g.images.size }} Bilder
 {% if g.description %}<br />{{ g.description }}{% endif %}
