@@ -40,7 +40,7 @@ permalink: /blog/:year/:month/:day/:title
 collections:
   gallery:
     output: true
-    permalink: /gallery/:path/
+    permalink: /galerie/:path/
   kursangebote:
     output: true
     permalink: /kurse/:path/
