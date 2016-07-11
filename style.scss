@@ -891,6 +891,89 @@ iframe.embedded {
   }
 }
 
+
+.sharing {
+  border-top:4px dotted $lighterGrey;
+  padding-top:1em;
+  // background-color:$lighterGrey;
+  clear:both;
+}
+.social-share {
+  display:inline-block;
+  width:25%;
+  a {
+    display:inline-block;
+    vertical-align:middle;
+    width:36px;
+    height:36px;
+    background-color:$lighterGrey;
+    border-radius:50%;
+    &:hover {
+      border-radius:2px;
+      background-color:$darkGrey;
+    }
+  }
+}
+.social-twitter {background-image:url({{site.imgpath}}/icons/twitter.png);}
+.social-facebook {background-image:url({{site.imgpath}}/icons/facebook.png);}
+.social-google {background-image:url({{site.imgpath}}/icons/google-plus.png);}
+
+.donate {
+  display:inline-block;
+  vertical-align:middle;
+  width:25%;
+  a {
+    vertical-align:middle;
+  }
+  a:hover {
+    background-color:inherit;
+  }
+}
+.social-flattr {
+  display:inline-block;
+  background-image:url({{site.imgpath}}/icons/flattr-badge-large.png);
+  height:20px;
+  width:93px;
+}
+
+.license-info {
+  display:inline-block;
+  width:48%;
+  p {
+    font-size:12px;
+    line-height:16px;
+  }
+  .cc {
+    // display:inline-block;
+    padding-left:92px;
+    background-repeat:no-repeat;
+    // height:31px;
+    min-height:31px;
+    // width:0px;
+    // overflow:hidden;
+    // &:hover {
+      // width:auto;
+      // height:auto;
+    // }
+    a {
+      color:inherit;
+      text-decoration: underline dotted $magenta2;
+      &:hover {
+        background-color:inherit;
+        color: $magenta2;
+      }
+    }
+  }
+  .by {background-image:url({{site.imgpath}}/icons/cc/by.png);}
+  .by-nd {background-image:url({{site.imgpath}}/icons/cc/by-nd.png);}
+  .by-sa {background-image:url({{site.imgpath}}/icons/cc/by-sa.png);}
+  .by-nc {background-image:url({{site.imgpath}}/icons/cc/by-nc.png);}
+  .by-nc-nd {background-image:url({{site.imgpath}}/icons/cc/by-nc-nd.png);}
+  .by-nc-sa {background-image:url({{site.imgpath}}/icons/cc/by-nc-sa.png);}
+}
+
+
+
 /********** Piwik Opt-Out *********/
 iframe.piwik {
   width:100%;

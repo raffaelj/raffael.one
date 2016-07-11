@@ -1,0 +1,48 @@
+<div class="license-info">
+{% if page.license %}
+
+  {% assign license = page.license %}
+  
+  {% if license == 'cc0' %}
+    // Freeing content globally without restrictions
+    {% assign cc0 = true %}
+  
+  {% else %}
+    {%comment%} Attribution {%endcomment%}
+    {% assign cc = "Creative Commons" %}
+    {% assign by = "Namensnennung" %}
+    {% assign version = "4.0 International" %}
+    
+    {% if license contains "sa" %}
+      {%comment%} ShareAlike {%endcomment%}
+      {% assign sa = "Weitergabe unter gleichen Bedingungen" %}
+    {% endif %}
+    
+    {% if license contains "nc" %}
+      {%comment%} Noncommercial {%endcomment%}
+      {% assign nc = "Nicht-kommerziell" %}
+    {% endif %}
+    
+    {% if license contains "nd" %}
+      {%comment%} NoDerivatives {%endcomment%}
+      {% assign nd = "Keine Bearbeitungen" %}
+      {% if sa %}
+        {% assign typo = "Da hat sich ein Tippfehler eingeschlichen. Es sollte eine Creative Commons Lizenz werden, aber ShareAlike und NoDerivatives können nicht gleichzeitig auftauchen." %}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+{% if typo %}
+  <p>{{typo}}</p>
+{% else %}
+  {% if cc %}
+  <p class="cc by{% if nc %}-nc{% endif %}{% if sa %}-sa{% endif %}{% if nd %}-nd{% endif %}">Dieser Text von <a xmlns:cc="http://creativecommons.org/ns#" href="{{site.url}}" property="cc:attributionName" rel="cc:attributionURL">{{page.author}}</a> ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by{% if nc %}-nc{% endif %}{% if sa %}-sa{% endif %}{% if nd %}-nd{% endif %}/4.0/">Creative Commons {% if by %}{{by}}{% endif %}{% if nc %} - {{nc}}{% endif %}{% if sa %} - {{sa}}{% endif %}{% if nd %} - {{nd}}{% endif %}{% if version %} - {{version}}{% endif %} Lizenz.</a></p>
+  {% endif %}
+  {% if cc0 %}
+    // CC0 public domain-Hinweis
+  {% endif %}
+{% endif %}
+  
+<!--<p>Ich stehe auf Open Source und Creative Commons. Dennoch sind sämtliche Inhalte auf dieser Seite urheberrechtlich geschützt. Sollte also kein Hinweis zur Lizenzierung oder Weiterverwendung vorhanden sein, kontaktiere mich bitte bevor du z. B. Bilder oder Texte kopierst.</p>-->
+</div>
