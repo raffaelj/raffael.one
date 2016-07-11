@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 3Div zur Europe Code Week
 categories:
 - 3Div
@@ -17,6 +16,6 @@ Im Rahmen der [Europe Code Week](http://events.codeweek.eu/view/4579/3div-intern
 
 Auf der Demo-Seite, die den aktuellen Stand des [3Div-Scripts](http://github.com/raffaelj/3div) enthält, kannst du ein paar Entwürfe aus dem Kurs begutachten:
 
-* [Entwurf 1](http://test.npraesenz.de/3div/?file=tn_herbst2015_01)
-* [Entwurf 2](http://test.npraesenz.de/3div/?file=tn_herbst2015_02)
-* [Entwurf 3](http://test.npraesenz.de/3div/?file=tn_herbst2015_03)
+* [Entwurf 1](http://3div.12px.de/?file=tn_herbst2015_01)
+* [Entwurf 2](http://3div.12px.de/?file=tn_herbst2015_02)
+* [Entwurf 3](http://3div.12px.de/?file=tn_herbst2015_03)
