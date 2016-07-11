@@ -62,7 +62,7 @@ defaults:
   values:
     layout: "post"
     license: "cc-by-nc-sa"
-    author: "Raffael"
+    author: "Raffael Jesche"
 - scope:
     path: ""
     type: "pages"
