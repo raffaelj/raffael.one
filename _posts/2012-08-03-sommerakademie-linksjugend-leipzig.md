@@ -1,8 +1,8 @@
 ---
 title: Sommerakademie d. Linksjugend Leipzig
-author: Raffael
-layout: post
 categories:
+- Veranstaltungshinweis
+
 vita: ja
 header: schulkritik.jpg
 
