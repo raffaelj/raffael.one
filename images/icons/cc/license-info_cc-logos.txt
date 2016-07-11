@@ -1,1 +1,2 @@
 license info for CC logos: https://creativecommons.org/policies
+download: https://creativecommons.org/about/downloads/
