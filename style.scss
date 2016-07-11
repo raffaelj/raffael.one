@@ -893,14 +893,24 @@ iframe.embedded {
 
 
 .sharing {
+  display:table;
+  border-spacing:1em 0;
   border-top:4px dotted $lighterGrey;
   padding-top:1em;
   // background-color:$lighterGrey;
   clear:both;
+  opacity:.3;
+  &:hover {
+    opacity:1;
+  }
+}
+.social-share, .donate, .license-info {
+  display:table-cell;
+  vertical-align:middle;
 }
 .social-share {
-  display:inline-block;
-  width:25%;
+  // display:inline-block;
+  // width:33%;
   a {
     display:inline-block;
     vertical-align:middle;
@@ -919,9 +929,9 @@ iframe.embedded {
 .social-google {background-image:url({{site.imgpath}}/icons/google-plus.png);}
 
 .donate {
-  display:inline-block;
-  vertical-align:middle;
-  width:25%;
+  // display:inline-block;
+  // vertical-align:middle;
+  // width:33%;
   a {
     vertical-align:middle;
   }
@@ -937,8 +947,8 @@ iframe.embedded {
 }
 
 .license-info {
-  display:inline-block;
-  width:48%;
+  // display:inline-block;
+  width:45%;
   p {
     font-size:12px;
     line-height:16px;
@@ -947,6 +957,7 @@ iframe.embedded {
     // display:inline-block;
     padding-left:92px;
     background-repeat:no-repeat;
+    background-position:0 50%;
     // height:31px;
     min-height:31px;
     // width:0px;
@@ -970,6 +981,7 @@ iframe.embedded {
   .by-nc {background-image:url({{site.imgpath}}/icons/cc/by-nc.png);}
   .by-nc-nd {background-image:url({{site.imgpath}}/icons/cc/by-nc-nd.png);}
   .by-nc-sa {background-image:url({{site.imgpath}}/icons/cc/by-nc-sa.png);}
+  .cc0 {background-image:url({{site.imgpath}}/icons/cc/cc0.png);}
 }
 
 
