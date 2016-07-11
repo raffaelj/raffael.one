@@ -4,7 +4,7 @@
   {% assign license = page.license %}
   
   {% if license == 'cc0' %}
-    // Freeing content globally without restrictions
+    {%comment%} Freeing content globally without restrictions {%endcomment%}
     {% assign cc0 = true %}
   
   {% else %}
@@ -40,9 +40,9 @@
   <p class="cc by{% if nc %}-nc{% endif %}{% if sa %}-sa{% endif %}{% if nd %}-nd{% endif %}">Dieser Text von <a xmlns:cc="http://creativecommons.org/ns#" href="{{site.url}}" property="cc:attributionName" rel="cc:attributionURL">{{page.author}}</a> ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by{% if nc %}-nc{% endif %}{% if sa %}-sa{% endif %}{% if nd %}-nd{% endif %}/4.0/">Creative Commons {% if by %}{{by}}{% endif %}{% if nc %} - {{nc}}{% endif %}{% if sa %} - {{sa}}{% endif %}{% if nd %} - {{nd}}{% endif %}{% if version %} - {{version}}{% endif %} Lizenz.</a></p>
   {% endif %}
   {% if cc0 %}
-    // CC0 public domain-Hinweis
+    <p class="cc cc0">Dieser Text ist mit <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0 "No Rights Reserved"</a> lizenziert.</p>
   {% endif %}
 {% endif %}
   
-<!--<p>Ich stehe auf Open Source und Creative Commons. Dennoch sind sämtliche Inhalte auf dieser Seite urheberrechtlich geschützt. Sollte also kein Hinweis zur Lizenzierung oder Weiterverwendung vorhanden sein, kontaktiere mich bitte bevor du z. B. Bilder oder Texte kopierst.</p>-->
+{% comment %}<p>Ich stehe auf Open Source und Creative Commons. Dennoch sind sämtliche Inhalte auf dieser Seite urheberrechtlich geschützt. Sollte also kein Hinweis zur Lizenzierung oder Weiterverwendung vorhanden sein, kontaktiere mich bitte bevor du z. B. Bilder oder Texte kopierst.</p>{% endcomment %}
 </div>
