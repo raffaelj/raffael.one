@@ -150,7 +150,7 @@ function toggleStartPage(){
 $("#gimmick-button").click(toggleStartPage);
 $(document).ready(function(){
   $(document).keydown(function(event){
-    if (event.which == 27 && gimmick == true){
+    if (/*event.which == 27 && */gimmick == true){
       toggleStartPage();
     }
   });
