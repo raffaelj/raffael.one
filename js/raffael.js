@@ -16,32 +16,15 @@ lightbox.option({
 // E-Mail-Adresse im Quellcode in der Form:
 // <span class="mail">post [Ät] mydomain [PUNKT.] net</span>
 
-function convertMailAddress() {
-  var emailElements;
-  if (document.getElementsByClassName) emailElements = document.getElementsByClassName("mail");
-  else emailElements = document.getElementsByClassNameForOldies("mail");
+$(document).ready(function(){
   var elementContent, replaceContent, replaceContent2;
-  for (var i=0; i<emailElements.length; i++) {
-    elementContent = emailElements[i].innerHTML;
+  $(".mail").each(function(){
+    elementContent = $(this).html();
     replaceContent = elementContent.replace(" [Ät] ", "&#64;");
     replaceContent2 = replaceContent.replace(" [PUNKT.] ", ".");
-    emailElements[i].innerHTML =
-    "<a href=\"mailto:" + replaceContent2 + "\">" + replaceContent2 + "</a>";
-  }
-}
-// falls Browser zu alt (gehört noch zu Spamschutz)
-// http://javascript.about.com/library/bldom08.htm
-document.getElementsByClassNameForOldies = function(cl) {
-  var retnode = [];
-  var myclass = new RegExp('\\b'+cl+'\\b');
-  var elem = this.getElementsByTagName('*');
-  for (var i = 0; i < elem.length; i++) {
-    var classes = elem[i].className;
-    if (myclass.test(classes)) retnode.push(elem[i]);
-  }
-  return retnode;
-};
-
+    $(this).html("<a href=\"mailto:" + replaceContent2 + "\">" + replaceContent2 + "</a>");
+  });
+});
 
 // source: http://curlybracket.net/2013/04/22/replace-links-to-mp3-or-ogg-files-by-html5-on-the-fly/
 // convert audio links to audio players; adjust these two vars to your needs
@@ -81,7 +64,6 @@ jQuery(postContainer+' a[href$="mp3"]').each(function(){
 
 // Bilder-Links in Lightbox-Links umwandeln
 $('a[href$="jpg"]').not('a[data-lightbox]').each(function() {
-	// $(this).Lightbox();
   $(this).attr("data-lightbox","autolightbox");
 });
 
@@ -144,48 +126,33 @@ function toggleStartPage(){
   $("main").toggleClass("invisible");
   $("header").toggleClass("invisible");
   $("footer").toggleClass("invisible");
+  $("#under-construction").toggleClass("invisible");
   $("body").toggleClass("rotating");
 }
 
-$("#gimmick-button").click(toggleStartPage);
+// Klick auf Button startet Funktion
+// Klick-Event wird gestoppt damit das folgende Klick-Event zum Beenden nicht schon beim Start-Klick aktiviert wird.
+$("#gimmick-button").click(function(event){
+  event.preventDefault();
+  event.stopPropagation();
+  toggleStartPage();
+});
+
 $(document).ready(function(){
   $(document).keydown(function(event){
     if (/*event.which == 27 && */gimmick == true){
       toggleStartPage();
     }
   });
-  // $(document).click(function(event){
-    // if (gimmick == true){
-      // toggleStartPage();
-      // console.log(event);
-    // }
-  // });
+  $("html").click(function(event){
+    if (gimmick == true){
+      toggleStartPage();
+    }
+  });
 });
- 
-/* 
-$(document).ready(function(){
-  if (gimmick == true){
-    $(document).keydown(function(event){
-      console.log("Taste gedrückt");
-      if (event.which == 27){
-        toggleStartPage();
-      }
-    });
-    
-    // $(document).click(function(){
-      // console.log("geklickt");
-        // toggleStartPage();
-      
-    // });
-  }
-});
- */
+
 
 /********** under construction-Hinweis *******/
 if (document.location.hostname != "localhost") {
-  $("header").before('<p style="position:fixed;top:1px;width:1000px;left:50%;margin-left:-500px;font-size:12px;line-height:14px;text-align:center;z-index: 1000;color:#fff;">Hinweis: Diese Seite ist gerade in <a href="https://github.com/raffaelj/raffael.one" title="Quellcode auf Github" style="color:#fff;text-decoration:underline dotted;">Entwicklung</a>, Inhalte und Aussehen können sich bis zur Fertigstellung noch jederzeit ändern.</p>');
+  $("body").append('<p id="under-construction" style="position:fixed;top:1px;width:1000px;left:50%;margin-left:-500px;font-size:12px;line-height:14px;text-align:center;z-index: 1000;color:#fff;">Hinweis: Diese Seite ist gerade in <a href="https://github.com/raffaelj/raffael.one" title="Quellcode auf Github" style="color:#fff;text-decoration:underline dotted;">Entwicklung</a>, Inhalte und Aussehen können sich bis zur Fertigstellung noch jederzeit ändern.</p>');
 }
-
-
-// definierte Funktionen aufrufen
-window.onload = convertMailAddress;
