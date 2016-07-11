@@ -14,7 +14,7 @@ exclude:
 include:
 #  - galerie
   - _pages
-  - archiv
+  # - archiv
 
 url: http://raffael.one
 # url: http://raffaelj.github.io
@@ -61,8 +61,8 @@ defaults:
     type: "posts"
   values:
     layout: "post"
-    # license: "cc-by-nc-sa"
-    # author: "Raffael"
+    license: "cc-by-nc-sa"
+    author: "Raffael"
 - scope:
     path: ""
     type: "pages"
