@@ -1,5 +1,5 @@
 
-@mixin color-change($color-change-duration: 300s) {
+@mixin color-change($color-change-duration: 400s) {
   -webkit-animation-name: color_change_bg; // Chrome, Safari, Opera
   -webkit-animation-duration: $color-change-duration; // Chrome, Safari, Opera
   -webkit-animation-iteration-count: infinite; // Chrome, Safari, Opera
@@ -15,13 +15,10 @@
   animation: none;
 }
 
-@mixin box-shadow($shadow1, $shadow2:false) {
- $params: $shadow1;
-  @if $shadow2 
-    { $params: $shadow1, $shadow2; }
-  -webkit-box-shadow: $params;
-     -moz-box-shadow: $params;
-          box-shadow: $params;
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+     -moz-box-shadow: $shadow;
+          box-shadow: $shadow;
 }
 
 @mixin rotate($deg) {
@@ -36,4 +33,11 @@
   -ms-transform-origin: 0% 100%;
   -o-transform-origin: 0% 100%;
   transform-origin: 0% 100%;
+}
+
+@mixin transition($transition...){
+  -webkit-transition: $transition;
+	-moz-transition: $transition;
+	-o-transition: $transition;
+	transition: $transition;
 }
