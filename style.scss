@@ -585,18 +585,26 @@ nav {
   clear:both;
   margin:10px 0;
   padding:5px;
-  border-top:1px solid $darkGrey;
+  // border-top:1px solid $darkGrey;
+	@include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
+	border-radius: 5px;
   img {
     display:block;
     float:left;
     margin:.5em 1em 1em 0;
-    border-radius:2px;
+    // border-radius:2px;
     width:500px;
-    max-width:100%;
-    padding:1px;
-    background:$weiss;
-    border: 9px solid $darkGrey;
-    @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
+    // max-width:100%;
+    // padding:1px;
+    // background:$weiss;
+    // border: 9px solid $darkGrey;
+    // @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
+		
+		border-radius: 4px;
+		max-width: 90%;
+		padding: 8px;
+		background-color: rgba(255, 255, 255, 0.5);
+		border: 2px solid rgba(0, 0, 0, 0.1);
   }
   &:after {
     content:"";
@@ -608,6 +616,7 @@ nav {
 }
 
 .collection.referenzen {
+	// siehe .dropdown
 }
 
 
@@ -982,6 +991,113 @@ iframe.embedded {
   .by-nc-nd {background-image:url({{site.imgpath}}/icons/cc/by-nc-nd.png);}
   .by-nc-sa {background-image:url({{site.imgpath}}/icons/cc/by-nc-sa.png);}
   .cc0 {background-image:url({{site.imgpath}}/icons/cc/cc0.png);}
+}
+
+
+// ********** Dropdowns Kursangebote **********
+.dropdown {
+  clear:both;
+  display:block;
+  width:100%;
+  padding:0px;
+  margin:.5em 0;
+  // border-top: 1px solid $grey;
+  // border-bottom: 1px solid $grey;
+  // border-left: 1px solid $grey;
+  // border-right: 1px solid $grey;
+  border-radius: 5px;
+	@include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
+  // text-decoration:none;
+  color:$darkGrey;
+  background-color:$weiss_transp3;
+  overflow:hidden;
+  @include transition(background .3s ease-in-out);
+  input {
+    display:none;
+  }
+  &:hover {
+    @include transition(background .3s ease-in-out);
+  }
+  label {
+    padding:5px;
+    display: block;
+    height: 50px;
+    cursor: pointer;
+    color: $darkGrey;
+    line-height: 50px;
+    font-family: $font;
+		font-size:1.2em;
+    background-color:inherit;
+    @include transition(background .3s ease-in-out);
+    &:hover {
+      background-color:$weiss_transp2;
+      @include transition(background .3s ease-in-out);
+      &:after {
+        border-top-color: $green;
+        @include transition(border .3s ease-in-out);
+      }
+    }
+    // Dropdown-Pfeil nach unten
+    &:after {
+      content:"";
+      float:right;
+      position:relative;
+      top:20px;
+      right:5px;
+      width: 0; 
+      height: 0; 
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid $darkGrey;
+      @include transition(border .3s ease-in-out);
+    }
+  }
+  .dropdown-content {
+    max-height:0px;
+    overflow:hidden;
+    padding-left:10px;
+    padding-right:5px;
+    @include transition(max-height .3s ease-in-out, padding .3s ease-in-out);
+		.dropdown {
+			label {
+				font-size:1.1em;
+			}
+		}
+  }
+  input:checked ~ .dropdown-content{
+    max-height:10000px;
+    padding-bottom:5px;
+    @include transition(max-height .3s ease-in-out, padding .3s ease-in-out);
+		.dropdown {
+			@include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
+		}
+		img {
+    display:block;
+    float:left;
+    margin:.5em 1em 1em 0;
+    // border-radius:2px;
+    width:30%;
+    max-width:100%;
+    // padding:1px;
+    // background:$weiss;
+    // border: 9px solid $darkGrey;
+    // @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
+		
+		border-radius: 4px;
+		// max-width: 90%;
+		padding: 8px;
+		background-color: rgba(255, 255, 255, 0.5);
+		border: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  }
+}
+
+.dropdown-icon {
+  float:left;
+  height: 50px;
+  width: 50px;
+  display:inline-block;
+  padding:5px;
 }
 
 
