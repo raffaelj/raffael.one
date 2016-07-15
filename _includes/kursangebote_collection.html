@@ -1,3 +1,4 @@
+{% comment %}
 {% for kurs in site.kursangebote %}
 <div class="collection kursangebote">
 <h3>{{ kurs.title }}</h3>
@@ -7,10 +8,70 @@
 {% endfor %}
 {% endif %}
 {% if kurs.image %}
-  {% for image in kurs.image %}
+	{% for image in kurs.image %}
 <img src="{{kurs.url}}../{{image}}" alt="Bild" />
-  {% endfor %}
+	{% endfor %}
 {% endif %}
 {{ kurs.content }}
+
+
+
+{{ kurs | jsonify }}
+
 </div>
 {% endfor %}
+{% endcomment %}
+
+{% assign kursarten = site.kursangebote | group_by: "category" %}
+
+{% for kursart in kursarten %}
+<div class="kursangebote dropdown">
+	<input type="checkbox" id="{{ kursart.name | url_encode }}" />
+	<label for="{{ kursart.name | url_encode }}">{{ kursart.name }}</label>
+	<div class="dropdown-content">
+	{% for kurs in kursart.items %}
+		<div class="dropdown">
+			<input type="checkbox" id="{{ kurs.title | url_encode }}" />
+			<label for="{{ kurs.title | url_encode }}">{{ kurs.title }}</label>
+			<div class="dropdown-content">
+			{% if kurs.label %}
+				{% for label in kurs.label %}
+				<span class="label">{{label}}</span>
+				{% endfor %}
+			{% endif %}
+			{% if kurs.image %}
+				{% for image in kurs.image %}
+				<img src="{{kurs.url}}../{{image}}" alt="Bild" />
+				{% endfor %}
+			{% endif %}
+				{% if kurs.shortinfo %}
+				{% for info in kurs.shortinfo %}
+				<p>{{ info }}</p>
+				{% endfor %}
+				{% endif %}
+				{{ kurs.content | markdownify }}
+			</div>
+		</div>
+	{% endfor %}
+	
+	</div>
+</div>
+{% endfor %}
+
+{% comment %}
+<div class="dropdown">
+  {% if co.icon %}
+  <img alt="Icon" src="/img/icons/{{ co.icon }}" class="dropdown-icon" />
+  {% endif %}
+  <input type="checkbox" id="{{ co.title | url_encode }}" />
+  <label for="{{ co.title | url_encode }}">{{ co.title }}</label>
+  <div class="dropdown-content">
+    {% if co.shortinfo %}
+    {% for info in co.shortinfo %}
+    <p>{{ info }}</p>
+    {% endfor %}
+    {% endif %}
+    {{ co.content }}
+  </div>
+</div>
+{% endcomment %}
