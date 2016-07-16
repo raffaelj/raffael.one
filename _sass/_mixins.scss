@@ -1,42 +1,40 @@
-
 @mixin color-change($color-change-duration: 400s) {
-  -webkit-animation-name: color_change_bg; // Chrome, Safari, Opera
-  -webkit-animation-duration: $color-change-duration; // Chrome, Safari, Opera
-  -webkit-animation-iteration-count: infinite; // Chrome, Safari, Opera
-  animation-name: color_change_bg;
-  animation-duration: $color-change-duration;
-  animation-iteration-count: infinite;
+	-webkit-animation-name: color_change_bg; // Chrome, Safari, Opera
+	-webkit-animation-duration: $color-change-duration; // Chrome, Safari, Opera
+	-webkit-animation-iteration-count: infinite; // Chrome, Safari, Opera
+	animation-name: color_change_bg;
+	animation-duration: $color-change-duration;
+	animation-iteration-count: infinite;
 }
 @mixin no-animation {
-  -webkit-animation: none;
-  -moz-animation: none;
-  -o-animation: none;
-  -ms-animation: none;
-  animation: none;
+	-webkit-animation: none;
+	-moz-animation: none;
+	-o-animation: none;
+	-ms-animation: none;
+	animation: none;
 }
 
 @mixin box-shadow($shadow...) {
-  -webkit-box-shadow: $shadow;
-     -moz-box-shadow: $shadow;
-          box-shadow: $shadow;
+	-webkit-box-shadow: $shadow;
+	-moz-box-shadow: $shadow;
+	box-shadow: $shadow;
 }
 
 @mixin rotate($deg) {
-  -moz-transform: rotate($deg);
-  -webkit-transform: rotate($deg);
-  -o-transform: rotate($deg);
-  -ms-transform: rotate($deg);
-  transform: rotate($deg);
-  
-  -webkit-transform-origin: 0% 100%;
-  -moz-transform-origin: 0% 100%;
-  -ms-transform-origin: 0% 100%;
-  -o-transform-origin: 0% 100%;
-  transform-origin: 0% 100%;
+	-moz-transform: rotate($deg);
+	-webkit-transform: rotate($deg);
+	-o-transform: rotate($deg);
+	-ms-transform: rotate($deg);
+	transform: rotate($deg);
+	-webkit-transform-origin: 0% 100%;
+	-moz-transform-origin: 0% 100%;
+	-ms-transform-origin: 0% 100%;
+	-o-transform-origin: 0% 100%;
+	transform-origin: 0% 100%;
 }
 
 @mixin transition($transition...){
-  -webkit-transition: $transition;
+	-webkit-transition: $transition;
 	-moz-transition: $transition;
 	-o-transition: $transition;
 	transition: $transition;
