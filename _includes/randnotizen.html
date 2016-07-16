@@ -1,7 +1,7 @@
 <section class="meta">
     <h2>Rand-Notizen</h2>
   {% if page.header %}
-    <img class="vita_header" src="{{site.baseurl}}/images/vita_header/{{ page.header }}" />
+    <img class="vita_header" alt="Header-Grafik" src="{{site.baseurl}}/images/vita_header/{{ page.header }}" />
   {% endif %}
   
   <p class="small">{% if page.date_from %}{{ page.date_from | date: '%d.%m.%y' }} {% if page.date_to %} - {{page.date_to | date: '%d.%m.%y'}}{% endif %}{% endif %}{% if page.room %} | {{ page.room }}{% endif %}{% if page.location %}, {{ page.location }}{% endif %}</p>
