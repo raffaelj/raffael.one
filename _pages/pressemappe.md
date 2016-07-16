@@ -1,15 +1,20 @@
 ---
 title: Pressemappe, sowie Erwähnungen in Print und Web
 permalink: /pressemappe/
+
+todo:
+- frei für Presse verfügbare Bilder einfügen
+- ein paar Copy-Paste-Textbausteine für Ankündigungen einfügen
+- Pressespiegel einpflegen
 ---
 
 ## Bildmaterial
 
-**frei für Presse verfügbare Bilder einfügen**
+Hier werden demnächst einige Fotos veröffentlicht.
 
 ## Textbausteine
 
-**ein paar Copy-Paste-Textbausteine für Ankündigungen einfügen**
+Hier werden demnächst einige Textbausteine für Ankündigungstexte veröffentlicht.
 
 ## Pressespiegel & Veröffentlichungen
 
