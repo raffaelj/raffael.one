@@ -99,22 +99,23 @@ function popVideoId(url) {
   }
   return video;
 }
+$(document).ready(function(){
+	var embed = $(".embed a");
+	$(embed).each(function(){
+		var url = $(this).attr("href");
+		var video = popVideoId(url);
+		
+		// Youtube
+		if (video["player"] == "youtube"){
+			$(this).before('<iframe class="embedded" width="500" height="281" src="https://www.youtube-nocookie.com/embed/' + video["id"] + '?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>');
+		}
+		// Vimeo
+		if (video["player"] == "vimeo"){
+			$(this).before('<iframe class="embedded" src="https://player.vimeo.com/video/' + video["id"] + '?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+		}
+		else {}
 
-var embed = $(".embed a");
-$(embed).each(function(){
-  var url = $(this).attr("href");
-  var video = popVideoId(url);
-  
-  // Youtube
-  if (video["player"] == "youtube"){
-    $(this).before('<iframe class="embedded" width="500" height="281" src="https://www.youtube-nocookie.com/embed/' + video["id"] + '?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>');
-  }
-  // Vimeo
-  if (video["player"] == "vimeo"){
-    $(this).before('<iframe class="embedded" src="https://player.vimeo.com/video/' + video["id"] + '?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
-  }
-  else {}
-
+	});
 });
 
 
