@@ -24,6 +24,7 @@ todo:
 - "[ ] präsenter Hinweis, dass Malusphäre gebucht werden kann"
 - "[ ] Buchungsinfos aktualisieren"
 - "[ ] related posts"
+- "[ ] platzieren, bzw. Kategorie finden ( z. B. aktuelle Projekte)"
 ---
 
 * Inhaltsverzeichnis
