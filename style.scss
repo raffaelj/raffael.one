@@ -1000,12 +1000,13 @@ iframe.embedded {
   display:block;
   width:100%;
   padding:0px;
-  margin:.5em 0;
+  margin:1em 0;
   // border-top: 1px solid $grey;
   // border-bottom: 1px solid $grey;
   // border-left: 1px solid $grey;
   // border-right: 1px solid $grey;
-  border-radius: 5px;
+  border-top-right-radius: .5em;
+  border-bottom-right-radius: .5em;
 	@include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
   // text-decoration:none;
   color:$darkGrey;
@@ -1056,7 +1057,7 @@ iframe.embedded {
     max-height:0px;
     overflow:hidden;
     padding-left:10px;
-    padding-right:5px;
+    padding-right:10px;
     @include transition(max-height .3s ease-in-out, padding .3s ease-in-out);
 		.dropdown {
 			label {
@@ -1100,6 +1101,15 @@ iframe.embedded {
   padding:5px;
 }
 
+
+/********** Edit Button *********/
+.edit-source {
+	display:block;
+	width:32px;
+	height:32px;
+	margin:0 auto;
+	background-color:transparent;
+}
 
 
 /********** Piwik Opt-Out *********/
