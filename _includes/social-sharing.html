@@ -1,20 +1,25 @@
-{% assign tagStr = '' %}
-{% capture url %}{{ site.url }}{{ page.url }}{% endcapture %}
-{% if page.shortUrl != null %}
-    {% assign url = page.shortUrl %}
-    {% for tag in page.tags %}
-        {% capture tagStr %}{{ tagStr }},{{ tag }}{% endcapture %}
-    {% endfor %}
-{% endif %}
+{% assign FLATTR_USERNAME = site.data.social-accounts.flattr %}
+{% capture URL %}{{ site.url }}{{ page.url }}{% endcapture %}
+{% if page.shortUrl %}{% assign SHORTURL = page.shortUrl %}{% endif %}
+{% capture TITLE %}{{ page.title | uri_escape }}{% endcapture %}
+{% if page.flattr.description %}{% assign DESCRIPTION = page.flattr.description | uri_escape %}{% else %}{% assign DESCRIPTION = TITLE %}{% endif %}
+{% if page.flattr.category %}{% assign FLATTR_CATEGORY = page.flattr.category %}{% else %}{% assign FLATTR_CATEGORY = "text" %}{% endif %}
+{% assign LANGUAGE = "de_DE" %}
+{% assign TAGS = page.tags | join: "," | uri_escape %}
+
+<div class="donate">
+	<p>Support:<br />
+		<a class="social-flattr" href="https://flattr.com/submit/auto?user_id={{FLATTR_USERNAME}}&url={{URL}}&title={{TITLE}}&description={{DESCRIPTION}}&language={{LANGUAGE}}&tags={{TAGS}}&category={{FLATTR_CATEGORY}}"></a></p>
+</div>
 
 <div class="social-share">
   <p>Share:<br />
-  <a class="social-twitter" href="https://twitter.com/intent/tweet?text={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&url={{ url }}&hashtags={{ tagStr }}" target="_blank" title="Share this post on Twitter"></a>
-  <a class="social-facebook" href="https://www.facebook.com/sharer/sharer.php?t={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&u={{ url }}" target="_blank" title="Share this post on Facebook"></a>
-  <a class="social-google" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Share this post on Google Plus"></a>
-  {% comment %}<a class="social-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}&url={{ url }}&source={{ site.url }}" target="_blank" title="Share this post on LinkedIn"></a>{% endcomment %}
-  {% comment %}<a class="social-digg" href="http://digg.com/submit?url={{ site.url }}{{ page.url }}&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}" target="_blank" title="Share this post on Digg"></a>{% endcomment %}
-  {% comment %}<a class="social-reddit" href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}" target="_blank" title="Share this post on Reddit"></a>{% endcomment %}
-  {% comment %}<a class="social-stumble" href="http://www.stumbleupon.com/submit?url={{ site.url }}{{ page.url }}&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ page.title }}" target="_blank" title="Share this post on StumbleUpon"></a>{% endcomment %}
+  <a class="social-twitter" href="https://twitter.com/intent/tweet?text={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ TITLE }}&url={{ URL }}&hashtags={{ TAGS }}" target="_blank" title="Teile diesen Artikel auf Twitter"></a>
+  <a class="social-facebook" href="https://www.facebook.com/sharer/sharer.php?t={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ TITLE }}&u={{ URL }}" target="_blank" title="Teile diesen Artikel auf Facebook"></a>
+  <a class="social-google" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Teile diesen Artikel auf Google Plus"></a>
+  {% comment %}<a class="social-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ TITLE }}&url={{ URL }}&source={{ site.url }}" target="_blank" title="Teile diesen Artikel auf LinkedIn"></a>{% endcomment %}
+  {% comment %}<a class="social-digg" href="http://digg.com/submit?url={{ site.url }}{{ page.url }}&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ TITLE }}" target="_blank" title="Teile diesen Artikel auf Digg"></a>{% endcomment %}
+  {% comment %}<a class="social-reddit" href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ TITLE }}" target="_blank" title="Teile diesen Artikel auf Reddit"></a>{% endcomment %}
+  {% comment %}<a class="social-stumble" href="http://www.stumbleupon.com/submit?url={{ site.url }}{{ page.url }}&title={% if page.subtitle != null %}{{ page.subtitle }} {% endif %}{{ TITLE }}" target="_blank" title="Teile diesen Artikel auf StumbleUpon"></a>{% endcomment %}
   </p>
 </div>
