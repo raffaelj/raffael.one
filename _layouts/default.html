@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    {% include meta.html %}
-    {% include style.html %}
-    <title>{% if page.title %}{{page.title}} - {% endif %}Raffael Jesche</title>
-  </head>
-  <body{% if page.class %} class="{{ page.class }}"{% endif %}>
-    <header>
-    <p class="logo"><a href="/" title="zurück zur Startseite"><span class="artistname1">raffael</span> <span class="artistname2">{% if page.artistname %}{{page.artistname}}{% else %}{% comment %}{% include names.inc %}{% endcomment %}jesche{% endif %}</span></a></p>
-    {% comment %}
-      {% include nav.html %}
-      {% include nav2.html %}
-      {% include nav3.html %}
-    {% endcomment %}
-      {% include navigation.html %}
-    </header>
-    <main id="main">
-      {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-      {{ content }}
-    </main>
-    <footer>
+	<head>
+		{% include meta.html %}
+		{% include style.html %}
+		<title>{% if page.title %}{{page.title}} - {% endif %}Raffael Jesche</title>
+	</head>
+	<body{% if page.class %} class="{{ page.class }}"{% endif %}>
+		<header>
+		<p class="logo"><a href="/" title="zurück zur Startseite"><span class="artistname1">raffael</span> <span class="artistname2">{% if page.artistname %}{{page.artistname}}{% else %}{% comment %}{% include names.inc %}{% endcomment %}jesche{% endif %}</span></a></p>
+		{% comment %}
+			{% include nav.html %}
+			{% include nav2.html %}
+			{% include nav3.html %}
+		{% endcomment %}
+			{% include navigation.html %}
+		</header>
+		<main id="main">
+			{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+			{{ content }}
+		</main>
+		<footer>
 			<a class="edit-source" href="https://github.com/raffaelj/raffael.one/tree/gh-pages/{{page.path}}" target="_blank" title="Quellcode dieser Seite auf Github">&nbsp;</a>
-    </footer>
-    {% if page.class contains "start" %}{% include gimmick-button.html %}{% endif %}
-    {% include js.inc %}
-  </body>
+		</footer>
+		{% if page.class contains "start" %}{% include gimmick-button.html %}{% endif %}
+		{% include js.inc %}
+	</body>
 </html>

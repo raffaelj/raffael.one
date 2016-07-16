@@ -1,29 +1,29 @@
 <section class="meta">
-    <h2>Rand-Notizen</h2>
-  {% if page.header %}
-    <img class="vita_header" alt="Header-Grafik" src="{{site.baseurl}}/images/vita_header/{{ page.header }}" />
-  {% endif %}
-  
-  <p class="small">{% if page.date_from %}{{ page.date_from | date: '%d.%m.%y' }} {% if page.date_to %} - {{page.date_to | date: '%d.%m.%y'}}{% endif %}{% endif %}{% if page.room %} | {{ page.room }}{% endif %}{% if page.location %}, {{ page.location }}{% endif %}</p>
-  
-  {% if page.role %}
-  <p>Rollen: {% for role in page.role %} <span class="label {{ role | slugify }}">{{ role }}</span>{% endfor %}</p>
-  {% endif %}
-  
-  {% if page.project %}
-    <p>Projekt: {{ page.project  | join: ', ' }}</p>
-  {% endif %}
-  {% if page.type_of_art %}
-    <p>Kunstart: {{ page.type_of_art | join: ', '  }}</p>
-  {% endif %}
-  {% if page.type_of_project %}
-    <p>Projektart: {{ page.type_of_project | join: ', '  }}</p>
-  {% endif %}
-  {% if page.categories.size > 0 %}
-  <p>abgelegt in {% if page.categories.size > 1 %}den Kategorien{% else %}der Kategorie{% endif %}: {% for category in page.categories %}<span class="label {{ category | slugify }}">{{ category }}</span>{% endfor %}</p>
-  {% endif %}
-  {% if page.tags.size > 0 %}
-    <p> mit den Tags: {% for tag in page.tags %} <span class="label tags">{{ tag }}</span>{% endfor %}</p>
-  {% endif %}
-  
-  </section>
+		<h2>Rand-Notizen</h2>
+	{% if page.header %}
+		<img class="vita_header" alt="Header-Grafik" src="{{site.baseurl}}/images/vita_header/{{ page.header }}" />
+	{% endif %}
+	
+	<p class="small">{% if page.date_from %}{{ page.date_from | date: '%d.%m.%y' }} {% if page.date_to %} - {{page.date_to | date: '%d.%m.%y'}}{% endif %}{% endif %}{% if page.room %} | {{ page.room }}{% endif %}{% if page.location %}, {{ page.location }}{% endif %}</p>
+	
+	{% if page.role %}
+	<p>Rollen: {% for role in page.role %} <span class="label {{ role | slugify }}">{{ role }}</span>{% endfor %}</p>
+	{% endif %}
+	
+	{% if page.project %}
+		<p>Projekt: {{ page.project  | join: ', ' }}</p>
+	{% endif %}
+	{% if page.type_of_art %}
+		<p>Kunstart: {{ page.type_of_art | join: ', '  }}</p>
+	{% endif %}
+	{% if page.type_of_project %}
+		<p>Projektart: {{ page.type_of_project | join: ', '  }}</p>
+	{% endif %}
+	{% if page.categories.size > 0 %}
+	<p>abgelegt in {% if page.categories.size > 1 %}den Kategorien{% else %}der Kategorie{% endif %}: {% for category in page.categories %}<span class="label {{ category | slugify }}">{{ category }}</span>{% endfor %}</p>
+	{% endif %}
+	{% if page.tags.size > 0 %}
+		<p> mit den Tags: {% for tag in page.tags %} <span class="label tags">{{ tag }}</span>{% endfor %}</p>
+	{% endif %}
+	
+	</section>
