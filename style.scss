@@ -16,6 +16,7 @@ $weiss_transp3: rgba(255,255,255,.1);
 
 $black_transp: rgba(0,0,0,.1);
 $black_transp2: rgba(0,0,0,.2);
+$black_transp3: rgba(0,0,0,.5);
 
 //
 // Colors
@@ -822,7 +823,48 @@ a.thumbs {
 
 /******* embedded videos **********/
 .embed {
+	position:relative;
+	min-height:281px;
 	text-align:center;
+	.iframe-play-button {
+		display: block;
+		position: absolute;
+		top: 140px;
+		left: 50%;
+		margin-left: -30px;
+		margin-top: -15px;
+		height: 50px;
+		width: 60px;
+		border-radius: 45%;
+		background-color:$black_transp3;
+		@include box-shadow(0px 0px 9px 2px rgba(255,255,255,.5));
+		&:before {
+			content: "";
+			position: absolute;
+			left: 24px;
+			margin-top: 12px;
+			border: 16px solid transparent;
+			border-width: 14px 22px;
+			border-left-color: $weiss;
+			background: transparent;
+		}
+		&:hover {
+			background-color:$green;
+			&:after {
+				content:"Ein Klick auf den Play-Button lädt das Video als iframe nach. Ab diesem Zeitpunkt werden weitere Analysedienste von Google/Vimeo im Hintergrund geladen.";
+				width: 420px;
+				position: absolute;
+				left: -180px;
+				line-height: 1.5em;
+				top: 50px;
+				color:$weiss;
+			}
+		}
+	}
+	// .iframe-play-button.icon-youtube {
+		// &:hover {
+		// }
+	// }
 	a {
 		display:inline-block;
 	}
@@ -837,6 +879,16 @@ iframe.embedded {
 	padding: 8px;
 	background-color: rgba(255, 255, 255, 0.5);
 	border: 2px solid rgba(0, 0, 0, 0.1);
+}
+iframe.embedded[src="about:blank"] {
+background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 /******* Gimmick-Button *******/

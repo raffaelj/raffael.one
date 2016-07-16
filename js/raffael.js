@@ -107,14 +107,18 @@ $(document).ready(function(){
 		
 		// Youtube
 		if (video["player"] == "youtube"){
-			$(this).before('<iframe class="embedded" width="500" height="281" src="https://www.youtube-nocookie.com/embed/' + video["id"] + '?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>');
+			$(this).before('<iframe class="embedded" width="500" height="281" data-src="https://www.youtube-nocookie.com/embed/' + video["id"] + '?rel=0&amp;showinfo=0" src="about:blank" frameborder="0" allowfullscreen></iframe><span class="iframe-play-button icon-youtube" data-src="https://www.youtube-nocookie.com/embed/' + video["id"] + '?rel=0&amp;showinfo=0"></span>');
 		}
 		// Vimeo
 		if (video["player"] == "vimeo"){
-			$(this).before('<iframe class="embedded" src="https://player.vimeo.com/video/' + video["id"] + '?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+			$(this).before('<iframe class="embedded" data-src="https://player.vimeo.com/video/' + video["id"] + '?color=ffffff&title=0&byline=0&portrait=0" src="about:blank" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><span class="iframe-play-button icon-vimeo" data-src="https://player.vimeo.com/video/' + video["id"] + '?color=ffffff&title=0&byline=0&portrait=0"></span>');
 		}
 		else {}
-
+		$(".iframe-play-button").click(function(event){
+			var src = $(event.target).data("src");
+			$(event.target).hide();
+			$('iframe.embedded[data-src="' + src + '"]').attr("src", src);
+		});
 	});
 });
 
