@@ -13,7 +13,7 @@ layout: default
         <span class="label {{ cat | slugify }}">{{ cat }}</span>
         {% endfor %}
       </p>
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       
       <div class="entry">
         {{ post.excerpt | markdownify }}
