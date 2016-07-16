@@ -73,6 +73,11 @@ html {
 	background-color: $dunkelblau;
 	color: $weiss;
 	@include color-change;
+	background-image: url(/images/logo10_r-transp.svg);
+	background-repeat: no-repeat;
+	background-position:50% 50%;
+	background-size: auto 50%;
+	background-attachment:fixed;
 }
 
 
@@ -81,10 +86,6 @@ body {
 	max-width:100%;
 	margin:0 auto;
 	// background-image: url(/images/logo10_web_395.png);
-	background-image: url(/images/logo10_r-transp.svg);
-	background-repeat: no-repeat;
-	background-position:50% 50%;
-	background-size: auto 50%;
 	// background-attachment:fixed;
 	font-family:$font2;
 	font-size:$em;
@@ -250,29 +251,12 @@ p.vertical-align {
 		margin: .2em 1em;
 	}
 }
-.rotate180 {
-	position:absolute;
-	
-	-moz-transform: rotate(180deg);
-	-webkit-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	transform: rotate(180deg);
-	
-	-webkit-transform-origin: 0% 100%;
-	-moz-transform-origin: 0% 100%;
-	-ms-transform-origin: 0% 100%;
-	-o-transform-origin: 0% 100%;
-	transform-origin: 0% 100%;
-}
 
 /********* header *********/
 header {
 	position:fixed;
 	z-index:10;
 	padding-top:1em;
-	// padding-bottom:1em;
-	// width:1000px;
 	width:1006px;//um box-shadow von main zu überdecken
 	margin-left:-3px;//um box-shadow von main zu überdecken
 	max-width:100%;
@@ -311,22 +295,12 @@ header {
 			background-size: 4.0em;
 			color:inherit;
 			text-decoration:none;
-			// border-radius:0;
-			// border-top-right-radius:100%;
-			// border-bottom-left-radius:2em;
-			// border-top-left-radius:1em;
-			-webkit-transition: background-color .8s, color .5s ease-in-out; // Firefox
-			-moz-transition: background-color .8s, color .5s ease-in-out; // WebKit
-			-o-transition: background-color .8s, color .5s ease-in-out; // Opera
-			transition: background-color .8s, color .5s ease-in-out; // Standard
+			@include transition(background-color .8s, color .5s ease-in-out);
 			&:hover {
 				text-decoration:none;
 				background-color:$weiss_transp2;
 				color:$darkGrey;
-				-webkit-transition: background-color .8s, color .5s ease-in-out; // Firefox
-				-moz-transition: background-color .8s, color .5s ease-in-out; // WebKit
-				-o-transition: background-color .8s, color .5s ease-in-out; // Opera
-				transition: background-color .8s, color .5s ease-in-out; // Standard
+				@include transition(background-color .8s, color .5s ease-in-out);
 			}
 		}
 		@include breakpoint(medium){
