@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html lang="de">
 	<head>
-		{% include meta.html %}
-		{% include style.html %}
+		{% include head.html %}
 		<title>{% if page.title %}{{page.title}} - {% endif %}Raffael Jesche</title>
 	</head>
 	<body{% if page.class %} class="{{ page.class }}"{% endif %}>
 		<header>
-		<p class="logo"><a href="/" title="zurück zur Startseite"><span class="artistname1">raffael</span> <span class="artistname2">{% if page.artistname %}{{page.artistname}}{% else %}{% comment %}{% include names.inc %}{% endcomment %}jesche{% endif %}</span></a></p>
-		{% comment %}
-			{% include nav.html %}
-			{% include nav2.html %}
-			{% include nav3.html %}
-		{% endcomment %}
+			<p class="logo"><a href="/" title="zurück zur Startseite"><span class="artistname1">raffael</span> <span class="artistname2">{% if page.artistname %}{{page.artistname}}{% else %}{% comment %}{% include names.inc %}{% endcomment %}jesche{% endif %}</span></a></p>
 			{% include navigation.html %}
 		</header>
 		<main id="main">
