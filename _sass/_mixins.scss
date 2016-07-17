@@ -32,6 +32,13 @@
 	-o-transform-origin: 0% 100%;
 	transform-origin: 0% 100%;
 }
+@mixin no-transform {
+	-moz-transform: none;
+	-webkit-transform: none;
+	-o-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
 
 @mixin transition($transition...){
 	-webkit-transition: $transition;
