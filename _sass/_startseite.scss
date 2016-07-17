@@ -1,21 +1,18 @@
 html.start {
 	background-image:none;
 	body {
-		height:500px;
-		width:500px;
-		// height:50%;
-		// width:50%;
-		// padding-bottom:50%;
 		position:absolute;
 		top:50%;
 		left:50%;
+		height:500px;
+		width:500px;
 		margin-top:-250px;
 		margin-left:-250px;
+		overflow:hidden;
 		background-size:cover;
 		background-image: url(/images/logo10_r-transp.svg);
 		background-repeat: no-repeat;
 		background-position:50% 50%;
-		// background-size: auto 50%;
 		background-attachment:scroll;
 		
 		// alle weiteren Schriftgrößen sind von folgender Schriftgröße abhängig
@@ -188,6 +185,24 @@ html.start {
 				// font-size:.7em;
 			}
 		}
+	}
+	@include breakpoint(verysmall){
+		#nav {
+			position: fixed;
+			top: 0;
+			left: 0;
+			&:target {
+				max-height:100%;
+				overflow-y: auto;
+				li {
+				position:static;
+				@include no-transform;
+				a {
+					margin:0;
+				}
+			}
+		}
+	}
 	}
 }
 
