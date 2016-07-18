@@ -23,16 +23,16 @@
     font-weight: 400;
     font-style: italic;
 }
-@font-face {
-    font-family: 'Josefin Sans';
-    src: url('css/webfonts/josefinsans-semibold-webfont.eot');
-    src: url('css/webfonts/josefinsans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('css/webfonts/josefinsans-semibold-webfont.woff2') format('woff2'),
-         url('css/webfonts/josefinsans-semibold-webfont.woff') format('woff'),
-         url('css/webfonts/josefinsans-semibold-webfont.ttf') format('truetype');
-    font-weight: 700;
-    font-style: bold;
-}
+// @font-face {
+    // font-family: 'Josefin Sans';
+    // src: url('css/webfonts/josefinsans-semibold-webfont.eot');
+    // src: url('css/webfonts/josefinsans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         // url('css/webfonts/josefinsans-semibold-webfont.woff2') format('woff2'),
+         // url('css/webfonts/josefinsans-semibold-webfont.woff') format('woff'),
+         // url('css/webfonts/josefinsans-semibold-webfont.ttf') format('truetype');
+    // font-weight: 700;
+    // font-style: bold;
+// }
 
 $font: 'Josefin Sans', Verdana, Helvetica, Arial, sans-serif;
 $font2: Verdana,  Helvetica, Arial, sans-serif;
