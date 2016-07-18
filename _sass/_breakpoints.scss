@@ -2,42 +2,46 @@
 // $mobile_small: 500px; // mobile
 // $mobile: 640px; // mobile
 
-$break_width1: 500px; // verysmall
-$break_width2: 700px; // smaller
-$break_width3: 1000px; // small
-$break_width4: 1150px; // medium
+$break_width1: 600px; // mobile
+$break_width2: 700px; // verysmall
+$break_width3: 800px; // smaller
+$break_width4: 1000px; // small
+$break_width5: 1150px; // medium
 // $break5: 1600px; // big
 
-$break_height1: 470px;
-$break_height2: 560px;//flat
-$break_height3: 680px;
-$break_height4: 760px;
+$break_height1: 600px;//mobile
+$break_height2: 700px;//veryflat
+$break_height3: 800px;//flat
+$break_height4: 1000px;//normal
 
 @mixin breakpoint($point) {
   // Höhe
-  @if $point == flat1 { // mittel
+  @if $point == flat1 {//mobile
     @media (max-height: $break_height1) {@content;}
   }
-  @if $point == flat2 { // mittel
+  @if $point == flat2 {//veryflat
     @media (max-height: $break_height2) {@content;}
   }
-  @if $point == flat3 { // mittel
+  @if $point == flat3 {//flat
     @media (max-height: $break_height3) {@content;}
   }
   @if $point == flat4 { // mittel
     @media (max-height: $break_height4) {@content;}
   }
   // Breite
-  @if $point == medium { // mittel
+  @if $point == medium {
+    @media (max-width: $break_width5) {@content;}
+  }
+  @if $point == small {
     @media (max-width: $break_width4) {@content;}
   }
-  @if $point == small { // mittel
+  @if $point == smaller {
     @media (max-width: $break_width3) {@content;}
   }
-  @if $point == smaller { // mittel
+  @if $point == verysmall {
     @media (max-width: $break_width2) {@content;}
   }
-  @if $point == verysmall { // mittel
+  @if $point == mobile {
     @media (max-width: $break_width1) {@content;}
   }
 }
