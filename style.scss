@@ -405,6 +405,7 @@ footer {
 	width:100%;
 	height:2em;
 	background-color:$blue;
+	text-align:center;
 	// background-color:inherit;
 	@include color-change;
 	@include breakpoint(smaller){
@@ -699,25 +700,33 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 	display:table-cell;
 	vertical-align:middle;
 }
+.icon {
+	display:inline-block;
+	vertical-align:middle;
+	width:36px;
+	height:36px;
+	background-color:transparent;
+	border-radius:50%;
+	&:hover {
+		border-radius:2px;
+		background-color:$darkGrey;
+	}
+}
 .social-share {
 	// display:inline-block;
 	// width:33%;
 	a {
-		display:inline-block;
-		vertical-align:middle;
-		width:36px;
-		height:36px;
 		background-color:$lighterGrey;
-		border-radius:50%;
-		&:hover {
-			border-radius:2px;
-			background-color:$darkGrey;
-		}
 	}
 }
 .social-twitter {background-image:url(/img/icons/twitter.png);}
 .social-facebook {background-image:url(/img/icons/facebook.png);}
 .social-google {background-image:url(/img/icons/google-plus.png);}
+
+.icon-feed {
+	@extend .icon;
+	background-image:url(/img/icons/rss.png);
+}
 
 .donate {
 	// display:inline-block;
@@ -894,11 +903,12 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 
 /********** Edit Button *********/
 .edit-source {
-	display:block;
-	width:32px;
-	height:32px;
-	margin:0 auto;
-	background-color:transparent;
+	// display:block;
+	// width:32px;
+	// height:32px;
+	// margin:0 auto;
+	// background-color:transparent;
+	@extend .icon;
 }
 
 
