@@ -10,7 +10,7 @@ html.start {
 		margin-left:-250px;
 		overflow:hidden;
 		background-size:cover;
-		background-image: url(/images/logo10_r-transp.svg);
+		background-image: url(/img/logo10_r-transp.svg);
 		background-repeat: no-repeat;
 		background-position:50% 50%;
 		background-attachment:scroll;
@@ -24,7 +24,7 @@ html.start {
 		}
 		
 		header {
-			
+			margin:0;
 			font-size:inherit;
 			
 			@include no-animation;
@@ -41,39 +41,140 @@ html.start {
 				font-size:.6em;
 			 }
 		}
-		@include breakpoint(flat4){
-		font-size:1.5em;
-		}
 		@include breakpoint(small){
-		font-size:1.5em;
-		}
-		@include breakpoint(flat3){
-			height:400px;
-			width:400px;
-			margin-top:-200px;
-			margin-left:-200px;
-			// header{font-size:1.5em;}
+		// font-size:1.5em;
 		}
 		@include breakpoint(smaller){
+			height:450px;
+			width:450px;
+			margin-top:-225px;
+			margin-left:-225px;
+			// header{font-size:1.5em;}
+		}
+		@include breakpoint(verysmall){
 			height:400px;
 			width:400px;
 			margin-top:-200px;
 			margin-left:-200px;
 			// header{font-size:1.5em;}
 		}
+		// @include breakpoint(flat4){
+		// font-size:1.5em;
+		// }
+		@include breakpoint(flat3){
+			height:450px;
+			width:450px;
+			margin-top:-225px;
+			margin-left:-225px;
+		}
 		@include breakpoint(flat2){
-			height:300px;
-			width:300px;
-			margin-top:-150px;
-			margin-left:-150px;
-			font-size:1.1em;
+			height:400px;
+			width:400px;
+			margin-top:-200px;
+			margin-left:-200px;
+		}
+		@include breakpoint(mobile){
+			// height: 0px;
+			// width: 60%;
+			// padding-bottom: 60%;
+			// margin-left: -30%;
+			// margin-top: -30%;
+			margin:0;
+			padding:0;
+			top:0;
+			left:0;
+			height:100%;
+			width:100%;
+			background-size:60% auto;
 		}
 		@include breakpoint(flat1){
-			height:200px;
-			width:200px;
-			margin-top:-100px;
-			margin-left:-100px;
-			font-size:1em;
+			// width: 0px;
+			// height: 60%;
+			// padding-left: 60%;
+			// margin-left: -30%;
+			// margin-top: -30%;
+			background-size: auto 60%;
+			// temporärer Workaround, damit auf der Startseite das Mobil-Icon zu sehen ist:
+			// copy-paste
+			#nav {
+				width:auto;
+				z-index: 1000;
+				// position: absolute;
+				top: 0;
+				left: 0;
+				right:0;
+				background-color:$black_transp4;
+				border-bottom-left-radius: 5px;
+				border-bottom-right-radius: 5px;
+				font-size:0;
+				line-height:0;
+				@include box-shadow(0px 150px 75px 0px $black_transp3);
+				ul {
+					position:static;
+					display:block;
+					height:auto;
+					text-align:left;
+					li {
+						display:block;
+						a {
+							display:block;
+							border-bottom-width: 0;
+							overflow: hidden;
+							height: 0;
+							line-height: 0;
+							padding: 0;
+							font-size:0;
+							@include transition(height .25s, line-height .25s ease-in-out);
+						}
+					}
+				}
+				&:target li a, ul li a:focus {
+					position: relative;
+					height: 2rem;
+					z-index: 1;
+					border-bottom: 1px dashed #ccc;
+					border-radius:5px;
+					line-height: 2rem;
+					font-size:1.25rem;
+					padding:.5rem;
+					@include transition(height .25s, line-height .25s ease-in-out);
+				}
+				#jump2nav {
+					display:block;
+					position:fixed;
+					top:2px;
+					right:2px;
+					width:36px;
+					height:36px;
+					// border:1px solid #BD4118;
+					margin:0;
+					padding:0;
+					background-image:url(/img/icons/navigation.png);
+					background-repeat:no-repeat;
+					border-radius: 5px;
+					text-indent: -999em;
+					// make sure the menu button is on top
+					z-index:1001;
+				}
+				&:target #jump2nav {
+				display:none;
+				}
+				&:target #jump2top {
+					display:block;
+					position: fixed;
+					top:2px;
+					right:2px;
+					width:36px;
+					height:36px;
+					// border:1px solid #BD4118;
+					margin:0;
+					padding:0;
+					background-image:url(/img/icons/close.png);
+					background-repeat:no-repeat;
+					border-radius: 5px;
+					z-index:1003;
+				}
+			}
 		}
 		
 		footer {
@@ -98,6 +199,9 @@ html.start {
 		}
 		.bottom-nav {
 			font-size: .8em;
+			@include breakpoint(smaller){
+				position:fixed;
+			}
 		}
 		.top-nav {
 			height:100%;
@@ -186,7 +290,11 @@ html.start {
 			}
 		}
 	}
-	@include breakpoint(verysmall){
+	// @include breakpoint(smaller){
+		// .bottom-nav
+	// }
+	@include breakpoint(mobile){
+		// @include color-change;
 		#nav {
 			position: fixed;
 			top: 0;
@@ -197,12 +305,31 @@ html.start {
 				li {
 				position:static;
 				@include no-transform;
-				a {
-					margin:0;
+					a {
+						margin:0;
+					}
 				}
 			}
 		}
 	}
+	@include breakpoint(flat1){
+		// @include color-change;
+		#nav {
+			position: fixed;
+			top: 0;
+			left: 0;
+			&:target {
+				max-height:100%;
+				overflow-y: auto;
+				li {
+				position:static;
+				@include no-transform;
+					a {
+						margin:0;
+					}
+				}
+			}
+		}
 	}
 }
 
