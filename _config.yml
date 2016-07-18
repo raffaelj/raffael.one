@@ -37,6 +37,13 @@ paginate_path: "/blog/page:num/"
 # Permalink-Struktur für Blog-Posts
 permalink: /blog/:year/:month/:day/:title
 
+# Titel für RSS-Feed
+title: www.raffael.one
+# Untertitel
+subtitle: Kunst - Bildung - Design
+# description - wenn nicht in Seite definiert
+description: "Ich performe mit Hoopdance und Poledance auf Ihrer Party oder gebe Kunst- und Hula-Hoop-Workshops auf Ihrem Festival. Oder suchen Sie eine Feuershow für Ihr Event? Nebenbei gebe ich auch Grafik- und Webdesign-Kurse."
+
 collections:
   gallery:
     output: true
