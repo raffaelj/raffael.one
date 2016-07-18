@@ -3,7 +3,7 @@ html.blog {
 	main {
 		text-align:center;
 		
-		article.post_excerpt {
+		.post_excerpt {
 			position:relative;
 			display:inline-block;
 			// width:28%;
@@ -13,21 +13,25 @@ html.blog {
 			margin:1%;
 			overflow:hidden;
 			text-align:left;
-			
+			vertical-align:top;
+			background-color:$weiss_transp2;
 			@include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
 			// border: 1px solid $grey;
 			border-top-right-radius: .5em;
 			
-			@include breakpoint(smaller){width:45%;}
-			@include breakpoint(verysmall){width:96%;}
-			
-			&:nth-child(2n) {
-				background-color:$weiss_transp3;
+			// @include breakpoint(smaller){width:45%;}
+			@include breakpoint(verysmall){
+				width:96%;
+				height:auto;
 			}
 			
-			&:nth-child(2n+1) {
-				background-color:$weiss_transp2;
-			}
+			// &:nth-child(2n) {
+				// background-color:$weiss_transp3;
+			// }
+			
+			// &:nth-child(2n+1) {
+				// background-color:$weiss_transp2;
+			// }
 			
 			a.read-more {
 				position: absolute;
