@@ -12,7 +12,7 @@ sitemap: false
 - [x] Video-Links in embed konvertieren
   - [x] Youtube-Links in p.embed (kramdown `{: .embed}`) --> JS
   - [x] Vimeo-Links in p.embed (kramdown `{: .embed}`) --> JS
-  - [ ] Opt-In --> inkl. Vorschau schwierig
+  - [x] Opt-In --> inkl. Vorschau schwierig
 - Bild-Positionierung noch nicht ideal, da kramdown <img> in <p> verpackt
 - Galerie auslagern
   - evtl. als eigene jekyll-Instanz und dann als submodule laden
