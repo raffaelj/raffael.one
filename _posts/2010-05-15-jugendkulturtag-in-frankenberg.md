@@ -1,7 +1,5 @@
 ---
 title: Malusion @Jugendkulturtag in Frankenberg
-author: Raffael
-layout: post
 categories:
 vita: ja
 header: europaeisch-gewuerzt.jpg

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ULTRALALA - Ritus I @Art's Birthday
 categories:
 vita: ja

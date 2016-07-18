@@ -1,7 +1,6 @@
 ---
 title: Malusphäre @Pfingstcamp 2012
-author: Raffael
-layout: post
+license: cc-by
 categories:
 vita: ja
 project: Malusphäre

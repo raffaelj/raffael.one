@@ -1,7 +1,5 @@
 ---
 title: Tanzen mit dem Spielmobil
-author: Raffael
-layout: post
 categories:
 - Hooping
 vita: ja

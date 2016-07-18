@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hoop Dance @Relax with Sisyphos
 categories:
 - Hooping

@@ -1,7 +1,6 @@
 ---
 title: Vision2020 zum HGB-Rundgang
-author: Raffael
-layout: post
+license: cc-by
 categories:
 vita: ja
 header: vision2020_315x53.jpg

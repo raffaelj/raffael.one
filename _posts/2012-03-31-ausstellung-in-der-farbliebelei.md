@@ -1,7 +1,6 @@
 ---
 title: Farbliebelei-Schaufenster
-author: Raffael
-layout: post
+license: cc-by
 categories:
 vita: ja
 header: farbliebelei_2012.jpg

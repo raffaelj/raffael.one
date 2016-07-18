@@ -1,7 +1,5 @@
 ---
 title: Dockville-Festival – ein Hafen, an dem man gerne andockt
-author: Raffael
-layout: post
 categories: Festivalbericht
 license: cc-by
 

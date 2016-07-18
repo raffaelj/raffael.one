@@ -1,6 +1,6 @@
 ---
 title: IBUg 2013
-author: Raffael
+license: cc-by
 categories:
 vita: ja
 header: ibug_2013.jpg

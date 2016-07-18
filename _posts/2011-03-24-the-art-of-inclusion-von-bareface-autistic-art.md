@@ -1,7 +1,5 @@
 ---
 title: The Art of Inclusion – von Bareface Autistic Art
-author: Raffael
-layout: post
 categories:
 - Künstlerportrait
 

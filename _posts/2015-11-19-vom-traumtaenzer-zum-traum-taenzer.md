@@ -1,5 +1,6 @@
 ---
 title: Vom Traumtänzer zum Traum-Tänzer
+license: cc-by
 tags:
 - Hoopdance
 - Poledance

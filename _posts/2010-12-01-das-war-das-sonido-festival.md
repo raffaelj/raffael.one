@@ -1,7 +1,5 @@
 ---
 title: Stencil-Workshop @Sonido-Festival
-author: Raffael
-layout: post
 categories:
 vita: ja
 header: sonido_stencil.jpg

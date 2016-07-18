@@ -1,7 +1,6 @@
 ---
 title: Später Arbeiten beim Ajuca und die Macht der Definition
-author: Raffael
-layout: post
+license: cc-by
 project: 'Später Arbeiten'
 categories:
 - Festivalbericht

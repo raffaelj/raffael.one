@@ -1,5 +1,6 @@
 ---
 title: Sommerakademie d. Linksjugend Leipzig
+license: cc-by
 categories:
 - Veranstaltungshinweis
 

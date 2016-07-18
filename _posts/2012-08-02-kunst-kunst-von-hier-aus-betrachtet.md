@@ -1,7 +1,5 @@
 ---
 title: Kunst-Kunst. Von hier aus betrachtet!
-author: Raffael
-layout: post
 categories:
 vita: ja
 header: kunst-kunst_gfzk.jpg

@@ -1,7 +1,5 @@
 ---
 title: Später Arbeiten @Peter-Weiss-Haus
-author: Raffael
-layout: post
 categories:
 vita: ja
 project: 'Später Arbeiten'

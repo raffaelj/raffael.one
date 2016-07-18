@@ -1,7 +1,7 @@
 ---
 title: 'Europäisch gewürzt - Malusion beim 2. deutschsprachigen Jugendforum in Wien'
-author: Raffael
-layout: post
+license: cc-by
+
 categories:
 vita: ja
 header: malusion_jugendforum.jpg

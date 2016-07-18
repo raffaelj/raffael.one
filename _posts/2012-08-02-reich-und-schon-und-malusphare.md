@@ -1,7 +1,6 @@
 ---
 title: Malusphäre @Reich und Schön Festival
-author: Raffael
-layout: post
+license: cc-by
 categories:
 vita: ja
 project: Malusphäre
@@ -42,4 +41,4 @@ In einem idyllischen Tal bei Döbeln war vom 22. - 24.06.12 das schicke, kleine 
 
 Wer genauer hingeschaut hat, konnte neben einer riesigen Palette an Bands sowie noch mehr reichen und schönen Menschen wieder die [Malusphäre](/malusphaere/) entdecken.
 
-{% include gallery.html gallery="reich-und-schoen-festival-2012" %}
+{% include gallery.html gallery="malusphaere/reich-und-schoen-festival-2012" %}

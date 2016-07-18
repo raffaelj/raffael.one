@@ -1,7 +1,5 @@
 ---
 title: Klaus Staeck-Ausstellung und trojanisches Zeitungspferd
-author: Raffael
-layout: post
 categories:
 
 vita: true

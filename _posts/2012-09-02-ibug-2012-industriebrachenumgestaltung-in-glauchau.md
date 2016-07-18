@@ -1,7 +1,6 @@
 ---
 title: IBUg 2012
-author: Raffael
-layout: post
+license: cc-by
 categories:
 vita: ja
 header: ibug_2012.jpg

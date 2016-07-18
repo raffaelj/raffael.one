@@ -1,7 +1,5 @@
 ---
 title: BRIMBORIA Kongress – Die subversive Strategie des Fake
-author: Raffael
-layout: post
 license: cc-by
 categories:
 - Interview
