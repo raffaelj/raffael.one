@@ -1,12 +1,9 @@
 ---
 layout: default
 ---
-
 {{content}}
-
 {% for post in paginator.posts %}
 		<article class="post_excerpt">
-
 			<p class="date">{{ post.date | date: '%d.%m.%y' }}</p>
 			<p class="labels">
 				{% for cat in post.categories %}
@@ -14,11 +11,9 @@ layout: default
 				{% endfor %}
 			</p>
 			<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-			
 			<div class="entry">
 				{{ post.excerpt | markdownify }}
 			</div>
-
 			<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">weiterlesen...</a>
 		</article>
 	{% endfor %}
