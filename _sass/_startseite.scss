@@ -26,7 +26,7 @@ html.start {
 		header {
 			margin:0;
 			font-size:inherit;
-			
+			background-color:transparent;
 			@include no-animation;
 			position:relative;
 			height:100%;
