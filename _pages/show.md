@@ -2,7 +2,7 @@
 title: Hoopdance, Poledance & Feuershows
 permalink: /show-tanz-feuer/
 
-artistname: v. hooPole
+artistname: v. HooPole
 
 categories: 
 - Tanz
