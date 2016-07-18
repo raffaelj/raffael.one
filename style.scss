@@ -6,7 +6,7 @@
 @import "mixins";
 
 // ********** Farben **********
-// $dunkelblau: #212B44;
+// $darkBlue: #212B44;
 $weiss: #fefefe;
 $weiss2: #f9f9f9;
 // $weiss_transp: rgba(255,255,255,.8);
@@ -29,7 +29,7 @@ $green2: {{ c.green2 }};
 $magenta: {{ c.magenta }};
 $magenta2: {{ c.magenta2 }};
 $blue:{{ c.blue }};
-$dunkelblau:{{ c.dunkelblau }};
+$darkBlue:{{ c.darkBlue }};
 $purple: {{ c.purple }};
 $orange: {{ c.orange }};
 $darkGrey: {{ c.darkGrey }};
@@ -58,7 +58,8 @@ html,body {
 }
 
 html {
-	background-color: $dunkelblau;
+	// background-color: $darkBlue;
+	background-color: $blue;
 	color: $weiss;
 	@include color-change;
 	background-image: url(/img/logo10_r-transp.svg);
@@ -259,6 +260,7 @@ header {
 	margin-left:-3px;//um box-shadow von main zu überdecken
 	max-width:100%;
 	color:$weiss;
+	background-color:$blue;
 	@include color-change;
 	
 	@include breakpoint(smaller){
@@ -348,7 +350,7 @@ main {
 	// background-color: $weiss;
 	// padding:.5em 1em;
 	padding: 1em;
-	// color:$dunkelblau;
+	// color:$darkBlue;
 	color:$darkGrey;
 	border-top-left-radius:1em;
 	// -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
@@ -375,6 +377,7 @@ main {
 		list-style-type:disc;
 		padding-left:.5em;
 		margin-bottom:.5em;
+		display:block;
 	}
 	li p {display:inline;} // kramdown-Bug - rendert das manchmal falsch, wodurch die Listen zerschossen werden und p innerhalb von li auftaucht
 	@include breakpoint(small){
@@ -401,7 +404,7 @@ footer {
 	left:0;
 	width:100%;
 	height:2em;
-	background-color:$dunkelblau;
+	background-color:$blue;
 	// background-color:inherit;
 	@include color-change;
 	@include breakpoint(smaller){
@@ -530,9 +533,12 @@ footer {
 		padding-bottom:.2em;
 	}
 	
-	// @include breakpoint(verysmall) {
-		// width: 100%;
-	// }
+	@include breakpoint(verysmall) {
+		width: 90%;
+		max-width:90%;
+		float:none;
+		margin:0 auto;
+	}
 }
 
 
@@ -796,9 +802,10 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 		@include transition(background .3s ease-in-out);
 	}
 	label {
+		position:relative;
 		padding:5px;
 		display: block;
-		height: 50px;
+		// height: 50px;
 		cursor: pointer;
 		color: $darkGrey;
 		line-height: 50px;
@@ -817,8 +824,8 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 		// Dropdown-Pfeil nach unten
 		&:after {
 			content:"";
-			float:right;
-			position:relative;
+			// float:right;
+			position:absolute;
 			top:20px;
 			right:5px;
 			width: 0; 
@@ -849,23 +856,30 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 			@include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
 		}
 		img {
-		display:block;
-		float:left;
-		margin:.5em 1em 1em 0;
-		// border-radius:2px;
-		width:30%;
-		max-width:100%;
-		// padding:1px;
-		// background:$weiss;
-		// border: 9px solid $darkGrey;
-		// @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
-		
-		border-radius: 4px;
-		// max-width: 90%;
-		padding: 8px;
-		background-color: rgba(255, 255, 255, 0.5);
-		border: 2px solid rgba(0, 0, 0, 0.1);
-	}
+			display:block;
+			float:left;
+			margin:.5em 1em 1em 0;
+			// border-radius:2px;
+			width:30%;
+			max-width:100%;
+			// padding:1px;
+			// background:$weiss;
+			// border: 9px solid $darkGrey;
+			// @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
+			
+			border-radius: 4px;
+			// max-width: 90%;
+			padding: 8px;
+			background-color: rgba(255, 255, 255, 0.5);
+			border: 2px solid rgba(0, 0, 0, 0.1);
+			@include breakpoint(mobile) {
+				width:90%;
+				max-width:90%;
+				margin-left:auto;
+				margin-right:auto;
+				float:none;
+			}
+		}
 	}
 }
 
