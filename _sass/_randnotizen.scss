@@ -1,33 +1,20 @@
 // Meta information - Rand-Notizen
 section.meta {
-  // float:right;
-  // width:300px;
   position:absolute;
   right:1em;
   top:1em;
-  width:40px;
-  height:40px;
+  width:4em;
+  height:1.5em;
   overflow:hidden;
-  // max-width:33%;
-  margin:0 0 10px 10px;
-  padding:10px;
+	padding: .1em .1em .2em;
   font-size:.9em;
   line-height:1.6em;
-  // border: 1px solid $grey;
   border-bottom-left-radius:10px;
   background-color:$weiss_transp;
-  -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
-  -moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
-  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12) inset;
-  
-  
-  -webkit-transition: width .3s ease-in-out; /* Firefox */
-  -moz-transition: width .3s ease-in-out; /* WebKit */
-  -o-transition: width .3s ease-in-out; /* Opera */
-  transition: width .3s ease-in-out; /* Standard */
+  @include box-shadow(0 -1px 0 rgba(0, 0, 0, 0.12) inset);
+  @include transition(width .3s ease-in-out);
   
   img {
-    // width:100%;
     width:300px;
     display:none;
   }
@@ -50,30 +37,22 @@ section.meta {
   &:hover {
     width:300px;
     height:auto;
+		padding:10px;
     background-color:$weiss;
-    -webkit-box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.5);
-    -moz-box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.5);
-    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.5);
+    @include box-shadow(2px 2px 4px 1px rgba(0,0,0,0.5));
     h2 {display:block;}
     img {display:inline;}
     &:before{
       content:"";
-      // border:none;
-      // margin:0;
-      // padding:0;
       display:none;
     }
   }
   &:before {
-    content: "mehr Infos";
-    display:inline-block;
-    // padding:0 2px 2px 0px;
-    font-size:.9em;
-    line-height:1.5em;
+    content: "meta";
+    display:block;
     text-align:center;
-    vertical-align:middle;
-    // border-bottom: 1px dashed $grey;
-    // margin-bottom:.3em;
-    // padding-bottom:.2em;
+		color:$magenta2;
+		background-color:#f5f5f5;
+		@include box-shadow(1px 1px 2px 0px rgba(0,0,0,0.3));
   }
 }

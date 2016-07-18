@@ -332,9 +332,9 @@ header {
 }
 
 main {
-	// position:relative;
+	position:relative;
 	// position:absolute;
-	position:static;
+	// position:static;
 	// left:0;
 	// right:0;
 	width:1000px - 2 * $em;
@@ -365,7 +365,7 @@ main {
 		clear:both;//float nach collections zurücksetzen
 	}
 	h1:first-child {
-		margin-top:.2em;
+		margin-top:1.5rem;
 		text-align:center;
 	}
 	ul,ol {
@@ -384,7 +384,7 @@ main {
 		margin-bottom:1em;
 	}
 	@include breakpoint(verysmall){
-		position:static;
+		// position:static;
 		margin-top:0;
 		width:98%;
 		padding-left:1%;
