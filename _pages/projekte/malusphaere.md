@@ -7,8 +7,10 @@ permalink: /malusphaere/
 class: malusphaere
 imgfolder: /malusphaere/
 license: cc-by
+header: rus_2012.jpg
 
 categories:
+- Projekte
 - Eventdesign
 type_of_art:
 - Installation
@@ -35,14 +37,14 @@ Es glitzert, es ist bunt und es leuchtet. Man darf es sogar anmalen, umbauen und
 {: .center}
 ![Bild]({{site.imgpath}}{{page.imgfolder}}web_banner.jpg)
 
-## Malusphäre =
+## Malusphäre
 
 {: .right}
 ![Bild]({{site.imgpath}}{{page.imgfolder}}malusphaere2.jpg)
 
 Die Malusphäre setzt sich aus Malusion und Atmosphäre zusammen und ist eine Weiterentwicklung der Malusion in die Dreidimensionalität, wobei der Aspekt der Illusion stärker hervorgehoben wurde. Nachts erstrahlt sie in allen Farben, Malusionsbilder blinken monitorartig an den Wänden und in der Mitte malen, bauen, sitzen und lachen Menschen beim Malusionieren. Tagsüber wird weiter am Raumkonzept gefeilt, sodass auch die nächste Nacht zu einem neuen Erlebnis wird.
 
-## Malusion =
+## Malusion
 
 Der Begriff Malusion setzt sich aus Malen und Diskussion (mit einem Hauch von Illusion) zusammen. Ein großes Blatt Papier, viele Stifte und ein Thema liegen auf dem Tisch und eine Gruppe versammelt sich darum um über das Thema zu diskutieren. Dabei wird alles - Assoziationen, Inhalte, Ergebnisse oder Wortfetzen – bildlich festgehalten. Es ist völlig egal, ob von Kinderhand, KunststudentInnen oder auch allen gemeinsam gezeichnet wird. Wichtig ist am Ende der Mix aus Eindrücken, Farben und Charakteren, denn nur so entsteht ein Gesamtkunstwerk. (Entwickelt wurde die Malusion im Projekt "Multidimensionales Wunderland".)
 
