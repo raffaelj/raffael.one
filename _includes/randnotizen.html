@@ -20,10 +20,10 @@
 		<p>Projektart: {{ page.type_of_project | join: ', '  }}</p>
 	{% endif %}
 	{% if page.categories.size > 0 %}
-	<p>abgelegt in {% if page.categories.size > 1 %}den Kategorien{% else %}der Kategorie{% endif %}: {% for category in page.categories %}<span class="label {{ category | slugify }}">{{ category }}</span>{% endfor %}</p>
+	<p>abgelegt in {% if page.categories.size > 1 %}den Kategorien{% else %}der Kategorie{% endif %}: {% for category in page.categories %} <span class="label {{ category | slugify }}">{{ category }}</span>{% endfor %}</p>
 	{% endif %}
 	{% if page.tags.size > 0 %}
-		<p> mit den Tags: {% for tag in page.tags %} <span class="label tags">{{ tag }}</span>{% endfor %}</p>
+		<p>Tags: {% for tag in page.tags %} <span class="label tags">{{ tag }}</span>{% endfor %}</p>
 	{% endif %}
 	
 	</section>
