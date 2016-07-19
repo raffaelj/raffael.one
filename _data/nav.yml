@@ -9,10 +9,11 @@ weitere:
   "Galerie": /galerie/
   "Presse": /pressemappe/
   "Blog": /blog/
-  "Kontakt": /kontakt/
+  "Projekte": /projekte/
 
 sonstige:
-  Archiv: /archiv/
+  "Kontakt": /kontakt/
+  # Archiv: /archiv/
   Impressum: /impressum/
   Datenschutz: /datenschutz/
   # AGB: /agb
