@@ -49,14 +49,17 @@ collections:
     output: true
     permalink: /galerie/:path/
   kursangebote:
-    output: true
+    output: false
     permalink: /kurse/:path/
   referenzen_grafik_webdesign:
-    output: true
+    output: false
     permalink: /referenzen_grafik_webdesign/:path/
   pressemappe:
     output: false
     permalink: /pressemappe/:path/
+  # projekte:
+    # output: true
+    # permalink: /projekte/:path/
 
 defaults:
 - scope:
