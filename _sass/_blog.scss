@@ -35,17 +35,21 @@ html.blog {
 			
 			a.read-more {
 				position: absolute;
-				bottom: 4px;
+				// bottom: 4px;
+				bottom: 0;
 				display: block;
-				right: 4px;
-				// width: 50%;
+				// right: 4px;
+				left: 0;
+				width: 100%;
 				line-height: 1.5em;
 				font-size:.9em;
-				text-align: center;
-				background-color: rgba(255, 255, 255, 1);
+				// text-align: center;
+				text-align: left;
+				background-color: $weiss2;
 				color: $magenta2;
-				padding: 0 .4em;
-				@include box-shadow(0px 0px 3px 1px rgba(0, 0, 0, 0.5));
+				// padding: 0 .4em;
+				padding: 0 0 0 .5em;
+				@include box-shadow(0px 0px 8px 0px $grey);
 				&:hover {
 					color:$weiss;
 					background-color:$green;
@@ -57,7 +61,7 @@ html.blog {
 				font-size:1.3em;
 				margin-top:0;
 				text-align:left;
-				clear:both;
+				// clear:both;
 				-ms-word-break: break-all;
 				word-break: normal;
 
@@ -91,6 +95,12 @@ html.blog {
 			}
 			p.labels {
 				text-align:right;
+				padding:0;
+				&:after{
+					content:"";
+					display:block;
+					clear:both;
+				}
 			}
 			p.date {
 				float:left;
