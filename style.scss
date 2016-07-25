@@ -49,6 +49,7 @@ $lighterGrey: #ddd;
 // $whiteT: rgba(255,255,255,$transparency);
 
 $em: 18px;
+$header-height: 5em;
 
 @import 'fonts';
 
@@ -86,7 +87,22 @@ body {
 	font-family:$font2;
 	font-size:$em;
 }
-h1,h2,h3,h4,h5,h6 {font-family:$font;}
+h1,h2,h3,h4,h5,h6 {
+	font-family:$font;
+	&:before {// fixed header - anchor fix
+		display: block;
+		content: "";
+		margin-top: - $header-height;
+		height: $header-height;
+		visibility: hidden;
+		// clear:both;
+		@include breakpoint(smaller){
+			// margin:0;
+			// height:0;
+			display:none;
+		}
+	}
+}
 h1 {
 	// margin:.5em 0 .3em 0;
 	margin:0 0 .3em 0;
@@ -253,7 +269,6 @@ p.vertical-align {
 }
 
 /********* header *********/
-$header-height: 5em;
 header {
 	position:fixed;
 	z-index:10;
@@ -375,12 +390,16 @@ main {
 		// margin-top:1.5rem;
 		text-align:center;
 	}
-	ul,ol {
-		list-style-position:inside;
-		list-style-type:disc;
+	ol {
+		display:block;
+		list-style-type:decimal;
+	}
+	ul {
+		display:block;
 		padding-left:.5em;
 		margin-bottom:.5em;
-		display:block;
+		list-style-position:inside;
+		list-style-type:disc;
 	}
 	li p {display:inline;} // kramdown-Bug - rendert das manchmal falsch, wodurch die Listen zerschossen werden und p innerhalb von li auftaucht
 	@include breakpoint(small){
@@ -504,24 +523,45 @@ footer {
 	
 	@include box-shadow(0 -1px 0 rgba(0, 0, 0, 0.12) inset);
 	
+	// list-style-type:decimal;
 	list-style-type:circle;
 	list-style-position:outside;
 	font-size:.9em;
+	// border-left:2px solid $grey;
 	li {
-		margin-left:1em;
+		margin-left:1.5em;
+		position:relative;
 	}
 	ul {
-		padding-left:0;
-		list-style-type:square;
-		li {margin-left:0;}
-		ul {
-			// padding-left:.5em;
-			padding-left:1em;
-			list-style-type:circle;
-			li {
-				// margin-left:1em;
+		// padding-left:0;
+		padding-left:1em;
+		margin-left: .1em;
+		// list-style-type:square;
+		list-style-type:none;
+		border-left:1px solid $grey;
+		li {
+			margin-left:0;
+			&:before {
+				content:"";
+				display:block;
+				position:absolute;
+				left:-1em;
+				top:.7em;
+				// vertical-align: middle;
+				width:.6em;
+				height:1px;
+				// margin-right:.2em;
+				background-color:$grey;
 			}
 		}
+		// ul {
+			// padding-left:.5em;
+			// padding-left:1em;
+			// list-style-type:circle;
+			// li {
+				// margin-left:1em;
+			// }
+		// }
 	}
 	a {
 		color:$darkGrey;
