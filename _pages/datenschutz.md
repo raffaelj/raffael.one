@@ -5,7 +5,7 @@ permalink: /datenschutz/
 
 ## Geltungsbereich
 
-Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter Raffael Jesche, Kochstr. 90, 04277 Leipzig, <span class="mail">rj [Ät] raffaeljesche [PUNKT.] de</span> auf dieser Website (im folgenden “Angebot”) auf.  
+Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter Raffael Jesche, Kochstr. 90, 04277 Leipzig, <span class="mail">post [Ät] raffael [PUNKT.] one</span> auf dieser Website (im folgenden “Angebot”) auf.  
 
 Die rechtlichen Grundlagen des Datenschutzes finden sich im Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).  
 
