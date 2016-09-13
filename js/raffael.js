@@ -158,6 +158,6 @@ $(document).ready(function(){
 
 
 /********** under construction-Hinweis *******/
-if (document.location.hostname != "localhost") {
-	$("body").append('<p id="under-construction" style="position:fixed;top:1px;width:1000px;left:50%;margin-left:-500px;font-size:12px;line-height:14px;text-align:center;z-index: 1000;color:#fff;">Hinweis: Diese Seite ist gerade in <a href="https://github.com/raffaelj/raffael.one" title="Quellcode auf Github" style="color:#fff;text-decoration:underline dotted;">Entwicklung</a>, Inhalte und Aussehen können sich bis zur Fertigstellung noch jederzeit ändern.</p>');
-}
+//if (document.location.hostname != "localhost") {
+//	$("body").append('<p id="under-construction" style="position:fixed;top:1px;width:1000px;left:50%;margin-left:-500px;font-size:12px;line-height:14px;text-align:center;z-index: 1000;color:#fff;">Hinweis: Diese Seite ist gerade in <a href="https://github.com/raffaelj/raffael.one" title="Quellcode auf Github" style="color:#fff;text-decoration:underline dotted;">Entwicklung</a>, Inhalte und Aussehen können sich bis zur Fertigstellung noch jederzeit ändern.</p>');
+//}
