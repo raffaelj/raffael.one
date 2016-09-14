@@ -9,6 +9,8 @@ Damit Sie sich ganz auf Ihre eigentliche Arbeit konzentrieren können, übernehm
 
 [Kontaktieren](/kontakt) Sie mich einfach für ein individuelles Angebot.
 
+Vor einer Website-Erstellung benötige ich einige Informationen von Ihnen, die anhand dieses [Fragenkatalogs](/fragen-vor-website-erstellung/) beantwortet werden sollten.
+
 ## Portfolio (Auswahl)
 
 {% include referenzen_grafik-webdesign_collection.html %}
