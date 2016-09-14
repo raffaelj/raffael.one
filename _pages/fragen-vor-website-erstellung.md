@@ -15,6 +15,8 @@ Eine Internetseite zu erstellen ist meist ein längerer Prozess, der von vielen 
 
 * Endkunden, Vereine, Unternehmen, alt/jung, arm/reich etc.
 
+***Bis wann soll/muss die Seite fertig werden?***
+
 ***Gibt es schon (halbwegs) klare Vorstellungen davon, wie die Seite aussehen soll?***
 
 * Wenn ja, würde ich mich über Skizzen freuen. Ansonsten mache ich Vorschläge.
