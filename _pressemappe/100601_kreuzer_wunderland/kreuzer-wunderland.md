@@ -1,5 +1,5 @@
 ---
-title: Kreuzer-Artikel
+title: Kreuzer-Artikel zum Wunderland-Projekt
 date: 2010-06-01
 author: Claudia Lindner
 media: Kreuzer
@@ -10,9 +10,6 @@ image:
 imgfolder:
 
 label:
-
-todo:
-- Foto einfügen
 ---
 
 sehr ausführlicher Artikel im Kreuzer zum [Wunderland-Projekt](/archiv/mein-wunderland-eu)
