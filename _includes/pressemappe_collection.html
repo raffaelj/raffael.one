@@ -2,6 +2,7 @@
 {% for referenz in sorted reversed %}
 <div class="collection pressemappe">
 <h3>{{ referenz.title }}</h3>
+<p class="date">{{ referenz.date | date: "%m/%Y" }}</p>
 {% if referenz.label %}
 {% for label in referenz.label %}
 <span class="label">{{label}}</span>
