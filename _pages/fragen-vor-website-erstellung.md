@@ -13,13 +13,26 @@ Eine Internetseite zu erstellen ist meist ein längerer Prozess, der von vielen 
 
 ***An wen richtet sich die Seite?***
 
-* Endkunden, Vereine, Unternehmen, alt/jung, arm/reich etc.
+* Endkunden, Vereine, Unternehmen, alt/jung, ruhig/aufgeregt, Einkommensverhältnisse etc.
 
 ***Bis wann soll/muss die Seite fertig werden?***
+
+* So schnell wie möglich ist keine gute Anforderung.
+* Deadlines auf beiden Seiten helfen, dass ich rechtzeitig das Material bekomme um dann bis zu einem festen Termin fertig zu werden.
+* Wenn es ganz schnell gehen muss, habe ich weniger Zeit um auf Feinheiten oder Extra-Wünsche achten zu können.
+* Erfahrungsgemäß dauert eine Seite mehrere Wochen bis alles geklärt, eingepflegt und überarbeitet ist.
+
+***Wie sollte an die Website-Erstellung herangegangen werden?***
+
+Zuerst sollten die Inhalte stehen, die an die gewünschte(n) Zielgruppe(n) angepasst sind. Dann bekommt der Inhalt Struktur. Hier muss dann das passende System gewählt werden oder passend programmiert werden und am Ende kommt das Layout, welches alles nochmal aufbereitet und visuelle Hilfe gibt.  
+Andersherum ist es schwieriger, da dann die Inhalte in ein festes Layout gepresst werden müssen.
+
+Das ist zumindest die ideale Arbeitsweise, mit der auch mein Arbeitsaufwand verringert wird. Dass die Realität meist anders aussieht ist mir bewusst, da eine Visualisierung häufig dazu führt, dass die Inhalte nochmal überdacht werden.
 
 ***Gibt es schon (halbwegs) klare Vorstellungen davon, wie die Seite aussehen soll?***
 
 * Wenn ja, würde ich mich über Skizzen freuen. Ansonsten mache ich Vorschläge.
+* Auch Links zu Webseiten oder Themes, die Ihnen gefallen, helfen mir weiter um Ihren Geschmack zu treffen.
 
 ***Existiert bereits ein Logo?***
 
