@@ -1,0 +1,42 @@
+---
+mail: noreply@raffaeljesche.de
+layout: null
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:{{ site.url }}
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+{% for item in site.kalender %}BEGIN:VEVENT
+UID:{{ item.url | xml_escape }}@{{ site.url }}{{ site.baseurl }}
+LOCATION:{% if item.room %}{{ item.room }}{% endif %}{% if item.location %}, {{ item.location }}{% endif %}
+SUMMARY:{{ item.title }}
+DESCRIPTION:{{ item.content | rstrip | jsonify | strip_html | replace_first: '"' | append: '#3@ß' | replace: '"#3@ß','' }}
+CLASS:PUBLIC
+DTSTART:{% if item.date_from %}{{ item.date_from | date: "%Y%m%d" }}{% else %}{{ item.date | date: "%Y%m%d" }}{% endif %}{% if item.start_time %}T{{ item.start_time | replace:'-','' | replace:':','' }}00{% endif %}
+DTEND:{% if item.date_to %}{{ item.date_to | date: "%Y%m%d" }}{% else %}{{ item.date | date: "%Y%m%d" }}{% endif %}{% if item.end_time %}T{{ item.end_time | replace:'-','' | replace:':','' }}00{% endif %}
+DTSTAMP:{{ site.time | date: "%Y%m%d" }}T{{ site.time | date: "%H%M%S" }}Z
+URL:{{ site.url }}{{ site.baseurl }}{{ item.url }}
+ORGANIZER;CN={{ site.name }}:mailto:{{ page.mail }}
+STATUS:CONFIRMED
+END:VEVENT
+{% endfor %}END:VCALENDAR
