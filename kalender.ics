@@ -33,7 +33,7 @@ SUMMARY:{{ item.title }}
 DESCRIPTION:{{ item.content | rstrip | jsonify | strip_html | replace_first: '"' | append: '#3@ß' | replace: '"#3@ß','' }}
 CLASS:PUBLIC
 DTSTART:{% if item.date_from %}{{ item.date_from | date: "%Y%m%d" }}{% else %}{{ item.date | date: "%Y%m%d" }}{% endif %}{% if item.start_time %}T{{ item.start_time | replace:'-','' | replace:':','' }}00{% endif %}
-DTEND:{% if item.date_to %}{{ item.date_to | date: "%Y%m%d" }}{% else %}{{ item.date | date: "%Y%m%d" }}{% endif %}{% if item.end_time %}T{{ item.end_time | replace:'-','' | replace:':','' }}00{% endif %}
+DTEND:{% if item.date_to %}{{ item.date_to | date: "%Y%m%d" }}{% elsif item.date_from %}{{ item.date_from | date: "%Y%m%d" }}{% else %}{{ item.date | date: "%Y%m%d" }}{% endif %}{% if item.end_time %}T{{ item.end_time | replace:'-','' | replace:':','' }}00{% endif %}
 DTSTAMP:{{ site.time | date: "%Y%m%d" }}T{{ site.time | date: "%H%M%S" }}Z
 URL:{{ site.url }}{{ site.baseurl }}{{ item.url }}
 ORGANIZER;CN={{ site.name }}:mailto:{{ page.mail }}
