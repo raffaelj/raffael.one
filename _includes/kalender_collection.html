@@ -1,0 +1,29 @@
+{% assign current_date = site.time | date: "%Y%m%d" %}
+{% assign sorted = site.emptyArray %}
+
+{% if include.duration == "future" %}
+ {% for item in site.kalender %}
+  {% assign event_date = item.date_from | date: "%Y%m%d" %}
+  {% if event_date >= current_date %}
+  {% assign sorted = sorted | push: item %}
+	{% endif %}
+ {% endfor %}
+{% elsif include.duration == "past" %}
+ {% for item in site.kalender reversed %}
+  {% assign event_date = item.date_from | date: "%Y%m%d" %}
+  {% if event_date < current_date %}
+  {% assign sorted = sorted | push: item %}
+	{% endif %}
+ {% endfor %}
+{% endif %}
+
+{% for item in sorted %}
+
+<div class="collection kalender">
+<a class="cal-link" title="Direktlink" href="{{item.url}}">--></a>
+<p class="cal-date">{{item.date_from | date: '%d.%m.%y'}}{% if item.start_time %} - {{item.start_time | replace: '-',':'}}{% endif %}{% if item.date_to and item.date_to != item.date_from %} - {{item.date_to | date: '%d.%m.%y'}}{% endif %}{% if item.end_time %} - {{item.end_time | replace: '-',':'}}{% endif %}</p>
+<p class="cal-title">{{ item.title }}</p>
+<p class="cal-location">{{item.room}}, {{item.location}}</p>
+{{ item.content | markdownify }}
+</div>
+{% endfor %}

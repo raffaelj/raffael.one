@@ -3,19 +3,12 @@ title: Event-Kalender
 permalink: /kalender/
 ---
 
-[ics](/kalender.ics)
+Kalender als [ics-Feed](/kalender.ics) abonnieren
 
-Die nächsten Auftritte:
+## Meine nächsten Veranstaltungen, Shows und Ausstellungen
 
-{% for item in site.kalender %}
-## {{item.title}}
+{% include kalender_collection.html duration="future" %}
 
-{:.date}
-{{item.date_from | date: '%d.%m.%y'}}, {{item.start_time | replace: '-',':'}} - {{item.date_to | date: '%d.%m.%y'}}, {{item.end_time | replace: '-',':'}}
+## vergangene Veranstaltungen
 
-{{item.room}}, {{item.location}}
-
-{{item.content}}
-
-[Link]({{item.url}})
-{% endfor %}
+{% include kalender_collection.html duration="past" %}
