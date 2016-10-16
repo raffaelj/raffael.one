@@ -100,4 +100,4 @@ defaults:
     path: ""
     type: "kalender"
   values:
-    layout: "post"
+    layout: "kalender"

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<p class="cal-date">{{page.date_from | date: '%d.%m.%y'}}{% if page.start_time %} - {{page.start_time | replace: '-',':'}}{% endif %}{% if page.date_to and page.date_to != page.date_from %} - {{page.date_to | date: '%d.%m.%y'}}{% endif %}{% if page.end_time %} - {{page.end_time | replace: '-',':'}}{% endif %}</p>
+<p class="cal-location">{{page.room}}, {{page.location}}</p>
+{{ content }}
+
+<p><a href="/kalender/">zurück zum Kalender</a></p>
+<div class="sharing">
+{% include license-info.html %}
+{% include social-sharing.html %}
+</div>
+{% include page-navigation.html moreinfo="date" %}
