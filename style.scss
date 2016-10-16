@@ -967,6 +967,30 @@ iframe.piwik {
 	overflow-y:auto;
 }
 
+/********** Kalender *********/
+.kalender {
+	p {
+		padding:0;
+	}
+}
+.cal-date {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-style: italic;
+}
+.cal-title {
+	font-size: 1.3em;
+	font-weight:bold;
+}
+.cal-location {
+	font-style:italic;
+	font-size:.9em;
+	color:$grey;
+}
+.cal-link {
+	float:right;
+}
+
 /************ sonstige Layouts laden ************/
 @import 'navigation';
 @import 'animations';
