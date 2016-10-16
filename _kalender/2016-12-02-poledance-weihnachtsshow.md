@@ -10,4 +10,5 @@ location: Zschochersche Str. 79b, 04229 Leipzig
 ---
 
 Weihnachtsshow mit Kursteilnehmer*innen und Lola-Vereinsmitgliedern
+
 Uhrzeit wird noch bekanntgegeben
