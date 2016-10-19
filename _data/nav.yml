@@ -10,13 +10,16 @@ weitere:
   "Presse": /pressemappe/
   "Blog": /blog/
   "Projekte": /projekte/
+  "Kalender": /kalender/
+  # "Test6": /
+  # "Test7": /
+  # "Test8": /
 
 sonstige:
   "Kontakt": /kontakt/
-  # Archiv: /archiv/
-  Impressum: /impressum/
-  Datenschutz: /datenschutz/
-  # AGB: /agb
+  "Impressum": /impressum/
+  "Datenschutz": /datenschutz/
+  # "AGB": /agb
 
 social:
   Facebook: 
