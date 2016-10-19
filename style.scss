@@ -89,7 +89,7 @@ body {
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family:$font;
-	&:before {// fixed header - anchor fix
+	&:before {// fixed header - anchor fix - macht aber gelegentlich Probleme bei Textmarkierungen o. Scrollbalken direkt über Überschriften
 		display: block;
 		content: "";
 		margin-top: - $header-height;
@@ -111,6 +111,8 @@ h1 {
 h2 {
 	margin:.5em 0 .3em 0;
 	font-size:1.5em;
+	border-bottom: 1px dashed #888;
+	padding-bottom: .1em;
 }
 h3 {
 	margin:.5em 0 .3em 0;
@@ -177,6 +179,12 @@ a[href$=".pdf"]{
 }
 a[href$=".zip"]{
 	background-image:url(/img/icons/zip.png);
+	background-repeat:no-repeat;
+	background-position:00% 50%;
+	padding-left:1em;
+}
+a[href$=".ics"]{
+	background-image:url(/img/icons/ics.png);
 	background-repeat:no-repeat;
 	background-position:00% 50%;
 	padding-left:1em;
