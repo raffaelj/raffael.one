@@ -1,6 +1,7 @@
 ---
 title: Event-Kalender
 permalink: /kalender/
+description: "anstehende Auftritte, Events und Ausstellungen von Raffael Loophole Jesche"
 ---
 
 Kalender als [ics-Feed](/kalender.ics) abonnieren
