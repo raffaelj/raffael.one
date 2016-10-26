@@ -10,6 +10,16 @@
 			{% include navigation.html %}
 		</header>
 		<main id="main">
+{% assign urls = site.emptyArray %}{% comment %} urls werden in breadcrumbs benötigt {% endcomment %}
+{% for item in site.collections %}
+ {% for doc in item.docs %}
+  {% assign urls = urls | push: doc.url %}
+ {% endfor %}
+{% endfor %}
+{% for item in site.pages %}
+ {% assign urls = urls | push: item.url %}
+{% endfor %}
+			{% include breadcrumbs.html %}
 			{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
 			{{ content }}
 		</main>

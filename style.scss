@@ -999,6 +999,36 @@ iframe.piwik {
 	float:right;
 }
 
+/********** Breadcrumbs *********/
+.breadcrumbs {
+	text-align:left;
+	font-size: .8em;
+	list-style-type:none;
+	padding:0 0 .2em;
+	border-bottom: 1px solid $lighterGrey;
+	li {
+		display:inline;
+		padding:0;
+		margin:0;
+		color:$grey;
+		&:before {
+			content:"\25B6";
+			padding: 0 2px;
+			color: $lighterGrey;
+		}
+		&:first-child:before{
+			content:"";
+		}
+	}
+	a {
+		color:$grey;
+		text-decoration:underline dotted;
+	}
+	.active {
+		color:$grey;
+	}
+}
+
 /************ sonstige Layouts laden ************/
 @import 'navigation';
 @import 'animations';
