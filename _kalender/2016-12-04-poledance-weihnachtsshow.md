@@ -7,8 +7,7 @@ date_to: 2016-12-04
 end_time: "20:30"
 room: "Behrendt & Brocker PoleArts"
 location: Zschochersche Str. 79b, 04229 Leipzig
+facebook: "https://www.facebook.com/events/1124619490953099"
 ---
 
 Weihnachtsshow mit Kursteilnehmer*innen und Lola-Vereinsmitgliedern
-
-[FB-Veranstaltung](https://www.facebook.com/events/1124619490953099)
