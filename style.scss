@@ -189,6 +189,12 @@ a[href$=".ics"]{
 	background-position:00% 50%;
 	padding-left:1em;
 }
+a[href^="https://"][href*="facebook.com"]:not([href*="sharer.php"]){
+	background-image:url(/img/icons/facebook_16.png);
+	background-repeat:no-repeat;
+	background-position:00% 50%;
+	padding-left:1em;
+}
 
 blockquote,q {
 	border-left: 10px solid $lighterGrey;
