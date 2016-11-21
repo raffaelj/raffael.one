@@ -25,5 +25,6 @@
 <p class="cal-title">{{ item.title }}</p>
 <p class="cal-location">{{item.room}}, {{item.location}}</p>
 {{ item.content | markdownify }}
+{% if item.facebook %}<p><a href="{{item.facebook}}">Facebook-Veranstaltung für dieses Event</a></p>{% endif %}
 </div>
 {% endfor %}
