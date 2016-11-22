@@ -1,2 +1,20 @@
 # flattr-Account
 flattr: raffi
+
+dribbble:
+email:
+facebook: raffaeljesche
+flickr:
+github: raffaelj
+instagram:
+linkedin:
+pinterest:
+# just type anything here for a working RSS icon, make sure you set the "url" above!
+rss: ja
+twitter:
+# your stackoverflow profile, e.g. "users/50476/bart-kiers"
+stackoverflow: 
+# channel/<your_long_string> or user/<user-name>
+youtube: 
+# anything in your profile username that comes after plus.google.com/
+googleplus: 
