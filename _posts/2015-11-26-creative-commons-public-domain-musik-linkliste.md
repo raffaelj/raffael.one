@@ -58,9 +58,14 @@ Da häufig der Bedarf nach kostenloser, frei verfügbarer und GEMA-freier Musik 
 : kleine, gemafreie und kostenlose Auswahl an Musikstücken in verschiedenen Musikrichtungen, gut als Hintergrundmusik für Videos geeignet
 
 {% comment %} muss noch getestet und beschriftet werden
+
 NoCopyrightSounds https://www.youtube.com/channel/UC_aEa8K-EOJ3D6gOs7HcyNg
 
 http://incompetech.com/music/
 
 http://www.epidemicsound.com/
+
+http://www.lisztonian.com/
+klassische Musikstücke zum kostenlosen Download
+Lizenzen müssen erworben werden
 {% endcomment %}
