@@ -32,6 +32,9 @@ Hoopdance ist meine Leidenschaft. Was als gut gepflegtes Hobby begann, konnte ic
 
 Gerne trete ich mit und ohne Feuer oder LEDs auch auf Ihrer Hochzeit, Familienfeier oder Party auf. Als Background-Tänzer setze ich der Live-Show ihrer Band noch einen Augenschmaus obendrauf und auf Gala-Events werde ich Ihrem Publikum den Kopf verdrehen.
 
+{: .embed}
+[Hoop-Pole-Show Francis & Raffael “SaMusica”](https://vimeo.com/200214306)
+
 {% comment %}
 {: .embed}
 [Polesque-Auftritt, Sixtina Leipzig, 16.04.2016](https://www.youtube.com/watch?v=5eolBcP-L8M)
