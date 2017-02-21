@@ -35,6 +35,9 @@ Gerne trete ich mit und ohne Feuer oder LEDs auch auf Ihrer Hochzeit, Familienfe
 {: .embed}
 [Hoop-Pole-Show Francis & Raffael “SaMusica”, 18.12.2016](https://vimeo.com/200214306)
 
+{: .embed}
+[Poledance Christmas Show Poledance Lola Leipzig e.V. & Aerial Circus GbR , 09.12.2016](https://www.youtube.com/watch?v=XA7ERla_klE)
+
 {% comment %}
 {: .embed}
 [Polesque-Auftritt, Sixtina Leipzig, 16.04.2016](https://www.youtube.com/watch?v=5eolBcP-L8M)
