@@ -1,5 +1,5 @@
 ---
-title: Über mich
+title: "Über mich"
 permalink: /ueber-mich/
 class: vita
 
