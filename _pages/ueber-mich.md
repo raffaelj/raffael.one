@@ -45,7 +45,7 @@ seit 2015         | vermehrt Hoopdance- und Poledance-Auftritte
 
 Außerdem bin ich mal mehr und mal weniger aktiv in folgenden Vereinen/Gruppen/Institutionen:
 
-* [Poledance Lola Leipzig e. V.](http://poledance-lola-leipzig.de/) - Let's dance :-)
+* [Poledance Lola Leipzig e. V.](http://www.lola-leipzig.de/) - Let's dance :-)
 * [Front Deutscher Äpfel](http://apfelfront.de/) - Gründungsmitglied
 * [brimboria e. V.](http://brimboria.net/) - Gründungsmitglied
 * [DIE LINKE.](https://www.die-linke.de) - Parteimitglied
