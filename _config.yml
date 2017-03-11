@@ -1,3 +1,5 @@
+repository: "raffaelj/raffael.one"
+
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
@@ -69,13 +71,13 @@ defaults:
     path: ""
   values:
     layout: "default"
+    author: "Raffael Jesche"
+    license: "cc-by-nc-sa"
 - scope:
     path: ""
     type: "posts"
   values:
     layout: "post"
-    license: "cc-by-nc-sa"
-    author: "Raffael Jesche"
 - scope:
     path: ""
     type: "pages"
