@@ -16,9 +16,8 @@
 	{% endif %}
  {% endfor %}
 {% endif %}
-
-{% for item in sorted %}
-
+{% if sorted != empty %}
+ {% for item in sorted %}
 <div class="collection kalender">
 <a class="cal-link" title="Direktlink" href="{{item.url}}">--></a>
 <p class="cal-date">{{item.date_from | date: '%d.%m.%y'}}{% if item.start_time %} - {{item.start_time | replace: '-',':'}}{% endif %}{% if item.date_to and item.date_to != item.date_from %} - {{item.date_to | date: '%d.%m.%y'}}{% endif %}{% if item.end_time %} - {{item.end_time | replace: '-',':'}}{% endif %}</p>
@@ -27,4 +26,7 @@
 {{ item.content | markdownify }}
 {% if item.facebook %}<p><a href="{{item.facebook}}">Facebook-Veranstaltung für dieses Event</a></p>{% endif %}
 </div>
-{% endfor %}
+ {% endfor %}
+{% else %}
+<p>Derzeit sind keine (öffentlichen) Veranstaltungen gelistet.</p>
+{% endif %}
