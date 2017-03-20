@@ -1,5 +1,5 @@
 ---
-title: "Feuerfest"
+title: "(m)ein Tag nach jedem anderen - Ausstellung"
 description: 
 date_from: 2017-03-25
 start_time: "14:00"
