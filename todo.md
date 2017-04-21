@@ -23,6 +23,7 @@ sitemap: false
 ## Style
 
 - [x] neues Logo
+- [ ] Meta-Button ist über Inhaltsverzeichnis transparent --> z-index
 - evtl. Custom CSS für inhaltlich getrennte Bereiche
   - [ ] Tanz
   - [ ] Coding + Design
