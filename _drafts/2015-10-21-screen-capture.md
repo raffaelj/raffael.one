@@ -14,4 +14,4 @@ Tools:
 
 * [FSCapture](http://www.aplusfreeware.com/categories/mmedia/FastStoneCapture.html)
 
-* LICEcap: 
+* [LICEcap](http://www.cockos.com/licecap/)
