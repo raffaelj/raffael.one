@@ -15,10 +15,9 @@ E-Mail: <span class="mail">post [Ät] raffael [PUNKT.] one</span>
 Mobiltelefon: [+49 163 / 6382768](tel:+491636382768)
 
 
-## Umsatzsteuer-ID:
+## Steuernummer:
 
-Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:  
-DE 97 640 856 235 (Finanzamt Leipzig)
+232/236/16976 (Finanzamt Leipzig)
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 
@@ -36,6 +35,8 @@ Die meisten Fotos und Grafiken sind von mir selbst erstellt. Urheber*innen ander
 
 Raffael Jesche
 
-## Das Impressum gilt auch für folgende Social Media Profile
+{% comment %}
+## Das Impressum gilt auch für Internetseiten unter folgenden Domains, sowie für folgende Social Media Profile
 
-...
+* 
+{% endcomment %}
