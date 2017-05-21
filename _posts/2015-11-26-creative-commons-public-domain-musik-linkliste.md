@@ -59,7 +59,7 @@ Da häufig der Bedarf nach kostenloser, frei verfügbarer und GEMA-freier Musik 
 
 {% comment %} muss noch getestet und beschriftet werden
 
-NoCopyrightSounds https://www.youtube.com/channel/UC_aEa8K-EOJ3D6gOs7HcyNg
+NoCopyrightSounds https://www.youtube.com/user/NoCopyrightSounds/about
 
 http://incompetech.com/music/
 
