@@ -87,8 +87,8 @@ und als Extra:
 ### kein Tracking externer Seiten durch Nachladen von Bildern und Scripten
 
 - Video/Media-Einbettung
-  - [ ] Youtube
-  - [ ] Vimeo
+  - [x] Youtube
+  - [x] Vimeo
   - [ ] ...
 - Donate-Buttons
   - [.] flattr
