@@ -5,7 +5,7 @@ permalink: /projekte/
 
 ## laufende Projekte
 
-{% assign pages = site.pages | where: "archiv", null | sort: "date_from" %}
+{% assign pages = site.pages | where: "archiv", "false" | sort: "date_from" %}
 {% for item in pages reversed %}
 	{% if item.categories contains "Projekte" %}
 {: .clear}
@@ -17,7 +17,7 @@ permalink: /projekte/
 		{% if item.description %}
 {{ item.description | markdownify }}
 		{% else %}
-{{ item.content | markdownify | strip_html | truncatewords: 30 }}
+{{ item.content | markdownify | strip_html | truncatewords: 40 }}
 		{% endif %}
 	{% endif %}
 {% endfor %}
