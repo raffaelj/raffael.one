@@ -538,7 +538,8 @@ footer {
 	margin:0px 0 10px 10px;
 	// border:1px solid $grey;
 	border-bottom-left-radius:10px;
-	background-color:$weiss_transp2;
+	// background-color:$weiss_transp2;
+	background-color:$weiss;
 	
 	@include box-shadow(0 -1px 0 rgba(0, 0, 0, 0.12) inset);
 	
@@ -610,7 +611,8 @@ main p img {
 	border-radius: 4px;
 	max-width: 90%;
 	padding: 8px;
-	background-color: rgba(255, 255, 255, 0.5);
+	// background-color: rgba(255, 255, 255, 0.5);
+	background-color: $weiss;
 	border: 2px solid rgba(0, 0, 0, 0.1);
 }
 main p.no-border img {
@@ -874,7 +876,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 	}
 	label {
 		position:relative;
-		padding:5px;
+		padding:5px 20px 5px 5px; // 20px right for arrow
 		display: block;
 		// height: 50px;
 		cursor: pointer;
@@ -960,6 +962,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 	width: 50px;
 	display:inline-block;
 	padding:5px;
+  border:none;
 }
 
 
