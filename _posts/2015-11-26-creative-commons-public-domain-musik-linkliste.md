@@ -13,6 +13,13 @@ license: cc-by
 ---
 Da häufig der Bedarf nach kostenloser, frei verfügbarer und GEMA-freier Musik besteht, ist hier eine kleine Linkliste mit Quellen und Kurzbeschreibungen. Diese Liste ist unvollständig, wird mit der Zeit weiter wachsen und ich kann nicht garantieren, dass sich Inhalte der verlinkten Seiten zukünftig ändern oder sich Fehler eingeschlichen haben. Das heißt, lest die Lizenzbedingungen auf den verlinkten Seiten selbst noch einmal nach um auf Nummer sicher zu gehen.
 
+__Wichtiger Hinweis:__  
+Achtet darauf, ob die Lizenzen in den [ID3-Tags](https://de.wikipedia.org/wiki/ID3-Tag) mit den Lizenzen auf der Website übereinstimmen. Hier habe ich gelegentlich Unstimmigkeiten und Fehler entdecken können. Speziell beim Free Music Archive stimmen die Tags oft nicht überein. Ich habe mal nachgefragt und folgende Antwort bekommen:
+
+> There's a known issue with some ID3 tags being mismatched. Please disregard incorrect ID3 tags and use the license displayed on our website. All displayed licenses are correct, to the best of our knowledge.
+
+Anschließend musste ich meine Musiksammlung überarbeiten und die falschen Copyright-Tags ersetzen. Sicherheitshalber schaue ich bei jeder Musiknutzung trotzdem noch einmal auf der Original-Downloadseite nach.
+
 [Medienpädagogik Open-Praxis-Blog](https://www.medienpaedagogik-praxis.de/kostenlose-medien/freie-musik/)
 : Liste mit vielen Portalen mit komplett freien Werken, aber auch zu Portalen mit Werken, die z. B. nur zu Bildungszwecken frei sind...
 
@@ -21,9 +28,6 @@ Da häufig der Bedarf nach kostenloser, frei verfügbarer und GEMA-freier Musik 
 
 [Public Domain Project](http://de.publicdomainproject.org/)
 : Sammlung von alten Werken, die mittlerweile gemeinfrei geworden sind
-
-[Ektoplazm](http://www.ektoplazm.com/section/free-music)
-: Psy Trance, Goa
 
 [Audio Archive](https://archive.org/details/audio)
 : Sammlung von alten Werken, die mittlerweile gemeinfrei geworden sind
@@ -35,7 +39,7 @@ Da häufig der Bedarf nach kostenloser, frei verfügbarer und GEMA-freier Musik 
 : Noten von gemeinfreien Kinderliedern
 
 [MusOpen](https://musopen.org/)
-: public domain, klassische Musik zum Download
+: klassische Musik und Noten zum Download, unter public domain und verschiedenen Creative-Commons-Lizenzen, Anmeldung notwendig für 5 kostenfreie Downloads pro Tag in geringer Bitrate (128kbit), kostenpflichtig für höhere Bitrates, die Qualität der Aufnahmen variiert sehr stark
 
 [Creative Commons - Legal Music For Videos](http://creativecommons.org/legalmusicforvideos)
 : eine Linksammlung zu Musik, die unter Creative Commons-Lizenzen veröffentlicht wurde
@@ -57,6 +61,9 @@ Da häufig der Bedarf nach kostenloser, frei verfügbarer und GEMA-freier Musik 
 [musicfox - kostenlose Musik](http://www.musicfox.com/info/kostenlose-gemafreie-musik.php)
 : kleine, gemafreie und kostenlose Auswahl an Musikstücken in verschiedenen Musikrichtungen, gut als Hintergrundmusik für Videos geeignet
 
+[Ektoplazm](http://www.ektoplazm.com/section/free-music)
+: Psy Trance, Goa zum kostenlosen Download
+
 {% comment %} muss noch getestet und beschriftet werden
 
 NoCopyrightSounds https://www.youtube.com/user/NoCopyrightSounds/about
@@ -70,4 +77,13 @@ klassische Musikstücke zum kostenlosen Download
 Lizenzen müssen erworben werden
 
 http://publicdomain4u.com/
+
+http://ccmixter.org/
+
+YouTube Songs
+https://www.youtube.com/channel/UCA12NErO1sLaJkVJCPXDHPQ/videos
+
+https://www.jamendo.com/start
+: Anmeldung notwendig
+
 {% endcomment %}
