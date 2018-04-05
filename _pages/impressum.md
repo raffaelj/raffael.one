@@ -35,8 +35,10 @@ Die meisten Fotos und Grafiken sind von mir selbst erstellt. Urheber*innen ander
 
 Raffael Jesche
 
-{% comment %}
-## Das Impressum gilt auch für Internetseiten unter folgenden Domains, sowie für folgende Social Media Profile
 
-* 
-{% endcomment %}
+## Das Impressum gilt auch für Internetseiten unter folgenden Domains, sowie für folgende Social-Media-Profile
+
+* 12px.de
+* 3div.12px.de
+* eeks.12px.de
+* Youtube-Kanal "[RaffaelTanzt](https://www.youtube.com/user/raffaeljesche)"
