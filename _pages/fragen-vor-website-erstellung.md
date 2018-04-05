@@ -62,8 +62,8 @@ Das ist zumindest die ideale Arbeitsweise, mit der auch mein Arbeitsaufwand verr
 
 * Anhaltspunkte:
 * Für Domain- und Webhosting sollten 5-10 €/Monat eingeplant werden
-* .de-Domains gibt es z. B. bei [InterNetworX][1] oder [prosite][2](mit Ökostrom) für ca. 0,50 € pro Monat
-* Webspace (Datenspeicher, Datenbanken, E-Mail-Fuktionen etc.) gibt es z. B. bei [Uberspace][3], die ein offenes Preismodell haben (mindestens 1 € pro Monat nach Selbsteinschätzung, Empfehlung: 5-10 € pro Monat)
+* .de-Domains gibt es z. B. bei [InterNetworX][1] oder [prosite][2] (mit Ökostrom) für ca. 0,50 € pro Monat
+* Webspace (Datenspeicher, Datenbanken, E-Mail-Funktionen etc.) gibt es z. B. bei [Uberspace][3], die ein offenes Preismodell haben (mindestens 1 € pro Monat nach Selbsteinschätzung, Empfehlung: 5-10 € pro Monat)
 * weitere Webhoster sind z. B. [All-inkl.com][8] oder [HostEurope][9]
 * für kleinere Web-Projekte, die kaum dynamische Inhalte benötigen, ist es auch möglich, [Github][10] als kostenlosen Webhoster zu nutzen
 
