@@ -63,7 +63,7 @@ collections:
     output: false
     permalink: /pressemappe/:path/
   kalender:
-    output: true
+    output: false
     permalink: /kalender/:path/
 
 defaults:
