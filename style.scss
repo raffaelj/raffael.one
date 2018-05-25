@@ -59,10 +59,9 @@ html,body {
 }
 
 html {
-	// background-color: $darkBlue;
-	background-color: $blue;
+	background-color: $green2;
 	color: $weiss;
-	@include color-change;
+	// @include color-change;
 	background-image: url(/img/logo10_r-transp.svg);
 	background-repeat: no-repeat;
 	background-position:50% 50%;
@@ -297,8 +296,8 @@ header {
 	margin-left:-3px;//um box-shadow von main zu überdecken
 	max-width:100%;
 	color:$weiss;
-	background-color:$blue;
-	@include color-change;
+	background-color:$green2;
+	// @include color-change;
 	
 	@include breakpoint(smaller){
 		position:static;
@@ -445,10 +444,9 @@ footer {
 	left:0;
 	width:100%;
 	height:2em;
-	background-color:$blue;
+	background-color:$green2;
 	text-align:center;
-	// background-color:inherit;
-	@include color-change;
+	// @include color-change;
 	@include breakpoint(smaller){
 		position:static;
 		width:98%;
