@@ -41,6 +41,9 @@ Es glitzert, es ist bunt und es leuchtet. Man darf es sogar anmalen, umbauen und
 {: .center}
 ![Bild]({{site.imgpath}}{{page.imgfolder}}web_banner.jpg)
 
+{: .embed}
+[Video (Youtube): 5 Jahre Malusphäre - ein Open Space für Kunst und Performance](https://www.youtube.com/watch?v=XjERHjlgrjM)
+
 ## Malusphäre
 
 {: .right}
