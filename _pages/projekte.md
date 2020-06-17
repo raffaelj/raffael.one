@@ -3,6 +3,7 @@ title: Projekte
 permalink: /projekte/
 ---
 
+{% comment %}
 ## laufende Projekte
 
 {% assign pages = site.pages | where: "archiv", "false" | sort: "date_from" %}
@@ -25,6 +26,8 @@ permalink: /projekte/
 -----------------------
 
 ## Archive
+
+{% endcomment %}
 
 Über die Jahre hat sich einiges angesammelt. Da es schade wäre, alte Projekt-Webseiten zu löschen, gibt es hier eine Auswahl an Archiv-Seiten.
 

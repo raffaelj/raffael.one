@@ -38,10 +38,10 @@ seit 2008         | Selbststudium Grafik und Webdesign <br />Besuch diverser For
 seit 06/2008      | Gelegenheitsjobs, Messe- u. Festivaljobs, angestellte Tätigkeiten, Praktika - z. B. [Buchkinder e.V.](http://www.buchkinder.de/), [Starlight-Fotostudio](http://starlight-foto.de/), [Visionauten](http://visionauten.com/) (Presseagentur), kaioo/OpenNetworX (Social Online-Network, mittlerweile [JUST SOCIAL](https://www.just.social/))
 seit 06/2008      | Mit-/Organisation diverser Projekte - z. B. [Front Deutscher Äpfel](http://apfelfront.de/), [Später Arbeiten](/archiv/spaeter-arbeiten/), [Multidimensionales Wunderland](/archiv/mein-wunderland-eu/) sowie ehrenamtliches Engagement
 seit 08/2008      | Freiberufler (Kunst, Grafik- und Webdesign, Workshops)
-seit 11/2009      | Gewerbe (Veranstaltungsservice)
 seit 2010         | vermehrt Ausstellungen und künstlerische Aktionen auf Festivals
-seit 11/2013      | Honorarkraft in der [Medienwerkstatt Leipzig](http://villa-leipzig.de/besuchen/werkstaetten/medienwerkstatt/) im soziokulturellen Zentrum „Die VILLA“ für Grafik- und Webdesign-Kurse
-seit 2015         | vermehrt Hoopdance- und Poledance-Auftritte
+11/2013 - 10/2017 | Honorarkraft in der [Medienwerkstatt Leipzig](http://villa-leipzig.de/besuchen/werkstaetten/medienwerkstatt/) im soziokulturellen Zentrum „Die VILLA“ für Grafik- und Webdesign-Kurse
+2015 - 2018       | vermehrt Hoopdance- und Poledance-Auftritte
+seit 2019         | Fokus auf Webentwicklung und -design
 
 Außerdem bin ich mal mehr und mal weniger aktiv in folgenden Vereinen/Gruppen/Institutionen:
 

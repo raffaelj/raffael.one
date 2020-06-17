@@ -1,19 +1,16 @@
 angebot:
   "Tanz, Show &&nbsp;Feuer": /show-tanz-feuer/
-  "Kurse & Workshops": /kursangebote-workshops-seminare/
+  #"Kurse & Workshops": /kursangebote-workshops-seminare/
   "Grafik, Web, Design": /grafikdesign-webdesign/
   "Über mich &&nbsp;Vita": /ueber-mich/
   # "mehr Kunst": /kunst/
+  "Projekte": /projekte/
 
 weitere:
   "Galerie": /galerie/
   "Presse": /pressemappe/
   "Blog": /blog/
-  "Projekte": /projekte/
   # "Kalender": /kalender/
-  # "Test6": /
-  # "Test7": /
-  # "Test8": /
 
 sonstige:
   "Kontakt": /kontakt/

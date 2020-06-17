@@ -9,7 +9,7 @@ imgfolder: /malusphaere/
 license: cc-by
 header: rus_2012.jpg
 
-archiv: false
+archiv: true
 
 categories:
 - Projekte

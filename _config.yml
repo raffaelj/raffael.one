@@ -55,9 +55,9 @@ collections:
   gallery:
     output: true
     permalink: /galerie/:path/
-  kursangebote:
-    output: false
-    permalink: /kurse/:path/
+  #kursangebote:
+  #  output: false
+  #  permalink: /kurse/:path/
   referenzen_grafik_webdesign:
     output: false
     permalink: /referenzen_grafik_webdesign/:path/
@@ -69,39 +69,39 @@ collections:
     permalink: /kalender/:path/
 
 defaults:
-- scope:
-    path: ""
-  values:
-    layout: "default"
-    author: "Raffael Jesche"
-    license: "cc-by-nc-sa"
-- scope:
-    path: ""
-    type: "posts"
-  values:
-    layout: "post"
-- scope:
-    path: ""
-    type: "pages"
-  values:
-    layout: "page"
-- scope:
-    path: ""
-    type: "kursangebote"
-  values:
-    layout: "default"
-- scope:
-    path: ""
-    type: "referenzen_grafik_webdesign"
-  values:
-    layout: "default"
-- scope:
-    path: ""
-    type: "pressemappe"
-  values:
-    layout: "default"
-- scope:
-    path: ""
-    type: "kalender"
-  values:
-    layout: "kalender"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "Raffael Jesche"
+      license: "cc-by-nc-sa"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  #- scope:
+  #    path: ""
+  #    type: "kursangebote"
+  #  values:
+  #    layout: "default"
+  - scope:
+      path: ""
+      type: "referenzen_grafik_webdesign"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pressemappe"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "kalender"
+    values:
+      layout: "kalender"
