@@ -1,6 +1,7 @@
 ---
 title: Kursangebote
 permalink: /kursangebote-workshops-seminare/
+published: false
 
 todo:
 - "[ ] Slider, wenn mehrere Bilder"
