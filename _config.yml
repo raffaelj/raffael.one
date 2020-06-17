@@ -11,14 +11,16 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - todo.md
   - CNAME
+  - docker-compose.yml
 
 include:
 #  - galerie
   - _pages
   # - archiv
 
-url: http://raffael.one
+url: https://raffael.one
 # url: http://raffaelj.github.io
 base: "/raffael.one"
 imgpath: /img
@@ -28,7 +30,7 @@ galpath: /galerie
 emptyArray: []
 
 # externes Dateien-Lager
-edata: http://data.raffael.one
+edata: https://data.raffael.one
 
 sass: # :expanded or :compressed
   style: :compressed
