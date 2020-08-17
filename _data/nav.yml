@@ -1,8 +1,8 @@
 angebot:
-  "Tanz, Show &&nbsp;Feuer": /show-tanz-feuer/
+  "Show": /show-tanz-feuer/
   #"Kurse & Workshops": /kursangebote-workshops-seminare/
-  "Grafik, Web, Design": /grafikdesign-webdesign/
-  "Über mich &&nbsp;Vita": /ueber-mich/
+  "Design": /grafikdesign-webdesign/
+  "Über mich": /ueber-mich/
   # "mehr Kunst": /kunst/
   "Projekte": /projekte/
 
