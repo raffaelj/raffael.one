@@ -44,4 +44,5 @@ permalink: /projekte/
 	{% else %}
 {{ item.content | markdownify | strip_html | truncatewords: 40 }}
 	{% endif %}
+[weiterlesen...]({{ item.url }})
 {% endfor %}
