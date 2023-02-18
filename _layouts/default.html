@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de"{% if page.class %} class="{{ page.class }}"{% endif %} id="target-to-hide-content">
     <head>
+        {% assign cacheBust = site.time | date:'?v=%s' %}
         <meta charset="utf-8" />
         <meta http-equiv='X-UA-Compatible' content='IE=edge' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />{% capture description %}{% if page.description %}{{ page.description | markdownify | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | markdownify | strip_html | truncate: 250 | strip_newlines }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
@@ -10,7 +11,7 @@
         <meta property="og:title" content="{{ page.title }}" />
         <meta property="twitter:title" content="{{ page.title }}" />
         {% endif %}
-        <link rel="stylesheet" type="text/css" href="/style.css" />
+        <link rel="stylesheet" type="text/css" href="/style.css{{ cacheBust }}" />
         <link rel="alternate" type="application/rss+xml" href="{{ site.baseurl }}/feed.xml" title="Blog posts - {{ site.title }}" />
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <title>{% if page.title %}{{page.title}} - {% endif %}Raffael Jesche</title>
@@ -50,10 +51,10 @@
         {% include privacy-notice.html %}
         <script>
             var MP_BASE_URL = '',
-                MP_POLYFILLS_URL = '/js/polyfills.min.js';
+                MP_POLYFILLS_URL = '/js/polyfills.min.js{{ cacheBust }}';
         </script>
-        <script src="/js/mp.min.js"></script>
-        <script src="/js/raffael.js"></script>
+        <script src="/js/mp.min.js{{ cacheBust }}"></script>
+        <script src="/js/raffael.js{{ cacheBust }}"></script>
         <script>
             MP.ready(function() {
                 MP.Lightbox.init({group:".gallery",selector:"a"});
