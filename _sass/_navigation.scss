@@ -1,176 +1,137 @@
 // ********** Navigation **********
 
 nav {
-	font-family:$font;
-	padding:.2em 0;
-	text-align:center;
-	* {
-		font-family:inherit;
-	}
-	ul, ol {
-		padding:0;
-		margin:0;
-	}
-	a {
-		display: inline-block;
-		padding-left:10px;
-		padding-right:10px;
-		margin:.1em;
-		color:inherit;
-		text-decoration:none;
-		background-color:$black_transp2;
-		// border-top-left-radius:100%;
-		// border-bottom-right-radius:50%;
-		-webkit-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Firefox
-		-moz-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // WebKit
-		-o-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Opera
-		transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Standard
-		&:hover,&:focus {
-			text-decoration:none;
-			background-color:$weiss_transp2;
-			color:$darkGrey;
-			-webkit-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Firefox
-			-moz-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // WebKit
-			-o-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Opera
-			transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Standard
-		}
-	}
-}
-
-.top-nav {
-	display:table;
-	height:4em;
-	text-align:center;
-	li {
-		display:table-cell;
-		vertical-align:middle;
-	}
-	a {
-		font-size:inherit;
-	}
-}
-
-.bottom-nav {
-	position:fixed;
-	bottom:0;
-	right:0;
-	z-index:10;
-	li {
-		display: inline-block;
-	}
-	@include breakpoint(smaller){
-		position:static;
-		display:inline;
-	}
-}
-
-.second-nav {
-	position:fixed;
-	bottom:0;
-	left:0;
-	z-index:10;
-	li {
-		display: inline-block;
-	}
-	@include breakpoint(smaller){
-		position:static;
-		display:inline;
-	}
+    font-family: $font;
+    // padding: .2em 0;
+    text-align: center;
+    * {
+        font-family: inherit;
+    }
+    ul, ol {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        li {
+            display: inline-block;
+        }
+    }
+    a {
+        display: inline-block;
+        padding: .5em 1em;
+        margin: .1em;
+        color: $weiss;
+        text-decoration: none;
+        background-color: $black_transp3;
+        -webkit-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Firefox
+        -moz-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // WebKit
+        -o-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Opera
+        transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Standard
+        &:hover, &:focus {
+            text-decoration: none;
+            background-color: $weiss_transp2;
+            color: $darkGrey;
+            -webkit-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Firefox
+            -moz-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // WebKit
+            -o-transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Opera
+            transition: background-color .8s, color .5s, border-radius .5s ease-in-out; // Standard
+        }
+    }
 }
 
 .tab-active {
-	a {
-			text-decoration:none;
-			background-color:$weiss_transp2;
-			color:$darkGrey;
-			// -webkit-transition: background-color .8s, color .5s ease-in-out; // Firefox
-			// -moz-transition: background-color .8s, color .5s ease-in-out; // WebKit
-			// -o-transition: background-color .8s, color .5s ease-in-out; // Opera
-			// transition: background-color .8s, color .5s ease-in-out; // Standard
-		}
+    a {
+            text-decoration: none;
+            background-color: $weiss_transp2;
+            color: $darkGrey;
+            // -webkit-transition: background-color .8s, color .5s ease-in-out; // Firefox
+            // -moz-transition: background-color .8s, color .5s ease-in-out; // WebKit
+            // -o-transition: background-color .8s, color .5s ease-in-out; // Opera
+            // transition: background-color .8s, color .5s ease-in-out; // Standard
+        }
 }
 #nav {
-	#jump2nav,#jump2top {
-		display:none;
-	}
-	z-index:1000;
-	@include breakpoint(mobile){
-		width:auto;
-		z-index: 1000;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right:0;
-		background-color:$black_transp4;
-		border-bottom-left-radius: 5px;
-		border-bottom-right-radius: 5px;
-		font-size:0;
-		line-height:0;
-		@include box-shadow(0px 150px 75px 0px $black_transp3);
-		ul {
-			position:static;
-			display:block;
-			height:auto;
-			text-align:left;
-			li {
-				display:block;
-				a {
-					display:block;
-					border-bottom-width: 0;
-					overflow: hidden;
-					height: 0;
-					line-height: 0;
-					padding: 0;
-					font-size:0;
-					@include transition(height .25s, line-height .25s ease-in-out);
-				}
-			}
-		}
-		&:target li a, ul li a:focus {
-			position: relative;
-			height: 2rem;
-			z-index: 1;
-			border-bottom: 1px dashed #ccc;
-			border-radius:5px;
-			line-height: 2rem;
-			font-size:1.25rem;
-			padding:.5rem;
-			@include transition(height .25s, line-height .25s ease-in-out);
-		}
-		#jump2nav {
-			display:block;
-			position:fixed;
-			top:2px;
-			right:2px;
-			width:36px;
-			height:36px;
-			// border:1px solid #BD4118;
-			margin:0;
-			padding:0;
-			background-image:url(/img/icons/navigation.png);
-			background-repeat:no-repeat;
-			border-radius: 5px;
-			text-indent: -999em;
-			// make sure the menu button is on top
-			z-index:1001;
-		}
-		&:target #jump2nav {
-		display:none;
-		}
-		&:target #jump2top {
-			display:block;
-			position: fixed;
-			top:2px;
-			right:2px;
-			width:36px;
-			height:36px;
-			// border:1px solid #BD4118;
-			margin:0;
-			padding:0;
-			background-image:url(/img/icons/close.png);
-			background-repeat:no-repeat;
-			border-radius: 5px;
-			z-index:1003;
-		}
-	}
+    #jump2nav, #jump2top {
+        display: none;
+    }
+    z-index: 1000;
+    @include breakpoint(mobile) {
+        width: auto;
+        z-index: 1000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        color: $weiss;
+        background-color: $black_transp4;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 0;
+        line-height: 0;
+        @include box-shadow(0px 150px 75px 0px $black_transp3);
+        ul {
+            position: static;
+            display: block;
+            height: auto;
+            text-align: left;
+            li {
+                display: block;
+                a {
+                    display: block;
+                    border-bottom-width: 0;
+                    overflow: hidden;
+                    height: 0;
+                    line-height: 0;
+                    padding: 0;
+                    font-size: 0;
+                    @include transition(height .25s, line-height .25s ease-in-out);
+                }
+            }
+        }
+        &:target li a, ul li a:focus {
+            position: relative;
+            height: 2rem;
+            z-index: 1;
+            border-bottom: 1px dashed #ccc;
+            border-radius: 5px;
+            line-height: 2rem;
+            font-size: 1.25rem;
+            padding: .5rem;
+            @include transition(height .25s, line-height .25s ease-in-out);
+        }
+        #jump2nav {
+            display: block;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            width: 36px;
+            height: 36px;
+            // border:1px solid #BD4118;
+            margin: 0;
+            padding: 0;
+            background-image: url(/img/icons/navigation.png);
+            background-repeat: no-repeat;
+            border-radius: 5px;
+            text-indent: -999em;
+            // make sure the menu button is on top
+            z-index: 1001;
+        }
+        &:target #jump2nav {
+            display: none;
+        }
+        &:target #jump2top {
+            display: block;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            width: 36px;
+            height: 36px;
+            // border:1px solid #BD4118;
+            margin: 0;
+            padding: 0;
+            background-image: url(/img/icons/close.png);
+            background-repeat: no-repeat;
+            border-radius: 5px;
+            z-index: 1003;
+        }
+    }
 }

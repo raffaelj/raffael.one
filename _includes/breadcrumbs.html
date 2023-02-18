@@ -1,50 +1,32 @@
-<ul class="breadcrumbs">
-	<li><a href="/">home</a></li>
- {% assign crumbs = page.url | split: '/' %}
- 
- {% assign crumbs_total = crumbs | size | minus: 1 %}
+{% assign urls = site.emptyArray %}{% comment %} urls werden in breadcrumbs benötigt {% endcomment %}
+{% for item in site.collections %}
+ {% for doc in item.docs %}
+  {% assign urls = urls | push: doc.url %}
+ {% endfor %}
+{% endfor %}
+{% for item in site.pages %}
+ {% assign urls = urls | push: item.url %}
+{% endfor %}
+
+{% assign crumbs = page.url | split: '/' %}
+{% assign crumbs_total = crumbs | size | minus: 1 %}
+{% if crumbs_total > 0 %}
+<nav class="breadcrumbs">
+<ol class="">
+    <li><a href="/">Home</a></li>
    {% for crumb in crumbs offset: 1 %}
     {% if forloop.index == crumbs_total %}
-	<li class="active">{{ page.title | truncate: 25, '...' }}</li>
+    <li class="active">{{ page.title | truncate: 25, '...' }}</li>
     {% else %}
-		{% assign crumb_limit = forloop.index | plus: 1 %}
-		{% capture cr %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}{% endcapture %}
-			{% if urls contains cr %}
-	<li><a href="{{ cr }}">{{ crumb | replace:'-',' ' }}</a></li>
-		{% else %}
+        {% assign crumb_limit = forloop.index | plus: 1 %}
+        {% capture cr %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}{% endcapture %}
+            {% if urls contains cr %}
+    <li><a href="{{ cr }}">{{ crumb | replace:'-',' ' }}</a></li>
+        {% else %}
 <li>{{ crumb | replace:'-',' ' }}</li>
-			{% endif %}
+            {% endif %}
     {% endif %}
   {% endfor %}
-</ul>
-
-{% comment %}<p class="breadcrumb">
-<span><a href="{{ site.baseurl }}/">Home</a></span>
-{% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
-{% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
-{% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
-{% for i in (1..forLoopMaxInt) %}
-	{% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
-	{% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
-	{% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
-	{% for breadcrumb_page in site.pages %}
-		{% if current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url  %}
-			{% assign j = forLoopMaxInt | plus: 0 %}
- > <span {% if i == j %}class="active"{% endif %}>
-			{% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
-	<a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{ breadcrumb_page.title | truncate: 25, '...' }}</a>
-</span>
-		{% endif %}
-	{% endfor %}
-	{% for breadcrumb_page in site.posts %}
-		{% if current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url  %}
-			{% assign j = forLoopMaxInt | plus: 0 %}
- > <span {% if i == j %}class="active"{% endif %}>
-			{% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
-	<a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}">{{ breadcrumb_page.title | truncate: 25, '...' }}</a>
-</span>
-		{% endif %}
-	{% endfor %}
-{% endfor %}
-</p>
-{% endcomment %}
+</ol>
+</nav>
+{% endif %}

@@ -1,48 +1,133 @@
-@mixin color-change($color-change-duration: 400s) {
-	-webkit-animation-name: color_change_bg; // Chrome, Safari, Opera
-	-webkit-animation-duration: $color-change-duration; // Chrome, Safari, Opera
-	-webkit-animation-iteration-count: infinite; // Chrome, Safari, Opera
-	animation-name: color_change_bg;
-	animation-duration: $color-change-duration;
-	animation-iteration-count: infinite;
-}
-@mixin no-animation {
-	-webkit-animation: none;
-	-moz-animation: none;
-	-o-animation: none;
-	-ms-animation: none;
-	animation: none;
+@mixin color_change_bg() {
+
+    $steps: (
+        0% : $blue,
+        10%: $green,
+        20%: $darkBlue,
+        30%: $green2,
+        40%: $magenta,
+        50%: $magenta2,
+        60%: $purple,
+        70%: $orange,
+        80%: $bronze,
+        90%: $gold,
+        98%: $darkGrey,
+        100%: $blue
+    );
+
+    @-webkit-keyframes color_change_bg {
+        @each $step, $color in $steps {
+            #{$step} {background-color: $color;}
+        }
+    }
+    @keyframes color_change_bg {
+        @each $step, $color in $steps {
+            #{$step} {background-color: $color;}
+        }
+    }
+
 }
 
+@mixin color-change($color-change-duration: 400s) {
+    -webkit-animation-name: color_change_bg;
+    -webkit-animation-duration: $color-change-duration;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: color_change_bg;
+    animation-duration: $color-change-duration;
+    animation-iteration-count: infinite;
+}
+
+@mixin no-animation {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    -ms-animation: none;
+    animation: none;
+}
+
+@mixin rotate($deg, $origin: false) {
+    -moz-transform: rotate($deg);
+    -webkit-transform: rotate($deg);
+    -o-transform: rotate($deg);
+    -ms-transform: rotate($deg);
+    transform: rotate($deg);
+    @if $origin {
+        -webkit-transform-origin: 0% 100%;
+        -moz-transform-origin: 0% 100%;
+        -ms-transform-origin: 0% 100%;
+        -o-transform-origin: 0% 100%;
+        transform-origin: 0% 100%;
+    }
+}
+
+@mixin rotating() {
+    @-webkit-keyframes rotating {
+        from {
+            @include rotate(0deg);
+        }
+        to {
+            @include rotate(360deg);
+        }
+    }
+    @keyframes rotating {
+        from {
+            @include rotate(0deg);
+        }
+        to {
+            @include rotate(360deg);
+        }
+    }
+}
+
+@mixin no-transform {
+    -moz-transform: none;
+    -webkit-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+
+// box-sizing
+@mixin box-sizing($box) {
+  -webkit-box-sizing: $box;
+     -moz-box-sizing: $box;
+          box-sizing: $box;
+}
+// hyphens
+@mixin hyphens() {
+       word-break: break-word;
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto;
+}
+@mixin no-hyphens() {
+       word-break: normal;
+  -webkit-hyphens: none;
+     -moz-hyphens: none;
+          hyphens: none;
+}
+
+// box-shadow
 @mixin box-shadow($shadow...) {
 	-webkit-box-shadow: $shadow;
-	-moz-box-shadow: $shadow;
-	box-shadow: $shadow;
+     -moz-box-shadow: $shadow;
+          box-shadow: $shadow;
 }
 
-@mixin rotate($deg) {
-	-moz-transform: rotate($deg);
-	-webkit-transform: rotate($deg);
-	-o-transform: rotate($deg);
-	-ms-transform: rotate($deg);
-	transform: rotate($deg);
-	-webkit-transform-origin: 0% 100%;
-	-moz-transform-origin: 0% 100%;
-	-ms-transform-origin: 0% 100%;
-	-o-transform-origin: 0% 100%;
-	transform-origin: 0% 100%;
-}
-@mixin no-transform {
-	-moz-transform: none;
-	-webkit-transform: none;
-	-o-transform: none;
-	-ms-transform: none;
-	transform: none;
+// filter
+@mixin filter($filter...) {
+  -webkit-filter: $filter;
+     -moz-filter: $filter;
+      -ms-filter: $filter;
+       -o-filter: $filter;
+          filter: $filter;
 }
 
-@mixin transition($transition...){
+// transition
+@mixin transition($transition...) {
 	-webkit-transition: $transition;
-	-moz-transition: $transition;
-	-o-transition: $transition;
-	transition: $transition;
+     -moz-transition: $transition;
+       -o-transition: $transition;
+          transition: $transition;
 }

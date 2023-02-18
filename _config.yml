@@ -46,7 +46,8 @@ title: www.raffael.one
 # Untertitel
 subtitle: Kunst - Bildung - Design
 # description - wenn nicht in Seite definiert
-description: "Ich performe mit Hoopdance und Poledance auf Ihrer Party oder gebe Kunst- und Hula-Hoop-Workshops auf Ihrem Festival. Oder suchen Sie eine Feuershow für Ihr Event? Nebenbei gebe ich auch Grafik- und Webdesign-Kurse."
+# description: "Ich performe mit Hoopdance und Poledance auf Ihrer Party oder gebe Kunst- und Hula-Hoop-Workshops auf Ihrem Festival. Oder suchen Sie eine Feuershow für Ihr Event? Nebenbei gebe ich auch Grafik- und Webdesign-Kurse."
+description: "Künstler-Webseite über Medienkunst, Austellungen auf Festivals, Feuershows, Hula Hoop und Poledance"
 
 # notwendig, da Event-Collection nach Datumsschema benannt ist und future: false (default) nicht nur für posts, sondern auch für collections gilt
 future: true

@@ -1,33 +1,64 @@
 <!DOCTYPE html>
-<html lang="de"{% if page.class %} class="{{ page.class }}"{% endif %}>
-	<head>
-		{% include head.html %}
-		<title>{% if page.title %}{{page.title}} - {% endif %}Raffael Jesche</title>
-	</head>
-	<body id="top">
-		<header>
-			<p class="logo"><a href="/" title="zurück zur Startseite"><span class="artistname1">Raffael</span> <span class="artistname2">{% if page.artistname %}{{page.artistname}}{% else %}{% comment %}{% include names.inc %}{% endcomment %}Jesche{% endif %}</span></a></p>
-			{% include navigation.html %}
-		</header>
-		<main id="main">
-{% assign urls = site.emptyArray %}{% comment %} urls werden in breadcrumbs benötigt {% endcomment %}
-{% for item in site.collections %}
- {% for doc in item.docs %}
-  {% assign urls = urls | push: doc.url %}
- {% endfor %}
-{% endfor %}
-{% for item in site.pages %}
- {% assign urls = urls | push: item.url %}
-{% endfor %}
-			{% include breadcrumbs.html %}
-			{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-			{{ content }}
-		</main>
-		<footer>
-			<a class="edit-source" href="https://github.com/raffaelj/raffael.one/tree/gh-pages/{{page.path}}" target="_blank" title="Quellcode dieser Seite auf Github"></a>
-			<a class="icon-feed" href="/feed.xml" title="RSS-Feed"></a>
-		</footer>
-		{% if page.class contains "start" %}{% include gimmick-button.html %}{% endif %}
-		{% include js.inc %}
-	</body>
+<html lang="de"{% if page.class %} class="{{ page.class }}"{% endif %} id="target-to-hide-content">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />{% capture description %}{% if page.description %}{{ page.description | markdownify | strip_html }}{% elsif page.excerpt %}{{ page.excerpt | markdownify | strip_html | truncate: 250 | strip_newlines }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
+        <meta name="description" content="{{ description }}" />
+        <meta property="og:description" content="{{ description }}" />
+        {% if page.title %}
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="twitter:title" content="{{ page.title }}" />
+        {% endif %}
+        <link rel="stylesheet" type="text/css" href="/style.css" />
+        <link rel="alternate" type="application/rss+xml" href="{{ site.baseurl }}/feed.xml" title="Blog posts - {{ site.title }}" />
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <title>{% if page.title %}{{page.title}} - {% endif %}Raffael Jesche</title>
+    </head>
+    <body id="top">
+        <header>
+            <a href="/" class="logo" title="zurück zur Startseite">
+                <img src="/img/logo10_r-transp.svg" alt="" />
+                <span>Raffael&nbsp;Jesche</span>
+            </a>
+        </header>
+        {% include navigation.html %}
+        <aside id="picture-of-raffael">
+            <img src="/img/hoop-pole3_opt.svg" alt="" width="400" height="400" />
+        </aside>
+        <main id="main">
+            {% include breadcrumbs.html %}
+            {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+            {{ content }}
+        </main>
+        <footer>
+            <nav>
+                <ul class="bottom-nav">{% for nav in site.data.nav.sonstige %}{% capture name %}{{ nav[0] | downcase }}{% endcapture %}
+                <li class="tab tab-bottom{% if page.url contains name %} tab-active{% endif %}"><a href="{{ nav[1] }}">{{ nav[0] }}</a></li>{% endfor %}
+                </ul>
+            </nav>
+            <ul class="">
+                {% for nav in site.data.nav.social %}
+                <li class=""><a href="{{ nav[1] }}" rel="me">{{ nav[0] }}</a></li>
+                {% endfor %}
+            </ul>
+            <a class="" href="https://github.com/raffaelj/raffael.one/tree/gh-pages/{{page.path}}">Quellcode dieser Seite</a>
+
+            <a href="#target-to-hide-content" id="hide-content">Inhalt ist überbewertet</a>
+            <a href="#hide-content" id="show-content" title="Inhaltsleere ist langweilig"></a>
+        </footer>
+        {% include privacy-notice.html %}
+        <script>
+            var MP_BASE_URL = '',
+                MP_POLYFILLS_URL = '/js/polyfills.min.js';
+        </script>
+        <script src="/js/mp.min.js"></script>
+        <script src="/js/raffael.js"></script>
+        <script>
+            MP.ready(function() {
+                MP.Lightbox.init({group:".gallery",selector:"a"});
+                MP.MailProtection.init({at:"[Ät]",dot:"[PUNKT.]"});
+            });
+        </script>
+    </body>
 </html>

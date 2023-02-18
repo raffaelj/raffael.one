@@ -1,47 +1,21 @@
-// ********** Mobile breakpoints **********
-// $mobile_small: 500px; // mobile
-// $mobile: 640px; // mobile
-
-$break_width1: 600px; // mobile
-$break_width2: 700px; // verysmall
-$break_width3: 800px; // smaller
-$break_width4: 1000px; // small
-$break_width5: 1150px; // medium
-// $break5: 1600px; // big
-
-$break_height1: 600px;//mobile
-$break_height2: 700px;//veryflat
-$break_height3: 800px;//flat
-$break_height4: 1000px;//normal
-
+// breakpoints
 @mixin breakpoint($point) {
-  // Höhe
-  @if $point == flat1 {//mobile
-    @media (max-height: $break_height1) {@content;}
-  }
-  @if $point == flat2 {//veryflat
-    @media (max-height: $break_height2) {@content;}
-  }
-  @if $point == flat3 {//flat
-    @media (max-height: $break_height3) {@content;}
-  }
-  @if $point == flat4 { // mittel
-    @media (max-height: $break_height4) {@content;}
-  }
-  // Breite
-  @if $point == medium {
-    @media (max-width: $break_width5) {@content;}
-  }
-  @if $point == small {
-    @media (max-width: $break_width4) {@content;}
-  }
-  @if $point == smaller {
-    @media (max-width: $break_width3) {@content;}
-  }
-  @if $point == verysmall {
-    @media (max-width: $break_width2) {@content;}
-  }
-  @if $point == mobile {
-    @media (max-width: $break_width1) {@content;}
-  }
+    @if ($point == mini) or ($point == tiny) or ($point == mobile) {
+        @media (max-width: 500px) {@content;}
+    }
+    @if $point == small {
+        @media (min-width: 500px) {@content;}
+    }
+    @if $point == medium {
+        @media (min-width: 760px) {@content;}
+    }
+    @if $point == normal {
+        @media (min-width: 1000px) {@content;}
+    }
+    @if $point == large {
+        @media (min-width: 1200px) {@content;}
+    }
+    @if $point == xlarge {
+        @media (min-width: 1400px) {@content;}
+    }
 }

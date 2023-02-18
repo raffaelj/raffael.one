@@ -9,8 +9,8 @@ p.gallery_album_preview {
   padding: 10px;
   overflow: hidden;
   @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
-  border: 1px solid $grey;
-  border-top-right-radius: .5em;
+  // border: 1px solid $grey;
+  // border-top-right-radius: .5em;
   a {
     display:block;
     width:100%;

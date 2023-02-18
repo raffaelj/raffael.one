@@ -1,393 +1,393 @@
 html.start {
-	background-image:none;
-	body {
-		position:absolute;
-		top:50%;
-		left:50%;
-		height:500px;
-		width:500px;
-		margin-top:-250px;
-		margin-left:-250px;
-		overflow:hidden;
-		background-size:cover;
-		background-image: url(/img/logo10_r-transp.svg);
-		background-repeat: no-repeat;
-		background-position:50% 50%;
-		background-attachment:scroll;
-		
-		// alle weiteren Schriftgrößen sind von folgender Schriftgröße abhängig
-		font-size:1.7em;
-		
-		@include transition(height .4s, width .4s, font-size .4s ease-in-out);
-		main{
-			display:none;
-		}
-		
-		header {
-			margin:0;
-			font-size:inherit;
-			background-color:transparent;
-			@include no-animation;
-			position:relative;
-			height:100%;
-			width:100%;
-			padding:0;
-			.logo {
-				// display:none;
-				position:fixed;
-				top:.5em;
-				left:0;
-				margin:0 0 0 .5em;
-				font-size:.6em;
-			 }
-		}
-		@include breakpoint(small){
-		// font-size:1.5em;
-		}
-		@include breakpoint(smaller){
-			height:450px;
-			width:450px;
-			margin-top:-225px;
-			margin-left:-225px;
-			// header{font-size:1.5em;}
-		}
-		@include breakpoint(verysmall){
-			height:400px;
-			width:400px;
-			margin-top:-200px;
-			margin-left:-200px;
-			// header{font-size:1.5em;}
-		}
-		// @include breakpoint(flat4){
-		// font-size:1.5em;
-		// }
-		@include breakpoint(flat3){
-			height:450px;
-			width:450px;
-			margin-top:-225px;
-			margin-left:-225px;
-		}
-		@include breakpoint(flat2){
-			height:400px;
-			width:400px;
-			margin-top:-200px;
-			margin-left:-200px;
-		}
-		@include breakpoint(mobile){
-			// height: 0px;
-			// width: 60%;
-			// padding-bottom: 60%;
-			// margin-left: -30%;
-			// margin-top: -30%;
-			margin:0;
-			padding:0;
-			top:0;
-			left:0;
-			height:100%;
-			width:100%;
-			background-size:60% auto;
-		}
-		@include breakpoint(flat1){
-			// width: 0px;
-			// height: 60%;
-			// padding-left: 60%;
-			// margin-left: -30%;
-			// margin-top: -30%;
-			background-size: auto 60%;
-			// temporärer Workaround, damit auf der Startseite das Mobil-Icon zu sehen ist:
-			// copy-paste
-			#nav {
-				width:auto;
-				z-index: 1000;
-				// position: absolute;
-				top: 0;
-				left: 0;
-				right:0;
-				background-color:$black_transp4;
-				border-bottom-left-radius: 5px;
-				border-bottom-right-radius: 5px;
-				font-size:0;
-				line-height:0;
-				@include box-shadow(0px 150px 75px 0px $black_transp3);
-				ul {
-					position:static;
-					display:block;
-					height:auto;
-					text-align:left;
-					li {
-						display:block;
-						a {
-							display:block;
-							border-bottom-width: 0;
-							overflow: hidden;
-							height: 0;
-							line-height: 0;
-							padding: 0;
-							font-size:0;
-							@include transition(height .25s, line-height .25s ease-in-out);
-						}
-					}
-				}
-				&:target li a, ul li a:focus {
-					position: relative;
-					height: 2rem;
-					z-index: 1;
-					border-bottom: 1px dashed #ccc;
-					border-radius:5px;
-					line-height: 2rem;
-					font-size:1.25rem;
-					padding:.5rem;
-					@include transition(height .25s, line-height .25s ease-in-out);
-				}
-				#jump2nav {
-					display:block;
-					position:fixed;
-					top:2px;
-					right:2px;
-					width:36px;
-					height:36px;
-					// border:1px solid #BD4118;
-					margin:0;
-					padding:0;
-					background-image:url(/img/icons/navigation.png);
-					background-repeat:no-repeat;
-					border-radius: 5px;
-					text-indent: -999em;
-					// make sure the menu button is on top
-					z-index:1001;
-				}
-				&:target #jump2nav {
-				display:none;
-				}
-				&:target #jump2top {
-					display:block;
-					position: fixed;
-					top:2px;
-					right:2px;
-					width:36px;
-					height:36px;
-					// border:1px solid #BD4118;
-					margin:0;
-					padding:0;
-					background-image:url(/img/icons/close.png);
-					background-repeat:no-repeat;
-					border-radius: 5px;
-					z-index:1003;
-				}
-			}
-		}
-		
-		footer {
-			// position:fixed;
-			// bottom:0;
-			// left:0;
-			// background-color:transparent;
-			
-			// @include no-animation;
-			display:none;
-		}
-		
-		nav li a {
-			background-color:$weiss_transp3;
-			&:hover {
-				background-color:$weiss_transp2;
-			}
-		}
-		
-		.second-nav {
-			font-size: .8em;
-		}
-		.bottom-nav {
-			font-size: .8em;
-			@include breakpoint(smaller){
-				position:fixed;
-			}
-		}
-		.top-nav {
-			height:100%;
-			width:100%;
-			font-size:inherit;
-			font-style:italic;
-			margin:0;
-			padding:0;
-		}
-		
-		.second-nav {
-			position:static;
-			font-weight:normal;
-			font-style:italic;
-		}
-		.top-nav li, .second-nav li {
-			position:absolute;
-			margin:0;
-			padding:0;
-			white-space: nowrap;
-			font-weight:bold;
-			
-			a {
-				border-top-left-radius:100%;
-				border-bottom-right-radius:50%;
-				margin:0;
-				padding:.2em;
-				color:$weiss;
-				text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
-				&:hover {
-					background-color:$weiss_transp2;
-					border-radius:2px;
-					color:$darkGrey;
-					text-shadow: none;
-				}
-			}
-		}
-		// Navigations-Elemente in top-nav rotieren
-		.top-nav li {
-			&:nth-of-type(1){//Tanz - oben-rechts
-				bottom:90%;
-				left:50%;
-				@include rotate(-18deg);
-			}
-			&:nth-of-type(2){//Kurse - rechts-unten
-				bottom:50%;
-				left:90%;
-				@include rotate(72deg);
-			}
-			&:nth-of-type(3){//Design - links-oben
-				bottom:50%;
-				left:10%;
-				@include rotate(-108deg);
-			}
-			&:nth-of-type(4){//Über - unten-links
-				bottom:10%;
-				left:50%;
-				@include rotate(162deg);
-			}
-		}
-		// Navigations-Elemente in second-nav rotieren
-		.second-nav li {
-			&:nth-of-type(1){//Pressemappe
-				bottom:20%;
-				left:80%;
-				@include rotate(108deg);
-			}
-			&:nth-of-type(2){//Galerie
-				bottom:20%;
-				left:20%;
-				@include rotate(198deg);
-			}
-			&:nth-of-type(3){//Blog
-				bottom:80%;
-				left:20%;
-				@include rotate(-72deg);
-			}
-			&:nth-of-type(4){//Projekte
-				bottom:80%;
-				left:80%;
-				@include rotate(18deg);
-			}
-			&:nth-of-type(5){//Kalender
-				bottom:70%;
-				left:87%;
-				@include rotate(36deg);
-				// font-size:.7em;
-			}
-			&:nth-of-type(6){//t.b.a.
-				bottom:12%;
-				left:69%;
-				@include rotate(126deg);
-			}
-			&:nth-of-type(7){//t.b.a.
-				bottom:31%;
-				left:12%;
-				@include rotate(-146deg);
-			}
-			&:nth-of-type(8){//t.b.a.
-				bottom:88%;
-				left:31%;
-				@include rotate(-54deg);
-			}
-		}
-	}
-	// @include breakpoint(smaller){
-		// .bottom-nav
-	// }
-	@include breakpoint(mobile){
-		// @include color-change;
-		#nav {
-			position: fixed;
-			top: 0;
-			left: 0;
-			&:target {
-				max-height:100%;
-				overflow-y: auto;
-				li {
-				position:static;
-				@include no-transform;
-					a {
-						margin:0;
-					}
-				}
-			}
-		}
-	}
-	@include breakpoint(flat1){
-		// @include color-change;
-		#nav {
-			position: fixed;
-			top: 0;
-			left: 0;
-			&:target {
-				max-height:100%;
-				overflow-y: auto;
-				li {
-				position:static;
-				@include no-transform;
-					a {
-						margin:0;
-					}
-				}
-			}
-		}
-	}
+    background-image:none;
+    body {
+        position:absolute;
+        top:50%;
+        left:50%;
+        height:500px;
+        width:500px;
+        margin-top:-250px;
+        margin-left:-250px;
+        overflow:hidden;
+        background-size:cover;
+        background-image: url(/img/logo10_r-transp.svg);
+        background-repeat: no-repeat;
+        background-position:50% 50%;
+        background-attachment:scroll;
+
+        // alle weiteren Schriftgrößen sind von folgender Schriftgröße abhängig
+        font-size:1.7em;
+
+        @include transition(height .4s, width .4s, font-size .4s ease-in-out);
+        main{
+            display:none;
+        }
+
+        header {
+            margin:0;
+            font-size:inherit;
+            background-color:transparent;
+            @include no-animation;
+            position:relative;
+            height:100%;
+            width:100%;
+            padding:0;
+            .logo {
+                // display:none;
+                position:fixed;
+                top:.5em;
+                left:0;
+                margin:0 0 0 .5em;
+                font-size:.6em;
+             }
+        }
+        @include breakpoint(small){
+        // font-size:1.5em;
+        }
+        @include breakpoint(smaller){
+            height:450px;
+            width:450px;
+            margin-top:-225px;
+            margin-left:-225px;
+            // header{font-size:1.5em;}
+        }
+        @include breakpoint(verysmall){
+            height:400px;
+            width:400px;
+            margin-top:-200px;
+            margin-left:-200px;
+            // header{font-size:1.5em;}
+        }
+        // @include breakpoint(flat4){
+        // font-size:1.5em;
+        // }
+        @include breakpoint(flat3){
+            height:450px;
+            width:450px;
+            margin-top:-225px;
+            margin-left:-225px;
+        }
+        @include breakpoint(flat2){
+            height:400px;
+            width:400px;
+            margin-top:-200px;
+            margin-left:-200px;
+        }
+        @include breakpoint(mobile){
+            // height: 0px;
+            // width: 60%;
+            // padding-bottom: 60%;
+            // margin-left: -30%;
+            // margin-top: -30%;
+            margin:0;
+            padding:0;
+            top:0;
+            left:0;
+            height:100%;
+            width:100%;
+            background-size:60% auto;
+        }
+        @include breakpoint(flat1){
+            // width: 0px;
+            // height: 60%;
+            // padding-left: 60%;
+            // margin-left: -30%;
+            // margin-top: -30%;
+            background-size: auto 60%;
+            // temporärer Workaround, damit auf der Startseite das Mobil-Icon zu sehen ist:
+            // copy-paste
+            #nav {
+                width:auto;
+                z-index: 1000;
+                // position: absolute;
+                top: 0;
+                left: 0;
+                right:0;
+                background-color:$black_transp4;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                font-size:0;
+                line-height:0;
+                @include box-shadow(0px 150px 75px 0px $black_transp3);
+                ul {
+                    position:static;
+                    display:block;
+                    height:auto;
+                    text-align:left;
+                    li {
+                        display:block;
+                        a {
+                            display:block;
+                            border-bottom-width: 0;
+                            overflow: hidden;
+                            height: 0;
+                            line-height: 0;
+                            padding: 0;
+                            font-size:0;
+                            @include transition(height .25s, line-height .25s ease-in-out);
+                        }
+                    }
+                }
+                &:target li a, ul li a:focus {
+                    position: relative;
+                    height: 2rem;
+                    z-index: 1;
+                    border-bottom: 1px dashed #ccc;
+                    border-radius:5px;
+                    line-height: 2rem;
+                    font-size:1.25rem;
+                    padding:.5rem;
+                    @include transition(height .25s, line-height .25s ease-in-out);
+                }
+                #jump2nav {
+                    display:block;
+                    position:fixed;
+                    top:2px;
+                    right:2px;
+                    width:36px;
+                    height:36px;
+                    // border:1px solid #BD4118;
+                    margin:0;
+                    padding:0;
+                    background-image:url(/img/icons/navigation.png);
+                    background-repeat:no-repeat;
+                    border-radius: 5px;
+                    text-indent: -999em;
+                    // make sure the menu button is on top
+                    z-index:1001;
+                }
+                &:target #jump2nav {
+                display:none;
+                }
+                &:target #jump2top {
+                    display:block;
+                    position: fixed;
+                    top:2px;
+                    right:2px;
+                    width:36px;
+                    height:36px;
+                    // border:1px solid #BD4118;
+                    margin:0;
+                    padding:0;
+                    background-image:url(/img/icons/close.png);
+                    background-repeat:no-repeat;
+                    border-radius: 5px;
+                    z-index:1003;
+                }
+            }
+        }
+        
+        footer {
+            // position:fixed;
+            // bottom:0;
+            // left:0;
+            // background-color:transparent;
+            
+            // @include no-animation;
+            display:none;
+        }
+        
+        nav li a {
+            background-color:$weiss_transp3;
+            &:hover {
+                background-color:$weiss_transp2;
+            }
+        }
+        
+        .second-nav {
+            font-size: .8em;
+        }
+        .bottom-nav {
+            font-size: .8em;
+            @include breakpoint(smaller){
+                position:fixed;
+            }
+        }
+        .top-nav {
+            height:100%;
+            width:100%;
+            font-size:inherit;
+            font-style:italic;
+            margin:0;
+            padding:0;
+        }
+        
+        .second-nav {
+            position:static;
+            font-weight:normal;
+            font-style:italic;
+        }
+        .top-nav li, .second-nav li {
+            position:absolute;
+            margin:0;
+            padding:0;
+            white-space: nowrap;
+            font-weight:bold;
+            
+            a {
+                border-top-left-radius:100%;
+                border-bottom-right-radius:50%;
+                margin:0;
+                padding:.2em;
+                color:$weiss;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+                &:hover {
+                    background-color:$weiss_transp2;
+                    border-radius:2px;
+                    color:$darkGrey;
+                    text-shadow: none;
+                }
+            }
+        }
+        // Navigations-Elemente in top-nav rotieren
+        .top-nav li {
+            &:nth-of-type(1){//Tanz - oben-rechts
+                bottom:90%;
+                left:50%;
+                @include rotate(-18deg);
+            }
+            &:nth-of-type(2){//Kurse - rechts-unten
+                bottom:50%;
+                left:90%;
+                @include rotate(72deg);
+            }
+            &:nth-of-type(3){//Design - links-oben
+                bottom:50%;
+                left:10%;
+                @include rotate(-108deg);
+            }
+            &:nth-of-type(4){//Über - unten-links
+                bottom:10%;
+                left:50%;
+                @include rotate(162deg);
+            }
+        }
+        // Navigations-Elemente in second-nav rotieren
+        .second-nav li {
+            &:nth-of-type(1){//Pressemappe
+                bottom:20%;
+                left:80%;
+                @include rotate(108deg);
+            }
+            &:nth-of-type(2){//Galerie
+                bottom:20%;
+                left:20%;
+                @include rotate(198deg);
+            }
+            &:nth-of-type(3){//Blog
+                bottom:80%;
+                left:20%;
+                @include rotate(-72deg);
+            }
+            &:nth-of-type(4){//Projekte
+                bottom:80%;
+                left:80%;
+                @include rotate(18deg);
+            }
+            &:nth-of-type(5){//Kalender
+                bottom:70%;
+                left:87%;
+                @include rotate(36deg);
+                // font-size:.7em;
+            }
+            &:nth-of-type(6){//t.b.a.
+                bottom:12%;
+                left:69%;
+                @include rotate(126deg);
+            }
+            &:nth-of-type(7){//t.b.a.
+                bottom:31%;
+                left:12%;
+                @include rotate(-146deg);
+            }
+            &:nth-of-type(8){//t.b.a.
+                bottom:88%;
+                left:31%;
+                @include rotate(-54deg);
+            }
+        }
+    }
+    // @include breakpoint(smaller){
+        // .bottom-nav
+    // }
+    @include breakpoint(mobile){
+        // @include color-change;
+        #nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            &:target {
+                max-height:100%;
+                overflow-y: auto;
+                li {
+                position:static;
+                @include no-transform;
+                    a {
+                        margin:0;
+                    }
+                }
+            }
+        }
+    }
+    @include breakpoint(flat1){
+        // @include color-change;
+        #nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            &:target {
+                max-height:100%;
+                overflow-y: auto;
+                li {
+                position:static;
+                @include no-transform;
+                    a {
+                        margin:0;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Gimmicks
 // Logo rotiert
 @-webkit-keyframes rotating { // Safari and Chrome
-	from {
-		-ms-transform: rotate(0deg);
-		-moz-transform: rotate(0deg);
-		-webkit-transform: rotate(0deg);
-		-o-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	to {
-		-ms-transform: rotate(360deg);
-		-moz-transform: rotate(360deg);
-		-webkit-transform: rotate(360deg);
-		-o-transform: rotate(360deg);
-		transform: rotate(360deg);
-	}
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 @keyframes rotating {
-	from {
-		-ms-transform: rotate(0deg);
-		-moz-transform: rotate(0deg);
-		-webkit-transform: rotate(0deg);
-		-o-transform: rotate(0deg);
-		transform: rotate(0deg);
-	}
-	to {
-		-ms-transform: rotate(360deg);
-		-moz-transform: rotate(360deg);
-		-webkit-transform: rotate(360deg);
-		-o-transform: rotate(360deg);
-		transform: rotate(360deg);
-	}
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 .rotating {
-	-webkit-animation: rotating 30s linear infinite;
-	-moz-animation: rotating 30s linear infinite;
-	-ms-animation: rotating 30s linear infinite;
-	-o-animation: rotating 30s linear infinite;
-	animation: rotating 30s linear infinite;
+    -webkit-animation: rotating 30s linear infinite;
+    -moz-animation: rotating 30s linear infinite;
+    -ms-animation: rotating 30s linear infinite;
+    -o-animation: rotating 30s linear infinite;
+    animation: rotating 30s linear infinite;
 }

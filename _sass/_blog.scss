@@ -1,110 +1,110 @@
 /********** Blog **********/
 html.blog {
-	main {
-		text-align:center;
-		
-		.post_excerpt {
-			position:relative;
-			display:inline-block;
-			// width:28%;
-			width:44%;
-			height:400px;
-			padding:1%;
-			margin:1%;
-			overflow:hidden;
-			text-align:left;
-			vertical-align:top;
-			background-color:$weiss_transp2;
-			@include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
-			// border: 1px solid $grey;
-			border-top-right-radius: .5em;
-			
-			// @include breakpoint(smaller){width:45%;}
-			@include breakpoint(verysmall){
-				width:96%;
-				height:auto;
-			}
-			
-			// &:nth-child(2n) {
-				// background-color:$weiss_transp3;
-			// }
-			
-			// &:nth-child(2n+1) {
-				// background-color:$weiss_transp2;
-			// }
-			
-			a.read-more {
-				position: absolute;
-				// bottom: 4px;
-				bottom: 0;
-				display: block;
-				// right: 4px;
-				left: 0;
-				width: 100%;
-				line-height: 1.5em;
-				font-size:.9em;
-				// text-align: center;
-				text-align: left;
-				background-color: $weiss2;
-				color: $magenta2;
-				// padding: 0 .4em;
-				padding: 0 0 0 .5em;
-				@include box-shadow(0px 0px 8px 0px $grey);
-				&:hover {
-					color:$weiss;
-					background-color:$green;
-				}
-			}
-			
-			h2 {
-				line-height:1.6em;
-				font-size:1.3em;
-				margin-top:0;
-				text-align:left;
-				// clear:both;
-				-ms-word-break: break-all;
-				word-break: normal;
+    main {
+        text-align:center;
 
-				// Non standard for webkit
-				word-break: break-word;
+        .post_excerpt {
+            position:relative;
+            display:inline-block;
+            // width:28%;
+            width:44%;
+            height:400px;
+            padding:1%;
+            margin:1%;
+            overflow:hidden;
+            text-align:left;
+            vertical-align:top;
+            background-color:$weiss_transp2;
+            @include box-shadow(1px 1px 1px 0px rgba(0,0,0,0.5));
+            // border: 1px solid $grey;
+            border-top-right-radius: .5em;
 
-				-webkit-hyphens: auto;
-				-moz-hyphens: auto;
-				hyphens: auto;
-				
-				a {
-					color:inherit;
-					&:hover {
-						background-color:$green;
-						// text-decoration: underline dotted $green;
-					}
-				}
-			}
-			p:not(.center) {
-				line-height:1.4em;
-				text-align:justify;
-				-ms-word-break: break-all;
-				word-break: normal;
+            // @include breakpoint(smaller){width:45%;}
+            @include breakpoint(verysmall){
+                width:96%;
+                height:auto;
+            }
 
-				// Non standard for webkit
-				word-break: break-word;
+            // &:nth-child(2n) {
+                // background-color:$weiss_transp3;
+            // }
 
-				-webkit-hyphens: auto;
-				-moz-hyphens: auto;
-				hyphens: auto;
-			}
-			p.labels {
-				text-align:right;
-				padding:0;
-				&:after{
-					content:"";
-					display:block;
-					clear:both;
-				}
-			}
-			p.date {
-				float:left;
-			}
-		}
-	}
+            // &:nth-child(2n+1) {
+                // background-color:$weiss_transp2;
+            // }
+
+            a.read-more {
+                position: absolute;
+                // bottom: 4px;
+                bottom: 0;
+                display: block;
+                // right: 4px;
+                left: 0;
+                width: 100%;
+                line-height: 1.5em;
+                font-size:.9em;
+                // text-align: center;
+                text-align: left;
+                background-color: $weiss2;
+                color: $magenta2;
+                // padding: 0 .4em;
+                padding: 0 0 0 .5em;
+                @include box-shadow(0px 0px 8px 0px $grey);
+                &:hover {
+                    color:$weiss;
+                    background-color:$green;
+                }
+            }
+
+            h2 {
+                line-height:1.6em;
+                font-size:1.3em;
+                margin-top:0;
+                text-align:left;
+                // clear:both;
+                -ms-word-break: break-all;
+                word-break: normal;
+
+                // Non standard for webkit
+                word-break: break-word;
+
+                -webkit-hyphens: auto;
+                -moz-hyphens: auto;
+                hyphens: auto;
+
+                a {
+                    color:inherit;
+                    &:hover {
+                        background-color:$green;
+                        // text-decoration: underline dotted $green;
+                    }
+                }
+            }
+            p:not(.center) {
+                line-height:1.4em;
+                text-align:justify;
+                -ms-word-break: break-all;
+                word-break: normal;
+
+                // Non standard for webkit
+                word-break: break-word;
+
+                -webkit-hyphens: auto;
+                -moz-hyphens: auto;
+                hyphens: auto;
+            }
+            p.labels {
+                text-align:right;
+                padding:0;
+                &:after{
+                    content:"";
+                    display:block;
+                    clear:both;
+                }
+            }
+            p.date {
+                float:left;
+            }
+        }
+    }
 }

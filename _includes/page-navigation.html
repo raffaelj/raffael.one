@@ -1,3 +1,4 @@
+{% if page.previous.url or page.next.url %}
 <div class="PageNavigation">
   {% if page.previous.url %}
     <a class="prev" href="{{page.previous.url}}" title="zum vorherigen Artikel">&laquo; {{page.previous.title}}{% if include.moreinfo == "date" %} ({{page.previous.date | date: "%d.%m.%y"}}){% endif %}</a>
@@ -6,3 +7,4 @@
     <a class="next" href="{{page.next.url}}" title="zum nächsten Artikel">{{page.next.title}}{% if include.moreinfo == "date" %} ({{page.next.date | date: "%d.%m.%y"}}){% endif %} &raquo;</a>
   {% endif %}
 </div>
+{% endif %}

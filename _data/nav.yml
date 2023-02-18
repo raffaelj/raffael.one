@@ -1,25 +1,32 @@
 angebot:
   "Show": /show-tanz-feuer/
+  "Projekte": /projekte/
   #"Kurse & Workshops": /kursangebote-workshops-seminare/
   "Design": /grafikdesign-webdesign/
+  "Blog": /blog/
   "Über mich": /ueber-mich/
-  # "mehr Kunst": /kunst/
-  "Projekte": /projekte/
-
-weitere:
   "Galerie": /galerie/
   "Presse": /pressemappe/
-  "Blog": /blog/
+  # "Kontakt": /kontakt/
+
+# weitere:
+  # "Galerie": /galerie/
+  # "Presse": /pressemappe/
+  # "Blog": /blog/
   # "Kalender": /kalender/
 
 sonstige:
+  # "Kontakt": /#kontakt
   "Kontakt": /kontakt/
   "Impressum": /impressum/
   "Datenschutz": /datenschutz/
   # "AGB": /agb
 
 social:
-  Facebook: 
-  Youtube: 
-  Vimeo: 
-  Github: 
+  # Facebook: 
+  Youtube: https://youtube.com/@raffaeltanzt
+  # Vimeo: 
+  Github: https://github.com/raffaelj
+  Codeberg: https://codeberg.org/raffaelj
+  Mastodon: https://social.tchncs.de/@raffael
+  "Cockpit CMS Forum": https://discourse.getcockpit.com/u/raffaelj

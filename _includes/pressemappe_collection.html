@@ -1,7 +1,7 @@
 {% assign sorted = site.pressemappe | sort: 'date' %}
 {% for referenz in sorted reversed %}
 <div class="collection pressemappe">
-<h3>{{ referenz.title }}</h3>
+<h2>{{ referenz.title }}</h2>
 <p class="date">{{ referenz.date | date: "%m/%Y" }}</p>
 {% if referenz.label %}
 {% for label in referenz.label %}

@@ -3,7 +3,10 @@ services:
   jekyll:
     image: starefossen/github-pages
     ports:
-      - "4000:4000"
+      - "127.0.0.1:4000:4000"
     volumes:
       - ./:/usr/src/app
     tty: true
+    # command: jekyll serve -d /_site --watch --force_polling -H 0.0.0.0 -P 4000
+    # command: jekyll serve -d /_site --watch -H 0.0.0.0 -P 4000 --incremental
+    command: jekyll serve -d /_site --watch -H 0.0.0.0 -P 4000

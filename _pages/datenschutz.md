@@ -3,49 +3,61 @@ title: Datenschutzerklärung
 permalink: /datenschutz/
 ---
 
-## Geltungsbereich
+Diese Datenschutz-Information gilt für die Datenverarbeitung durch:
 
-Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter Raffael Jesche, Kochstr. 90, 04277 Leipzig, <span class="mail">post [Ät] raffael [PUNKT.] one</span> auf dieser Website (im folgenden “Angebot”) auf.  
+Raffael Jesche  
+Kochstr. 90  
+04277 Leipzig, Deutschland
 
-Die rechtlichen Grundlagen des Datenschutzes finden sich im Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).  
+E-Mail: post [Ät] raffael [PUNKT.] one
 
-## Zugriffsdaten/ Server-Logfiles
+Die Bestellung einer betrieblichen Datenschutzbeauftragten ist nicht erforderlich.
 
-Der Anbieter (beziehungsweise sein Webspace-Provider) erhebt Daten über jeden Zugriff auf das Angebot (so genannte Serverlogfiles). Zu den Zugriffsdaten gehören:  
+## Betroffenenrechte: Rechte auf Auskunft, Berichtigung, Sperre, Löschung und Widerspruch
 
-Name der abgerufenen Webseite, Datei, Datum und Uhrzeit des Abrufs, übertragene Datenmenge, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite), IP-Adresse und der anfragende Provider.  
+Sie haben das Recht, auf Antrag unentgeltlich eine Auskunft über die bei mir gespeicherten personenbezogenen Daten anzufordern und/oder eine Berichtigung, Sperrung oder Löschung zu verlangen. Eine Sperrung oder Löschung kann nicht erfolgen, wenn gesetzliche Regelungen dem entgegenstehen.
 
-Der Anbieter verwendet die Protokolldaten nur für statistische Auswertungen zum Zweck des Betriebs, der Sicherheit und der Optimierung des Angebotes. Der Anbieterbehält sich jedoch vor, die Protokolldaten nachträglich zu überprüfen, wenn aufgrund konkreter Anhaltspunkte der berechtigte Verdacht einer rechtswidrigen Nutzung besteht.
+## Datenvermeidung und Datensparsamkeit
 
-## Umgang mit personenbezogenen Daten
+Ich speichere gemäß den Grundsätzen der Datenvermeidung und Datensparsamkeit personenbezogene Daten nur so lange, wie dies erforderlich ist oder von der Gesetzgeberin vorgeschrieben wird.
 
-Personenbezogene Daten sind Informationen, mit deren Hilfe eine Person bestimmbar ist, also Angaben, die zurück zu einer Person verfolgt werden können. Dazu gehören der Name, die Emailadresse oder die Telefonnummer. Aber auch Daten über Vorlieben, Hobbies, Mitgliedschaften oder welche Webseiten von jemandem angesehen wurden zählen zu personenbezogenen Daten.  
+## Erfassung allgemeiner Informationen
 
-Personenbezogene Daten werden von dem Anbieter nur dann erhoben, genutzt und weiter gegeben, wenn dies gesetzlich erlaubt ist oder die Nutzer in die Datenerhebung einwilligen.
+<del>Informationen zu einem Zugriff auf meinen Internetauftritt werden grundsätzlich nicht automatisiert (in Form von Logfiles) erfasst. Für administrative Zwecke kann eine kurzfristige Erstellung von Logfiles notwendig werden. Die Logfiles werden in diesem Fall anschließend gelöscht. Die Logfiles sind von allgemeiner Natur und erlauben keine Rückschlüsse auf Ihre Person.</del>
 
-## Kontaktaufnahme
+<del>Sofern Logfiles erstellt werden, können unter anderem folgende Datenarten erfasst werden: IP-Adresse und Datum.</del>
 
-Bei der Kontaktaufnahme mit dem Anbieter (zum Beispiel per Kontaktformular oder E-Mail) werden die Angaben des Nutzers zwecks Bearbeitung der Anfrage sowie für den Fall, dass Anschlussfragen entstehen, gespeichert.
+Sorry, aber meine Seite wird (noch) über Github Pages gehostet. Ich dachte mal, das wäre eine gute Idee und ich kam noch nicht dazu, das zu ändern.
 
-## Einbindung von Diensten und Inhalten Dritter
+Das heißt, dass GitHub Inc. (Microsoft) Logfiles erstellt und auswertet.
 
-Es kann vorkommen, dass innerhalb dieses Onlineangebotes Inhalte Dritter, wie zum Beispiel Videos von YouTube, Kartenmaterial von Google-Maps, RSS-Feeds oder Grafiken von anderen Webseiten eingebunden werden. Dies setzt immer voraus, dass die Anbieter dieser Inhalte (nachfolgend bezeichnet als "Dritt-Anbieter") die IP-Adresse der Nutzer wahr nehmen. Denn ohne die IP-Adresse, könnten sie die Inhalte nicht an den Browser des jeweiligen Nutzers senden. Die IP-Adresse ist damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen uns nur solche Inhalte zu verwenden, deren jeweilige Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Jedoch haben wir keinen Einfluss darauf, falls die Dritt-Anbieter die IP-Adresse z.B. für statistische Zwecke speichern. Soweit dies uns bekannt ist, klären wir die Nutzer darüber auf.  
+> Wenn eine GitHub Pages-Website besucht wird, wird die IP-Adresse des Besuchers zu Sicherheitszwecken protokolliert und gespeichert, unabhängig davon, ob sich der Besucher bei GitHub angemeldet hat oder nicht.
 
+Siehe:
 
-## Cookies
+* [https://docs.github.com/de/pages/getting-started-with-github-pages/about-github-pages#data-collection](https://docs.github.com/de/pages/getting-started-with-github-pages/about-github-pages#data-collection)
+* [https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement](https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement)
 
-Cookies sind kleine Dateien, die es ermöglichen, auf dem Zugriffsgerät der Nutzer (PC, Smartphone o.ä.) spezifische, auf das Gerät bezogene Informationen zu speichern. Sie dienen zum einem der Benutzerfreundlichkeit von Webseiten und damit den Nutzern (z.B. Speicherung von Logindaten). Zum anderen dienen sie, um die statistische Daten der Webseitennutzung zu erfassen und sie zwecks Verbesserung des Angebotes analysieren zu können. Die Nutzer können auf den Einsatz der Cookies Einfluss nehmen. Die meisten Browser verfügen eine Option mit der das Speichern von Cookies eingeschränkt oder komplett verhindert wird. Allerdings wird darauf hingewiesen, dass die Nutzung und insbesondere der Nutzungskomfort ohne Cookies eingeschränkt werden.  
+## Anfragen per Telefon, E-Mail, Kontaktformular
 
-Sie können viele Online-Anzeigen-Cookies von Unternehmen über die US-amerikanische Seite [aboutads.info/choices/](http://www.aboutads.info/choices/) oder die EU-Seite [youronlinechoices.com/uk/your-ad-choices/](http://www.youronlinechoices.com/uk/your-ad-choices/ ) verwalten.
+Wenn Sie mit mir in Kontakt treten, werde ich personenbezogene Daten über Sie erfassen und speichern.
 
-## Piwik
+Anfragen über ein Kontakformular werden per E-Mail an mich versandt, welche wiederum über meinen Webhoster Uberspace, also selbst gehostet, abgewickelt werden.
 
-Dieses Angebot benutzt [Piwik](http://piwik.org/), eine Open-Source-Software zur statistischen Auswertung der Nutzerzugriffe. Piwik verwendet sog. “Cookies”, Textdateien, die auf dem Computer der Nutzer gespeichert werden und die eine Analyse der Benutzung der Website durch die Nutzer ermöglichen. Die durch den Cookie erzeugten Informationen über die Benutzung dieses Agebotes werden auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Nutzer können die Installation der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; Der Anbieter weisen die Nutzer jedoch darauf hin, dass sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich nutzen können.
+Meinen Telefonverlauf (Telefonnummer, Datum, Uhrzeit und Dauer des Gepsprächs) lösche ich in unregelmäßigen Abständen.
 
-<iframe class="piwik" src="http://a.raffael.one/index.php?module=CoreAdminHome&action=optOut&language=de"></iframe>
+Sollte sich regelmäßiger Kontakt anbahnen, speichere ich Ihre Kontaktdaten (Name, Telefon, E-Mail-Adresse) in meinem Addressbuch.
 
-## Widerruf, Änderungen, Berichtigungen und Aktualisierungen
+Für Adressdatensynchronisation verschiedener Endgeräte nutze ich keine Drittanbieter, sondern eine selbst gehostete NextCloud-Instanz.
 
-Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.  
+Die Datenverarbeitung zum Zwecke der Kontaktaufnahme mit mir erfolgt nach Art.6 Abs.1 S.1 lit.a DSGVO auf Grundlage Ihrer freiwillig erteilten Einwilligung.
 
-*[Datenschutz-Muster von Rechtsanwalt Thomas Schwenke - I LAW it](http://rechtsanwalt-schwenke.de/smmr-buch/datenschutz-muster-generator-fuer-webseiten-blogs-und-social-media/)*
+## Datenübermittlung an Dritte - Einbindung externer Videos (YouTube, Vimeo)
+
+Auf einigen Seiten können externe Medien wie Videos von YouTube oder Vimeo eingebunden sein. In diesem Fall werden Sie mit dem Klicken auf den Play-Button gesondert darauf hingewiesen. Mit der Bestätigung wird ein Cookie gesetzt, das für 30 Tage in Ihrem Browser gültig ist um zu vermeiden, dass Sie bei jedem Video erneut auf "Akzeptieren" klicken müssen. Erst nach dem Klick auf den Play-Button wird das Video von der Plattformbetreiberin nachgeladen. Ab diesem Moment können von der Plattformbetreiberin personenbezogene Daten über Sie erhoben werden.
+
+Personenbezogene Daten werden dabei von meiner Seite aus nicht gespeichert.
+
+Weitere Informationen über Datenschutz bei YouTube finden Sie in deren Datenschutzerklärung unter: [https://policies.google.com/privacy?hl=de](https://policies.google.com/privacy?hl=de).
+
+Weitere Informationen über Datenschutz bei Vimeo finden Sie in deren Datenschutzerklärung unter: [https://vimeo.com/privacy](https://vimeo.com/privacy)

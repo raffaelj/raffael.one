@@ -45,6 +45,6 @@ seit 2019         | Fokus auf Webentwicklung und -design
 
 Außerdem bin ich mal mehr und mal weniger aktiv in folgenden Vereinen/Gruppen/Institutionen:
 
-* [Poledance Lola Leipzig e. V.](http://www.lola-leipzig.de/) - Der erste Poledance-Verein Deutschlands
+* Poledance Lola Leipzig e. V. - Der erste Poledance-Verein Deutschlands
 * [Front Deutscher Äpfel](http://apfelfront.de/) - Gründungsmitglied
 * [DIE LINKE.](https://www.die-linke.de) und [linksjugend Sachsen](http://www.linksjugend-sachsen.de/) - mit dem Jugendverband in Leipzig und Sachsen fühle ich mich nach wie vor verbundener als mit der Partei

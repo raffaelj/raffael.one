@@ -8,16 +8,6 @@ todo:
 - Pressespiegel einpflegen
 ---
 
-## Bildmaterial
-
-Hier werden demnächst einige Fotos veröffentlicht.
-
-## Textbausteine
-
-Hier werden demnächst einige Textbausteine für Ankündigungstexte veröffentlicht.
-
-## Pressespiegel & Veröffentlichungen
-
 Hin und wieder fanden Projekte von mir Erwähnungen in Büchern, Zeitungen und anderen Medien. Eine Auswahl davon können Sie hier begutachten:
 
 {% include pressemappe_collection.html %}
