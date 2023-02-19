@@ -66,6 +66,13 @@ $font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto San
 $font2: $font;
 
 
+// Multiplane files
+@import 'base';
+@import 'css-icons';
+@import 'lightbox';
+@import 'video-embed';
+@import 'privacy-notice';
+
 /************ sonstige Layouts laden ************/
 @import 'navigation';
 // @import 'animations';
@@ -82,12 +89,6 @@ $font2: $font;
 // @import 'lightbox';
 @import 'highlights';
 
-// Multiplane files
-@import 'css-icons';
-@import 'lightbox';
-@import 'video-embed';
-@import 'privacy-notice';
-
 html {
     color: $black;
     background-color: $magenta;
@@ -100,10 +101,10 @@ html {
 body {
     font-family: $font2;
     font-size: $em;
+    font-weight: 400;
 }
-h1,h2,h3,h4,h5,h6 {
-    font-family: $font;
-}
+
+
 h1 {
     margin: 0 0 .3em 0;
     font-size: 1.8em;
@@ -124,26 +125,15 @@ h4 {
 h5 {
     margin: .2em 0 .1em 0;
 }
-h6 {
-}
-p,dt,dd {
-    padding-bottom:.5em;
-    line-height: 2em;
-    -ms-word-break: break-all;
-    word-break: normal;
 
-    // Non standard for webkit
-    word-break: break-word;
-
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
+hr {
+    border-color: #ccc;
+    border-style: dotted;
+    border-width: 2px 0 0 0;
 }
-
-b, strong {
-    font-weight: bold;
+p + hr {
+    padding-bottom: .5em;
 }
-i,em{font-style: italic;}
 
 p.small, .date, .caption,
 span.small{
@@ -362,7 +352,8 @@ main {
         left: calc((100vw - 100%) / -2);
         transform: skewY(-4deg);
         background: $weiss;
-        box-shadow: 0 0.125em 0.25em 0px $black_transp3 inset;
+        // box-shadow: 0 0.125em 0.25em 0px $black_transp3 inset;
+        box-shadow: 0 0.25em 0.25em -0.125em $black_transp3 inset;
     }
     ol {
         display: block;
@@ -422,6 +413,12 @@ footer {
     nav {
         display: inline-block;
         margin-top: 0;
+    }
+    .footer-links {
+        a {
+            display: block;
+            line-height: 2em;
+        }
     }
 }
 
@@ -814,6 +811,18 @@ input, button {
 
         &:hover, &:focus {
             background-color: $color-grey;
+        }
+    }
+}
+
+ul.social-links {
+    padding: 0;
+    list-style: none;
+    li {
+        display: inline-block;
+        margin-right: .2em;
+        &:last-child {
+            margin-right: 0;
         }
     }
 }

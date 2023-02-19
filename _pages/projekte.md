@@ -10,7 +10,7 @@ permalink: /projekte/
 {: .clear}
 ## [{{ item.title }}]({{ item.url }})
     {% if item.header %}
-{: .left}
+
 ![Header-Grafik]({{site.imgpath}}/vita_header/{{ item.header }})
     {% endif %}
     {% if item.description %}

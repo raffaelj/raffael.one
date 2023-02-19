@@ -38,15 +38,17 @@
                 <li class="tab tab-bottom{% if page.url contains name %} tab-active{% endif %}"><a href="{{ nav[1] }}">{{ nav[0] }}</a></li>{% endfor %}
                 </ul>
             </nav>
-            <ul class="">
+            <ul class="social-links">
                 {% for nav in site.data.nav.social %}
                 <li class=""><a href="{{ nav[1] }}" rel="me">{{ nav[0] }}</a></li>
                 {% endfor %}
             </ul>
-            <a class="" href="https://github.com/raffaelj/raffael.one/tree/gh-pages/{{page.path}}">Quellcode dieser Seite</a>
-
-            <a href="#target-to-hide-content" id="hide-content">Inhalt ist überbewertet</a>
-            <a href="#hide-content" id="show-content" title="Inhaltsleere ist langweilig"></a>
+            <div class="footer-links">
+                <a class="" href="https://github.com/raffaelj/raffael.one/  tree/gh-pages/{{page.path}}">Quellcode dieser Seite</a>
+                <a href="#target-to-hide-content" id="hide-content">Inhalt ist überbewertet</a>
+                <a href="#hide-content" id="show-content" title="Inhaltsleere ist langweilig"></a>
+                <a href="#top">Nach oben scrollen</a>
+            </div>
         </footer>
         {% include privacy-notice.html %}
         <script>

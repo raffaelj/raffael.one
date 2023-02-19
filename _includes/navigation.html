@@ -1,7 +1,7 @@
       <nav id="nav">
         <a id="jump2nav" href="#nav" title="Navigation aufklappen"></a>
         <ul class="top-nav">{% for nav in site.data.nav.angebot %}{% capture name %}{{ nav[1] | downcase }}{% endcapture %}
-          <li class="tab tab-top{% if page.url contains name %} tab-active{% endif %}"><a href="{{ nav[1] }}">{{ nav[0] }}</a></li>{% endfor %}
+          <li class="tab tab-top{% if page.url contains name %} tab-active{% endif %}"><a href="{{ nav[1] }}#main">{{ nav[0] }}</a></li>{% endfor %}
         </ul>
         <a id="jump2top" href="#top" title="Navigation zuklappen"></a>
       </nav>
