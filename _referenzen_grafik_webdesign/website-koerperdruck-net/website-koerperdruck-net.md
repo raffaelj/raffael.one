@@ -7,6 +7,6 @@ image: screenshot_koerperdruck-net_500.png
 label:
 ---
 
-Website für Marie Löffler - [körperdruck.net](http://www.körperdruck.net)
+Website ist seit Anfang/Mitte 2023 offline
 
 Technik/CMS: jekyll/Github Pages
