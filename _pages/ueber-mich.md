@@ -39,7 +39,7 @@ seit 06/2008      | Gelegenheitsjobs, Messe- u. Festivaljobs, angestellte Tätig
 seit 06/2008      | Mit-/Organisation diverser Projekte - z. B. [Front Deutscher Äpfel](http://apfelfront.de/), [Später Arbeiten](/archiv/spaeter-arbeiten/), [Multidimensionales Wunderland](/archiv/mein-wunderland-eu/) sowie ehrenamtliches Engagement
 seit 08/2008      | Freiberufler (Kunst, Grafik- und Webdesign, Workshops)
 seit 2010         | vermehrt Ausstellungen und künstlerische Aktionen auf Festivals
-11/2013 - 10/2017 | Honorarkraft in der [Medienwerkstatt Leipzig](http://villa-leipzig.de/besuchen/werkstaetten/medienwerkstatt/) im soziokulturellen Zentrum „Die VILLA“ für Grafik- und Webdesign-Kurse
+11/2013 - 10/2017 | Honorarkraft in der [Medienwerkstatt Leipzig](https://villa-leipzig.de/medienwerkstatt-leipzig) im soziokulturellen Zentrum „Die VILLA“ für Grafik- und Webdesign-Kurse
 2015 - 2018       | vermehrt Hoopdance- und Poledance-Auftritte
 seit 2019         | Fokus auf Webentwicklung und -design
 
