@@ -35,7 +35,7 @@
         <footer>
             <nav>
                 <ul class="bottom-nav">{% for nav in site.data.nav.sonstige %}{% capture name %}{{ nav[0] | downcase }}{% endcapture %}
-                <li class="tab tab-bottom{% if page.url contains name %} tab-active{% endif %}"><a href="{{ nav[1] }}">{{ nav[0] }}</a></li>{% endfor %}
+                <li class="tab tab-bottom{% if page.url contains name %} tab-active{% endif %}"><a href="{{ nav[1] }}#main">{{ nav[0] }}</a></li>{% endfor %}
                 </ul>
             </nav>
             <ul class="social-links">
