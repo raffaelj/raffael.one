@@ -20,11 +20,8 @@ The [British Library](https://www.flickr.com/photos/britishlibrary/with/11058703
 [Medienpädagogik open-Praxis-Blog](https://www.medienpaedagogik-praxis.de/kostenlose-medien/freie-fotos/)
 : Hier gibt es schon eine ansehnliche Sammlung an Quellen für Fotos und Musik
 
-[Linksammlung 1 zu kostenlosen Anbietern](http://www.unternehmer.de/it-technik/178946-absolut-kostenlose-bilder)
-: 
-
-[Linksammlung 2 zu kostenlosen Anbietern](http://community.blogs.rpi-virtuell.net/2015/10/22/freie-bildungsmedien-mehr-als-15-seiten-die-kostenlose-bilder-fuer-dich-anbieten/)
-: 
+[Linksammlung auf unternehmer.de](http://www.unternehmer.de/it-technik/178946-absolut-kostenlose-bilder)
+: einige Links zu weiteren Anbieter*innen kostenloser Bilder
 
 [The New York Public Library's collections](http://digitalcollections.nypl.org/)
-: 
+: Englischsprachige Sammlung digitalisierter Bilder, Fotografien und anderer Werke, lizensiert unter Public Domain, also in den USA gemeinfrei, in Deutschland gelten aber möglicherweise andere Urheberrechte
