@@ -43,12 +43,12 @@
                 <li class=""><a href="{{ nav[1] }}" rel="me">{{ nav[0] }}</a></li>
                 {% endfor %}
             </ul>
-            <div class="footer-links">
-                <a class="" href="https://github.com/raffaelj/raffael.one/tree/gh-pages/{{page.path}}">Quellcode dieser Seite</a>
-                <a href="#target-to-hide-content" id="hide-content">Inhalt ist überbewertet</a>
-                <a href="#hide-content" id="show-content" title="Inhaltsleere ist langweilig"></a>
-                <a href="#top">Nach oben scrollen</a>
-            </div>
+            <ul class="footer-links">
+                <li><a href="https://github.com/raffaelj/raffael.one/tree/gh-pages/{{page.path}}">Quellcode dieser Seite</a></li>
+                <li><a href="#target-to-hide-content" id="hide-content">Inhalt ist überbewertet</a></li>
+                <li><a href="#hide-content" id="show-content" title="Inhaltsleere ist langweilig"></a></li>
+                <li><a href="#top">Nach oben scrollen</a></li>
+            </ul>
         </footer>
         {% include privacy-notice.html %}
         <script>

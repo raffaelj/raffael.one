@@ -409,8 +409,13 @@ footer {
         margin-top: 0;
     }
     .footer-links {
-        a {
+        padding: 0;
+        margin-block-start: 1em;
+        li {
             display: block;
+            margin-block: 0;
+        }
+        a {
             line-height: 2em;
         }
     }
@@ -460,7 +465,7 @@ footer {
         clear: both;
     }
     + .collection {
-        margin-top: 1em;
+        margin-block-start: 2em;
     }
 }
 
