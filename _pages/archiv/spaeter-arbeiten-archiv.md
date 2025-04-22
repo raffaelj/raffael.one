@@ -62,7 +62,7 @@ models:
   is: Praktikant
   description: hätte eigentlich erst um 8 aufstehen müssen
 
-excerpt: "Archivseite: Zufrühmorgens-, Frühmorgens und Spätmorgensgesichter, im Rahmen des [100.000 EURO JOB](http://www.100.000-euro-job.de/Willkommen.html) im Programm [Arbeit in Zukunft der Kulturstiftung des Bundes](http://www.kulturstiftung-bund.de/arbeit), in Kooperation mit [Hello Studios](http://www.hellostudios.de), [Feinkost Leipzig](http://www.feinkostgenossenschaft.de/)"
+excerpt: "Archivseite: Zufrühmorgens-, Frühmorgens und Spätmorgensgesichter, im Rahmen des [100.000 EURO JOB](https://web.archive.org/web/20090418092729/http://www.100.000-euro-job.de:80/index2.php/home) im Programm [Arbeit in Zukunft der Kulturstiftung des Bundes](https://www.kulturstiftung-des-bundes.de/de/projekte/transformation_und_zukunft/detail/arbeit_in_zukunft.html), in Kooperation mit [Hello Studios](https://web.archive.org/web/20250208211830/https://www.hellostudios.de/), [Feinkost Leipzig](https://www.feinkostgenossenschaft.de/)"
 
 ---
 
@@ -70,8 +70,8 @@ excerpt: "Archivseite: Zufrühmorgens-, Frühmorgens und Spätmorgensgesichter, 
 ![Foto: Mann schlägt Wecker aus]({{site.edata}}{{page.edatafolder}}images/pic_startseite.jpg "Foto: © Jostein Hauge / fotolia.de")
 
 Zufrühmorgens-, Frühmorgens und Spätmorgensgesichter,
-im Rahmen des "[100.000 EURO JOB](http://www.100.000-euro-job.de/Willkommen.html)" im Programm "[Arbeit in Zukunft der Kulturstiftung des Bundes](http://www.kulturstiftung-bund.de/arbeit),
-in Kooperation mit [Hello Studios](http://www.hellostudios.de), [Feinkost Leipzig](http://www.feinkostgenossenschaft.de/)
+im Rahmen des "[100.000 EURO JOB](https://web.archive.org/web/20090418092729/http://www.100.000-euro-job.de:80/index2.php/home)" im Programm "[Arbeit in Zukunft der Kulturstiftung des Bundes](https://www.kulturstiftung-des-bundes.de/de/projekte/transformation_und_zukunft/detail/arbeit_in_zukunft.html),
+in Kooperation mit [Hello Studios](https://web.archive.org/web/20250208211830/https://www.hellostudios.de/), [Feinkost Leipzig](https://www.feinkostgenossenschaft.de/)
 
 <!--more-->
 
@@ -90,7 +90,7 @@ Sie wurden teils an ihren freien Tagen, teils an Arbeitstagen gewaltsam geweckt 
 
 ### Das Buch zum 100.000 EURO JOB
 
-Nützliche und neue Ansichten zur Arbeit - so lautet der Untertitel des Buchs. Herausgegeben hat es [Sebastian Sooth](http://sooth.de/) im Jahre 2008, lesenswert ist es noch heute. Auf über 200 Seiten werden die 47 geförderten Projekte im [100.000 EURO JOB](http://www.100.000-euro-job.de/Willkommen.html) vorgestellt und mit praktischen Tipps zum Arbeiten versehen. Auch der [Selbstförderfonds](http://www.sk-kultur.de/medienkunst/blog/#id7) wird kurz vorgestellt und auf der Begleit-CD sind Video-Arbeiten einiger ProjektmacherInnen zu finden. Interessant sind auch die zwischen die einzelnen Projekte eingefügten Texte von oder über zum Beispiel Adrienne Göhler oder Mercedes Bunz. Die Ausschnitte zum Später-Arbeiten-Projekt (Seite 97-98) gibt es [hier]({{site.edata}}{{page.edatafolder}}images//100-000-euro-job_spaeter-arbeiten_1v2.jpg) und [hier]({{site.edata}}{{page.edatafolder}}images//100-000-euro-job_spaeter-arbeiten_2v2.jpg) und bestellen kann man das ganze Buch beim [Verbrecher Verlag](http://www.verbrecherverlag.de/buch/250).
+Nützliche und neue Ansichten zur Arbeit - so lautet der Untertitel des Buchs. Herausgegeben hat es [Sebastian Sooth](https://www.sebaso.net/) im Jahre 2008, lesenswert ist es noch heute. Auf über 200 Seiten werden die 47 geförderten Projekte im [100.000 EURO JOB](https://web.archive.org/web/20090418092729/http://www.100.000-euro-job.de:80/index2.php/home) vorgestellt und mit praktischen Tipps zum Arbeiten versehen. Auch der [Selbstförderfonds](https://web.archive.org/web/20090418092729/http://www.100.000-euro-job.de:80/index2.php/home) wird kurz vorgestellt und auf der Begleit-CD sind Video-Arbeiten einiger ProjektmacherInnen zu finden. Interessant sind auch die zwischen die einzelnen Projekte eingefügten Texte von oder über zum Beispiel Adrienne Göhler oder Mercedes Bunz. Die Ausschnitte zum Später-Arbeiten-Projekt (Seite 97-98) gibt es [hier]({{site.edata}}{{page.edatafolder}}images//100-000-euro-job_spaeter-arbeiten_1v2.jpg) und [hier]({{site.edata}}{{page.edatafolder}}images//100-000-euro-job_spaeter-arbeiten_2v2.jpg) und bestellen kann man das ganze Buch beim [Verbrecher Verlag](https://www.verbrecherverlag.de/shop/der-100-000-euro-job/).
 
 {:.small}
 Ein Projekt im Rahmen des Projekts 100.000 EURO JOB –
@@ -98,7 +98,7 @@ gefördert mit Mitteln der Kulturstiftung des Bundes im
 Programm „Arbeit in Zukunft“.
 
 {: .vertical-align .no-border}
-[![100.000-EURO-JOB-Logo]({{site.edata}}{{page.edatafolder}}images/p.gif)](http://www.100.000-EURO-JOB.de)[![Kulturstiftung des Bundes-Logo]({{site.edata}}{{page.edatafolder}}images/bundeskulturstiftung.gif)](http://www.kulturstiftung-bund.de/arbeit)
+[![100.000-EURO-JOB-Logo]({{site.edata}}{{page.edatafolder}}images/p.gif)](https://web.archive.org/web/20090418092729/http://www.100.000-euro-job.de:80/index2.php/home)[![Kulturstiftung des Bundes-Logo]({{site.edata}}{{page.edatafolder}}images/bundeskulturstiftung.gif)](https://www.kulturstiftung-des-bundes.de/de/projekte/transformation_und_zukunft/detail/arbeit_in_zukunft.html)
 
 
 
@@ -173,15 +173,15 @@ Auch die möglichen verkehrspolitischen Konsequenzen flexiblerer Arbeitszeiten v
 
 Nach langem Hin und Her ist die Ausstellung nun endlich zu Stande gekommen.
 
-Besonderer Dank gilt Tristan Schulze ([Hello Studios](http://www.hellostudios.de)), der mir als Fotograf stets mit professioneller Hilfe zur Seite stand und Manuel Pietzsch und Anton Barske, die Handlanger, Sklave und Assistent zu gleich waren.
+Besonderer Dank gilt Tristan Schulze ([Hello Studios](https://web.archive.org/web/20250208211830/https://www.hellostudios.de/)), der mir als Fotograf stets mit professioneller Hilfe zur Seite stand und Manuel Pietzsch und Anton Barske, die Handlanger, Sklave und Assistent zu gleich waren.
 
 Großer Dank weiterhin an all die Modelle, die zu so früher Stunde aus dem Bett gerissen wurden. Eure Beschimpfungen am Morgen sind vergeben und vergessen :-)
 
-Und natürlich an das [100.000-EURO-JOB](http://100.000-euro-job.de)-Team, ohne deren Hilfe das ganze Projekt nicht möglich gewesen wäre und an die [Kulturstiftung des Bundes](http://kulturstiftung-bund.de/arbeit), die das ganze finanziert hat.
+Und natürlich an das [100.000-EURO-JOB](https://web.archive.org/web/20090418092729/http://www.100.000-euro-job.de:80/index2.php/home)-Team, ohne deren Hilfe das ganze Projekt nicht möglich gewesen wäre und an die [Kulturstiftung des Bundes](https://www.kulturstiftung-des-bundes.de/de/projekte/transformation_und_zukunft/detail/arbeit_in_zukunft.html), die das ganze finanziert hat.
 
-Danke auch an den [Freundeskreis Buchkinder e.V.](http://buchkinder.de/) für das Verleihen der Bilderrahmen.
+Danke auch an den [Freundeskreis Buchkinder e.V.](https://www.buchkinder.de/) für das Verleihen der Bilderrahmen.
 
-Und besonderer Dank geht an die [Feinkostgenossenschaft](http://www.feinkostgenossenschaft.de/), die mir vom 27.01.07 bis zum 19.02.07 die Möglichkeit gab, meine Fotos auszustellen.
+Und besonderer Dank geht an die [Feinkostgenossenschaft](https://www.feinkostgenossenschaft.de/), die mir vom 27.01.07 bis zum 19.02.07 die Möglichkeit gab, meine Fotos auszustellen.
 
 
 
@@ -215,10 +215,10 @@ Bei Interesse, die Ausstellung auszuleihen oder mich mitsamt der Ausstellung auf
 
 ### Reiseroute:
 
-- **10.06.11 - 13.06.11** - [Pfingstcamp (linksjugend Sachsen)](http://www.linksjugend-sachsen.de/index.php?id=443) - Doksy (CZ)
-- **18.08.10 - 21.08.10** - [Ajuca](http://www.ajuca.de) - Lärz
-- **12.07.10 - 16.08.10** - [Peter-Weiss-Haus](http://www.peterweisshaus.de/) - Rostock - Danke an [SoBi](http://soziale-bildung.org/bildungaktuell/200-spaeter-arbeiten)
-- **24.06.10 - 27.06.10** - [Fusion-Festival (Oase)](http://www.fusion-festival.de/de/2010/programm/oase/#uid707)
+- **10.06.11 - 13.06.11** - [Pfingstcamp (linksjugend Sachsen)](https://web.archive.org/web/20170121124934/http://www.linksjugend-sachsen.de/index.php?id=443) - Doksy (CZ)
+- **18.08.10 - 21.08.10** - [Ajuca](https://alternativesjugendcamp.wordpress.com/) - Lärz
+- **12.07.10 - 16.08.10** - [Peter-Weiss-Haus](https://peterweisshaus.de/) - Rostock - Danke an [SoBi](https://web.archive.org/web/20100726133551/http://soziale-bildung.org/bildungaktuell/200-spaeter-arbeiten)
+- **24.06.10 - 27.06.10** - [Fusion-Festival (Oase)](https://archiv.fusion-festival.de/2010/de/2010/programm/oase/#uid707)
 
 {: .center}
 ![Später Arbeiten auf Plane 1]({{site.edata}}{{page.edatafolder}}images/spaeter-arbeiten_a.jpg)
@@ -231,7 +231,7 @@ Bei Interesse, die Ausstellung auszuleihen oder mich mitsamt der Ausstellung auf
 
 ## Credits und Bildnachweise
 
-[Raffael Jesche](http://raffaeljesche.de) in Kooperation mit [Hello Studios](http://hellostudios.de/)
+[Raffael Jesche](https://raffaeljesche.de) in Kooperation mit [Hello Studios](https://web.archive.org/web/20250208211830/https://www.hellostudios.de//)
 
 Website-Realisierung (der vom Netz genommenen Seite): Johannes Herbst, Raffael Jesche
 Text Biorhythmus: Carl Jesche
@@ -243,7 +243,7 @@ gefördert mit Mitteln der Kulturstiftung des Bundes im
 Programm „Arbeit in Zukunft“.
 
 {: .vertical-align .no-border}
-[![100.000-EURO-JOB-Logo]({{site.edata}}{{page.edatafolder}}images/p.gif)](http://www.100.000-EURO-JOB.de) [![Bundeskulturstiftung-Logo]({{site.edata}}{{page.edatafolder}}images/bundeskulturstiftung.gif)](http://www.kulturstiftung-bund.de/arbeit)
+[![100.000-EURO-JOB-Logo]({{site.edata}}{{page.edatafolder}}images/p.gif)](https://web.archive.org/web/20090418092729/http://www.100.000-euro-job.de:80/index2.php/home) [![Bundeskulturstiftung-Logo]({{site.edata}}{{page.edatafolder}}images/bundeskulturstiftung.gif)](https://www.kulturstiftung-des-bundes.de/de/projekte/transformation_und_zukunft/detail/arbeit_in_zukunft.html)
 
 
 
