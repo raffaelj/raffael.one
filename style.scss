@@ -686,6 +686,25 @@ p {
         height: auto;
     }
 }
+@media (any-hover: hover) and (prefers-reduced-motion: no-preference) {
+    #picture-of-raffael img {
+        transition: transform 2s ease;
+        transform-origin: 71% 50%;
+    }
+    #picture-of-raffael:hover img {
+        transform: rotateY(20deg);
+        transition: transform 1s ease;
+        transform-origin: 71% 50%;
+    }
+    html {
+        background-size: 100%;
+        transition: background-size 2s ease;
+    }
+    html:has(#picture-of-raffael:hover) {
+        background-size: 110%;
+        transition: background-size 1s ease;
+    }
+}
 
 .posts-meta {
     .labels {
