@@ -1,4 +1,5 @@
 # www.raffael.one
+
 Neubau meiner veralteten Internetpräsenz mit jekyll und gh-pages
 Nach zwei liegengebliebenen Seitenumbauten, die auf jekyll Now basierten, starte ich nochmal von vorne
 
@@ -153,5 +154,4 @@ und als Extra:
 - 4 Leerzeichen vor Text bedeuten, dass der Inhalt mit `<pre><code>...</code></pre>` dargestellt wird
 - um Markdown innerhalb von HTML-Tags rendern zu können muss vorher `{::options parse_block_html="true" /}` gesetzt werden
   - `includes` sind davon auch betroffen, sodass eingerücktes HTML in include-Datei als `<pre><code>...inkludierter Code...</code></pre>` dargestellt wird --> hier muss davor `{::options parse_block_html="false" /}` und dahinter wieder `{::options parse_block_html="true" /}` gesetzt werden
-- include-Dateiein bekommen kein yaml-Frontmatter
-
+- include-Dateien bekommen kein yaml-Frontmatter
