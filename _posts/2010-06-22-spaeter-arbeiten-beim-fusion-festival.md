@@ -39,7 +39,7 @@ Auch das Fusion-Festival haben ich und auch die beiden bedruckten PVC-Planen seh
 {: .center}
 ![Später Arbeiten beim Fusion-Festival (Oase)]({{site.edata}}/spaeter-arbeiten-archiv/images/P1010902_spaeterarbeiten_fusion.jpg)
 
-Neben den gigantischen, leuchtenden, künstlerischen Kulissen war auch das Lineup hervorragend. Die Stimmung und die Menschen vor Ort waren äußerst angenehm und nächstes Jahr bin ich auf jeden Fall wieder mit dabei. In der Oase, welche auch Freiluft-Ausstellungsraum war, wurde für politische Bildung, Ruhe, und sanitäre Anlagen gesorgt und überhaupt lässt sich das gesamte Festival einfach nicht in Worte fassen. Es war umwerfend. Worüber ich mich ja sehr gefreut habe, ist ein <del title="Link existiert nicht mehr">Foto von Carl S. Katz</del>, welches es in die Ausstellung "[Sexistische Kackscheiße](http://sexiststuff.blogsport.eu/stuff/)", ebenfalls in der Oase ausgestellt, geschafft hat.
+Neben den gigantischen, leuchtenden, künstlerischen Kulissen war auch das Lineup hervorragend. Die Stimmung und die Menschen vor Ort waren äußerst angenehm und nächstes Jahr bin ich auf jeden Fall wieder mit dabei. In der Oase, welche auch Freiluft-Ausstellungsraum war, wurde für politische Bildung, Ruhe, und sanitäre Anlagen gesorgt und überhaupt lässt sich das gesamte Festival einfach nicht in Worte fassen. Es war umwerfend. Worüber ich mich ja sehr gefreut habe, ist ein <del title="Link existiert nicht mehr">Foto von Carl S. Katz</del>, welches es in die Ausstellung "[Sexistische Kackscheiße][8]", ebenfalls in der Oase ausgestellt, geschafft hat.
 
 --------------
 
@@ -68,30 +68,26 @@ Raffael Jesche
 
 Später Arbeiten ist ein Projekt von Raffael Jesche in Kooperation mit [Hello Studios][3] sowie Anton Barske und Manuel Pietzsch. Es fand 2006/07 im Rahmen des Projekts [100.000 EURO JOB][4] in Leipzig statt.
 
-Diese Ausstellung wird freundlicherweise unterstützt von [LAG Bedingungsloses Grundeinkommen der Partei DIE LINKE. Sachsen][5]. Weitere Informationen sowie die Dokumentation zum Projekt finden sich auf [raffaeljesche.de/spaeter-arbeiten][6]
+Diese Ausstellung wird freundlicherweise unterstützt von [LAG Bedingungsloses Grundeinkommen der Partei DIE LINKE. Sachsen][5]. Weitere Informationen sowie die Dokumentation zum Projekt sind im [Später-Arbeiten-Archiv][6] zu finden.
 
 Ein Projekt von:
 
 Raffael Jesche (damals noch verstyler.de - Label existiert nicht mehr)
 
-In Kooperation mit:
-[www.HELLOSTUDIOS.de](http://www.HELLOSTUDIOS.de)
+In Kooperation mit: [HELLOSTUDIOS][3]
 
-Gefördert durch:
-
-[DIE LINKE LAG Bedingungsloses Grundeinkommen Sachsen](http://portal.dielinke-in-sachsen.de/partei.asp?mid=30&uid=135&iid=318)
+Gefördert durch: [DIE LINKE LAG Bedingungsloses Grundeinkommen Sachsen][5]
 
 {: .center .no-border .vertical-align}
 [![Logo 100.000-EURO-JOB]({{site.edata}}/spaeter-arbeiten-archiv/images/p.gif)][4] [![Logo Bundeskulturstiftung - Arbeit in Zukunft]({{site.edata}}/spaeter-arbeiten-archiv/images/bundeskulturstiftung.gif)][7]
 
-
 Ein Projekt im Rahmen des Projekts 100.000 EURO JOB – gefördert mit Mitteln der Kulturstiftung des Bundes im Programm „Arbeit in Zukunft“.
 
-
- [1]: http://www.fusion-festival.de/
- [2]: http://www.fusion-festival.de/de/2010/programm/oase/ "Fusion-Programm in der Oase"
- [3]: http://hellostudios.de
- [4]: http://www.100.000-euro-job.de
- [5]: http://portal.dielinke-in-sachsen.de/partei.asp?mid=30&uid=135&iid=318
- [6]: http://raffaeljesche.de/spaeter-arbeiten
- [7]: http://www.kulturstiftung-des-bundes.de/cms/de/programme/arbeit_in_zukunft/
+[1]: https://fusion-festival.de/
+[2]: https://archiv.fusion-festival.de/2010/de/2010/programm/oase/#uid707 "Fusion-Programm in der Oase"
+[3]: https://web.archive.org/web/20250208211830/https://www.hellostudios.de/
+[4]: https://web.archive.org/web/20090418092729/http://www.100.000-euro-job.de:80/index2.php/home
+[5]: https://www.dielinke-sachsen.de/partei/parteistruktur/weitere-strukturen/bge/
+[6]: /archiv/spaeter-arbeiten/
+[7]: https://www.kulturstiftung-des-bundes.de/de/projekte/transformation_und_zukunft/detail/arbeit_in_zukunft.html
+[8]: https://web.archive.org/web/20201230200738/http://sexiststuff.blogsport.eu/stuff/
