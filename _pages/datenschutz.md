@@ -9,7 +9,7 @@ Raffael Jesche
 Kochstr. 90  
 04277 Leipzig, Deutschland
 
-E-Mail: post [Ät] raffael [PUNKT.] one
+E-Mail: raffaelone [Ät] raffaeljesche [PUNKT.] de
 
 Die Bestellung einer betrieblichen Datenschutzbeauftragten ist nicht erforderlich.
 
